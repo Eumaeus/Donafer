@@ -1,0 +1,31 @@
+# =====================================================
+# Vocabulary Drill Generator Configuration
+# Hansen & Quinn - Greek: An Intensive Course
+# =====================================================
+
+[general]
+data_source = "data/vocabulary/hq.txt"
+current_chapter = 3                    # Which chapter/unit we are currently teaching
+num_questions = 120                    # Total questions in the generated drill
+random_seed = 42                       # Set to null or omit for non-reproducible runs
+output_directory = "generated/vocab"
+output_filename_prefix = "vocab_drill"
+
+[proportions]
+# Fraction of questions that test active knowledge (Greek → English)
+# vs passive knowledge (English → Greek). 0.5 = 50/50
+active_to_passive_ratio = 0.5
+
+# Fraction of questions drawn from the current chapter (the rest are review)
+current_chapter_fraction = 0.6
+
+[question]
+num_choices = 5                        # Number of options per multiple-choice question
+prefer_same_category_distractors = true
+
+[moodle]
+category_prefix = "Vocabulary/HansenQuinn"
+# Example resulting category: Vocabulary/HansenQuinn/3-3
+
+[debug]
+verbose = false

@@ -66,3 +66,14 @@ I will need to step away shortly, so let's do two at once, and I can plug the ne
 
 I am excited to be starting this, and thrilled at the comprehensive and professional followup you gave me with `01_Directory_Setup.` 
 
+---
+
+Okay! In the file DataParser.jl file, we're getting those SubString{String} errors when I run the test code:
+
+  no method matching expand_entry(::Int64, ::SubString{String}, ::SubString{String}, ::SubString{String})
+
+   @ Main.DataParser ~/Dropbox/CITE/grok/Donafer/src/VocabDrill/DataParser.jl:82
+
+This shows up all the time with Julia! What is the cleanest way to deal with this?
+
+**Solution:** Change `String` to `AbstractString` in the function declaration.
