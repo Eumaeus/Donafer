@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _young man_
+
+νεανίας
+νεανίου
+νεανίᾳ
+νεανίαν
+
+νεανίαι
+νεανιῶν
+νεανίαις
+νεανίας 

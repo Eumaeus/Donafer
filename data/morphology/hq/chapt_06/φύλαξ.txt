@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _guard_
+
+φύλαξ
+φύλακος
+φύλακι
+φύλακα
+
+φύλακες
+φυλάκων
+φύλαξι
+φύλακας

@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _marketplace_
+
+ἀγορά
+ἀγορᾶς
+ἀγορᾷ
+ἀγοράν
+
+ἀγοραί
+ἀγορῶν
+ἀγοραῖς
+ἀγοράς

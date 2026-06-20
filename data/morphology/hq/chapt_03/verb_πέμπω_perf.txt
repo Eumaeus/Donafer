@@ -1,0 +1,13 @@
+hq/templates/template_verb_perfect_act_indic.txt
+the verb "I send"
+
+πέπομφα
+πέπομφας
+πέπομφε
+
+πεπόμφαμεν
+πεπόμφατε
+πεπόμφασι
+
+πεπόμφεναι 
+

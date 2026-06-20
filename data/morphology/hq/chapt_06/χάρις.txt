@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _grace_
+
+χάρις
+χάριτος
+χάριτι
+χάριν
+
+χάριτες
+χαρίτων
+χάρισιν
+χάριτας

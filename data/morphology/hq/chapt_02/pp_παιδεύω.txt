@@ -1,0 +1,10 @@
+hq/templates/principal_parts.txt
+the verb "I educate"
+
+παιδεύω
+παιδεύσω
+ἐπαίδευσα
+-
+πεπαίδευκα
+πεπαίδευμαι
+ἐπαιδεύθην

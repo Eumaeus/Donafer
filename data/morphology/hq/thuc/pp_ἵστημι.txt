@@ -1,0 +1,10 @@
+hq/templates/principal_parts.txt
+the verb "I stand"
+
+ἵστημι
+στήσω
+ἔστησα
+ἔστην
+ἕστηκα
+ἕσταμαι
+ἐστάθην

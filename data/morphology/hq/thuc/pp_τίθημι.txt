@@ -1,0 +1,11 @@
+hq/templates/principal_parts.txt
+the verb "I put; I place"
+
+τίθημι
+θήσω
+ἔθηκα
+-
+τέθηκα
+τέθειμαι
+ἐτέθην
+

@@ -1,0 +1,115 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Present middle indicative
+//		Present middle infinitive
+//		Imperfect middle indicative
+//		Future middle indicative
+//		Future middle infinitive
+//		Aorist middle indicative
+// 		Aorist middle infinitive
+//		Perfect middle indicative
+//		Perfect middle infinitive
+//		Pluperfect middle indicative
+
+// Active forms
+
+present active 1st sing.
+present active 2nd sing.
+present active 3rd sing.
+
+present active 1st pl.
+present active 2nd pl.
+present active 3rd pl.
+
+present active infinitive
+
+imperf. active 1st sing.
+imperf. active 2nd sing.
+imperf. active 3rd sing.
+
+imperf. active 1st pl.
+imperf. active 2nd pl.
+imperf. active 3rd pl.
+
+// Middle Forms 
+
+present middle 1st sing.
+present middle 2nd sing.
+present middle 2nd sing.
+present middle 3rd sing.
+
+present middle 1st pl.
+present middle 2nd pl.
+present middle 3rd pl.
+
+present middle infinitive
+
+imperf. middle 1st sing.
+imperf. middle 2nd sing.
+imperf. middle 3rd sing.
+
+imperf. middle 1st pl.
+imperf. middle 2nd pl.
+imperf. middle 3rd pl.
+
+//future middle 1st sing.
+//future middle 2nd sing.
+//future middle 3rd sing.
+//
+//future middle 1st pl.
+//future middle 2nd pl.
+//future middle 3rd pl.
+//
+//future middle infinitive
+//
+//aorist middle 1st sing.
+//aorist middle 2nd sing.
+//aorist middle 3rd sing.
+//
+//aorist middle 1st pl.
+//aorist middle 2nd pl.
+//aorist middle 3rd pl.
+//
+//aorist middle infinitive
+
+// Passive Forms
+
+present passive 1st sing.
+present passive 2nd sing.
+present passive 2nd sing.
+present passive 3rd sing.
+
+present passive 1st pl.
+present passive 2nd pl.
+present passive 3rd pl.
+
+present passive infinitive
+
+imperf. passive 1st sing.
+imperf. passive 2nd sing.
+imperf. passive 3rd sing.
+
+imperf. passive 1st pl.
+imperf. passive 2nd pl.
+imperf. passive 3rd pl.
+
+//future passive 1st sing.
+//future passive 2nd sing.
+//future passive 3rd sing.
+//
+//future passive 1st pl.
+//future passive 2nd pl.
+//future passive 3rd pl.
+//
+//future passive infinitive
+//
+//aorist passive 1st sing.
+//aorist passive 2nd sing.
+//aorist passive 3rd sing.
+//
+//aorist passive 1st pl.
+//aorist passive 2nd pl.
+//aorist passive 3rd pl.
+//
+//aorist passive infinitive
+//

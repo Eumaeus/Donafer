@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _citizen_
+
+πολίτης
+πολίτου
+πολίτῃ
+πολίτην
+
+πολίται
+πολιτῶν
+πολιταῖς
+πολίτας

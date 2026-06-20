@@ -1,0 +1,11 @@
+hq/templates/principal_parts.txt
+the verb "I walk, step"
+
+βαίνω
+βήσομαι
+-
+ἔβην
+βέβηκα
+-
+-
+

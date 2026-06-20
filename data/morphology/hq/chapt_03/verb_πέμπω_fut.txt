@@ -1,0 +1,12 @@
+hq/templates/template_verb_fut_act_indic.txt
+the verb "I send"
+
+πέμψω
+πέμψεις
+πέμψει
+
+πέμψομεν
+πέμψετε
+πέμψουσιν
+
+πέμψειν

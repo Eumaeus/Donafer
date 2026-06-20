@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _brother_
+
+ἀδελφός
+ἀδελφοῦ
+ἀδελφῷ
+ἀδελφόν
+
+ἀδελφοί
+ἀδελφῶν
+ἀδελφοῖς
+ἀδελφούς

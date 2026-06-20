@@ -1,0 +1,13 @@
+hq/templates/template_verb_aor_act_indic.txt
+the verb "I loosen; I destroy"
+
+ἔλυσα
+ἔλυσας
+ἔλυσε
+
+ἐλύσαμεν
+ἐλύσατε
+ἐλύσαν
+
+λῦσαι
+

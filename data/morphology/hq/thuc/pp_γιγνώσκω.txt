@@ -1,0 +1,10 @@
+hq/templates/principal_parts.txt
+the verb "I know"
+
+γιγνώσκω
+γνώσομαι
+ἔγνων
+-
+ἔγνωκα
+ἔγνωσμαι
+ἐγνώσθην

@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _hope_
+
+ἐλπίς
+ἐλπίδος
+ἐλπίδι
+ἐλπίδα
+
+ἐλπίδες
+ἐλπίδων
+ἐλπίσι
+ἐπλίδας

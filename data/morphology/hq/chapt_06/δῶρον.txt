@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _gift_
+
+δῶρον
+δώρου
+δώρῳ
+δῶρον
+
+δῶρα
+δώρων
+δώροις
+δῶρα

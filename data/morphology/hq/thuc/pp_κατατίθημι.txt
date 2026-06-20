@@ -1,0 +1,11 @@
+hq/templates/principal_parts.txt
+the verb "I put down"
+
+κατατίθημι
+καταθήσω
+κατέθηκα
+-
+κατατέθηκα
+κατατέθειμαι
+κατἐτέθην
+

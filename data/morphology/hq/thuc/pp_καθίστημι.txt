@@ -1,0 +1,10 @@
+hq/templates/principal_parts.txt
+the verb "I get into a state"
+
+καθίστημι
+καταστήσω
+κατέστησα
+κατέστην
+καθέστηκα
+καθέσταμαι
+καθεστάθην

@@ -1,0 +1,10 @@
+hq/templates/principal_parts.txt
+the verb "I change"
+
+μεθίστημι
+μεταστήσω
+μετέστησα
+μετέστην
+μεθέστηκα
+μεθέσταμαι
+μεθεστάθην

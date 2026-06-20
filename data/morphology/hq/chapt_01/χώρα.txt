@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _territory_
+
+χώρα
+χώρας
+χώρᾳ
+χώραν
+
+χῶραι
+χωρῶν
+χώραις
+χώρας 

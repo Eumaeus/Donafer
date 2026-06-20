@@ -1,0 +1,10 @@
+hq/templates/principal_parts.txt
+the verb "I free"
+
+λύω
+λύσω
+ἔλυσα
+-
+λέλυκα
+λέλυμαι
+ἐλύθην

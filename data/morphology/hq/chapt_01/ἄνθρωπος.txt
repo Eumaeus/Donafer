@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _human being_
+
+ἄνθρωπος
+ἀνθρώπου
+ἀνθρώπῳ
+ἄνθρωπον
+
+ἄνθρωποι
+ἀνθρώπων
+ἀνθρώποις
+ἀνθρώπους

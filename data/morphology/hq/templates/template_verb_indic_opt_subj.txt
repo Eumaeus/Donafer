@@ -1,0 +1,73 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		* Present active indicative
+//		*Present active infinitive
+//		Imperfect active indicative
+//		Future active indicative
+//		Future active infinitive
+//		Aorist active indicative
+// 		Aorist active infinitive
+//		Perfect active indicative
+//		Perfect active infinitive
+//		Pluperfect active indicative
+
+present act. indicative 1st sing.
+present act. indicative 2nd sing.
+present act. indicative 3rd sing.
+present act. indicative 1st pl.
+present act. indicative 2nd pl.
+present act. indicative 3rd pl.
+
+present act. subjunctive 1st sing.
+present act. subjunctive 2nd sing.
+present act. subjunctive 3rd sing.
+present act. subjunctive 1st pl.
+present act. subjunctive 2nd pl.
+present act. subjunctive 3rd pl.
+
+present act. optative 1st sing.
+present act. optative 2nd sing.
+present act. optative 3rd sing.
+present act. optative 1st pl.
+present act. optative 2nd pl.
+present act. optative 3rd pl.
+
+present act. infinitive
+
+future act. indicative 1st sing.
+future act. indicative 2nd sing.
+future act. indicative 3rd sing.
+
+future act. indicative 1st pl.
+future act. indicative 2nd pl.
+future act. indicative 3rd pl.
+
+future act. infinitive
+
+aorist act. indicative 1st sing.
+aorist act. indicative 2nd sing.
+aorist act. indicative 3rd sing.
+
+aorist act. indicative 1st pl.
+aorist act. indicative 2nd pl.
+aorist act. indicative 3rd pl.
+
+aorist act. subjunctive 1st sing.
+aorist act. subjunctive 2nd sing.
+aorist act. subjunctive 3rd sing.
+
+aorist act. subjunctive 1st pl.
+aorist act. subjunctive 2nd pl.
+aorist act. subjunctive 3rd pl.
+
+aorist act. optative 1st sing.
+aorist act. optative 2nd sing.
+aorist act. optative 2nd sing.
+aorist act. optative 3rd sing.
+aorist act. optative 3rd sing.
+
+aorist act. optative 1st pl.
+aorist act. optative 2nd pl.
+aorist act. optative 3rd pl.
+aorist act. optative 3rd pl.
+aorist act. infinitive

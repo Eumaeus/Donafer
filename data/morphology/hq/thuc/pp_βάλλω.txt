@@ -1,0 +1,10 @@
+hq/templates/principal_parts.txt
+the verb "I throw"
+
+βάλλω
+βαλῶ
+-
+ἔβαλον
+βέβληκα
+βέβλημαι
+ἐβλήθην

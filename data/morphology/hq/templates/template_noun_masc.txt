@@ -1,0 +1,12 @@
+// commented lines and blank lines are disregarded
+//noun 
+
+masc. nom. sing.
+masc. gen. sing.
+masc. dat. sing.
+masc. acc. sing.
+
+masc. nom. pl.
+masc. gen. pl.
+masc. dat. pl.
+masc. acc. pl.

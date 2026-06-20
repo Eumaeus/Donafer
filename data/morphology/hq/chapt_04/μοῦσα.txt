@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _Muse_
+
+μοῦσα
+μούσας
+μούσᾳ
+μοῦσαν
+
+μοῦσαι
+μούσων
+μούσαις
+μούσας

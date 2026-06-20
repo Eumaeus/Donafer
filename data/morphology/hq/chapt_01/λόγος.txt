@@ -1,0 +1,12 @@
+hq/templates/template_noun_1.txt
+the noun _word_
+
+λόγος
+λόγου
+λόγῳ
+λόγον
+
+λόγοι
+λόγων
+λόγοις
+λόγους

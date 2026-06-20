@@ -1,0 +1,14 @@
+hq/templates/template_noun_1.txt
+the noun _body_
+
+σῶμα
+σώματος
+σώματι
+σῶμα
+
+σώματα
+σωμάτων
+σώμασι
+σώματα
+
+

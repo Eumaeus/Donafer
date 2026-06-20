@@ -1,0 +1,267 @@
+// The categories are "noun", "verb", "prep", "adj", and "other".
+// The pattern is:
+//				category # Greek # English
+// In the Greek field, different forms are separated by ";".
+// So…
+// 		ἐκ + gen; ἐξ + gen
+// In the English field, different forms are separated by ";". So…
+//			and; even; also
+// Items in category "noun" follow the pattern "nominative form, comma, genitive form, comma, definite article (to show gender)":
+//			ἀγορά, ἀγορᾶς, ἡ
+// Verbs include all principal parts, in this pattern (number space, principal-part, semicolon):
+//			1 πέμπω;2 πέμψω;3 ἔπεμψα;4 πέπομφα;5 πέπεμμαι;6 ἐπέμφθην
+// A verb may not have all six. The missing ones are omitted in the list, but the numbering of principal parts follows the traditional scheme where "1" is "present activr indicative" and "6" is "aorist passive":
+//			1 θάπτω;2 θάψω;3 ἔθαψα;5 τέθαμμαι;6 ἐτάφην
+// A verb may have more than one form of a numbered principal part:
+//			1 βλάπτω;2 βλάψω;3 ἔβλαψα;4 βέβλαφα;5 βέβλαμμαι;6 ἐβλάβην;6 ἐβλάφθην
+
+// Unit 1
+1#noun#ἀγορά, ἀγορᾶς, ἡ#market place
+1#noun#ἀδελφός, ἀδελφοῦ, ὁ#brother
+1#noun#ἄνθρωπος, ἀνθρώπου, ὁ#man; human being
+1#noun#βιβλίον, βιβλίου, τό#book
+1#noun#δῶρον, δώρου, τό#gift; bribe
+1#prep#εἰς + acc#into; to; for (purpose)
+1#prep#ἐκ + gen; ἐξ + gen#from; out of
+1#prep#ἐν + dat#in
+1#noun#ἔργον, ἔργου, τό#work; deed
+1#noun#θεός, ἡ#goddess
+1#noun#θεός, ὁ#god
+1#other#καί#and; even; also
+1#other#καί… καί#both… and
+1#noun#λόγος, λόγου, ὁ#word; speech; story
+1#noun#μάχη, μάχης, ἡ#battle
+1#noun#νῆσος, νήσου, ἡ#island
+1#noun#ὁδός, ὁδοῦ, ἡ#road
+1#noun#οἰκία, οἰκίας, ἡ#house
+1#noun#Ὅμηρος, Ὁμήρου, ὁ#Homer
+1#noun#τέχνη, τέχνης, ἡ#art; skill; craft
+1#noun#χώρᾱ, χώρᾱς, ἡ#land; country
+1#noun#ψῡχή, ψῡχῆς, ἡ#soul
+1#other#ὦ#"Oh!", interjection used with vocative
+1#adj#ὁ; ἡ; τό#the
+
+
+// Unit 2
+2#noun#ἄγγελος, ἀγγέλου, ὁ#messenger
+2#prep#ἀπό + gen#from; away from
+2#other#ἆρα#introduces a question
+2#other#γάρ#for (explanatory)
+2#other#δέ#but
+2#other#ἑξ#six
+2#other#εὖ#well
+2#noun#ζῶον, ζῶου, τό#animal
+2#other#ἤ#or
+2#other#ἤ… ἤ# either… or
+2#other#μέν… δέ (postpos. conjs.)#on the one hand… on the other hand
+2#other#νῦν#now
+2#noun#ξένος, ξένου, ὁ#guest-friend; host; stranger; foreigner#
+2#other#οὐ; οὐκ; οὐχ (adv.)#no; not
+2#verb#1 κελεύω;2 κελεύσω;3 ἐκέλευσα;4 κεκέλευκα;5 κεκέλευσμαι;6 ἐκελεύσθην#command
+2#verb#1 λύω;2 λύσω;3 ἔλυσα;4 λέλυκα;5 λέλυμαι;6 ἔλύθην#unbind; free
+2#verb#1 παιδεύω;2 παιδεύσω;3 ἐπαίδευσα;4 πεπαίδευκα;5 πεπαίδευμαι;6 ἐπαιδεύθην#educate; teach
+2#verb#1 πέμπω;2 πέμψω;3 ἔπεμψα;4 πέπομφα;5 πέπεμμαι;6 ἐπέμφθην#send
+2#prep#παρά + gen#from beside
+2#prep#παρά + dat#at the side of; at the house of
+2#prep#παρά + acc#to the side of; beside; contrary to
+2#other#πέντε#five
+2#noun#πόλεμος, πολέμου, ὁ#war
+2#prep#πρό + gen#before; in front of
+2#noun#στέφανος, στέφανου, ὁ#crown; wreath
+2#noun#φίλος, φίλου, ὁ#friend
+2#noun#φιλία φιλίας, ἡ#friendship
+2#noun#χρυσός, χρυσοῦ, ὁ#gold
+
+// Unit 3
+3#noun#ἆθλον ἄθλου, τό#prize
+3#other#ἀλλά#but
+3#prep#ἀντί + gen#instead of
+3#noun#ἀρετή, ἀρετῆς, ἡ#excellence; virtue
+3#noun#βουλή, βουλῆς, ἡ#will; council
+3#verb#1 γράφω;2 γράψω;3 ἔγραψα;4 γέγραφα;5 γέγραμμαι;6 ἐγράφην#write; draw
+3#other#δή#in fact; of course; indeed
+3#noun#δημοκρατία, δημοκρατίας, ἡ#democracy
+3#prep#διά + gen#through
+3#prep#διά + acc#on account of
+3#noun#εἰρήνη, εἰρήνης, ἡ#peace
+3#noun#ἐκκλησίᾱ, ἐκκλησίᾱς, ἡ#assembly
+3#other#ἐπεί#after; when; since
+3#other#ἐπειδή#after; when; since
+3#verb#1 θύω;2 θύσω;3 ἔθῡσα;4 τέθυκα;5 τέθυμαι;6 ἐτύθην#I sacrifice
+3#noun#θυσίᾱ, θύσίᾱς, ἡ#a sacrifice
+3#other#μή#not
+3#noun#νίκη, νίκης, ἡ#victory
+3#prep#ἵνα, ὡς, ὅπως#in order that
+3#noun#ὀφθαλμός, ὀφθαλμοῦ, ὁ#eye
+3#verb#1 παύω;2 παύσω;3 ἔπαυσα;4 πέπαυκα;5 πέπαυμαι;6 ἐπαύθην#stop; make stop
+3#prep#περί + gen#concerning; about
+3#prep#περί + acc.#around; concerning
+3#prep#περί + dat#around
+3#verb#1 φυλάττω;2 φυλάξω;3 ἐφύλαξα;4 πεφύλαχα;5 πεφύλαγμαι;6 ἐφυλάχθην#guard
+
+// Unit 4
+4#noun#ἀγαθός, ἀγαθή, ἀγαθόν# good
+4#other#ἄν# conditional
+4#adj#ἄξιος, ἀξίᾱ, ἄξιον# worthy of ( + gen.); deserving
+4#adj#ἀνάξιος, ἀνάξιον# unworthy of ( + gen); undeserving
+4#noun#ἀρχή, ἀρχῆς, ἡ# beginning; rule; empire
+4#noun#γέφυρα, γεφύρας, ἡ# bridge
+4#verb#1 διδάσκω;2 διδάξω;3 ἐδίδαξα;4 δεδίδαχα;5 δεδίδαγμαι;6 ἐδιδάχθην# teach
+4#noun#δίκη, δίκης, ἡ# justice; lawsuit
+4#adj#ἄδικος, ἄδικον# unjust
+4#adj#δίκαιος, δικαίᾱ, δίκαιον# just
+4#verb#1 ἐθέλω;2 ἐθελήσω;3 ἠθέλησα;4 ἠθέληκα# to be willing; wish
+4#other#εἰ# if
+4#other#ἐάν# if
+4#noun#ἡμέρα, ἡμέρας, ἡ# day
+4#noun#θάλαττα, θαλάττης, ἡ# sea
+4#verb#1 θάπτω;2 θάψω;3 ἔθαψα;5 τέθαμμαι;6 ἐτάφην# bury
+4#other#καίτοι# and further; and yet
+4#adj#κακός, κακή, κακόν# bad; wicked
+4#adj#καλός, καλή, καλόν# beautiful; noble
+4#prep#μετά + gen.# with
+4#prep#μετά + acc.# after
+4#noun#μοῖρα, μοίρᾱς, ἡ# fate
+4#noun#μοῦσα, μούσης, ἡ# muse
+4#noun#νεανίας, νεανίου, ὁ# young man
+4#noun#ὅπλον, ὅπλου, ὁ# tool; shield
+4#noun#ὁπλιτης, ὁπλίτου, ὁ# hoplite; heavily armed foot soldier
+4#other#πάλαι# long ago
+4#noun#ποιητής, ποιητοῦ, ὁ# poet; author
+4#noun#πολίτης, πολίτου, ὁ# citizen
+4#noun#στρτιώτης, στρατιώτου, ὁ# soldier
+4#prep#σύv + dative# with
+4#verb#1 τάττω;2 τάξω;3 ἔταξα;4 τέταχα;5 τέταγμαι;6 ἐτάχθην# draw up (in battle); arrange, order
+4#adj#φίλος, φίλη, φίλοv# dear; beloved
+
+// Unit 5
+5#adj#ἀθάνατος, ἀθάνατον# undying; immortal
+5#noun#ἀργύριον, ἀργυρίου, τό# small coin; money
+5#noun#ἄργυρος, ἄργυρου, ὁ# silver
+5#verb#1 ἄρχω;2 ἄρξω;3 ἦρξα;4 ἦρχα;5 ἦργμαι;6 ἤρχθην# rule; command (+ gen)
+5#verb#1 βλάπτω;2 βλάψω;3 ἔβλαψα;4 βέβλαφα;5 βέβλαμμαι;6 ἐβλάβην;6 ἐβλάφθην# hurt; harm
+5#noun#γῆ, γῆς, ἡ# earth; land
+5#noun#διδάσκαλος, διδασκάλου, ὁ# teacher
+5#noun#δόξα, δόξης, ἡ# expectation; belief; reputation; glory
+5#noun#θάνατος, θανάτου, ὁ# death
+5#noun#ἱερόν, ἱεροῦ, τό# shrine; temple
+5#adj#ἱερός, ἱερά, ἱερόν# holy; sacred to (+ gen)
+5#adj#ἱκανός, ἱκανή, ἱκανόν# sufficient; enough; capable; able to
+5#noun#ἵππος, ἵππου, ὁ or ἡ# horse
+5#noun#κίνδυνος, κινδύνου, ὁ# danger
+5#noun#λίθος, λίθου, ὁ# stone
+5#adj#μακρός, μακρά, μακρόν# large; long
+5#adj#μικρός, μικρά, μικρόν# small; little
+5#noun#πεδίον, πεδίου, τό# plain
+5#verb#1 πείθω;2 πείσω;3 ἔπεισα;4 πέπεικα;5 πέπεισμαι;6 ἑπείσθην# persuade; (middle) obey
+5#adj#πολέμιος, πολεμίᾱ, πολέμιον# hostile
+5#verb#1 πράττω;2 πράξω;3 ἔπραξα;4 πέπρᾱχα;4 πέπρᾱγα;5 πέπρᾱγμαι;6 ἐπράχθην# do; fare
+5#adj#πρῶτος, πρώτη, πρῶτον# first
+5#prep#ὑπὸ + gen# by (personal agent); under
+5#prep#ὑπὸ + dat# under; under the power of
+5#prep#ὑπὸ + acc# under (with motion); toward (of time)
+5#adj#φοβερός, φοβερά, φοβερόν# fearful; scared
+5#noun#φόβος, φόβου, ὁ# fear
+
+
+//6
+6#noun#αἴξ, αἰγός, ὁ or ἡ# goat
+6#other#γε# at any rate; at least
+6#noun#γέρων, γέροντος, ὁ# old man
+6#noun#γνώμη, γνώμης, ἡ# mind; purpose; opinion; judgement
+6#adj#δεινός, δεινή, δεινόν# fearsome; clever
+6#verb#1 δουλεύω;2 δουλεύσω;3 ἐδούλευσα;4 δεδούλευκα# be a slave (+ dat)
+6#noun#δοῦλος, δούλου, ὁ# slave
+6#noun#ἐλευθερία, ἐλευθερίας, ἡ# freedom
+6#adj#ἐλεύθερος, ἐλευθέρᾱ, ἐλεύθερον# free (+ gen)
+6#noun#Ἕλλην, Ἕλληνος, ὁ# Greek (person)
+6#noun#ἐλπίς, ἐλπίδος, ἡ# hope
+6#prep#κατά + gen# down from; against
+6#verb#1 κωλύω;2 κωλύσω;3 ἐκώλῡσα;4 κεκώλῡκα;5 κεκώλῡμαι;6 ἐκωλύθην# hinder; prevent
+6#noun#νύξ, νυκτός, ἡ# night
+6#other#ὅς; ἥ; ὅν# who; which
+6#adj#παλαιός, παλαιά, παλαιόν# old; ancient
+6#verb#1 πολῑτεύω;2 πολῑτεύσω;3 ἐπολίτευσα;4 πεπολίτευκα;5 πεπολίτευμαι;6 ἐπολῑτεύθην# live as a citizen; conduct the government; (passive) be governed
+6#noun#πρᾶγμα, πρᾶγματος, τό# affair; deed; action
+6#noun#σοφία, σοφίας, ἡ# wisdom
+6#adj#σοφός, σοφή, σοφόν# wise; clever
+6#noun#στάδιον, σταδίου, τό# stade (ca. 600 ft.)
+6#noun#σῶμα, σώματος, τό# body
+6#other#τε# and (so)
+6#other#τοι# you know; in fact; indeed
+6#noun#φάλαγξ, φάλαγγος, ἡ# line of battle; phalanx
+6#noun#φύλαξ, φύλακος, ὁ# guard
+6#other#χάριν# for the sake of
+6#noun#χάρις, χάριτος, ἡ# grace; favor; gratitude
+6#noun#χορευτής, χορευτοῦ, ὁ# choral dancer
+6#verb#1 χορεύω;2 χορεύσω;3 ἐχόρευσα;4 κεχόρευκα;5 κεχόρευμαι;6 ἐχορεύθην# dance; take part in a dance
+6#noun#χορός, χοροῦ, ὁ# dance; chorus
+
+// Unit 7
+7#adj#αἰσχρός, αἰσχρά, αἰσχρόν# ugly; shameful
+7#adj#ἄλλος, ἄλλη, ἄλλον# other; another
+7#prep#ἄνευ# without; except (+ gen.)
+7#noun#γράμμα, γράμματος, τό# letter (of alphabet); (pl.) documents
+7#noun#γραφή, γραφῆς, ἠ# indictment
+7#adj#δῆλος, δήλη, δῆλον# clear; visible; obvious
+7#adj#ἄδηλος, ἄδηλον# unclear; uncertain
+7#other#εἴθε; εἰ γάρ# introduces optative of wish; would that
+7#other#ἐκεῖ# there; in that place
+7#adj#ἐκεῖνος, ἐκείνη, ἐκεῖνο# that; those
+7#noun#ἡγεμών, ἡγεμόνος, ὁ# leader
+7#verb#1 κλέπτω;2 κλέψω;3 ἔκλεψα;4 κέκλοφα;5 κέκλεμμαι;6 ἐκλάπην# steal
+7#noun#κλέπτης, κλέπτου, ὁ# thief; rogue
+7#noun#κλοπή, κλοπῆς, ἡ# theft
+7#verb#1 λείπω;2 λείψω;3 ἔλιπον;4 λέλοιπα;5 λέλειμμαι;6 ἐλείφθην# leave; leave behind
+7#other#οὖν# therefore; then; accordingly
+7#noun#ποίημα, ποίηματος, τό# poem
+7#noun#ῥήτωρ, ῥήτορος, ὁ# orator
+7#noun#ῤητορική, ῤητορικῆς, ἠ# rhetoric
+7#verb#1 σῴζω;2 σώσω;3 ἔσωσα;4 σέσωκα;5 σέσωσμαι;5 σέσωμαι;6 ἐσώθην# save
+7#noun#σωτήρ, σωτῆρος, ὀ (voc. σῶτερ)# saviour
+7#noun#τιμή, τιμῆς, ἡ# honour; respect
+
+// Unit 8
+8#verb#1 ἄγω;2 ἄξω;3 ἤγαγον;4 ἦχα;5 ἦγμαι;6 ἤχθην# lead
+8#adj#Ἀθηναῖος, Ἀθηναίᾱ, Ἀθηναῖον# Athenian
+8#other#ἅμα# at once; at the same time; (+ dat.) at the same time with
+8#other#ἅτε; οἷα# in as much as; because
+8#other#ἔπειτα# then; next; afterwards
+8#other#ἅτε#(with participle, the speaker believes this)
+8#other#οἷα#(with participle, the speaker believes this)
+8#verb#1 ἥκω;2 ἥξω# have come; be present
+8#other#καίπερ# although; even
+8#other#μήτε… μήτε; οὔτε… οὔτε# neither… nor
+8#noun#οἶνος, οἴνου, ὁ# wine
+8#other#ὅμως# nevertheless; all the same
+8#adj#πας, πασα, παν# all, every
+8#adj#ἅπας, ἁπάσᾱ, ἅπαν# all, quite all
+8#adj#σύμπᾱς, σύμπᾱσα, σύμπαν# all together
+8#noun#στρατός, στρατοῦ, ὁ# army
+8#noun#στρατηγός, στρατηγοῦ, ὁ# general; commander
+8#noun#χρῆμα, χρημάτος, τό# thing; money; property
+8#other#ὡς# in order that; as; when; that; because; how
+
+// Unit 9
+9#noun#ἀγών, ἀγῶνος, ὁ# contest; struggle
+9#verb#1 ἀδικέω;2 ἀδικήσω;3 ἠδίκησα;4 ἠδίκηκα;5 ἠδίκημαι;6 ἠδικήθην# do wrong; to wrong
+9#adj#ἄλογος, ἄλογον# unreasonable; unreasoning; irrational
+9#noun#βάρβαρος, βαρβάρου, ὁ# non-Greek; foreign
+9#noun#βίος, βίου, ὁ# life; means of living
+9#noun#δαίμων, δαίμονος, ὁ or ἡ# god; goddess; divine being
+9#adj#ἐχθρός, ἐχθρά, ἐχθρόν# hated; hostile; enemy
+9#verb#1 νικάω;2 νικήσω;3 ἐνίκησα;4 νενίκηκα;5 νενίκημαι;6 ἐνικήθην# win; conquer
+9#adj#ὅδε, ἥδε, τόδε# this (here)
+9#noun#ὄνομα, ὀνόματος, τό# name
+9#adj#οὗτος αὕτη τοῦτο# this; that
+9#other#οὕτως# in this way; so; thus
+9#noun#πεῖρα πείρας, ἡ# trial; attempt; experience
+9#adj#ἔμπειρος, ἔμπειρον# experienced in (+ gen.); acquainted with (+ gen.)
+9#noun#ἐμπειρία, ἐμπειρίας, ἡ# experience; practice
+9#verb#1 ποιέω;2 ποιήσω;3 ἐποίησα;4 πεποίηκα;5 πεποίημαι;6 ἐποιήθην# make; do
+9#noun#σιγή, σιγῆς, ἡ# silence
+9#verb#1 τιμάω;2 τιμήσω;3 ἐτίμησα;4 τετίμηκα;5 τετίμημαι;6 ἐτιμήθην# to honor
+9#noun#τρόπος, τρόπου, ὁ# way; manner; character
+9#noun#ὕδωρ, ὕδατος, τό# water
+9#prep#ὑπέρ + gen# over; above; on behalf of
+9#prep#ὑπέρ + acc# (of motion or measure) over; (of motion or measure) beyond*y
