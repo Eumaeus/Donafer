@@ -129,7 +129,9 @@ ERROR: LoadError: UndefVarError: `VocabItem` not defined in `Main.ItemSelector`
 
 ---
 
-Yes! When I run the code above, it fails at the first "include":
+Yes! Let's update everything we have this point. I think I may have missed something.
+
+When I run the code above, it fails at the first "include":
 
 ~~~
 julia> include("src/VocabDrill/VocabDrill.jl")
@@ -139,3 +141,35 @@ ERROR: LoadError: UndefVarError: `VocabItem` not defined in `Main.VocabDrill.Ite
 I have been starting Julia with `julia --project=.`, as I have gotten used to doing. If that is a mistake, please let me know!
 
 I have checked in all recent changes to the repository: <https://github.com/Eumaeus/Donafer>
+
+~~~
+
+---
+
+We're still getting that error, or a similar one:
+
+~~~julia
+
+julia> include("src/VocabDrill/VocabDrill.jl")
+ERROR: LoadError: UndefVarError: `DataParser` not defined in `Main.VocabDrill.ItemSelector`
+
+Suggestion: check for spelling errors or missing imports.
+Stacktrace:
+ [1] top-level scope
+   @ ~/Dropbox/CITE/grok/Donafer/src/VocabDrill/ItemSelector.jl:5
+ [2] include(mapexpr::Function, mod::Module, _path::String)
+   @ Base ./Base.jl:307
+ [3] top-level scope
+   @ ~/Dropbox/CITE/grok/Donafer/src/VocabDrill/VocabDrill.jl:5
+ [4] include(mapexpr::Function, mod::Module, _path::String)
+   @ Base ./Base.jl:307
+ [5] top-level scope
+   @ REPL[1]:1
+in expression starting at /Users/cblackwell/Dropbox/CITE/grok/Donafer/src/VocabDrill/ItemSelector.jl:3
+in expression starting at /Users/cblackwell/Dropbox/CITE/grok/Donafer/src/VocabDrill/VocabDrill.jl:1
+
+~~~
+
+I seem to recall similar submodule hassles with earlier projects. This seems to be a Julia thing that we need to deal with. Once they get sorted, you never think about it until the next new project!
+
+Everything is checked in, in its current state.
