@@ -77,3 +77,9 @@ Okay! In the file DataParser.jl file, we're getting those SubString{String} erro
 This shows up all the time with Julia! What is the cleanest way to deal with this?
 
 **Solution:** Change `String` to `AbstractString` in the function declaration.
+
+---
+
+Okay. I have checked in everything. I copied the file `config.jl` from Dramaturg, where it has worked perfectly. I put it in `src/config.jl`. If it would be better-practice to put it in a sub-directory, please advise me! 
+
+Let's do `ItemSelecter.jl` next. I've done a version of that, in the past, in Scala and in Julia. I will be super interested to see your, certainly more professional, version!
