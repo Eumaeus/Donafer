@@ -126,3 +126,16 @@ Main.DataParser
 julia> include("src/VocabDrill/ItemSelector.jl")
 ERROR: LoadError: UndefVarError: `VocabItem` not defined in `Main.ItemSelector`
 ~~~
+
+---
+
+Yes! When I run the code above, it fails at the first "include":
+
+~~~
+julia> include("src/VocabDrill/VocabDrill.jl")
+ERROR: LoadError: UndefVarError: `VocabItem` not defined in `Main.VocabDrill.ItemSelector`
+~~~
+
+I have been starting Julia with `julia --project=.`, as I have gotten used to doing. If that is a mistake, please let me know!
+
+I have checked in all recent changes to the repository: <https://github.com/Eumaeus/Donafer>
