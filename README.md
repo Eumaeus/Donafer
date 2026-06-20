@@ -4,4 +4,4 @@ Code and data for generating practice drills, quizzes, and exercises for student
 
 ## References
 
-- [Moodle Markdown documentation](https://docs.moodle.org/502/en/Markdown)
+- [Moodle `.gift`  documentation](https://docs.moodle.org/502/en/GIFT_format)
