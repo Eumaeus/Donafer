@@ -76,3 +76,11 @@ I am pretty happy with the output from the old code that I wrote by myself, alth
 So I'd like to get started with this, beginning with setting up a solid directory structure for this aspect of the project, with an eye toward cleanly adding other modules in the future.
 
 Thanks, in advance, for your advice!
+
+---------
+
+<https://x.com/i/grok/share/5cd31eb91fe640ddab354434d6ec1483>
+
+---------
+
+Since `ai_queries` will hold the record of how we build, I would love to see your version of the next step, `01_Directory_Setup.md`. I have followed the setup steps you described, and checked the current files into the repository.
