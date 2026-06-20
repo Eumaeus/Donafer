@@ -85,3 +85,44 @@ Okay. I have checked in everything. I copied the file `config.jl` from Dramaturg
 Let's do `ItemSelecter.jl` next. I've done a version of that, in the past, in Scala and in Julia. I will be super interested to see your, certainly more professional, version!
 
 Everything is checked into the repo.
+
+---
+
+~~~julia
+
+include("src/VocabDrill/DataParser.jl")
+include("src/VocabDrill/ItemSelector.jl")
+
+using .DataParser, .ItemSelector
+
+all_items = parse_vocabulary_file("data/vocabulary/hq.txt")
+
+result = select_quiz_items(
+    all_items;
+    current_chapter = 3,
+    num_questions = 80,
+    current_chapter_fraction = 0.6,
+    seed = 42
+)
+
+println("Total selected: ", length(result.items))
+println("From current chapter: ", result.num_current)
+println("From review: ", result.num_review)
+println("First 5 items:")
+for item in result.items[1:5]
+    println("  Ch$(item.chapter) | $(item.greek_display) → $(item.english)")
+end
+
+~~~
+
+---
+
+Julia setup problems. I get this when running the first two `include()` commands:
+
+~~~
+julia> include("src/VocabDrill/DataParser.jl")
+Main.DataParser
+
+julia> include("src/VocabDrill/ItemSelector.jl")
+ERROR: LoadError: UndefVarError: `VocabItem` not defined in `Main.ItemSelector`
+~~~
