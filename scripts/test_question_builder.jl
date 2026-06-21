@@ -1,93 +1,76 @@
-using Pkg
-Pkg.activate(".")
+# test_QuestionBuilder.jl
+# Quick demonstration of the new QuestionBuilder logic
+# Run from the project root with:
+#   julia --project=. test_QuestionBuilder.jl
 
-include("../src/VocabDrill/VocabDrill.jl")
-using .VocabDrill
 using Random
 
-println("=== QuestionBuilder Test Suite ===\n")
+# Load the modules (adjust paths if your structure differs)
+include("src/VocabDrill/DataParser.jl")
+include("src/VocabDrill/QuestionBuilder.jl")
 
-# Load everything
-all_items = parse_vocabulary_file("data/vocabulary/hq.txt")
-println("Loaded $(length(all_items)) vocabulary items from hq.txt\n")
-
-# Select a reasonable pool
-selection = select_quiz_items(
-    all_items;
-    current_chapter = 2,
-    num_questions = 30,
-    current_chapter_fraction = 0.6,
-    seed = 123
-)
-
-rng = MersenneTwister(42)
+using .DataParser
+using .QuestionBuilder
 
 # ============================================================
-# 1. Basic Greek → English
+# Create a small mock vocabulary pool for testing
 # ============================================================
-println("=== 1. Greek → English (normal case) ===\n")
-item1 = selection.items[3]
-q1 = build_question(item1, all_items; direction=:greek_to_english, num_choices=5, rng=rng)
+function make_mock_pool()::Vector{VocabItem}
+    pool = VocabItem[]
+
+    # Greek word with TWO English meanings (tests g2e multi-correct possibility)
+    push!(pool, VocabItem(1, "verb", "λύω", "to loose", false, nothing, nothing, "λύω"))
+    push!(pool, VocabItem(1, "verb", "λύω", "to destroy", false, nothing, nothing, "λύω"))
+
+    # Another Greek word that shares one English meaning ("to loose")
+    # → this enables multi-correct in english_to_greek
+    push!(pool, VocabItem(1, "verb", "ἀπολύω", "to loose", false, nothing, nothing, "ἀπολύω"))
+
+    # Distractors from same and different categories
+    push!(pool, VocabItem(1, "noun", "ἀγορά", "marketplace", false, nothing, nothing, "ἀγορά"))
+    push!(pool, VocabItem(1, "noun", "πόλις", "city", false, nothing, nothing, "πόλις"))
+    push!(pool, VocabItem(1, "prep", "ἐν", "in; among", false, nothing, nothing, "ἐν"))
+    push!(pool, VocabItem(2, "adj", "καλός", "beautiful; good", false, nothing, nothing, "καλός"))
+
+    # Extra items so distractor selection has room to work
+    for i in 1:8
+        push!(pool, VocabItem(1, "verb", "verb$i", "meaning$i", false, nothing, nothing, "verb$i"))
+    end
+
+    return pool
+end
+
+pool = make_mock_pool()
+rng = MersenneTwister(42)   # fixed seed for reproducible runs
+
+println("=== Test 1: greek_to_english (stem = Greek) ===")
+item1 = pool[1]   # λύω (first meaning)
+q1 = build_question(item1, pool; direction=:greek_to_english, num_choices=4, rng=rng)
+
 println("Stem: ", q1.stem)
-println("Correct: ", q1.correct_answers)
-println(to_gift(q1; qid="G2E_Normal"))
+println("Correct answers: ", q1.correct_answers)
+println("Distractors:     ", q1.distractors)
+println("\nGIFT output:\n", to_gift(q1; qid="Q1"))
 println()
 
-# ============================================================
-# 2. Verb Principal Part (Greek → English)
-# ============================================================
-println("=== 2. Verb Principal Part ===\n")
-verb_items = filter(i -> i.is_verb_principal_part, selection.items)
-if !isempty(verb_items)
-    verb_item = verb_items[1]
-    q_verb = build_question(verb_item, all_items; direction=:greek_to_english, num_choices=5, rng=rng)
-    println("Stem (Principal Part): ", q_verb.stem)
-    println("Correct: ", q_verb.correct_answers)
-    println(to_gift(q_verb; qid="Verb_PP"))
-else
-    println("No verb principal parts found in selection.")
-end
+println("=== Test 2: english_to_greek (stem = English) ===")
+item2 = pool[1]   # using the "to loose" item
+q2 = build_question(item2, pool; direction=:english_to_greek, num_choices=5, rng=rng)
+
+println("Stem: ", q2.stem)
+println("Correct answers: ", q2.correct_answers)
+println("Distractors:     ", q2.distractors)
+println("\nGIFT output:\n", to_gift(q2; qid="Q2"))
 println()
 
-# ============================================================
-# 3. English → Greek
-# ============================================================
-println("=== 3. English → Greek ===\n")
-item3 = selection.items[5]
-q3 = build_question(item3, all_items; direction=:english_to_greek, num_choices=5, rng=rng)
-println("Stem: ", q3.stem)
-println("Correct answers: ", q3.correct_answers)
-println(to_gift(q3; qid="E2G"))
-println()
+println("=== Test 3: Multiple random english_to_greek questions ===")
+println("(Watch for occasional multi-correct when a second Greek sneaks into the distractors)\n")
 
-# ============================================================
-# 4. Looking for Multi-Correct potential (English → Greek)
-# ============================================================
-println("=== 4. Checking for Multi-Correct potential ===\n")
-
-# Find English meanings that appear more than once across different Greek forms
-english_counts = Dict{String, Int}()
-for item in all_items
-    english_counts[item.english] = get(english_counts, item.english, 0) + 1
+for i in 1:6
+    q = build_question(item2, pool; direction=:english_to_greek, num_choices=4, rng=rng)
+    is_multi = length(q.correct_answers) > 1
+    println("Q$(i): corrects = $(q.correct_answers)   |   multi-correct = $is_multi")
 end
 
-multi_meaning_englishs = [k for (k, v) in english_counts if v > 1]
-
-if !isempty(multi_meaning_englishs)
-    test_english = first(multi_meaning_englishs)
-    println("Found English meaning that appears multiple times: \"$test_english\"")
-    
-    # Pick one item with this English
-    matching_items = filter(i -> i.english == test_english, all_items)
-    test_item = first(matching_items)
-    
-    q_multi = build_question(test_item, all_items; direction=:english_to_greek, num_choices=5, rng=rng)
-    println("Stem: ", q_multi.stem)
-    println("Correct answers found: ", q_multi.correct_answers)
-    println(to_gift(q_multi; qid="MultiCorrect"))
-else
-    println("No duplicate English meanings found in the current data (multi-correct not triggered in this run).")
-    println("This is normal in early chapters. The machinery is ready when it appears.")
-end
-
-println("\n=== Test complete ===")
+println("\n=== Done! ===")
+println("Try changing the seed or num_choices to see different behavior.")
