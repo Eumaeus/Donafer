@@ -27,3 +27,7 @@ I very much like the code that grabs distractors from the same category, filling
 
 Everything, including this query, is checked into the repo: <https://github.com/Eumaeus/Donafer>.
 
+---
+
+If you could provide a little test script, that would ideal. Thanks!
+

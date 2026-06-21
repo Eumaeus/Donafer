@@ -27,20 +27,54 @@ function build_question(
 
     if direction == :greek_to_english
         stem = item.greek_display
-        correct_answers = [item.english]
-        distractors = select_distractors(item, pool, num_choices - 1, rng)
+        full_correct_answers = find_all_matching_english(item.greek_display, pool)
+
+        distractor_items = select_distractors(item, pool, num_choices - 1, rng)
+        distractor_answers = unique([d.english for d in distractor_items])
+
+        guaranteed = rand(rng, full_correct_answers)
+        all_options = unique([guaranteed; distractor_answers])
+
+        actual_correct_answers = [ans for ans in all_options if ans in full_correct_answers]
+        actual_distractors     = [ans for ans in all_options if !(ans in actual_correct_answers)]
+
         feedback_correct = build_feedback(item, direction)
-        feedback_wrong = Dict(d.greek_display => build_wrong_feedback(d) for d in distractors)
+        feedback_wrong = Dict{String, String}()
+        for dist_ans in actual_distractors
+            matching = filter(x -> x.english == dist_ans, pool)
+            if !isempty(matching)
+                feedback_wrong[dist_ans] = build_wrong_feedback(matching[1])
+            else
+                feedback_wrong[dist_ans] = "Incorrect."
+            end
+        end
 
     else  # :english_to_greek
         stem = item.english
-        correct_answers = find_all_matching_greek(item.english, pool)
-        distractors = select_distractors(item, pool, num_choices - 1, rng)
+        full_correct_answers = find_all_matching_greek(item.english, pool)
+
+        distractor_items = select_distractors(item, pool, num_choices - 1, rng)
+        distractor_answers = unique([d.greek_display for d in distractor_items])
+
+        guaranteed = rand(rng, full_correct_answers)
+        all_options = unique([guaranteed; distractor_answers])
+
+        actual_correct_answers = [ans for ans in all_options if ans in full_correct_answers]
+        actual_distractors     = [ans for ans in all_options if !(ans in actual_correct_answers)]
+
         feedback_correct = build_feedback(item, direction)
-        feedback_wrong = Dict(d.greek_display => build_wrong_feedback(d) for d in distractors)
+        feedback_wrong = Dict{String, String}()
+        for dist_ans in actual_distractors
+            matching = filter(x -> x.greek_display == dist_ans, pool)
+            if !isempty(matching)
+                feedback_wrong[dist_ans] = build_wrong_feedback(matching[1])
+            else
+                feedback_wrong[dist_ans] = "Incorrect."
+            end
+        end
     end
 
-    return Question(stem, correct_answers, [d.greek_display for d in distractors],
+    return Question(stem, actual_correct_answers, actual_distractors,
                     feedback_correct, feedback_wrong, item.chapter, item.category)
 end
 
@@ -49,6 +83,11 @@ end
 function find_all_matching_greek(english::String, pool::Vector{VocabItem})
     matches = filter(x -> x.english == english, pool)
     return unique([x.greek_display for x in matches])
+end
+
+function find_all_matching_english(greek::String, pool::Vector{VocabItem})
+    matches = filter(x -> x.greek_display == greek, pool)
+    return unique([x.english for x in matches])
 end
 
 function select_distractors(item::VocabItem, pool::Vector{VocabItem}, needed::Int, rng)
