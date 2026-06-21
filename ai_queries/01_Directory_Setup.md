@@ -173,3 +173,27 @@ in expression starting at /Users/cblackwell/Dropbox/CITE/grok/Donafer/src/VocabD
 I seem to recall similar submodule hassles with earlier projects. This seems to be a Julia thing that we need to deal with. Once they get sorted, you never think about it until the next new project!
 
 Everything is checked in, in its current state.
+
+---
+
+Still throwing that error. 
+
+~~~
+julia> include("src/VocabDrill/VocabDrill.jl")
+Main.VocabDrill
+
+julia> using .VocabDrill
+
+julia> all_items = parse_vocabulary_file("data/vocabulary/hq.txt")
+ERROR: UndefVarError: `parse_vocabulary_file` not defined in `Main`
+Suggestion: check for spelling errors or missing imports.
+Stacktrace:
+ [1] top-level scope
+   @ REPL[3]:1
+
+julia> 
+~~~
+
+Is there some cache in `~/.julia`, or something like that that needs to be cleared out? I have compred this code to other projects that work fine, and I cannot see an obvious difference. 
+
+The current state of everything is checked in at <https://github.com/Eumaeus/Donafer>.
