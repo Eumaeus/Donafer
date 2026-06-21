@@ -2,7 +2,7 @@
 
 module ItemSelector
 
-using .DataParser          # ← This line is required
+using ..DataParser          # ← Changed from .DataParser to ..DataParser
 
 export select_quiz_items, SelectionResult
 
