@@ -232,4 +232,7 @@ Yes, please!
 
 Everything is check in at <https://github.com/Eumaeus/Donafer>.
 
+---
+
+If you could give me a little script for testing QuestionBuilder.jl, that would be great. I can look at it some this morning, and we can move on to QuizBuilder.jl in the next step.
 
