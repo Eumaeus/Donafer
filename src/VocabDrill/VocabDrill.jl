@@ -1,10 +1,14 @@
 module VocabDrill
 
-# Include the sub-modules in the correct order
+# 1. Include submodules
 include("DataParser.jl")
 include("ItemSelector.jl")
 
-# Re-export the most important names so users can do `using .VocabDrill`
+# 2. Bring names from submodules into VocabDrill's namespace
+using .DataParser: parse_vocabulary_file, VocabItem, RawVocabEntry
+using .ItemSelector: select_quiz_items, SelectionResult
+
+# 3. Re-export the public API
 export 
     VocabItem,
     parse_vocabulary_file,

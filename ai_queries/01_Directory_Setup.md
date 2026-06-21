@@ -197,3 +197,13 @@ julia>
 Is there some cache in `~/.julia`, or something like that that needs to be cleared out? I have compred this code to other projects that work fine, and I cannot see an obvious difference. 
 
 The current state of everything is checked in at <https://github.com/Eumaeus/Donafer>.
+
+---
+
+And it all works! Thank you for sticking with me on this!
+
+All code is checked in! Since we can load vocabulary and select items based on settings in `config/vocab_drill.toml`, we can move on to generating quizzes. 
+
+Samples of output for passive-knowledge questions are in `sample_output`. We don't have to follow that slavishly, but questions like that seemed to work well last year. The list of how I envision the quizzes working are in `ai_queries/00_Project_Description.md`.
+
+So… let's move on to `QuestionBuilder.jl`! 
