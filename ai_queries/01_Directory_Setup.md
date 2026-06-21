@@ -184,7 +184,7 @@ Main.VocabDrill
 
 julia> using .VocabDrill
 
-julia> all_items = parse_vocabulary_file("data/vocabulary/hq.txt")
+julie> all_items = parse_vocabulary_file("data/vocabulary/hq.txt")
 ERROR: UndefVarError: `parse_vocabulary_file` not defined in `Main`
 Suggestion: check for spelling errors or missing imports.
 Stacktrace:
@@ -207,3 +207,29 @@ All code is checked in! Since we can load vocabulary and select items based on s
 Samples of output for passive-knowledge questions are in `sample_output`. We don't have to follow that slavishly, but questions like that seemed to work well last year. The list of how I envision the quizzes working are in `ai_queries/00_Project_Description.md`.
 
 So… let's move on to `QuestionBuilder.jl`! 
+
+---
+
+Thanks for teaching me the term "distractors" for what I was calling "wrong answers"!
+
+Here are answers to the questions you asked:
+
+> Do you want QuestionBuilder to decide the direction (:greek_to_english vs :english_to_greek) internally based on the active/passive ratio, or should that decision happen in a higher-level Generator?
+
+My answer: That seems like something for a higher-level generator, something like `QuizBuilder.jl`. I think that separation-of-concerns would have `QuestionBuilder.jl` focus on one question at a time, active or passive as instructed by a paramater passed to it.
+
+> How important is multi-correct support in the first version? (i.e. cases where more than one answer is fully correct)
+
+My answer: Having just invoked separation-of-concerns, this question makes me realize that `QuestionBuilder.jl` has to work with the whole vocabulary list, in order to generate distractors. I think multiple-correct-answers is fundamental.
+
+Let's take the Greek word "καί". It means "and; also; even". Every student of Greek in human history has always seized "and" in their memory as the meaning of "καί", and then gets confused in sentences where it must mean "even". So if we start with an Item "καί = 'and'", but "even" shows up in the distractors, I really want them to have to see that both "and" and "even" are possibilities, and mark them as such, to get full credit. (Since they can keep clicking until they get it right before moving on, this will just reinforce, without punishing them.)
+
+So… let's have multi-correct support from the outset.
+
+> Would you like me to also start a simple to_gift(q::Question) function that turns this into the exact GIFT syntax you used last year?
+
+Yes, please! 
+
+Everything is check in at <https://github.com/Eumaeus/Donafer>.
+
+
