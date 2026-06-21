@@ -1,7 +1,7 @@
 using Pkg
 Pkg.activate(".")
 
-include("src/VocabDrill/VocabDrill.jl")
+include("../src/VocabDrill/VocabDrill.jl")
 using .VocabDrill
 using Random
 
