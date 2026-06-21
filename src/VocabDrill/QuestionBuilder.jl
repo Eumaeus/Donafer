@@ -7,27 +7,16 @@ using Random
 
 export Question, build_question, to_gift
 
-"""
-    Question
-
-Represents one multiple-choice question ready to be turned into GIFT format.
-"""
 struct Question
     stem::String
-    correct_answers::Vector{String}      # Can contain multiple correct answers
+    correct_answers::Vector{String}
     distractors::Vector{String}
     feedback_correct::String
-    feedback_wrong::Dict{String, String} # distractor => feedback text
+    feedback_wrong::Dict{String, String}
     chapter::Int
     category::String
 end
 
-"""
-    build_question(item, pool; direction, num_choices, rng)
-
-Builds one high-quality multiple choice question.
-`direction` can be :greek_to_english or :english_to_greek.
-"""
 function build_question(
     item::VocabItem,
     pool::Vector{VocabItem};
@@ -38,101 +27,68 @@ function build_question(
 
     if direction == :greek_to_english
         stem = item.greek_display
-        # All possible correct English answers for this exact Greek form
-        correct_answers = find_all_correct_answers(item, pool, direction)
-        
-        # Distractors: prefer same category
+        correct_answers = [item.english]
         distractors = select_distractors(item, pool, num_choices - 1, rng)
-        
-        feedback_correct = build_rich_feedback(item, direction, correct_answers)
-        feedback_wrong = Dict(d.english => build_wrong_feedback(d, item) for d in distractors)
+        feedback_correct = build_feedback(item, direction)
+        feedback_wrong = Dict(d.greek_display => build_wrong_feedback(d) for d in distractors)
 
     else  # :english_to_greek
         stem = item.english
-        correct_answers = find_all_correct_answers(item, pool, direction)
-        
+        correct_answers = find_all_matching_greek(item.english, pool)
         distractors = select_distractors(item, pool, num_choices - 1, rng)
-        
-        feedback_correct = build_rich_feedback(item, direction, correct_answers)
-        feedback_wrong = Dict(d.greek_display => build_wrong_feedback(d, item) for d in distractors)
+        feedback_correct = build_feedback(item, direction)
+        feedback_wrong = Dict(d.greek_display => build_wrong_feedback(d) for d in distractors)
     end
 
-    return Question(
-        stem,
-        correct_answers,
-        [d.greek_display for d in distractors],  # store Greek display for consistency
-        feedback_correct,
-        feedback_wrong,
-        item.chapter,
-        item.category
-    )
+    return Question(stem, correct_answers, [d.greek_display for d in distractors],
+                    feedback_correct, feedback_wrong, item.chapter, item.category)
 end
 
-# ============================================================
-# Helper functions
-# ============================================================
+# --- Helper functions ---
 
-function find_all_correct_answers(item::VocabItem, pool::Vector{VocabItem}, direction::Symbol)
-    if direction == :greek_to_english
-        # For a given Greek form, return all English meanings associated with it
-        return [item.english]
-    else
-        # English → Greek: find every Greek form that has this English meaning
-        target_english = item.english
-        corrects = filter(x -> x.english == target_english, pool)
-        return unique([x.greek_display for x in corrects])
-    end
+function find_all_matching_greek(english::String, pool::Vector{VocabItem})
+    matches = filter(x -> x.english == english, pool)
+    return unique([x.greek_display for x in matches])
 end
 
 function select_distractors(item::VocabItem, pool::Vector{VocabItem}, needed::Int, rng)
-    # Prefer same category
-    same_category = filter(x -> x.category == item.category && x != item, pool)
-    others = filter(x -> x.category != item.category && x != item, pool)
+    same_cat = filter(x -> x.category == item.category && x != item, pool)
+    others   = filter(x -> x.category != item.category && x != item, pool)
 
-    distractors = VocabItem[]
-    if !isempty(same_category)
-        append!(distractors, rand(rng, same_category, min(needed, length(same_category))))
+    chosen = VocabItem[]
+    if !isempty(same_cat)
+        append!(chosen, rand(rng, same_cat, min(needed, length(same_cat))))
     end
-    remaining = needed - length(distractors)
+    remaining = needed - length(chosen)
     if remaining > 0 && !isempty(others)
-        append!(distractors, rand(rng, others, min(remaining, length(others))))
+        append!(chosen, rand(rng, others, min(remaining, length(others))))
     end
-    return unique(distractors)
+    return unique(chosen)
 end
 
-function build_rich_feedback(item::VocabItem, direction::Symbol, correct_answers::Vector{String})
+function build_feedback(item::VocabItem, direction::Symbol)
     if item.is_verb_principal_part
-        return "Correct: **$(item.greek_display)** is the $(item.principal_part_number)th Principal Part of **$(item.lemma)** “$(item.english)” (Chapter $(item.chapter))."
+        return "Correct: **$(item.greek_display)** is Principal Part $(item.principal_part_number) of **$(item.lemma)** “$(item.english)” (Chapter $(item.chapter))."
     else
-        return "Correct: **$(item.greek_display)** → \"$(item.english)\" (Chapter $(item.chapter))."
+        return "Correct: **$(item.greek_display)** → “$(item.english)” (Chapter $(item.chapter))."
     end
 end
 
-function build_wrong_feedback(wrong::VocabItem, correct::VocabItem)
+function build_wrong_feedback(wrong::VocabItem)
     return "Incorrect. **$(wrong.greek_display)** means “$(wrong.english)” (Chapter $(wrong.chapter))."
 end
 
-"""
-    to_gift(q::Question; question_id::String = "Q") -> String
-
-Converts a Question into Moodle GIFT format.
-"""
-function to_gift(q::Question; question_id::String = "Q")::String
+function to_gift(q::Question; qid::String = "Q")::String
     io = IOBuffer()
-    
-    println(io, "::$(question_id)::[markdown]$(q.stem):{")
-    
-    # Correct answers (can be multiple)
+    println(io, "::$(qid)::[markdown]$(q.stem):{")
+
     for ans in q.correct_answers
         println(io, "\t~%100%$(ans)#$(q.feedback_correct)")
     end
-    
-    # Distractors
     for dist in q.distractors
         fb = get(q.feedback_wrong, dist, "Incorrect.")
         println(io, "\t~%-100%$(dist)#$(fb)")
     end
-    
     println(io, "}")
     return String(take!(io))
 end
