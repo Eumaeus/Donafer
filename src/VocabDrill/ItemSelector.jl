@@ -2,7 +2,8 @@
 
 module ItemSelector
 
-using ..DataParser          # ← Changed from .DataParser to ..DataParser
+# Robust way to get sibling module without relying on relative 'using'
+const DataParser = parentmodule(@__MODULE__).DataParser
 
 export select_quiz_items, SelectionResult
 
@@ -10,34 +11,19 @@ using Random
 
 """
     SelectionResult
-
-Holds the selected items plus some metadata useful for debugging/logging.
 """
 struct SelectionResult
-    items::Vector{VocabItem}
+    items::Vector{DataParser.VocabItem}
     num_current::Int
     num_review::Int
     current_chapter::Int
 end
 
 """
-    select_quiz_items(
-        all_items::Vector{VocabItem};
-        current_chapter::Int,
-        num_questions::Int,
-        current_chapter_fraction::Float64 = 0.6,
-        seed::Union{Int, Nothing} = nothing
-    ) -> SelectionResult
-
-Selects a balanced set of vocabulary items for a quiz.
-
-Rules enforced:
-- Every item from the current chapter appears at least once.
-- Respects `current_chapter_fraction`.
-- Supports reproducible runs via `seed`.
+    select_quiz_items(...)
 """
 function select_quiz_items(
-    all_items::Vector{VocabItem};
+    all_items::Vector{DataParser.VocabItem};
     current_chapter::Int,
     num_questions::Int,
     current_chapter_fraction::Float64 = 0.6,
@@ -56,7 +42,6 @@ function select_quiz_items(
     n = num_questions
     frac = clamp(current_chapter_fraction, 0.0, 1.0)
 
-    # Start by including every current-chapter item (guarantees the rule)
     selected = copy(current_items)
 
     remaining = n - length(selected)
