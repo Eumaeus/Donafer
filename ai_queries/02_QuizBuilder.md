@@ -72,3 +72,11 @@ The next step for me is to load some samples into Moodle to confirm that we have
 Thank you!
 
 The current state of the project is up-to-date in GitHub: https://github.com/Eumaeus/Donafer
+
+---
+
+The script works perfectly. As I go to test, a version of the `generate_drill.jl` with command-line options would be great. As you describe, with parameters for "chaper" and "questions". For further changes I would just edit `vocab_drill.toml`.
+
+I will hold off on further requests for tweaks until I've looked at these in Moodle. 
+
+Thank you for your help with this! 
