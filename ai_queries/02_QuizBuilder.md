@@ -80,3 +80,34 @@ The script works perfectly. As I go to test, a version of the `generate_drill.jl
 I will hold off on further requests for tweaks until I've looked at these in Moodle. 
 
 Thank you for your help with this! 
+
+---
+
+The current script throws this error:
+
+~~~julia
+
+➜  Donafer git:(main) ✗ julia --project=. generate_drill.jl
+  Activating project at `~/Dropbox/CITE/grok/Donafer`
+ERROR: LoadError: syntax: "using" expression not at top level
+Stacktrace:
+ [1] top-level scope
+   @ ~/Dropbox/CITE/grok/Donafer/generate_drill.jl:39
+ [2] include(mod::Module, _path::String)
+   @ Base ./Base.jl:306
+ [3] exec_options(opts::Base.JLOptions)
+   @ Base ./client.jl:317
+ [4] _start()
+   @ Base ./client.jl:550
+in expression starting at /Users/cblackwell/Dropbox/CITE/grok/Donafer/generate_drill.jl:39
+➜  Donafer git:(main) ✗ 
+
+~~~
+
+---
+
+Perfect! Thank you! Okay… let me go off and load some drills into Moodle, take them as a student, and get back to you.
+
+When I return, I'll continue in another discussion, referencing this one, and with all code up-to-date in the repository, so we can continue.
+
+This is amazing progress on a tool I will use starting on day one of my class!

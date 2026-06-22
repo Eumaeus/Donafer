@@ -13,7 +13,7 @@ using Pkg
 Pkg.activate(@__DIR__)
 # Pkg.instantiate()   # uncomment the first time if you want it fully automatic
 
-include("../src/VocabDrill/VocabDrill.jl")
+include("src/VocabDrill/VocabDrill.jl")
 using .VocabDrill
 
 config_path = length(ARGS) ≥ 1 ? ARGS[1] : "config/vocab_drill.toml"
