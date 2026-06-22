@@ -111,3 +111,57 @@ Perfect! Thank you! Okay… let me go off and load some drills into Moodle, take
 When I return, I'll continue in another discussion, referencing this one, and with all code up-to-date in the repository, so we can continue.
 
 This is amazing progress on a tool I will use starting on day one of my class!
+
+---
+
+This looks good and the resulting quiz load into Moodle!
+
+Here are some enhancements:
+
+Let's move on to enhance `build_vocab_drill()` to use the command-line parameters, and especially the value of `chaper` when making the file-name for the quiz.
+
+The category line at the top of the quiz should not be commented out:
+
+  // $CATEGORY: Vocabulary/HansenQuinn/5
+
+When dealing with verb-entries in the vocabulary list, *e.g.*
+
+  3#verb#1 γράφω;2 γράψω;3 ἔγραψα;4 γέγραφα;5 γέγραμμαι;6 ἐγράφην#write; draw
+
+I'd like to drop the principal-part number on questions, answers, and distractors. But we should use the correct principal part (and its number) in the feedback.
+
+So not:
+
+~~~
+  rule:
+
+    Question 7
+
+    Answer
+      a. 4 ἦρχα Correct: 6 ἤρχθην is Principal Part 6 of ἤρχθην “rule” (Chapter 5).
+      b. 3 ἐκώλῡσα
+      c. 2 πείσω
+      d. 4 πέπρᾱχα
+      e. 4 λέλυκα
+~~~
+
+But:
+
+~~~
+  rule:
+
+    Question 7
+
+    Answer
+      a. ἦρχα Correct: ἦρχα is Principal Part 4 of ἄρχω “rule” (Chapter 5).
+      b. ἐκώλῡσα
+      c. πείσω
+      d. πέπρᾱχα
+      e. λέλυκα
+~~~
+
+For feedback: Note that it identifies the pricipal part of the given answer-choice (ἦρχα), which is "4 ἦρχα" in the data. And it uses Principal Part 1: "1 ἄρχω".
+
+Finally, Moodle lets me specify "shuffle within questions" when a make a quiz, but that seems to be buggy. Currently the correct answer is always the first answer. While it will make the `.gift` file a little harder to read, let's shuffle the answer and distracter choices when generating the quiz.
+
+This is looking great! Everything is check into Moodle, including the output from the current code, at `generated/vocab/vocab_drill_ch5.gift`
