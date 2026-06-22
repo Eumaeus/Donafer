@@ -218,3 +218,11 @@ It should be:
 Also, in generating a number of quizzes, I'm not seeing any example of multi-correct answers. This may be random chance, but I would expect an occasional one, for example, in a passive knowledge question, if one principal part of a verb is chosen as the question and answer, and another principal part of the same verb is chosen as a distracter. Or οὐ and μή, which both have "not" as a possible English meaning.
 
 Could we test this, somehow, to confirm that we aren't excluding this possiblity?
+
+---
+
+First, the verb-feedback change works perfectly. Thanks!
+
+Second, yes, please! If you could make a little script that forces multi-correct questions, just to see if the logic is working, that would be ideal. 
+
+Beyond that, any further tweaks will be little formatting things for which I can edit the code. 

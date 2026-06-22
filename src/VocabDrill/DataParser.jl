@@ -90,47 +90,49 @@ function expand_entry(
     # Split English translations
     english_list = [String(strip(e)) for e in split(english_field, ';') if !isempty(strip(e))]
 
-    if category == "verb"
-        # Split principal parts (e.g. "1 κελεύω;2 κελεύσω;...")
-        pp_segments = [strip(p) for p in split(greek_field, ';') if !isempty(strip(p))]
+   if category == "verb"
+    pp_segments = [strip(p) for p in split(greek_field, ';') if !isempty(strip(p))]
 
-        for segment in pp_segments
-            # Try to extract leading number (principal part)
-            m = match(r"^(\d+)\s+(.+)$", segment)
-            if m !== nothing
-                pp_num = parse(Int, m.captures[1])
-                form = String(strip(m.captures[2]))
-                lemma = extract_lemma(form)
+    # === Determine the true lemma from the FIRST principal part ===
+    lemma = nothing
+    for segment in pp_segments
+        m = match(r"^(\d+)\s+(.+)$", segment)
+        if m !== nothing
+            first_form = String(strip(m.captures[2]))
+            lemma = extract_lemma(first_form)
+            break
+        end
+    end
 
-                for eng in english_list
-                    push!(result, VocabItem(
-                        chapter,
-                        String(category),
-                        "$pp_num $form",
-                        eng,
-                        true,
-                        pp_num,
-                        lemma,
-                        String(greek_field)
-                    ))
-                end
-            else
-                # Fallback if no number
-                for eng in english_list
-                    push!(result, VocabItem(
-                        chapter,
-                        String(category),
-                        String(segment),
-                        eng,
-                        false,
-                        nothing,
-                        nothing,
-                        String(greek_field)
-                    ))
-                end
+    for segment in pp_segments
+        m = match(r"^(\d+)\s+(.+)$", segment)
+        if m !== nothing
+            pp_num = parse(Int, m.captures[1])
+            form = String(strip(m.captures[2]))
+
+            for eng in english_list
+                push!(result, VocabItem(
+                    chapter,
+                    String(category),
+                    "$pp_num $form",
+                    eng,
+                    true,
+                    pp_num,
+                    lemma,                    # ← Now uses the real lemma (e.g. "λύω")
+                    String(greek_field)
+                ))
+            end
+        else
+            # Fallback (no number)
+            for eng in english_list
+                push!(result, VocabItem(
+                    chapter, String(category), String(segment), eng,
+                    false, nothing, nothing, String(greek_field)
+                ))
             end
         end
-    else
+    end
+else
         # Non-verb: whole Greek field is one form
         for eng in english_list
             push!(result, VocabItem(
