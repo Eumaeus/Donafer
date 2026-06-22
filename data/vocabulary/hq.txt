@@ -55,7 +55,7 @@
 2#other#ἤ… ἤ# either… or
 2#other#μέν… δέ (postpos. conjs.)#on the one hand… on the other hand
 2#other#νῦν#now
-2#noun#ξένος, ξένου, ὁ#guest-friend; host; stranger; foreigner#
+2#noun#ξένος, ξένου, ὁ#guest-friend; host; stranger; foreigner
 2#other#οὐ; οὐκ; οὐχ (adv.)#no; not
 2#verb#1 κελεύω;2 κελεύσω;3 ἐκέλευσα;4 κεκέλευκα;5 κεκέλευσμαι;6 ἐκελεύσθην#command
 2#verb#1 λύω;2 λύσω;3 ἔλυσα;4 λέλυκα;5 λέλυμαι;6 ἔλύθην#unbind; free

@@ -195,6 +195,26 @@ Everything is checked in at its current, updated, state.
 
 ---
 
-Oh, great. This looks perfect. I made several `.gift`s with different parameters, and they look correct. I'll go through the process of making these into Moodle quizzes, take them, and report back.
+Oh, great. This looks perfect. I made several `.gift`s with different parameters, and they look correct. I'll go through the process of making these into Moodle quizzes, take them, and report back. Thanks!
 
 It is safe to keep the conversation in this thread, <https://x.com/i/grok/share/da98228d9fc64d2889d06118eb629218>, or would be be wiser to move to a new one, referencing this and the record in `ai_queries`?
+
+---
+
+I've made several quizzes, uploaded them to Moodle, and tested them. It is looking very good!
+
+The feedback for verbs is still not ideal. This is an example of what we are generating now:
+  
+  d. unbind Correct: λέλυκα is Principal Part 4 of λέλυκα “free” (Chapter 2).
+
+It should be:
+
+  d. unbind Correct: λέλυκα is Principal Part 4 of λύω “free” (Chapter 2).
+
+(Using "1 λύω"), the first principal part, in the data as the *lemma* for the verb. The source data for this verb is:
+
+  2#verb#1 λύω;2 λύσω;3 ἔλυσα;4 λέλυκα;5 λέλυμαι;6 ἔλύθην#unbind; free
+
+Also, in generating a number of quizzes, I'm not seeing any example of multi-correct answers. This may be random chance, but I would expect an occasional one, for example, in a passive knowledge question, if one principal part of a verb is chosen as the question and answer, and another principal part of the same verb is chosen as a distracter. Or οὐ and μή, which both have "not" as a possible English meaning.
+
+Could we test this, somehow, to confirm that we aren't excluding this possiblity?
