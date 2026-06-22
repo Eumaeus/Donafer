@@ -226,3 +226,11 @@ First, the verb-feedback change works perfectly. Thanks!
 Second, yes, please! If you could make a little script that forces multi-correct questions, just to see if the logic is working, that would be ideal. 
 
 Beyond that, any further tweaks will be little formatting things for which I can edit the code. 
+
+---
+
+Okay! I got some positives, so the logic does work, but (as you say) the chances are pretty rare with the data I have.
+
+I am going to consider this a solid working basis. I'll work on adding to the list of vocabulary from my text, and fiddling with some formatting and keep making and taking tests. Thank you so much for this help! 
+
+When I come back, we can tackle morphology!
