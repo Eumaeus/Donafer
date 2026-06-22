@@ -5,7 +5,7 @@
 
 [general]
 data_source = "data/vocabulary/hq.txt"
-current_chapter = 3                    # Which chapter/unit we are currently teaching
+current_chapter = 5                    # Which chapter/unit we are currently teaching
 num_questions = 120                    # Total questions in the generated drill
 random_seed = 42                       # Set to null or omit for non-reproducible runs
 output_directory = "generated/vocab"

@@ -62,3 +62,13 @@ julia>
 ~~~
 
 The current state of the project is up-to-date in GitHub: https://github.com/Eumaeus/Donafer
+
+---
+
+That works perfectly, and the output looks great! I would appreciate a script that I could run as a one-liner on the command-line.
+
+The next step for me is to load some samples into Moodle to confirm that we have the formatting correct for a `.gift` import. 
+
+Thank you!
+
+The current state of the project is up-to-date in GitHub: https://github.com/Eumaeus/Donafer
