@@ -62,7 +62,6 @@ function main()
         current_chapter = args["chapter"],
         num_questions   = args["questions"]
     )
-
     println("\n✅ Done!")
     println("   Output file : $output_file")
 end

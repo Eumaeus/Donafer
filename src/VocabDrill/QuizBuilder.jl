@@ -92,34 +92,92 @@ end
 # ============================================================
 
 """
-    build_vocab_drill(config_path::String = "config/vocab_drill.toml")
+    build_vocab_drill(config_path; current_chapter, num_questions)
 
-Loads config, parses vocabulary, selects items, builds questions,
-and writes a GIFT file. Returns the path to the generated file.
+Main entry point for generating a vocabulary drill.
+Accepts either a config path or keyword overrides.
 """
-function build_vocab_drill(;
-    config_path::String = "config/vocab_drill.toml",
-    current_chapter::Union{Int, Nothing} = nothing,
-    num_questions::Union{Int, Nothing} = nothing
-)::String
+function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
+                           current_chapter::Union{Int, Nothing} = nothing,
+                           num_questions::Union{Int, Nothing} = nothing)::String
 
     cfg = load_config(config_path)
 
-    # Apply overrides
+    # Apply command-line / keyword overrides
     if current_chapter !== nothing
-        cfg = DrillConfig(; (k => getfield(cfg, k) for k in fieldnames(DrillConfig))..., current_chapter = current_chapter)
+        cfg = DrillConfig(;
+            (k => getfield(cfg, k) for k in fieldnames(DrillConfig))...,
+            current_chapter = current_chapter
+        )
     end
+
     if num_questions !== nothing
-        cfg = DrillConfig(; (k => getfield(cfg, k) for k in fieldnames(DrillConfig))..., num_questions = num_questions)
+        cfg = DrillConfig(;
+            (k => getfield(cfg, k) for k in fieldnames(DrillConfig))...,
+            num_questions = num_questions
+        )
     end
 
-    # ... rest of the function stays the same (parsing, selection, question building) ...
+    if cfg.verbose
+        println("Loading configuration from: $config_path")
+        println("Current chapter: $(cfg.current_chapter)")
+        println("Total questions: $(cfg.num_questions)")
+    end
 
-    # Filename already uses chapter
+    # 1. Parse vocabulary
+    all_items = parse_vocabulary_file(cfg.data_source)
+    if cfg.verbose
+        println("Parsed $(length(all_items)) vocabulary items from $(cfg.data_source)")
+    end
+
+    # 2. Select items
+    selection = select_quiz_items(
+        all_items;
+        current_chapter = cfg.current_chapter,
+        num_questions = cfg.num_questions,
+        current_chapter_fraction = cfg.current_chapter_fraction,
+        seed = cfg.random_seed
+    )
+
+    if cfg.verbose
+        println("Selected $(length(selection.items)) items " *
+                "($(selection.num_current) current chapter, $(selection.num_review) review)")
+    end
+
+    # 3. Build questions
+    rng = cfg.random_seed === nothing ? Random.default_rng() : MersenneTwister(cfg.random_seed)
+
+    questions = Question[]
+    for item in selection.items
+        direction = rand(rng) < cfg.active_to_passive_ratio ? 
+                    :greek_to_english : :english_to_greek
+
+        q = build_question(
+            item, 
+            all_items;
+            direction = direction,
+            num_choices = cfg.num_choices,
+            rng = rng
+        )
+        push!(questions, q)
+    end
+
+    if cfg.verbose
+        multi_correct_count = count(q -> length(q.correct_answers) > 1, questions)
+        println("Built $(length(questions)) questions ($multi_correct_count multi-correct)")
+    end
+
+    # 4. Write GIFT file (filename includes chapter)
+    mkpath(cfg.output_directory)
     filename = "$(cfg.output_filename_prefix)_ch$(cfg.current_chapter).gift"
     output_path = joinpath(cfg.output_directory, filename)
 
-    write_gift_file(questions, output_path; category = "$(cfg.category_prefix)/$(cfg.current_chapter)")
+    write_gift_file(questions, output_path; 
+                    category = "$(cfg.category_prefix)/$(cfg.current_chapter)")
+
+    if cfg.verbose
+        println("Wrote GIFT file to: $output_path")
+    end
 
     return output_path
 end
