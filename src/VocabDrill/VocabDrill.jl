@@ -3,7 +3,8 @@ module VocabDrill
 include("DataParser.jl")
 include("ItemSelector.jl")
 include("QuestionBuilder.jl")
-
+include("QuizBuilder.jl")
+using .QuizBuilder: DrillConfig, load_config, build_vocab_drill, write_gift_file
 using .DataParser: parse_vocabulary_file, VocabItem, RawVocabEntry
 using .ItemSelector: select_quiz_items, SelectionResult
 using .QuestionBuilder: Question, build_question, to_gift

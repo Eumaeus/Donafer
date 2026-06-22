@@ -36,3 +36,29 @@ If you could provide a little test script, that would ideal. Thanks!
 If this conversation is still active, thank you! This looks great! 
 
 Let's move on to making `QuizBuilder.jl` using configuration data from `config/vocab_drill.config`.
+
+---
+
+Still having package/module problems, I'm afraid:
+
+~~~
+
+(@v1.12) pkg> activate .
+  Activating project at `~/Dropbox/CITE/grok/Donafer`
+
+julia> include("src/VocabDrill/VocabDrill.jl")
+Main.VocabDrill
+
+julia> using .VocabDrill
+
+julia> output_file = build_vocab_drill("config/vocab_drill.toml")
+ERROR: UndefVarError: `build_vocab_drill` not defined in `Main`
+Suggestion: check for spelling errors or missing imports.
+Stacktrace:
+ [1] top-level scope
+   @ REPL[4]:1
+
+julia> 
+~~~
+
+The current state of the project is up-to-date in GitHub: https://github.com/Eumaeus/Donafer
