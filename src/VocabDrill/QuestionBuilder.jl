@@ -17,6 +17,11 @@ struct Question
     category::String
 end
 
+# Helper: remove leading principal-part number (e.g. "4 ἦρχα" → "ἦρχα")
+function clean_greek_form(display::String)
+    return replace(display, r"^\d+\s+" => "")
+end
+
 function build_question(
     item::VocabItem,
     pool::Vector{VocabItem};
@@ -26,7 +31,7 @@ function build_question(
 )::Question
 
     if direction == :greek_to_english
-        stem = item.greek_display
+        stem = clean_greek_form(item.greek_display)
         full_correct_answers = find_all_matching_english(item.greek_display, pool)
 
         distractor_items = select_distractors(item, pool, num_choices - 1, rng)
@@ -42,19 +47,17 @@ function build_question(
         feedback_wrong = Dict{String, String}()
         for dist_ans in actual_distractors
             matching = filter(x -> x.english == dist_ans, pool)
-            if !isempty(matching)
-                feedback_wrong[dist_ans] = build_wrong_feedback(matching[1])
-            else
-                feedback_wrong[dist_ans] = "Incorrect."
-            end
+            feedback_wrong[dist_ans] = !isempty(matching) ? build_wrong_feedback(matching[1]) : "Incorrect."
         end
 
     else  # :english_to_greek
         stem = item.english
-        full_correct_answers = find_all_matching_greek(item.english, pool)
+        full_correct_answers_raw = find_all_matching_greek(item.english, pool)
+        full_correct_answers = [clean_greek_form(g) for g in full_correct_answers_raw]
 
         distractor_items = select_distractors(item, pool, num_choices - 1, rng)
-        distractor_answers = unique([d.greek_display for d in distractor_items])
+        distractor_answers_raw = unique([d.greek_display for d in distractor_items])
+        distractor_answers = [clean_greek_form(g) for g in distractor_answers_raw]
 
         guaranteed = rand(rng, full_correct_answers)
         all_options = unique([guaranteed; distractor_answers])
@@ -65,12 +68,9 @@ function build_question(
         feedback_correct = build_feedback(item, direction)
         feedback_wrong = Dict{String, String}()
         for dist_ans in actual_distractors
-            matching = filter(x -> x.greek_display == dist_ans, pool)
-            if !isempty(matching)
-                feedback_wrong[dist_ans] = build_wrong_feedback(matching[1])
-            else
-                feedback_wrong[dist_ans] = "Incorrect."
-            end
+            # Find original item for feedback (need full greek_display)
+            matching = filter(x -> clean_greek_form(x.greek_display) == dist_ans, pool)
+            feedback_wrong[dist_ans] = !isempty(matching) ? build_wrong_feedback(matching[1]) : "Incorrect."
         end
     end
 
@@ -107,27 +107,37 @@ end
 
 function build_feedback(item::VocabItem, direction::Symbol)
     if item.is_verb_principal_part
-        return "Correct: **$(item.greek_display)** is Principal Part $(item.principal_part_number) of **$(item.lemma)** “$(item.english)” (Chapter $(item.chapter))."
+        clean_form = clean_greek_form(item.greek_display)
+        return "Correct: **$(clean_form)** is Principal Part $(item.principal_part_number) of **$(item.lemma)** “$(item.english)” (Chapter $(item.chapter))."
     else
         return "Correct: **$(item.greek_display)** → “$(item.english)” (Chapter $(item.chapter))."
     end
 end
 
 function build_wrong_feedback(wrong::VocabItem)
-    return "Incorrect. **$(wrong.greek_display)** means “$(wrong.english)” (Chapter $(wrong.chapter))."
+    if wrong.is_verb_principal_part
+        clean_form = clean_greek_form(wrong.greek_display)
+        return "Incorrect. **$(clean_form)** is Principal Part $(wrong.principal_part_number) of **$(wrong.lemma)** “$(wrong.english)” (Chapter $(wrong.chapter))."
+    else
+        return "Incorrect. **$(wrong.greek_display)** means “$(wrong.english)” (Chapter $(wrong.chapter))."
+    end
 end
 
 function to_gift(q::Question; qid::String = "Q")::String
     io = IOBuffer()
     println(io, "::$(qid)::[markdown]$(q.stem):{")
 
-    for ans in q.correct_answers
-        println(io, "\t~%100%$(ans)#$(q.feedback_correct)")
+    # Combine and shuffle options so correct answer isn't always first
+    options = [(ans, true, q.feedback_correct) for ans in q.correct_answers]
+    append!(options, [(dist, false, get(q.feedback_wrong, dist, "Incorrect.")) for dist in q.distractors])
+
+    shuffle!(options)   # ← This is the key change
+
+    for (text, is_correct, fb) in options
+        marker = is_correct ? "~%100%" : "~%-100%"
+        println(io, "\t$(marker)$(text)#$(fb)")
     end
-    for dist in q.distractors
-        fb = get(q.feedback_wrong, dist, "Incorrect.")
-        println(io, "\t~%-100%$(dist)#$(fb)")
-    end
+
     println(io, "}")
     return String(take!(io))
 end

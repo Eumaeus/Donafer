@@ -164,4 +164,31 @@ For feedback: Note that it identifies the pricipal part of the given answer-choi
 
 Finally, Moodle lets me specify "shuffle within questions" when a make a quiz, but that seems to be buggy. Currently the correct answer is always the first answer. While it will make the `.gift` file a little harder to read, let's shuffle the answer and distracter choices when generating the quiz.
 
-This is looking great! Everything is check into Moodle, including the output from the current code, at `generated/vocab/vocab_drill_ch5.gift`
+This is looking great! Everything is check into Moodle, including the output from the current code, at `generated/vocab/vocab_drill_ch5.gift`.
+
+---
+
+Let's update `generate_drill.jl` now, then I can run all these changes and report back. Thanks!
+
+---
+
+I get the following error, below. It seems to have to do with what`build_vocab_drill()` expects:
+
+ `function build_vocab_drill(;
+    config_path::String = "config/vocab_drill.toml",
+    current_chapter::Union{Int, Nothing} = nothing,
+    num_questions::Union{Int, Nothing} = nothing
+)::String`
+
+The error is:
+
+~~~julia
+ERROR: LoadError: MethodError: no method matching build_vocab_drill(::String; current_chapter::Int64, num_questions::Int64)
+The function `build_vocab_drill` exists, but no method is defined for this combination of argument types.
+
+Closest candidates are:
+  build_vocab_drill(; config_path, current_chapter, num_questions)
+   @ Main.VocabDrill ~/Dropbox/CITE/grok/Donafer/src/VocabDrill/QuizBuilder.jl:100
+~~~
+
+Everything is checked in at its current, updated, state.

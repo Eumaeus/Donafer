@@ -5,10 +5,11 @@ generate_drill.jl
 
 Command-line vocabulary drill generator for Donafer.
 
-Usage:
+Usage examples:
     julia --project=. generate_drill.jl
     julia --project=. generate_drill.jl --chapter 4 --questions 80
-    julia --project=. generate_drill.jl -c 5 -q 100
+    julia --project=. generate_drill.jl -c 5 -q 120
+    julia --project=. generate_drill.jl --config config/custom.toml -c 3
 """
 
 using Pkg
@@ -16,11 +17,9 @@ Pkg.activate(@__DIR__)
 
 using ArgParse
 
-# ─────────────────────────────────────────────────────────────
-# Load Donafer modules at top level (required for `using`)
+# Load Donafer modules at top level
 include("src/VocabDrill/VocabDrill.jl")
 using .VocabDrill
-# ─────────────────────────────────────────────────────────────
 
 function parse_commandline()
     s = ArgParseSettings(
@@ -29,7 +28,7 @@ function parse_commandline()
 
     @add_arg_table! s begin
         "--chapter", "-c"
-            help = "Override current chapter number"
+            help = "Override current chapter (from config)"
             arg_type = Int
             default = nothing
         "--questions", "-q"
@@ -37,7 +36,7 @@ function parse_commandline()
             arg_type = Int
             default = nothing
         "--config"
-            help = "Path to the configuration TOML file"
+            help = "Path to configuration TOML file"
             default = "config/vocab_drill.toml"
     end
 
@@ -46,24 +45,26 @@ end
 
 function main()
     args = parse_commandline()
-    config_path = args["config"]
 
     println("🚀 Generating vocabulary drill...")
-    println("   Config     : $config_path")
+    println("   Config file : $(args["config"])")
 
     if args["chapter"] !== nothing
-        println("   Chapter    : $(args["chapter"])  (override)")
+        println("   Chapter     : $(args["chapter"])  ← override")
     end
     if args["questions"] !== nothing
-        println("   Questions  : $(args["questions"])  (override)")
+        println("   Questions   : $(args["questions"])  ← override")
     end
 
-    # For now we respect the TOML values.
-    # Command-line overrides for chapter/questions can be added later if needed.
-    output_file = build_vocab_drill(config_path)
+    # Call with overrides if provided
+    output_file = build_vocab_drill(
+        args["config"];
+        current_chapter = args["chapter"],
+        num_questions   = args["questions"]
+    )
 
     println("\n✅ Done!")
-    println("   Output file: $output_file")
+    println("   Output file : $output_file")
 end
 
 main()
