@@ -6,8 +6,8 @@
 using Random
 
 # Load the modules (adjust paths if your structure differs)
-include("src/VocabDrill/DataParser.jl")
-include("src/VocabDrill/QuestionBuilder.jl")
+include("../src/VocabDrill/DataParser.jl")
+include("../src/VocabDrill/QuestionBuilder.jl")
 
 using .DataParser
 using .QuestionBuilder
@@ -45,7 +45,7 @@ rng = MersenneTwister(42)   # fixed seed for reproducible runs
 
 println("=== Test 1: greek_to_english (stem = Greek) ===")
 item1 = pool[1]   # λύω (first meaning)
-q1 = build_question(item1, pool; direction=:greek_to_english, num_choices=4, rng=rng)
+q1 = build_question(item1, pool; direction=:greek_to_english, num_choices=5, rng=rng)
 
 println("Stem: ", q1.stem)
 println("Correct answers: ", q1.correct_answers)

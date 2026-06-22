@@ -31,3 +31,8 @@ Everything, including this query, is checked into the repo: <https://github.com/
 
 If you could provide a little test script, that would ideal. Thanks!
 
+---
+
+If this conversation is still active, thank you! This looks great! 
+
+Let's move on to making `QuizBuilder.jl` using configuration data from `config/vocab_drill.config`.
