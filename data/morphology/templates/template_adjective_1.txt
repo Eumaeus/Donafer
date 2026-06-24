@@ -1,0 +1,20 @@
+// commented lines and blank lines are disregarded
+//adjective, 1-termination
+
+masc./fem./neut. nom. sing.
+masc./fem./neut. gen. sing.
+masc./fem./neut. dat. sing.
+masc./fem./neut. acc. sing.
+masc./fem./neut. voc. sing.
+
+masc./fem./neut. nom. dual 
+masc./fem./neut. voc. dual 
+masc./fem./neut. acc. dual 
+masc./fem./neut. gen. dual 
+masc./fem./neut. dat. dual 
+
+masc./fem./.neut nom. pl.
+masc./fem./.neut gen. pl.
+masc./fem./.neut dat. pl.
+masc./fem./.neut acc. pl.
+masc./fem./.neut voc. pl.

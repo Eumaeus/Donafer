@@ -1,0 +1,13 @@
+template#template_verb_1_present_active_subjunctive.txt
+lemma#the verb “I order”
+
+κελεύω
+κελεύῃς 
+κελεύῃ
+
+κελεύητον
+κελεύητον
+
+κελεύωμεν
+κελεύητε
+κελεύωσιν

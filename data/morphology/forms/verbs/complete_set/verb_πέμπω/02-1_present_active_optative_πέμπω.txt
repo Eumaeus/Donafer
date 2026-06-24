@@ -1,0 +1,14 @@
+template#template_verb_1_present_active_optative.txt
+lemma#the verb “I send”
+
+πέμποιμι
+πέμποις 
+πέμποι
+
+πέμποιτον
+πεμποίτην
+
+πέμποιμεν
+πέμποιτε
+πέμποιεν
+

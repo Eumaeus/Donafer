@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Present middle/passive subjunctive
+
+present middle/passive subjunctive 1st sing.
+present middle/passive subjunctive 2nd sing.
+present middle/passive subjunctive 3rd sing.
+
+present middle/passive subjunctive 2nd dual
+present middle/passive subjunctive 3rd dual
+
+present middle/passive subjunctive 1st pl.
+present middle/passive subjunctive 2nd pl.
+present middle/passive subjunctive 3rd pl.
+
+

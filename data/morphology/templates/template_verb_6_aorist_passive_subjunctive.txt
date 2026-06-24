@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Aorist passive subjunctive
+
+aorist passive subjunctive 1st sing.
+aorist passive subjunctive 2nd sing.
+aorist passive subjunctive 3rd sing.
+
+aorist passive subjunctive 2nd dual
+aorist passive subjunctive 3rd dual
+
+aorist passive subjunctive 1st pl.
+aorist passive subjunctive 2nd pl.
+aorist passive subjunctive 3rd pl.
+
+

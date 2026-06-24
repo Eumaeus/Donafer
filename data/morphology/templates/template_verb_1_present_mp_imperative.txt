@@ -1,0 +1,14 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Present middle/passive imperative
+
+present middle/passive imperative 2nd sing.
+present middle/passive imperative 3rd sing.
+
+present middle/passive imperative 2nd dual
+present middle/passive imperative 3rd dual
+
+present middle/passive imperative 2nd pl.
+present middle/passive imperative 3rd pl.
+
+

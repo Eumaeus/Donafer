@@ -1,0 +1,14 @@
+template#template_verb_1_imperfect_active_indicative.txt
+lemma#the verb “I educate”
+
+ἐπαίδευον
+ἐπαίδευες
+ἐπαίδευε
+
+ἐπαιδεύετον
+ἐπαιδευέτην
+
+ἐπαιδεύομεν
+ἐπαιδεύετε
+ἐπαίδευον
+

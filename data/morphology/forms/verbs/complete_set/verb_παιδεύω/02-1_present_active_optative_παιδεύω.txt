@@ -1,0 +1,13 @@
+template#template_verb_1_present_active_optative.txt
+lemma#the verb “I educate”
+
+παιδεύοιμι
+παιδεύοις 
+παιδεύοι
+
+παιδεύοιτον
+παιδευοίτην
+
+παιδεύοιμεν
+παιδεύοιτε
+παιδεύοιεν

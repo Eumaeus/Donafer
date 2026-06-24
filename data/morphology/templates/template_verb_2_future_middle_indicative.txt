@@ -1,0 +1,18 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Future middle indicative
+//		Future middle infinitive
+
+future middle indicative 1st sing.
+future middle indicative 2nd sing.
+future middle indicative 3rd sing.
+
+future middle indicative 2nd dual
+future middle indicative 3rd dual
+
+future middle indicative 1st pl.
+future middle indicative 2nd pl.
+future middle indicative 3rd pl.
+
+future middle infinitive
+

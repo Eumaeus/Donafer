@@ -1,0 +1,18 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Perfect active indicative
+//		Perfect active infinitive
+
+perfect active indicative 1st sing.
+perfect active indicative 2nd sing.
+perfect active indicative 3rd sing.
+
+perfect active indicative 2nd dual
+perfect active indicative 3rd dual
+
+perfect active indicative 1st pl.
+perfect active indicative 2nd pl.
+perfect active indicative 3rd pl.
+
+perfect active infinitive
+

@@ -1,0 +1,18 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Present active indicative
+//		Present active infinitive
+
+present active indicative 1st sing.
+present active indicative 2nd sing.
+present active indicative 3rd sing.
+
+present active indicative 2nd dual
+present active indicative 3rd dual
+
+present active indicative 1st pl.
+present active indicative 2nd pl.
+present active indicative 3rd pl.
+
+present active infinitive
+

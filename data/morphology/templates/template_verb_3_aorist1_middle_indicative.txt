@@ -1,0 +1,18 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Aorist (1) middle indicative
+//		Aorist (1) middle infinitive
+
+aorist (1) middle indicative 1st sing.
+aorist (1) middle indicative 2nd sing.
+aorist (1) middle indicative 3rd sing.
+
+aorist (1) middle indicative 2nd dual
+aorist (1) middle indicative 3rd dual
+
+aorist (1) middle indicative 1st pl.
+aorist (1) middle indicative 2nd pl.
+aorist (1) middle indicative 3rd pl.
+
+aorist (1) middle infinitive
+

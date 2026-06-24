@@ -1,0 +1,15 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Pluperfect middle/passive indicative
+
+pluperfect middle/passive indicative 1st sing.
+pluperfect middle/passive indicative 2nd sing.
+pluperfect middle/passive indicative 3rd sing.
+
+pluperfect middle/passive indicative 2nd dual
+pluperfect middle/passive indicative 3rd dual
+
+pluperfect middle/passive indicative 1st pl.
+pluperfect middle/passive indicative 2nd pl.
+pluperfect middle/passive indicative 3rd pl.
+

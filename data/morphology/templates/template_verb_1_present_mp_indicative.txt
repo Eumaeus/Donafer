@@ -1,0 +1,18 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Present middle/passive indicative
+//		Present middle/passive infinitive
+
+present middle/passive indicative 1st sing.
+present middle/passive indicative 2nd sing.
+present middle/passive indicative 3rd sing.
+
+present middle/passive indicative 2nd dual
+present middle/passive indicative 3rd dual
+
+present middle/passive indicative 1st pl.
+present middle/passive indicative 2nd pl.
+present middle/passive indicative 3rd pl.
+
+present middle/passive infinitive
+

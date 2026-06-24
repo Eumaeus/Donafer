@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Present middle/passive optative
+
+present middle/passive optative 1st sing.
+present middle/passive optative 2nd sing.
+present middle/passive optative 3rd sing.
+
+present middle/passive optative 2nd dual
+present middle/passive optative 3rd dual
+
+present middle/passive optative 1st pl.
+present middle/passive optative 2nd pl.
+present middle/passive optative 3rd pl.
+
+

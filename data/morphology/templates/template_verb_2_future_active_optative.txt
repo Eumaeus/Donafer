@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Future active optative
+
+future active optative 1st sing.
+future active optative 2nd sing.
+future active optative 3rd sing.
+
+future active optative 2nd dual
+future active optative 3rd dual
+
+future active optative 1st pl.
+future active optative 2nd pl.
+future active optative 3rd pl.
+
+

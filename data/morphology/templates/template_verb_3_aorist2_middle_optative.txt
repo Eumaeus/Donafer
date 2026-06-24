@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Aorist (2) middle optative
+
+aorist (2) middle optative 1st sing.
+aorist (2) middle optative 2nd sing.
+aorist (2) middle optative 3rd sing.
+
+aorist (2) middle optative 2nd dual
+aorist (2) middle optative 3rd dual
+
+aorist (2) middle optative 1st pl.
+aorist (2) middle optative 2nd pl.
+aorist (2) middle optative 3rd pl.
+
+

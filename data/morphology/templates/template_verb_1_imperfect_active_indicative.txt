@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Imperfect active indicative
+
+imperfect active indicative 1st sing.
+imperfect active indicative 2nd sing.
+imperfect active indicative 3rd sing.
+
+imperfect active indicative 2nd dual
+imperfect active indicative 3rd dual
+
+imperfect active indicative 1st pl.
+imperfect active indicative 2nd pl.
+imperfect active indicative 3rd pl.
+
+

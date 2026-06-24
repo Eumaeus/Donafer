@@ -1,0 +1,18 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Future passive indicative
+//		Future passive infinitive
+
+future passive indicative 1st sing.
+future passive indicative 2nd sing.
+future passive indicative 3rd sing.
+
+future passive indicative 2nd dual
+future passive indicative 3rd dual
+
+future passive indicative 1st pl.
+future passive indicative 2nd pl.
+future passive indicative 3rd pl.
+
+future passive infinitive
+

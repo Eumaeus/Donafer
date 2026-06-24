@@ -1,0 +1,4 @@
+template#template_verb_2_future_middle_indicative.txt
+lemma#the verb “I announce”
+
+

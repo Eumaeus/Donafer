@@ -1,0 +1,15 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Imperfect middle/passive indicative
+
+imperfect middle/passive indicative 1st sing.
+imperfect middle/passive indicative 2nd sing.
+imperfect middle/passive indicative 3rd sing.
+
+imperfect middle/passive indicative 2nd dual
+imperfect middle/passive indicative 3rd dual
+
+imperfect middle/passive indicative 1st pl.
+imperfect middle/passive indicative 2nd pl.
+imperfect middle/passive indicative 3rd pl.
+

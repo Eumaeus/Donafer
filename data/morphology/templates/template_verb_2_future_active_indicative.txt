@@ -1,0 +1,18 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Future active indicative
+//		Future active infinitive
+
+future active indicative 1st sing.
+future active indicative 2nd sing.
+future active indicative 3rd sing.
+
+future active indicative 2nd dual
+future active indicative 3rd dual
+
+future active indicative 1st pl.
+future active indicative 2nd pl.
+future active indicative 3rd pl.
+
+future active infinitive
+

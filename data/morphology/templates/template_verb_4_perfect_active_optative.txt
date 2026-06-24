@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Perfect active optative
+
+perfect active optative 1st sing.
+perfect active optative 2nd sing.
+perfect active optative 3rd sing.
+
+perfect active optative 2nd dual
+perfect active optative 3rd dual
+
+perfect active optative 1st pl.
+perfect active optative 2nd pl.
+perfect active optative 3rd pl.
+
+

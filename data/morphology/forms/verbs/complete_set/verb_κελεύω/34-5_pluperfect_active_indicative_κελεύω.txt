@@ -1,0 +1,15 @@
+template#template_verb_5_pluperfect_active_indicative.txt
+lemma#the verb “I order”
+
+ἐκεκελευκη
+ἐκεκελεύκης 
+ἐκεκελεύκειν
+
+ἐκεκελεύκετον
+ἐκεκελευκέτην
+
+ἐκεκελεύκαμεν
+ἐκεκελεύκατε
+ἐκεκελεύκεσαν
+
+

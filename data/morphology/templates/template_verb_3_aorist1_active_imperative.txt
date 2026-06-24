@@ -1,0 +1,14 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Aorist (1) active imperative
+
+aorist (1) active imperative 2nd sing.
+aorist (1) active imperative 3rd sing.
+
+aorist (1) active imperative 2nd dual
+aorist (1) active imperative 3rd dual
+
+aorist (1) active imperative 2nd pl.
+aorist (1) active imperative 3rd pl.
+
+

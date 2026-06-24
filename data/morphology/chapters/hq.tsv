@@ -1,0 +1,71 @@
+// hq.tsv Morphological Forms from Hansen & Quinn, organized by chapter
+// Categories are:
+//		pronoun
+//		noun
+//		adjective
+//		participle (allows these to be combined with either adjectives or verbs)
+//		verb
+// Blanklines and commented lines are ignored
+
+// Chapter 1
+
+1	pronoun	def_article.txt
+1	noun	ἀγορά.txt
+1	noun	ἀδελφός.txt
+1	noun	ἄνθρωπος.txt
+1	noun	δῶρον.txt
+1	noun	λόγος.txt
+1	noun	νῆσος.txt
+1	noun	τέχνη.txt
+1	noun	χώρα.txt
+1	noun	ψυχή.txt
+
+// Chapter 2
+
+2	verb	14-3_aorist1_active_indicative_παιδεύω.txt
+2	verb	10-2_future_active_indicative_παιδεύω.txt
+2	verb	04-1_imperfect_active_indicative_παιδεύω.txt
+2	verb	00-1_present_active_indicative_παιδεύω.txt
+2	verb	14-3_aorist1_active_indicative_λύω.txt
+2	verb	10-2_future_active_indicative_λύω.txt
+2	verb	04-1_imperfect_active_indicative_λύω.txt
+2	verb	00-1_present_active_indicative_λύω.txt
+2	verb	14-3_aorist1_active_indicative_κελεύω.txt
+2	verb	10-2_future_active_indicative_κελεύω.txt
+2	verb	04-1_imperfect_active_indicative_κελεύω.txt
+2	verb	00-1_present_active_indicative_κελεύω.txt
+
+// Chapter 3
+
+3	verb	30-4_perfect_active_indicative_κελεύω.txt
+3	verb	34-5_pluperfect_active_indicative_κελεύω.txt
+3	verb	02-1_present_active_optative_κελεύω.txt
+3	verb	01-1_present_active_subjunctive_κελεύω.txt
+3	verb	15-3_aorist1_active_subjunctive_κελεύω.txt
+3	verb	16-3_aorist1_active_optative_κελεύω.txt
+3	verb	16-3_aorist1_active_optative_κελεύω-alt.txt
+3	verb	15-3_aorist1_active_subjunctive_λύω.txt
+3	verb	16-3_aorist1_active_optative_λύω.txt
+3	verb	16-3_aorist1_active_optative_λύω-alt.txt
+3	verb	02-1_present_active_optative_λύω.txt
+3	verb	01-1_present_active_subjunctive_λύω.txt
+3	verb	30-4_perfect_active_indicative_λύω.txt
+3	verb	34-5_pluperfect_active_indicative_λύω.txt
+3	verb	02-1_present_active_optative_παιδεύω.txt
+3	verb	01-1_present_active_subjunctive_παιδεύω.txt
+3	verb	15-3_aorist1_active_subjunctive_παιδεύω.txt
+3	verb	16-3_aorist1_active_optative_παιδεύω.txt
+3	verb	16-3_aorist1_active_optative_παιδεύω-alt.txt
+3	verb	30-4_perfect_active_indicative_παιδεύω.txt
+3	verb	34-5_pluperfect_active_indicative_παιδεύω.txt
+3	verb	34-5_pluperfect_active_indicative_πέμπω.txt
+3	verb	30-4_perfect_active_indicative_πέμπω.txt
+3	verb	16-3_aorist1_active_optative_πέμπω.txt
+3	verb	16-3_aorist1_active_optative_πέμπω-alt.txt
+3	verb	15-3_aorist1_active_subjunctive_πέμπω.txt
+3	verb	14-3_aorist1_active_indicative_πέμπω.txt
+3	verb	10-2_future_active_indicative_πέμπω.txt
+3	verb	04-1_imperfect_active_indicative_πέμπω.txt
+3	verb	02-1_present_active_optative_πέμπω.txt
+3	verb	01-1_present_active_subjunctive_πέμπω.txt
+3	verb	00-1_present_active_indicative_πέμπω.txt

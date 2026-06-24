@@ -1,0 +1,21 @@
+// commented lines and blank lines are disregarded
+// noun
+
+nom. sing.
+gen. sing.
+dat. sing.
+acc. sing.
+voc. sing.
+
+nom. dual
+voc. dual
+acc. dual
+gen. dual
+dat. dual
+
+nom. pl.
+gen. pl.
+dat. pl.
+acc. pl.
+voc. pl.
+

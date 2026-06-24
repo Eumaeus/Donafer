@@ -1,0 +1,13 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Perfect active imperative
+
+perfect active imperative 2nd sing.
+perfect active imperative 3rd sing.
+
+perfect active imperative 2nd dual
+perfect active imperative 3rd dual
+
+perfect active imperative 2nd pl.
+perfect active imperative 3rd pl.
+

@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Present active optative
+
+present active optative 1st sing.
+present active optative 2nd sing.
+present active optative 3rd sing.
+
+present active optative 2nd dual
+present active optative 3rd dual
+
+present active optative 1st pl.
+present active optative 2nd pl.
+present active optative 3rd pl.
+
+

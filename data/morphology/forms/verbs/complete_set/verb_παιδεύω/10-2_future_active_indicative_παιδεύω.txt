@@ -1,0 +1,16 @@
+template#template_verb_2_future_active_indicative.txt
+lemma#the verb “I educate”
+
+παιδεύσω
+παιδεύσεις
+παιδεύσει
+
+παιδεύσετον
+παιδεύσετον
+
+παιδεύομεν
+παιδεύετε
+παιδεύουσιν
+
+παιδεύσειν
+

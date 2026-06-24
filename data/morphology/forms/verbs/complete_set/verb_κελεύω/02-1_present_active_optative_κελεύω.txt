@@ -1,0 +1,14 @@
+template#template_verb_1_present_active_optative.txt
+lemma#the verb “I order”
+
+
+κελεύοιμι
+κελεύοις 
+κελεύοι
+
+κελεύοιτον
+κελευοίτην
+
+κελεύοιμεν
+κελεύοιτε
+κελεύοιεν

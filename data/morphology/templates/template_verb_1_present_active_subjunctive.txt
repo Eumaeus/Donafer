@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Present active subjunctive
+
+present active subjunctive 1st sing.
+present active subjunctive 2nd sing.
+present active subjunctive 3rd sing.
+
+present active subjunctive 2nd dual
+present active subjunctive 3rd dual
+
+present active subjunctive 1st pl.
+present active subjunctive 2nd pl.
+present active subjunctive 3rd pl.
+
+

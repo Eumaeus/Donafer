@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Perfect middle/passive optative
+
+perfect middle/passive optative 1st sing.
+perfect middle/passive optative 2nd sing.
+perfect middle/passive optative 3rd sing.
+
+perfect middle/passive optative 2nd dual
+perfect middle/passive optative 3rd dual
+
+perfect middle/passive optative 1st pl.
+perfect middle/passive optative 2nd pl.
+perfect middle/passive optative 3rd pl.
+
+

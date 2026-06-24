@@ -1,0 +1,18 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Aorist (2) active indicative
+//		Aorist (2) active infinitive
+
+aorist (2) active indicative 1st sing.
+aorist (2) active indicative 2nd sing.
+aorist (2) active indicative 3rd sing.
+
+aorist (2) active indicative 2nd dual
+aorist (2) active indicative 3rd dual
+
+aorist (2) active indicative 1st pl.
+aorist (2) active indicative 2nd pl.
+aorist (2) active indicative 3rd pl.
+
+aorist (2) active infinitive
+

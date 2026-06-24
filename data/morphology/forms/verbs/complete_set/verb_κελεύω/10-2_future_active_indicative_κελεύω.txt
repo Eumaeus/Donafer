@@ -1,0 +1,17 @@
+template#template_verb_2_future_active_indicative.txt
+lemma#the verb “I order”
+
+
+κελεύσω
+κελεύσεις
+κελεύσει
+
+κελεύσετον
+κελεύσετον
+
+κελεύσομεν
+κελεύσετε
+κελεύσουσιν
+
+κελεύσειν
+

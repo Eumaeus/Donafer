@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Pluperfect active indicative
+
+pluperfect active indicative 1st sing.
+pluperfect active indicative 2nd sing.
+pluperfect active indicative 3rd sing.
+
+pluperfect active indicative 2nd dual
+pluperfect active indicative 3rd dual
+
+pluperfect active indicative 1st pl.
+pluperfect active indicative 2nd pl.
+pluperfect active indicative 3rd pl.
+
+

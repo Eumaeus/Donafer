@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Future middle optative
+
+future middle optative 1st sing.
+future middle optative 2nd sing.
+future middle optative 3rd sing.
+
+future middle optative 2nd dual
+future middle optative 3rd dual
+
+future middle optative 1st pl.
+future middle optative 2nd pl.
+future middle optative 3rd pl.
+
+

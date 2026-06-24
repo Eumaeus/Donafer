@@ -1,0 +1,16 @@
+template#template_verb_4_perfect_active_indicative.txt
+lemma#the verb “I loosen”
+
+λέλυκα
+λύλυκας 
+λέλυκεν
+
+λελύκατον
+λελύκατον
+
+λελύκαμεν
+λελύκατε
+λελύκασιν
+
+λελυκέναι
+

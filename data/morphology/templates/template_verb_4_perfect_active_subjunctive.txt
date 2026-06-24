@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Perfect active subjunctive
+
+perfect active subjunctive 1st sing.
+perfect active subjunctive 2nd sing.
+perfect active subjunctive 3rd sing.
+
+perfect active subjunctive 2nd dual
+perfect active subjunctive 3rd dual
+
+perfect active subjunctive 1st pl.
+perfect active subjunctive 2nd pl.
+perfect active subjunctive 3rd pl.
+
+

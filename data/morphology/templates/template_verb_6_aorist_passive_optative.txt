@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Aorist passive optative
+
+aorist passive optative 1st sing.
+aorist passive optative 2nd sing.
+aorist passive optative 3rd sing.
+
+aorist passive optative 2nd dual
+aorist passive optative 3rd dual
+
+aorist passive optative 1st pl.
+aorist passive optative 2nd pl.
+aorist passive optative 3rd pl.
+
+

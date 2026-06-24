@@ -1,0 +1,16 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Aorist (1) active subjunctive
+
+aorist (1) active subjunctive 1st sing.
+aorist (1) active subjunctive 2nd sing.
+aorist (1) active subjunctive 3rd sing.
+
+aorist (1) active subjunctive 2nd dual
+aorist (1) active subjunctive 3rd dual
+
+aorist (1) active subjunctive 1st pl.
+aorist (1) active subjunctive 2nd pl.
+aorist (1) active subjunctive 3rd pl.
+
+

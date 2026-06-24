@@ -1,0 +1,18 @@
+// Commented lines and blank lines are disregarded.
+// Contents:
+//		Perfect middle/passive indicative
+//		Perfect middle/passive infinitive
+
+perfect middle/passive indicative 1st sing.
+perfect middle/passive indicative 2nd sing.
+perfect middle/passive indicative 3rd sing.
+
+perfect middle/passive indicative 2nd dual
+perfect middle/passive indicative 3rd dual
+
+perfect middle/passive indicative 1st pl.
+perfect middle/passive indicative 2nd pl.
+perfect middle/passive indicative 3rd pl.
+
+perfect middle/passive infinitive
+
