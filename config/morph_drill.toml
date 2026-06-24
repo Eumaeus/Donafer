@@ -1,0 +1,24 @@
+# =====================================================
+# Morphology Drill Generator Configuration (future)
+# Hansen & Quinn - Greek: An Intensive Course
+# =====================================================
+
+[general]
+chapters_file = "data/morphology/chapters/hq.tsv"
+current_chapter = 4
+# num_questions = 80
+# random_seed = 42
+output_directory = "generated/morph"
+output_filename_prefix = "morph_drill_hq"
+
+[selection]
+# Later: how many questions per category, per tense/voice/mood, etc.
+include_categories = ["noun", "pronoun", "adjective", "verb", "participle"]
+# current_chapter_fraction = 0.5
+# etc.
+
+[moodle]
+category_prefix = "Morphology/HansenQuinn"
+
+[debug]
+verbose = true
