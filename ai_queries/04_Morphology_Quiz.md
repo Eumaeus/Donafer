@@ -296,3 +296,11 @@ data/morphology/templates/template_verb_3_aorist1_active_indicative.txt
 
 So it seems like a lingering problem building the path for templates to `data/morphology/templates/`.
 
+---
+
+Genius. Perfect.
+
+It ran without errors. I need to go teach a class, but when I'm done I'll try out the code with different parameters, and then try out the results in Moodle.
+
+This work is incredibly satisfying to me, and I am deeply grateful for your help.
+
