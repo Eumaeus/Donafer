@@ -175,7 +175,52 @@ Built forms index with 1358 .txt files
 
 I've check in the current state of files to the repository.
 
+---
+
+Progress!!!
+
+New errors, these have to do with the template files:
+
+~~~
+Donafer git:(main) ✗ julia --project=. -e '
+include("src/MorphDrill/DataParser.jl")
+using .DataParser
+forms = parse_morphology_forms(
+    "data/morphology/chapters/hq.tsv",
+    "data/morphology/forms",
+    ["pronoun", "noun"],
+    1, 1,
+    false, false
+)
+println("✅ Successfully parsed $(length(forms)) forms")
+'
 
 
+Built forms index with 1358 .txt files
+┌ Warning: Failed to parse def_article.txt
+│   exception =
+│    Missing template 'template_adjective_3.txt' for def_article.txt
+│    Stacktrace:
+│     [1] error(s::String)
+│       @ Base ./error.jl:44
+│     [2] parse_forms_file(full_path::String, chapter::Int64, category::SubString{String}, basename::SubString{String}, include_vocative::Bool, include_dual::Bool)
+│       @ Main.DataParser ~/Dropbox/CITE/grok/Donafer/src/MorphDrill/DataParser.jl:48
+│     [3] parse_morphology_forms(chapters_file::String, forms_root::String, include_categories::Vector{String}, from_chapter::Int64, current_chapter::Int64, include_vocative::Bool, include_dual::Bool)
+│       @ Main.DataParser ~/Dropbox/CITE/grok/Donafer/src/MorphDrill/DataParser.jl:112
+│     [4] top-level scope
+│       @ none:4
+│     [5] eval(m::Module, e::Any)
+│       @ Core ./boot.jl:489
+│     [6] exec_options(opts::Base.JLOptions)
+│       @ Base ./client.jl:283
+│     [7] _start()
+│       @ Base ./client.jl:550
+└ @ Main.DataParser ~/Dropbox/CITE/grok/Donafer/src/MorphDrill/DataParser.jl:115
+~~~
 
+I was getting another error, a String vs. SubString problem, but I edited DataParser.jl and the `parse_forms_file()` declaration with AbstractStrings, and got past that error:
+
+~~~
+function parse_forms_file(full_path::AbstractString, chapter::Int, category::AbstractString, basename::AbstractString, include_vocative::Bool, include_dual::Bool)
+~~~
 
