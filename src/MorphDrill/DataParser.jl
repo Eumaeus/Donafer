@@ -27,7 +27,8 @@ function build_forms_index(forms_root::String)::Dict{String,String}
     return index
 end
 
-function parse_forms_file(full_path::AbstractString, chapter::Int, category::AbstractString, basename::AbstractString, include_vocative::Bool, include_dual::Bool)
+function parse_forms_file(full_path::AbstractString, chapter::Int, category::AbstractString,
+                          basename::AbstractString, include_vocative::Bool, include_dual::Bool)
 
     lines = readlines(full_path)
 
@@ -39,8 +40,10 @@ function parse_forms_file(full_path::AbstractString, chapter::Int, category::Abs
     template_name = split(lines[1], "#", limit=2)[2]
     lemma = split(lines[2], "#", limit=2)[2]
 
-    # Template
-    template_dir = joinpath(dirname(dirname(full_path)), "templates")
+    # === CORRECTED TEMPLATE PATH ===
+    # Go up three levels from the forms file to reach morphology/
+    morphology_root = dirname(dirname(dirname(full_path)))
+    template_dir = joinpath(morphology_root, "templates")
     template_path = joinpath(template_dir, template_name)
 
     if !isfile(template_path)
@@ -48,7 +51,8 @@ function parse_forms_file(full_path::AbstractString, chapter::Int, category::Abs
     end
 
     template_lines = readlines(template_path)
-    descriptions = [strip(l) for l in template_lines if !isempty(strip(l)) && !startswith(strip(l), "//")]
+    descriptions = [strip(l) for l in template_lines 
+                    if !isempty(strip(l)) && !startswith(strip(l), "//")]
 
     # Greek forms
     greek_forms = String[]

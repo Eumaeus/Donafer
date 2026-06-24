@@ -224,3 +224,75 @@ I was getting another error, a String vs. SubString problem, but I edited DataPa
 function parse_forms_file(full_path::AbstractString, chapter::Int, category::AbstractString, basename::AbstractString, include_vocative::Bool, include_dual::Bool)
 ~~~
 
+All files are (really) checked into the repository.
+
+---
+
+Woot!
+
+~~~
+➜  Donafer git:(main) ✗ julia --project=. -e '
+include("src/MorphDrill/DataParser.jl")
+using .DataParser
+forms = parse_morphology_forms(
+    "data/morphology/chapters/hq.tsv",
+    "data/morphology/forms",
+    ["pronoun", "noun"],
+    1, 1,
+    false, false
+)
+println("✅ Successfully parsed $(length(forms)) forms")
+'
+Built forms index with 1358 .txt files
+✅ Successfully parsed 96 forms
+~~~
+
+That was with your isolated test code.
+
+When running the full script with `julia --project=. scripts/generate_morph_drill.jl`, I get some more template problems:
+
+~~~
+ Donafer git:(main) ✗ julia --project=. scripts/generate_morph_drill.jl
+Generating morphology drill...
+   Config: config/morph_drill.toml
+Loading morphology config from: config/morph_drill.toml
+Chapters: 1–4
+Categories: ["noun", "pronoun", "adjective", "verb", "participle"]
+Questions: 80
+Distracter mode: all
+Built forms index with 1358 .txt files
+┌ Warning: Failed to parse 14-3_aorist1_active_indicative_παιδεύω.txt
+│   exception =
+│    Missing template 'template_verb_3_aorist1_active_indicative.txt' for 14-3_aorist1_active_indicative_παιδεύω.txt
+│    Stacktrace:
+│     [1] error(s::String)
+│       @ Base ./error.jl:44
+│     [2] parse_forms_file(full_path::String, chapter::Int64, category::SubString{String}, basename::SubString{String}, include_vocative::Bool, include_dual::Bool)
+│       @ Main.MorphDrill.DataParser ~/Dropbox/CITE/grok/Donafer/src/MorphDrill/DataParser.jl:50
+│     [3] parse_morphology_forms(chapters_file::String, forms_root::String, include_categories::Vector{String}, from_chapter::Int64, current_chapter::Int64, include_vocative::Bool, include_dual::Bool)
+│       @ Main.MorphDrill.DataParser ~/Dropbox/CITE/grok/Donafer/src/MorphDrill/DataParser.jl:115
+│     [4] build_morph_drill(config_path::String; current_chapter::Nothing, num_questions::Nothing, categories::Nothing)
+│       @ Main.MorphDrill.QuizBuilder ~/Dropbox/CITE/grok/Donafer/src/MorphDrill/QuizBuilder.jl:110
+│     [5] main()
+│       @ Main ~/Dropbox/CITE/grok/Donafer/scripts/generate_morph_drill.jl:58
+│     [6] top-level scope
+│       @ ~/Dropbox/CITE/grok/Donafer/scripts/generate_morph_drill.jl:69
+│     [7] include(mod::Module, _path::String)
+│       @ Base ./Base.jl:306
+│     [8] exec_options(opts::Base.JLOptions)
+│       @ Base ./client.jl:317
+│     [9] _start()
+│       @ Base ./client.jl:550
+└ @ Main.MorphDrill.DataParser ~/Dropbox/CITE/grok/Donafer/src/MorphDrill/DataParser.jl:118
+… and many more like this…
+~~~
+
+In this first of many errors, the template file does indeed exist. I can do an `ls` with the filename copied from the error and see it:
+
+~~~
+➜  Donafer git:(main) ✗ ls data/morphology/templates/template_verb_3_aorist1_active_indicative.txt
+data/morphology/templates/template_verb_3_aorist1_active_indicative.txt
+~~~
+
+So it seems like a lingering problem building the path for templates to `data/morphology/templates/`.
+
