@@ -110,6 +110,51 @@ So, I'd value a first draft of this, if my description is adequate.
 
 All files are checked into the repository.
 
+---
+
+Conversation started at: <https://x.com/i/grok/share/e2ab3381db504e0fa20e5d9dc3419397>
+
+---
+
+This looks great. I have create this content. Let me give it a whirl, first to see that it runs okay. And then to load generated content into Moodle and test it in that environment. 
+
+Thank you! And stand by for my report.
+
+---
+
+I had to change line 31 of `generate_morph_drill.jl` from this:
+
+  "--categories", "-cat"
+to this:
+  
+  "--categories", "-t"
+
+Which fixed this error:
+
+  ERROR: LoadError: ArgParseSettingsError("short options must use a single character")
+
+Then I got a series of errors like this one (for every forms file requested):
+
+  Warning: Could not parse forms file def_article.txt: MethodError(Main.MorphDrill.DataParser.find_forms_file, ("data/morphology/forms", "def_article.txt"), 0x00000000000097ab)
+  └ @ Main.MorphDrill.DataParser ~/Dropbox/CITE/grok/Donafer/src/MorphDrill/DataParser.jl:106
+
+My guess is that problem is the structure of `data/morphology/forms`. For the sake of organization, forms inside that directory are in sub-directories:
+
+  data/morphology/forms/adjectives
+  data/morphology/forms/nouns
+  data/morphology/forms/pronouns
+  data/morphology/forms/verbs/complete_set/verb_λύω
+  data/morphology/forms/verbs/complete_set/verb_κελεύω
+
+I think, for the sake of editing and maintaining the data in all those files, this arbitrarily deep hierarchy is valuable.
+
+Could the script recursively collect all the filenames of `.txt` files within `data/morphology/forms`?
+
+Or I may be mistaken about the source of those errors.
+
+Everything is checked into GitHub and up to date.
+
+
 
 
 
