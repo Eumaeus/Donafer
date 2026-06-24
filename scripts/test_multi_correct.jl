@@ -8,10 +8,10 @@ It looks for English meanings that map to multiple Greek forms
 (especially useful for verbs with multiple principal parts).
 """
 
-using Pkg
-Pkg.activate(@__DIR__)
+#using Pkg
+#Pkg.activate(@__DIR__)
 
-include("src/VocabDrill/VocabDrill.jl")
+include("../src/VocabDrill/VocabDrill.jl")
 using .VocabDrill
 using Random
 

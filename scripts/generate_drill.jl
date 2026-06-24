@@ -12,13 +12,14 @@ Usage examples:
     julia --project=. generate_drill.jl --config config/custom.toml -c 3
 """
 
-using Pkg
-Pkg.activate(@__DIR__)
+# The below are unnecessary if launching with `julia --project=. …`
+#using Pkg
+#Pkg.activate(@__DIR__)
 
 using ArgParse
 
 # Load Donafer modules at top level
-include("src/VocabDrill/VocabDrill.jl")
+include("../src/VocabDrill/VocabDrill.jl")
 using .VocabDrill
 
 function parse_commandline()

@@ -5,13 +5,13 @@ The record of the conversation that got us to the present state of the work is i
 
 You helped me build code for generating `.gift` files for Moodle that contain vocabulary drills. Now let's work on drills for the morphology of nouns, pronouns, adjectives, and verbs.
 
-## Morphology
+## Morphology: Background and Thoughts on Data
 
-Morphology is more complicated than vocabulary. Nouns, pronouns, and adjectives are generally presented chapter by chapter as complete paradigms. But every textbook ever written will present parts of the complete verbal system over many chapters. And every textbook does it differently.
+Morphology is more complicated than vocabulary. Nouns, pronouns, and adjectives are generally presented chapter by chapter as complete paradigms. But every textbook ever written will present parts of the complete verbal system piecemeal over many chapters. And every textbook does it differently.
 
 So the data has to be more granular and the setup a little more complicated.
 
-Having thought for literally years, I think this may work best, although I would be happy to hear alternate suggestions:
+Having thought for literally years, I think this may work best, although I would be happy to hear alternate suggestions. (The structure, with some files, as described below is checked into the GitHub repository.):
 
 - A directory of `templates`. Each template file both establishes a pattern for a morphological paradigm and labels the parts.
 - A directory of `forms`. Each file here begins by identifying the template which it follows, then gives a *lemma* for the word, followed by Greek forms following the pattern of the template.
@@ -29,9 +29,12 @@ To generate a drill, we simply can point to a file in `chapters`, identify a cha
 
 I think this scheme will give me maximum flexibility while not requiring me to type any given set of the forms of a word more than once. Correcting an error in one file will correct it for any quizzes, based on any textbook, that uses that file of forms.
 
-Since there will be a lot of files invoved, and a lot of typing or pasting, before we advance to generating quizzes, I would like help with a script that can do a little validity checking of the data.
+It is verbose and involves lots of little files, but in my experience it is always easier to aggregate than to disaggregate.
 
-## Integrity Checking
+
+## Specific Request for Help: Integrity Checking
+
+Since there will be a lot of little files involved, and a lot of typing or pasting, before we advance to generating quizzes, I would like help with a script that can do a little validity checking of the data.
 
 If we point to one `.tsv` file in `data/morphology/chapters`, and name a `current_chapter`, I would like to test:
 
@@ -46,10 +49,12 @@ The ideal script will generate a report somewhere appropriate in the project hie
 - Forms whose data is entirely empty.
 - Forms with some data, but not matching the pattern of the template.
 
-I have checked into the repository three chapters of morphology data for the Hansen & Quinn textbook, with templates and a chapter-file as an initial dataset.
+I have checked into the repository four chapters of morphology data for the Hansen & Quinn textbook, with templates and a chapter-file as an initial dataset.
 
 Once I can do a rough mechanical validation, I can proceed with the tedium of entering morphology for more chapter.
 
 I doubt there is a straightfoward way to do more error-checking without an elaborate pipeline involving Morpheus, as I used for the Dramaturg project. For this, I think I will have to discover typos by building quizzes and taking them.
 
-All other project files are up to date in the repository.
+I would like validation scripts to live in the directory `scripts/`. It seems like this would be an occasion to start building out the `.toml` file to support eventual generation of morphology drills in `.gift` format.
+
+All project files are up to date in the repository.
