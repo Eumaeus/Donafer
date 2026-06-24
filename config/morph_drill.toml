@@ -5,8 +5,9 @@
 
 [general]
 chapters_file = "data/morphology/chapters/hq.tsv"
+from_chapter = 1 # default
 current_chapter = 4
-# num_questions = 80
+num_questions = 80
 # random_seed = 42
 output_directory = "generated/morph"
 output_filename_prefix = "morph_drill_hq"
@@ -14,6 +15,13 @@ output_filename_prefix = "morph_drill_hq"
 [selection]
 # Later: how many questions per category, per tense/voice/mood, etc.
 include_categories = ["noun", "pronoun", "adjective", "verb", "participle"]
+# In "intro_mode" distracters are chosen without regard for category.
+# With "intro_mode = false" distracters are chosen from the same category.
+distracter_mode = "all" # choices are "all", "type", "lemma"
+number_choices = 5
+active_knowledge_fraction = 0.5
+include_vocative = false # "false" excludes any form with "voc." in the description
+include_dual = false # "false" excludes any form with "dual" in the description
 # current_chapter_fraction = 0.5
 # etc.
 

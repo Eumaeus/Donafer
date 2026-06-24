@@ -1,5 +1,5 @@
 template#template_adjective_2.txt
-lemma#the adjective “ἄδικος”
+lemma#the adjective “unjust”
 
 // masc/fem
 
