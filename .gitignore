@@ -31,3 +31,5 @@ JuliaLocalPreferences.toml
 .DS_Store
 data/morphology/legacy/*
 data/morphology/hq/*
+cwb/*
+reference/*
