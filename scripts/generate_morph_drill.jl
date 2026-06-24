@@ -7,7 +7,7 @@ Command-line morphology drill generator for Donafer (Hansen & Quinn).
 
 Usage:
     julia --project=. scripts/generate_morph_drill.jl
-    julia --project=. scripts/generate_morph_drill.jl --chapter 4 --questions 100
+    julia --project=. scripts/generate_morph_drill.jl -c 4 -q 100
     julia --project=. scripts/generate_morph_drill.jl --categories "noun,adjective"
 """
 
@@ -28,7 +28,7 @@ function parse_commandline()
             help = "Override number of questions"
             arg_type = Int
             default = nothing
-        "--categories", "-t"
+        "--categories", "-C"
             help = "Override categories (comma-separated, e.g. noun,adjective)"
             default = nothing
         "--config"

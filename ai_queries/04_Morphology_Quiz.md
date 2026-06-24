@@ -154,7 +154,26 @@ Or I may be mistaken about the source of those errors.
 
 Everything is checked into GitHub and up to date.
 
+---
 
+Still throwing a version of that error. Below is the top of the report. What follows is more of the same:
+
+~~~
+Generating morphology drill...
+   Config: config/morph_drill.toml
+Loading morphology config from: config/morph_drill.toml
+Chapters: 1–4
+Categories: ["noun", "pronoun", "adjective", "verb", "participle"]
+Questions: 80
+Distracter mode: all
+Built forms index with 1358 .txt files
+┌ Warning: Could not parse forms file def_article.txt: MethodError(Main.MorphDrill.DataParser.parse_forms_file, ("data/morphology/forms/pronouns/def_article.txt", 1, "pronoun", "def_article.txt", false, false), 0x00000000000097ac)
+└ @ Main.MorphDrill.DataParser ~/Dropbox/CITE/grok/Donafer/src/MorphDrill/DataParser.jl:113
+┌ Warning: Could not parse forms file ἀγορά.txt: MethodError(Main.MorphDrill.DataParser.parse_forms_file, ("data/morphology/forms/nouns/ἀγορά.txt", 1, "noun", "ἀγορά.txt", false, false), 0x00000000000097ac)
+└ @ Main.MorphDrill.DataParser ~/Dropbox/CITE/grok/Donafer/src/MorphDrill/DataParser.jl:113
+~~~
+
+I've check in the current state of files to the repository.
 
 
 
