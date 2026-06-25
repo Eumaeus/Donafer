@@ -82,3 +82,18 @@
 4	noun	νεανίας.txt
 4	noun	γέφυρα.txt
 4	noun	ποιητής.txt
+
+// Chapter 5
+
+4	verb	05-1_present_mp_indicative_λύω.txt
+4	verb	09-1_imperfect_mp_indicative_λύω.txt
+4	verb	06-1_present_mp_subjunctive_λύω.txt
+4	verb	07-1_present_mp_optative_λύω.txt
+4	verb	40-6_aorist_passive_indicative_λύω.txt
+4	verb	41-6_aorist_passive_subjunctive_λύω.txt
+4	verb	42-6_aorist_passive_optative_λύω.txt
+4	verb	42-6_aorist_passive_optative_λύω-alt.txt
+4	verb	44-6_future_passive_indicative_λύω.txt
+4	verb	44-6_future_passive_indicative_λύω-alt.txt
+4	verb	35-5_perfect_mp_indicative_λύω.txt
+4	verb	39-5_pluperfect_mp_indicative_λύω.txt

@@ -1,4 +1,13 @@
 template#template_verb_1_present_mp_optative.txt
 lemma#the verb “I loosen”
 
+λυοίμην
+λύοιο
+λύοιτο
 
+λύοσθον
+λυοίσθην
+
+λυοίμεθα
+λύοισθε
+λύοιντο

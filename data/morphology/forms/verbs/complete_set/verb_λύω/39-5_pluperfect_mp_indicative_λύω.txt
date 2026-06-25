@@ -1,4 +1,13 @@
 template#template_verb_5_pluperfect_mp_indicative.txt
 lemma#the verb “I loosen”
 
+ἐλελύμην
+ἐλέλυσο
+ἐλέλυτο
 
+ἐλέλυσθον
+ἐλελύσθην
+
+ἐλελύμεθα
+ἐλέλσθε
+ἐλέλυντο

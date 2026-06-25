@@ -1,4 +1,15 @@
 template#template_verb_5_perfect_mp_indicative.txt
 lemma#the verb “I loosen”
 
+λέλυμαι
+λέλυσαι
+λέλυται
 
+λέλυσθον
+λέλυσθον
+
+λελύμεθα
+λέλυσθε
+λέλυνται
+
+λελύσθαι

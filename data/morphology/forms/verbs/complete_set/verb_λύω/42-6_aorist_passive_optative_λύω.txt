@@ -1,4 +1,16 @@
 template#template_verb_6_aorist_passive_optative.txt
 lemma#the verb “I loosen”
 
+λυθείην
+λυθείης 
+λυθείη
+
+λυθεῖτον
+λυθείτην
+
+λυθεῖμεν
+λυθεῖτε
+λυθεῖεν
+
+
 

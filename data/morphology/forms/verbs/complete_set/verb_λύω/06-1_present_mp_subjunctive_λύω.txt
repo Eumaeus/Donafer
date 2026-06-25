@@ -1,4 +1,14 @@
 template#template_verb_1_present_mp_subjunctive.txt
 lemma#the verb “I loosen”
 
+λύωμαι
+λύῃ
+λύηται
+
+λύησθον
+λύησθον
+
+λυώμετα
+λύησθε
+λύωνται
 
