@@ -1,4 +1,16 @@
 template#template_verb_1_present_mp_subjunctive.txt
 lemma#the verb “I order”
 
+κελεύωμαι
+κελεύῃ
+κελεύηται
+
+κελεύησθον
+κελεύησθον
+
+κελευώμεθα
+κελεύησθε
+κελεύωνται
+
+
 

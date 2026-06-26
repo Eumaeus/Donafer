@@ -2,3 +2,14 @@ template#template_verb_1_present_mp_subjunctive.txt
 lemma#the verb “I educate”
 
 
+παιδεύωμαι
+παιδεύῃ
+παιδεύηται
+
+παιδεύησθον
+παιδεύησθον
+
+παιδευώμεθα
+παιδεύησθε
+παιδεύωνται
+

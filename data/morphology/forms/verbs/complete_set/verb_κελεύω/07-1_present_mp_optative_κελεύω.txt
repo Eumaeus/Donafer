@@ -2,3 +2,14 @@ template#template_verb_1_present_mp_optative.txt
 lemma#the verb “I order”
 
 
+κελευοίμην
+κελεύοιο
+κελεύοιτο
+
+κελεύοισθον
+κελευοίσθην
+
+κελευοίμεθα
+κελεύοισθε
+κελεύοιντο
+

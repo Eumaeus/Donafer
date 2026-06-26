@@ -2,3 +2,14 @@ template#template_verb_6_aorist_passive_subjunctive.txt
 lemma#the verb “I educate”
 
 
+παιδευθῶ
+παιδευθῇς
+παιδευθῇ
+
+παιδευθῆτον
+παιδευθῆτον
+
+παιδευθῶμεν
+παιδευθῆτε
+παιδευθῶσιν
+

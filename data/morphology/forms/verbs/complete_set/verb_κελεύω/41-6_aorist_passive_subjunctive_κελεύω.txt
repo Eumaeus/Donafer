@@ -1,4 +1,14 @@
 template#template_verb_6_aorist_passive_subjunctive.txt
 lemma#the verb “I order”
 
+κελευθῶ
+κελευθῇς
+κελευθῇ
+
+κελευθῆτον
+κελευθῆτον
+
+κελευθῶμεν
+κελευθῆτε
+κελευθῶσιν
 

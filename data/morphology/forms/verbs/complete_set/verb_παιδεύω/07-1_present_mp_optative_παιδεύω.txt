@@ -2,3 +2,13 @@ template#template_verb_1_present_mp_optative.txt
 lemma#the verb “I educate”
 
 
+παιδευοίμην
+παιδεύοιο
+παιδεύοιτο
+
+παιδεύοισθον
+παιδευοίσθην
+
+παιδευοίμεθα
+παιδεύοισθε
+παιδεύοιντο

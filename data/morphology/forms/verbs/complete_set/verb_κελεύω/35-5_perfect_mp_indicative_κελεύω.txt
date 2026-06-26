@@ -1,4 +1,15 @@
 template#template_verb_5_perfect_mp_indicative.txt
 lemma#the verb “I order”
 
+κεκέλευμαι
+κεκέλευσαι
+κεκέλευται
 
+κεκέλευσθον
+κεκέλευσθον
+
+κεκελεύμεθα
+κεκέλευσθε
+κεκέλευνται
+
+κεκελεύσθαι

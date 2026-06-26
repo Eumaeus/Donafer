@@ -1,4 +1,15 @@
 template#template_verb_6_aorist_passive_indicative.txt
 lemma#the verb “I order”
 
+ἐκελεύθην
+ἐκελεύθης
+ἐκελεύθη
 
+ἐκελεύθητον
+ἐκελευθήτην
+
+ἐκελεύθημεν
+ἐκελεύθητε
+ἐκελεύθησαν
+
+κελευθῆναι

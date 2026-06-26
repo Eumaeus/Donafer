@@ -1,4 +1,15 @@
 template#template_verb_6_future_passive_indicative.txt
 lemma#the verb “I order”
 
+κελευθήσομαι
+κελευθήσῃ
+κελευθήσεται
 
+κελευθήσεσθον
+κελευθήσεσθον
+
+κελευθησόμεθα
+κελευθήσεσθε
+κελευθήσονται
+
+κελευθήσεσθαι

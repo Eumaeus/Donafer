@@ -1,0 +1,15 @@
+template#template_verb_1_present_mp_indicative.txt
+lemma#the verb “I order”
+
+-
+κελεύει
+-
+
+-
+-
+
+-
+-
+-
+
+-

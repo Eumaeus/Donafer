@@ -1,4 +1,13 @@
 template#template_verb_5_pluperfect_mp_indicative.txt
 lemma#the verb “I educate”
 
+ἐπεπαιδεύμην
+ἐπεπαίδευσο
+ἐπεπαίδευτο
 
+ἐπεπαίδευσθον
+ἐπεπαιδεύσθην
+
+ἐπεπαιδεύμεθα
+ἐπεπαίδευσθε
+ἐπεπαίδευντο

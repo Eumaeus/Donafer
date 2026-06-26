@@ -1,4 +1,14 @@
 template#template_verb_6_aorist_passive_optative.txt
 lemma#the verb “I order”
 
+κελευθείην
+κελευθείης
+κελευθείη
+
+κελευθεῖτον
+κελευθείτην
+
+κελευθεῖμεν
+κελευθεῖτε
+κελευθεῖεν
 
