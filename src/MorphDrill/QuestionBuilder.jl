@@ -61,9 +61,9 @@ end
 
 function build_wrong_feedback(item::MorphForm, direction::Symbol)
     if direction == :passive
-        return "Incorrect. **$(item.greek_form)** is $(item.description) of $(item.lemma) (Ch. $(item.chapter))."
+        return "Incorrect. The $(item.description) of $(item.lemma) is **$(item.greek_form)** (Ch. $(item.chapter))."
     else
-        return "Incorrect. The form for $(item.description) of $(item.lemma) is **$(item.greek_form)** (Ch. $(item.chapter))."
+        return "Incorrect. **$(item.greek_form)** is the $(item.description) of $(item.lemma) (Ch. $(item.chapter))."
     end
 end
 

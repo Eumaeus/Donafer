@@ -1,0 +1,720 @@
+$CATEGORY: Morphology/HansenQuinn/Ch3
+
+::Q001::[markdown]ἐκελεύετε:{
+	~%100%imperfect active indicative 2nd pl. of the verb “I order”#Correct: **ἐκελεύετε** is imperfect active indicative 2nd pl. of the verb “I order” (Chapter 2).
+	~%-100%nom. pl. of the noun “brother”#Incorrect. **ἀδελφοί** is nom. pl. of the noun “brother” (Ch. 1).
+	~%-100%imperfect active indicative 1st sing. of the verb “I educate”#Incorrect. **ἐπαίδευον** is imperfect active indicative 1st sing. of the verb “I educate” (Ch. 2).
+	~%-100%aorist (1) active optative 2nd pl. of the verb “I order”#Incorrect. **-** is aorist (1) active optative 2nd pl. of the verb “I order” (Ch. 3).
+	~%-100%future active infinitive of the verb “I loosen”#Incorrect. **λύσειν** is future active infinitive of the verb “I loosen” (Ch. 2).
+}
+
+
+::Q002::[markdown]πέμποιμεν:{
+	~%100%present active optative 1st pl. of the verb “I send”#Correct: **πέμποιμεν** is present active optative 1st pl. of the verb “I send” (Chapter 3).
+	~%-100%present active optative 3rd pl. of the verb “I order”#Incorrect. **κελεύοιεν** is present active optative 3rd pl. of the verb “I order” (Ch. 3).
+	~%-100%future active indicative 3rd sing. of the verb “I educate”#Incorrect. **παιδεύσει** is future active indicative 3rd sing. of the verb “I educate” (Ch. 2).
+	~%-100%aorist (1) active indicative 1st sing. of the verb “I order”#Incorrect. **ἐκέλευσα** is aorist (1) active indicative 1st sing. of the verb “I order” (Ch. 2).
+	~%-100%present active optative 3rd sing. of the verb “I order”#Incorrect. **κελεύοι** is present active optative 3rd sing. of the verb “I order” (Ch. 3).
+}
+
+
+::Q003::[markdown]perfect active indicative 3rd pl. of the verb “I educate”:{
+	~%100%πεπαιδεύκασιν#Correct: **πεπαιδεύκασιν** is the correct form for perfect active indicative 3rd pl. of the verb “I educate” (Chapter 3).
+	~%-100%ψυχαῖς#Incorrect. The form for dat. pl. of the noun “soul”  is **ψυχαῖς** (Ch. 1).
+	~%-100%τῆς#Incorrect. The form for fem. gen. sing. of the definite article “the” is **τῆς** (Ch. 1).
+	~%-100%λόγους#Incorrect. The form for acc. pl. of the noun “word” is **λόγους** (Ch. 1).
+	~%-100%πεπομφέναι#Incorrect. The form for perfect active infinitive of the verb “I send” is **πεπομφέναι** (Ch. 3).
+}
+
+
+::Q004::[markdown]πεπαιδεύκα:{
+	~%-100%aorist (1) active optative 1st pl. of the verb “I educate”#Incorrect. **-** is aorist (1) active optative 1st pl. of the verb “I educate” (Ch. 3).
+	~%100%perfect active indicative 1st sing. of the verb “I educate”#Correct: **πεπαιδεύκα** is perfect active indicative 1st sing. of the verb “I educate” (Chapter 3).
+	~%-100%present active optative 3rd pl. of the verb “I order”#Incorrect. **κελεύοιεν** is present active optative 3rd pl. of the verb “I order” (Ch. 3).
+	~%-100%present active optative 3rd sing. of the verb “I order”#Incorrect. **κελεύοι** is present active optative 3rd sing. of the verb “I order” (Ch. 3).
+	~%-100%future active indicative 3rd sing. of the verb “I order”#Incorrect. **κελεύσει** is future active indicative 3rd sing. of the verb “I order” (Ch. 2).
+}
+
+
+::Q005::[markdown]gen. sing. of the noun “word”:{
+	~%100%λόγου#Correct: **λόγου** is the correct form for gen. sing. of the noun “word” (Chapter 1).
+	~%-100%τοῦ#Incorrect. The form for masc. gen. sing. of the definite article “the” is **τοῦ** (Ch. 1).
+	~%-100%κελεύητε#Incorrect. The form for present active subjunctive 2nd pl. of the verb “I order” is **κελεύητε** (Ch. 3).
+	~%-100%νῆσος#Incorrect. The form for nom. sing. of the noun “island” is **νῆσος** (Ch. 1).
+	~%-100%οἱ#Incorrect. The form for masc. nom. pl. of the definite article “the” is **οἱ** (Ch. 1).
+}
+
+
+::Q006::[markdown]aorist (1) active subjunctive 3rd pl. of the verb “I send”:{
+	~%-100%παιδεύσωσιν#Incorrect. The form for aorist (1) active subjunctive 3rd pl. of the verb “I educate” is **παιδεύσωσιν** (Ch. 3).
+	~%-100%τῶν#Incorrect. The form for neut. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%100%πέμψωσιν#Correct: **πέμψωσιν** is the correct form for aorist (1) active subjunctive 3rd pl. of the verb “I send” (Chapter 3).
+	~%-100%λύσει#Incorrect. The form for future active indicative 3rd sing. of the verb “I loosen” is **λύσει** (Ch. 2).
+	~%-100%ἀδελφῷ#Incorrect. The form for dat. sing. of the noun “brother” is **ἀδελφῷ** (Ch. 1).
+}
+
+
+::Q007::[markdown]ἀδελφόν:{
+	~%-100%nom. sing. of the noun “island”#Incorrect. **νῆσος** is nom. sing. of the noun “island” (Ch. 1).
+	~%-100%imperfect active indicative 1st pl. of the verb “I loosen”#Incorrect. **ἐλύομεν** is imperfect active indicative 1st pl. of the verb “I loosen” (Ch. 2).
+	~%-100%future active infinitive of the verb “I loosen”#Incorrect. **λύσειν** is future active infinitive of the verb “I loosen” (Ch. 2).
+	~%100%acc. sing. of the noun “brother”#Correct: **ἀδελφόν** is acc. sing. of the noun “brother” (Chapter 1).
+	~%-100%nom. sing. of the noun “human being”#Incorrect. **ἄνθρωπος** is nom. sing. of the noun “human being” (Ch. 1).
+}
+
+
+::Q008::[markdown]τέχνη:{
+	~%-100%aorist (1) active optative 2nd pl. of the verb “I educate”#Incorrect. **παιδεύσαιτε** is aorist (1) active optative 2nd pl. of the verb “I educate” (Ch. 3).
+	~%-100%present active indicative 3rd pl. of the verb “I educate”#Incorrect. **παιδεύουσιν** is present active indicative 3rd pl. of the verb “I educate” (Ch. 2).
+	~%-100%pluperfect active indicative 3rd sing. of the verb “I order”#Incorrect. **ἐκεκελεύκειν** is pluperfect active indicative 3rd sing. of the verb “I order” (Ch. 3).
+	~%100%nom. sing. of the noun “skill” #Correct: **τέχνη** is nom. sing. of the noun “skill”  (Chapter 1).
+}
+
+
+::Q009::[markdown]πεπόμφατε:{
+	~%-100%future active indicative 3rd sing. of the verb “I loosen”#Incorrect. **λύσει** is future active indicative 3rd sing. of the verb “I loosen” (Ch. 2).
+	~%-100%present active optative 3rd sing. of the verb “I send”#Incorrect. **πέμποι** is present active optative 3rd sing. of the verb “I send” (Ch. 3).
+	~%-100%aorist (1) active optative 1st sing. of the verb “I educate”#Incorrect. **παιδεύσαιμι** is aorist (1) active optative 1st sing. of the verb “I educate” (Ch. 3).
+	~%100%perfect active indicative 2nd pl. of the verb “I send”#Correct: **πεπόμφατε** is perfect active indicative 2nd pl. of the verb “I send” (Chapter 3).
+	~%-100%present active indicative 2nd sing. of the verb “I educate”#Incorrect. **παιδεύεις** is present active indicative 2nd sing. of the verb “I educate” (Ch. 2).
+}
+
+
+::Q010::[markdown]present active optative 3rd pl. of the verb “I send”:{
+	~%-100%ἔπεμψα#Incorrect. The form for aorist (1) active indicative 1st sing. of the verb “I send” is **ἔπεμψα** (Ch. 3).
+	~%100%πέμποιεν#Correct: **πέμποιεν** is the correct form for present active optative 3rd pl. of the verb “I send” (Chapter 3).
+	~%-100%παιδεύσει#Incorrect. The form for future active indicative 3rd sing. of the verb “I educate” is **παιδεύσει** (Ch. 2).
+	~%-100%λελύκατε#Incorrect. The form for perfect active indicative 2nd pl. of the verb “I loosen” is **λελύκατε** (Ch. 3).
+	~%-100%τεχνῶν#Incorrect. The form for gen. pl. of the noun “skill”  is **τεχνῶν** (Ch. 1).
+}
+
+
+::Q011::[markdown]imperfect active indicative 2nd pl. of the verb “I order”:{
+	~%100%ἐκελεύετε#Correct: **ἐκελεύετε** is the correct form for imperfect active indicative 2nd pl. of the verb “I order” (Chapter 2).
+	~%-100%κελεύσαιτε#Incorrect. The form for aorist (1) active optative 2nd pl. of the verb “I order” is **κελεύσαιτε** (Ch. 3).
+	~%-100%κεκελεύκατε#Incorrect. The form for perfect active indicative 2nd pl. of the verb “I order” is **κεκελεύκατε** (Ch. 3).
+	~%-100%κελεύσειας#Incorrect. The form for aorist (1) active optative 2nd sing. of the verb “I order” is **κελεύσειας** (Ch. 3).
+	~%-100%πεπόμφαμεν#Incorrect. The form for perfect active indicative 1st pl. of the verb “I send” is **πεπόμφαμεν** (Ch. 3).
+}
+
+
+::Q012::[markdown]παιδεύομεν:{
+	~%-100%present active optative 1st pl. of the verb “I educate”#Incorrect. **παιδεύοιμεν** is present active optative 1st pl. of the verb “I educate” (Ch. 3).
+	~%-100%imperfect active indicative 1st pl. of the verb “I educate”#Incorrect. **ἐπαιδεύομεν** is imperfect active indicative 1st pl. of the verb “I educate” (Ch. 2).
+	~%100%future active indicative 1st pl. of the verb “I educate”#Correct: **παιδεύομεν** is present active indicative 1st pl. of the verb “I educate” (Chapter 2).
+	~%-100%present active indicative 2nd sing. of the verb “I order”#Incorrect. **κελεύεις** is present active indicative 2nd sing. of the verb “I order” (Ch. 2).
+	~%-100%present active subjunctive 1st pl. of the verb “I send”#Incorrect. **πέμπωμεν** is present active subjunctive 1st pl. of the verb “I send” (Ch. 3).
+}
+
+
+::Q013::[markdown]ἔπεμπες:{
+	~%100%imperfect active indicative 2nd sing. of the verb “I send”#Correct: **ἔπεμπες** is imperfect active indicative 2nd sing. of the verb “I send” (Chapter 3).
+	~%-100%present active indicative 1st pl. of the verb “I order”#Incorrect. **κελεύομεν** is present active indicative 1st pl. of the verb “I order” (Ch. 2).
+	~%-100%acc. sing. of the noun “island”#Incorrect. **νῆσον** is acc. sing. of the noun “island” (Ch. 1).
+	~%-100%nom. sing. of the noun “marketplace”#Incorrect. **ἀγορά** is nom. sing. of the noun “marketplace” (Ch. 1).
+	~%-100%present active optative 2nd pl. of the verb “I educate”#Incorrect. **παιδεύοιτε** is present active optative 2nd pl. of the verb “I educate” (Ch. 3).
+}
+
+
+::Q014::[markdown]masc. nom. pl. of the definite article “the”:{
+	~%-100%λύωμεν#Incorrect. The form for present active subjunctive 1st pl. of the verb “I loosen” is **λύωμεν** (Ch. 3).
+	~%-100%δῶρον#Incorrect. The form for nom. sing. of the noun “gift” is **δῶρον** (Ch. 1).
+	~%-100%λῦσαι#Incorrect. The form for aorist (1) active infinitive of the verb “I loosen” is **λῦσαι** (Ch. 2).
+	~%-100%παιδεύοιτε#Incorrect. The form for present active optative 2nd pl. of the verb “I educate” is **παιδεύοιτε** (Ch. 3).
+	~%100%οἱ#Correct: **οἱ** is the correct form for masc. nom. pl. of the definite article “the” (Chapter 1).
+}
+
+
+::Q015::[markdown]imperfect active indicative 1st sing. of the verb “I loosen”:{
+	~%-100%κελεύσαιμεν#Incorrect. The form for aorist (1) active optative 1st pl. of the verb “I order” is **κελεύσαιμεν** (Ch. 3).
+	~%-100%ἔλυε#Incorrect. The form for imperfect active indicative 3rd sing. of the verb “I loosen” is **ἔλυε** (Ch. 2).
+	~%-100%τούς#Incorrect. The form for masc. acc. pl. of the definite article “the” is **τούς** (Ch. 1).
+	~%-100%-#Incorrect. The form for aorist (1) active optative 1st pl. of the verb “I order” is **-** (Ch. 3).
+	~%100%ἔλυον#Correct: **ἔλυον** is the correct form for imperfect active indicative 1st sing. of the verb “I loosen” (Chapter 2).
+}
+
+
+::Q016::[markdown]pluperfect active indicative 2nd sing. of the verb “I educate”:{
+	~%-100%κελεύω#Incorrect. The form for present active subjunctive 1st sing. of the verb “I order” is **κελεύω** (Ch. 3).
+	~%100%ἐπεπαιδεύκης#Correct: **ἐπεπαιδεύκης** is the correct form for pluperfect active indicative 2nd sing. of the verb “I educate” (Chapter 3).
+	~%-100%πέμπῃς#Incorrect. The form for present active subjunctive 2nd sing. of the verb “I send” is **πέμπῃς** (Ch. 3).
+	~%-100%ἀνθρώπων#Incorrect. The form for gen. pl. of the noun “human being” is **ἀνθρώπων** (Ch. 1).
+	~%-100%τέχνης#Incorrect. The form for gen. sing. of the noun “skill”  is **τέχνης** (Ch. 1).
+}
+
+
+::Q017::[markdown]παιδεύσαι:{
+	~%-100%future active indicative 2nd pl. of the verb “I loosen”#Incorrect. **λύσετε** is future active indicative 2nd pl. of the verb “I loosen” (Ch. 2).
+	~%-100%present active optative 2nd sing. of the verb “I send”#Incorrect. **πέμποις** is present active optative 2nd sing. of the verb “I send” (Ch. 3).
+	~%-100%nom. sing. of the noun “human being”#Incorrect. **ἄνθρωπος** is nom. sing. of the noun “human being” (Ch. 1).
+	~%-100%imperfect active indicative 3rd sing. of the verb “I loosen”#Incorrect. **ἔλυε** is imperfect active indicative 3rd sing. of the verb “I loosen” (Ch. 2).
+	~%100%aorist (1) active optative 3rd sing. of the verb “I educate”#Correct: **παιδεύσαι** is aorist (1) active optative 3rd sing. of the verb “I educate” (Chapter 3).
+}
+
+
+::Q018::[markdown]ψυχῇ:{
+	~%-100%aorist (1) active optative 1st sing. of the verb “I loosen”#Incorrect. **-** is aorist (1) active optative 1st sing. of the verb “I loosen” (Ch. 3).
+	~%-100%dat. pl. of the noun “skill” #Incorrect. **τέχναις** is dat. pl. of the noun “skill”  (Ch. 1).
+	~%-100%aorist (1) active indicative 3rd sing. of the verb “I order”#Incorrect. **ἐκέλευσε** is aorist (1) active indicative 3rd sing. of the verb “I order” (Ch. 2).
+	~%-100%fem. gen. sing. of the definite article “the”#Incorrect. **τῆς** is fem. gen. sing. of the definite article “the” (Ch. 1).
+	~%100%dat. sing. of the noun “soul” #Correct: **ψυχῇ** is dat. sing. of the noun “soul”  (Chapter 1).
+}
+
+
+::Q019::[markdown]νήσου:{
+	~%-100%pluperfect active indicative 1st pl. of the verb “I order”#Incorrect. **ἐκεκελεύκαμεν** is pluperfect active indicative 1st pl. of the verb “I order” (Ch. 3).
+	~%100%gen. sing. of the noun “island”#Correct: **νήσου** is gen. sing. of the noun “island” (Chapter 1).
+	~%-100%perfect active indicative 3rd pl. of the verb “I educate”#Incorrect. **πεπαιδεύκασιν** is perfect active indicative 3rd pl. of the verb “I educate” (Ch. 3).
+	~%-100%imperfect active indicative 3rd sing. of the verb “I loosen”#Incorrect. **ἔλυε** is imperfect active indicative 3rd sing. of the verb “I loosen” (Ch. 2).
+	~%-100%pluperfect active indicative 1st sing. of the verb “I educate”#Incorrect. **ἐπεπαιδεύκη** is pluperfect active indicative 1st sing. of the verb “I educate” (Ch. 3).
+}
+
+
+::Q020::[markdown]aorist (1) active optative 2nd sing. of the verb “I educate”:{
+	~%-100%παιδεύσαι#Incorrect. The form for aorist (1) active optative 3rd sing. of the verb “I educate” is **παιδεύσαι** (Ch. 3).
+	~%-100%κελεύσεις#Incorrect. The form for future active indicative 2nd sing. of the verb “I order” is **κελεύσεις** (Ch. 2).
+	~%100%παιδεύσειας#Correct: **παιδεύσαις** is the correct form for aorist (1) active optative 2nd sing. of the verb “I educate” (Chapter 3).
+	~%-100%κελεύσειας#Incorrect. The form for aorist (1) active optative 2nd sing. of the verb “I order” is **κελεύσειας** (Ch. 3).
+	~%-100%παιδεύουσιν#Incorrect. The form for present active indicative 3rd pl. of the verb “I educate” is **παιδεύουσιν** (Ch. 2).
+}
+
+
+::Q021::[markdown]λύσειεν:{
+	~%-100%perfect active indicative 1st sing. of the verb “I educate”#Incorrect. **πεπαιδεύκα** is perfect active indicative 1st sing. of the verb “I educate” (Ch. 3).
+	~%-100%future active indicative 1st sing. of the verb “I educate”#Incorrect. **παιδεύσω** is future active indicative 1st sing. of the verb “I educate” (Ch. 2).
+	~%-100%future active infinitive of the verb “I send”#Incorrect. **πέμψειν** is future active infinitive of the verb “I send” (Ch. 3).
+	~%-100%pluperfect active indicative 3rd sing. of the verb “I order”#Incorrect. **ἐκεκελεύκειν** is pluperfect active indicative 3rd sing. of the verb “I order” (Ch. 3).
+	~%100%aorist (1) active optative 3rd sing. of the verb “I loosen”#Correct: **λύσειεν** is aorist (1) active optative 3rd sing. of the verb “I loosen” (Chapter 3).
+}
+
+
+::Q022::[markdown]dat. sing. of the noun “skill” :{
+	~%100%τέχνῃ#Correct: **τέχνῃ** is the correct form for dat. sing. of the noun “skill”  (Chapter 1).
+	~%-100%νῆσος#Incorrect. The form for nom. sing. of the noun “island” is **νῆσος** (Ch. 1).
+	~%-100%ἐπέμψαν#Incorrect. The form for aorist (1) active indicative 3rd pl. of the verb “I send” is **ἐπέμψαν** (Ch. 3).
+	~%-100%λύητε#Incorrect. The form for present active subjunctive 2nd pl. of the verb “I loosen” is **λύητε** (Ch. 3).
+	~%-100%ἐκεκελεύκατε#Incorrect. The form for pluperfect active indicative 2nd pl. of the verb “I order” is **ἐκεκελεύκατε** (Ch. 3).
+}
+
+
+::Q023::[markdown]acc. pl. of the noun “skill” :{
+	~%-100%παιδεύσαιμεν#Incorrect. The form for aorist (1) active optative 1st pl. of the verb “I educate” is **παιδεύσαιμεν** (Ch. 3).
+	~%-100%ἐπαιδεύομεν#Incorrect. The form for imperfect active indicative 1st pl. of the verb “I educate” is **ἐπαιδεύομεν** (Ch. 2).
+	~%-100%κελεύετε#Incorrect. The form for present active indicative 2nd pl. of the verb “I order” is **κελεύετε** (Ch. 2).
+	~%100%τέχνας#Correct: **τέχνας** is the correct form for acc. pl. of the noun “skill”  (Chapter 1).
+	~%-100%-#Incorrect. The form for aorist (1) active optative 1st sing. of the verb “I educate” is **-** (Ch. 3).
+}
+
+
+::Q024::[markdown]pluperfect active indicative 1st sing. of the verb “I order”:{
+	~%-100%ἔπεμπον#Incorrect. The form for imperfect active indicative 3rd pl. of the verb “I send” is **ἔπεμπον** (Ch. 3).
+	~%-100%ἐπαίδευσαν#Incorrect. The form for aorist (1) active indicative 3rd pl. of the verb “I educate” is **ἐπαίδευσαν** (Ch. 2).
+	~%100%ἐκεκελευκη#Correct: **ἐκεκελευκη** is the correct form for pluperfect active indicative 1st sing. of the verb “I order” (Chapter 3).
+	~%-100%πέμψωμεν#Incorrect. The form for aorist (1) active subjunctive 1st pl. of the verb “I send” is **πέμψωμεν** (Ch. 3).
+	~%-100%-#Incorrect. The form for aorist (1) active optative 1st sing. of the verb “I order” is **-** (Ch. 3).
+}
+
+
+::Q025::[markdown]aorist (1) active optative 2nd sing. of the verb “I send”:{
+	~%-100%πέμπω#Incorrect. The form for present active subjunctive 1st sing. of the verb “I send” is **πέμπω** (Ch. 3).
+	~%-100%κελεύῃς#Incorrect. The form for present active subjunctive 2nd sing. of the verb “I order” is **κελεύῃς** (Ch. 3).
+	~%-100%παιδεύῃ#Incorrect. The form for present active subjunctive 3rd sing. of the verb “I educate” is **παιδεύῃ** (Ch. 3).
+	~%-100%λύλυκας#Incorrect. The form for perfect active indicative 2nd sing. of the verb “I loosen” is **λύλυκας** (Ch. 3).
+	~%100%πέμψειας#Correct: **πέμψειας** is the correct form for aorist (1) active optative 2nd sing. of the verb “I send” (Chapter 3).
+}
+
+
+::Q026::[markdown]ἔλυσας:{
+	~%100%aorist (1) active indicative 2nd sing. of the verb “I loosen”#Correct: **ἔλυσας** is aorist (1) active indicative 2nd sing. of the verb “I loosen” (Chapter 2).
+	~%-100%present active indicative 1st sing. of the verb “I loosen”#Incorrect. **λύω** is present active indicative 1st sing. of the verb “I loosen” (Ch. 2).
+	~%-100%masc. nom. pl. of the definite article “the”#Incorrect. **οἱ** is masc. nom. pl. of the definite article “the” (Ch. 1).
+	~%-100%pluperfect active indicative 1st pl. of the verb “I loosen”#Incorrect. **ἐλελύκεμεν** is pluperfect active indicative 1st pl. of the verb “I loosen” (Ch. 3).
+	~%-100%present active optative 1st pl. of the verb “I send”#Incorrect. **πέμποιμεν** is present active optative 1st pl. of the verb “I send” (Ch. 3).
+}
+
+
+::Q027::[markdown]present active optative 2nd sing. of the verb “I order”:{
+	~%-100%κελεύσαι#Incorrect. The form for aorist (1) active optative 3rd sing. of the verb “I order” is **κελεύσαι** (Ch. 3).
+	~%100%κελεύοις#Correct: **κελεύοις** is the correct form for present active optative 2nd sing. of the verb “I order” (Chapter 3).
+	~%-100%-#Incorrect. The form for aorist (1) active optative 2nd pl. of the verb “I loosen” is **-** (Ch. 3).
+	~%-100%νῆσον#Incorrect. The form for acc. sing. of the noun “island” is **νῆσον** (Ch. 1).
+	~%-100%παιδεύσῃ#Incorrect. The form for aorist (1) active subjunctive 3rd sing. of the verb “I educate” is **παιδεύσῃ** (Ch. 3).
+}
+
+
+::Q028::[markdown]imperfect active indicative 1st sing. of the verb “I educate”:{
+	~%-100%ἐκέλευσα#Incorrect. The form for aorist (1) active indicative 1st sing. of the verb “I order” is **ἐκέλευσα** (Ch. 2).
+	~%-100%παιδεύσαιτε#Incorrect. The form for aorist (1) active optative 2nd pl. of the verb “I educate” is **παιδεύσαιτε** (Ch. 3).
+	~%-100%ἐπαίδευσας#Incorrect. The form for aorist (1) active indicative 2nd sing. of the verb “I educate” is **ἐπαίδευσας** (Ch. 2).
+	~%100%ἐπαίδευον#Correct: **ἐπαίδευον** is the correct form for imperfect active indicative 1st sing. of the verb “I educate” (Chapter 2).
+	~%-100%-#Incorrect. The form for aorist (1) active optative 1st pl. of the verb “I send” is **-** (Ch. 3).
+}
+
+
+::Q029::[markdown]λύσαιμεν:{
+	~%-100%future active indicative 3rd sing. of the verb “I educate”#Incorrect. **παιδεύσει** is future active indicative 3rd sing. of the verb “I educate” (Ch. 2).
+	~%-100%aorist (1) active optative 3rd sing. of the verb “I educate”#Incorrect. **παιδεύσειεν** is aorist (1) active optative 3rd sing. of the verb “I educate” (Ch. 3).
+	~%100%aorist (1) active optative 1st pl. of the verb “I loosen”#Correct: **λύσαιμεν** is aorist (1) active optative 1st pl. of the verb “I loosen” (Chapter 3).
+	~%-100%aorist (1) active optative 1st sing. of the verb “I order”#Incorrect. **κελεύσαιμι** is aorist (1) active optative 1st sing. of the verb “I order” (Ch. 3).
+	~%-100%nom. sing. of the noun “human being”#Incorrect. **ἄνθρωπος** is nom. sing. of the noun “human being” (Ch. 1).
+}
+
+
+::Q030::[markdown]παιδεύομεν:{
+	~%-100%present active optative 2nd pl. of the verb “I loosen”#Incorrect. **λύοιτε** is present active optative 2nd pl. of the verb “I loosen” (Ch. 3).
+	~%-100%aorist (1) active optative 2nd sing. of the verb “I send”#Incorrect. **πέμψειας** is aorist (1) active optative 2nd sing. of the verb “I send” (Ch. 3).
+	~%-100%aorist (1) active subjunctive 1st sing. of the verb “I order”#Incorrect. **κελεύσω** is aorist (1) active subjunctive 1st sing. of the verb “I order” (Ch. 3).
+	~%-100%aorist (1) active optative 1st sing. of the verb “I send”#Incorrect. **πέμψαιμι** is aorist (1) active optative 1st sing. of the verb “I send” (Ch. 3).
+	~%100%future active indicative 1st pl. of the verb “I educate”#Correct: **παιδεύομεν** is present active indicative 1st pl. of the verb “I educate” (Chapter 2).
+}
+
+
+::Q031::[markdown]aorist (1) active subjunctive 1st pl. of the verb “I loosen”:{
+	~%100%λύσωμεν#Correct: **λύσωμεν** is the correct form for aorist (1) active subjunctive 1st pl. of the verb “I loosen” (Chapter 3).
+	~%-100%ἔπεμψεν#Incorrect. The form for aorist (1) active indicative 3rd sing. of the verb “I send” is **ἔπεμψεν** (Ch. 3).
+	~%-100%ἐπεπόμφεσαν#Incorrect. The form for pluperfect active indicative 3rd pl. of the verb “I send” is **ἐπεπόμφεσαν** (Ch. 3).
+	~%-100%κεκελεύκατε#Incorrect. The form for perfect active indicative 2nd pl. of the verb “I order” is **κεκελεύκατε** (Ch. 3).
+	~%-100%τό#Incorrect. The form for neut. acc. sing. of the definite article “the” is **τό** (Ch. 1).
+}
+
+
+::Q032::[markdown]imperfect active indicative 3rd sing. of the verb “I loosen”:{
+	~%100%ἔλυε#Correct: **ἔλυε** is the correct form for imperfect active indicative 3rd sing. of the verb “I loosen” (Chapter 2).
+	~%-100%ἐπαίδευον#Incorrect. The form for imperfect active indicative 1st sing. of the verb “I educate” is **ἐπαίδευον** (Ch. 2).
+	~%-100%νήσοις#Incorrect. The form for dat. pl. of the noun “island” is **νήσοις** (Ch. 1).
+	~%-100%ἄνθρωπος#Incorrect. The form for nom. sing. of the noun “human being” is **ἄνθρωπος** (Ch. 1).
+	~%-100%ἐπέμπομεν#Incorrect. The form for imperfect active indicative 1st pl. of the verb “I send” is **ἐπέμπομεν** (Ch. 3).
+}
+
+
+::Q033::[markdown]πεπομφέναι:{
+	~%-100%dat. sing. of the noun “brother”#Incorrect. **ἀδελφῷ** is dat. sing. of the noun “brother” (Ch. 1).
+	~%-100%gen. sing. of the noun “marketplace”#Incorrect. **ἀγορᾶς** is gen. sing. of the noun “marketplace” (Ch. 1).
+	~%-100%pluperfect active indicative 2nd pl. of the verb “I loosen”#Incorrect. **ἐλελύκετε** is pluperfect active indicative 2nd pl. of the verb “I loosen” (Ch. 3).
+	~%-100%aorist (1) active subjunctive 1st sing. of the verb “I educate”#Incorrect. **παιδεύσω** is aorist (1) active subjunctive 1st sing. of the verb “I educate” (Ch. 3).
+	~%100%perfect active infinitive of the verb “I send”#Correct: **πεπομφέναι** is perfect active infinitive of the verb “I send” (Chapter 3).
+}
+
+
+::Q034::[markdown]παιδεύοιμεν:{
+	~%-100%present active optative 3rd sing. of the verb “I educate”#Incorrect. **παιδεύοι** is present active optative 3rd sing. of the verb “I educate” (Ch. 3).
+	~%-100%dat. pl. of the noun “soul” #Incorrect. **ψυχαῖς** is dat. pl. of the noun “soul”  (Ch. 1).
+	~%-100%gen. sing. of the noun “human being”#Incorrect. **ἀνθρώπου** is gen. sing. of the noun “human being” (Ch. 1).
+	~%100%present active optative 1st pl. of the verb “I educate”#Correct: **παιδεύοιμεν** is present active optative 1st pl. of the verb “I educate” (Chapter 3).
+	~%-100%present active infinitive of the verb “I send”#Incorrect. **πέμπειν** is present active infinitive of the verb “I send” (Ch. 3).
+}
+
+
+::Q035::[markdown]aorist (1) active subjunctive 1st sing. of the verb “I educate”:{
+	~%-100%ἐκεκελεύκατε#Incorrect. The form for pluperfect active indicative 2nd pl. of the verb “I order” is **ἐκεκελεύκατε** (Ch. 3).
+	~%-100%λόγοι#Incorrect. The form for nom. pl. of the noun “word” is **λόγοι** (Ch. 1).
+	~%-100%κελεύοιμι#Incorrect. The form for present active optative 1st sing. of the verb “I order” is **κελεύοιμι** (Ch. 3).
+	~%-100%ἐπέμψαν#Incorrect. The form for aorist (1) active indicative 3rd pl. of the verb “I send” is **ἐπέμψαν** (Ch. 3).
+	~%100%παιδεύσω#Correct: **παιδεύσω** is the correct form for aorist (1) active subjunctive 1st sing. of the verb “I educate” (Chapter 3).
+}
+
+
+::Q036::[markdown]ἄνθρωπος:{
+	~%-100%perfect active indicative 2nd sing. of the verb “I send”#Incorrect. **πέπομφας** is perfect active indicative 2nd sing. of the verb “I send” (Ch. 3).
+	~%100%nom. sing. of the noun “human being”#Correct: **ἄνθρωπος** is nom. sing. of the noun “human being” (Chapter 1).
+	~%-100%present active optative 3rd sing. of the verb “I loosen”#Incorrect. **λύοι** is present active optative 3rd sing. of the verb “I loosen” (Ch. 3).
+	~%-100%aorist (1) active optative 3rd pl. of the verb “I loosen”#Incorrect. **λύσειαν** is aorist (1) active optative 3rd pl. of the verb “I loosen” (Ch. 3).
+	~%-100%future active indicative 3rd pl. of the verb “I loosen”#Incorrect. **λύσουσιν** is future active indicative 3rd pl. of the verb “I loosen” (Ch. 2).
+}
+
+
+::Q037::[markdown]future active indicative 3rd pl. of the verb “I send”:{
+	~%100%πέμψουσιν#Correct: **πέμψουσιν** is the correct form for future active indicative 3rd pl. of the verb “I send” (Chapter 3).
+	~%-100%λύσαιτε#Incorrect. The form for aorist (1) active optative 2nd pl. of the verb “I loosen” is **λύσαιτε** (Ch. 3).
+	~%-100%κελεύσειεν#Incorrect. The form for aorist (1) active optative 3rd sing. of the verb “I order” is **κελεύσειεν** (Ch. 3).
+	~%-100%ἐλελύκεμεν#Incorrect. The form for pluperfect active indicative 1st pl. of the verb “I loosen” is **ἐλελύκεμεν** (Ch. 3).
+	~%-100%δῶρον#Incorrect. The form for acc. sing. of the noun “gift” is **δῶρον** (Ch. 1).
+}
+
+
+::Q038::[markdown]future active infinitive of the verb “I educate”:{
+	~%-100%τέχνη#Incorrect. The form for nom. sing. of the noun “skill”  is **τέχνη** (Ch. 1).
+	~%100%παιδεύσειν#Correct: **παιδεύσειν** is the correct form for future active infinitive of the verb “I educate” (Chapter 2).
+	~%-100%παιδεύοιεν#Incorrect. The form for present active optative 3rd pl. of the verb “I educate” is **παιδεύοιεν** (Ch. 3).
+	~%-100%πέμποιμι#Incorrect. The form for present active optative 1st sing. of the verb “I send” is **πέμποιμι** (Ch. 3).
+	~%-100%λόγῳ#Incorrect. The form for dat. sing. of the noun “word” is **λόγῳ** (Ch. 1).
+}
+
+
+::Q039::[markdown]present active subjunctive 1st sing. of the verb “I order”:{
+	~%-100%λύομεν#Incorrect. The form for present active indicative 1st pl. of the verb “I loosen” is **λύομεν** (Ch. 2).
+	~%-100%ταῖς#Incorrect. The form for fem. dat. pl. of the definite article “the” is **ταῖς** (Ch. 1).
+	~%-100%ἐπαίδευες#Incorrect. The form for imperfect active indicative 2nd sing. of the verb “I educate” is **ἐπαίδευες** (Ch. 2).
+	~%100%κελεύω#Correct: **κελεύω** is the correct form for present active subjunctive 1st sing. of the verb “I order” (Chapter 3).
+	~%-100%ἐπαίδευσας#Incorrect. The form for aorist (1) active indicative 2nd sing. of the verb “I educate” is **ἐπαίδευσας** (Ch. 2).
+}
+
+
+::Q040::[markdown]ἐκεκελεύκατε:{
+	~%100%pluperfect active indicative 2nd pl. of the verb “I order”#Correct: **ἐκεκελεύκατε** is pluperfect active indicative 2nd pl. of the verb “I order” (Chapter 3).
+	~%-100%dat. sing. of the noun “human being”#Incorrect. **ἀνθρώπῳ** is dat. sing. of the noun “human being” (Ch. 1).
+	~%-100%present active subjunctive 2nd sing. of the verb “I educate”#Incorrect. **παιδεύῃς** is present active subjunctive 2nd sing. of the verb “I educate” (Ch. 3).
+	~%-100%nom. sing. of the noun “territory” #Incorrect. **χώρα** is nom. sing. of the noun “territory”  (Ch. 1).
+	~%-100%aorist (1) active indicative 1st sing. of the verb “I order”#Incorrect. **ἐκέλευσα** is aorist (1) active indicative 1st sing. of the verb “I order” (Ch. 2).
+}
+
+
+::Q041::[markdown]aorist (1) active infinitive of the verb “I send”:{
+	~%-100%ἀδελφούς#Incorrect. The form for acc. pl. of the noun “brother” is **ἀδελφούς** (Ch. 1).
+	~%-100%ἀνθρώποις#Incorrect. The form for dat. pl. of the noun “human being” is **ἀνθρώποις** (Ch. 1).
+	~%-100%πεπόμφατε#Incorrect. The form for perfect active indicative 2nd pl. of the verb “I send” is **πεπόμφατε** (Ch. 3).
+	~%100%πέμψαι#Correct: **πέμψαι** is the correct form for aorist (1) active infinitive of the verb “I send” (Chapter 3).
+	~%-100%ἀδελφός#Incorrect. The form for nom. sing. of the noun “brother” is **ἀδελφός** (Ch. 1).
+}
+
+
+::Q042::[markdown]dat. pl. of the noun “word”:{
+	~%-100%ἀνθρώπων#Incorrect. The form for gen. pl. of the noun “human being” is **ἀνθρώπων** (Ch. 1).
+	~%100%λόγοις#Correct: **λόγοις** is the correct form for dat. pl. of the noun “word” (Chapter 1).
+	~%-100%παιδεύσαιμι#Incorrect. The form for aorist (1) active optative 1st sing. of the verb “I educate” is **παιδεύσαιμι** (Ch. 3).
+	~%-100%παιδεύσαιεν#Incorrect. The form for aorist (1) active optative 3rd pl. of the verb “I educate” is **παιδεύσαιεν** (Ch. 3).
+	~%-100%τόν#Incorrect. The form for masc. acc. sing. of the definite article “the” is **τόν** (Ch. 1).
+}
+
+
+::Q043::[markdown]present active subjunctive 1st sing. of the verb “I order”:{
+	~%-100%κελεύσει#Incorrect. The form for future active indicative 3rd sing. of the verb “I order” is **κελεύσει** (Ch. 2).
+	~%100%κελεύω#Correct: **κελεύω** is the correct form for present active subjunctive 1st sing. of the verb “I order” (Chapter 3).
+	~%-100%ψυχῆς#Incorrect. The form for gen. sing. of the noun “soul”  is **ψυχῆς** (Ch. 1).
+	~%-100%λύωσιν#Incorrect. The form for present active subjunctive 3rd pl. of the verb “I loosen” is **λύωσιν** (Ch. 3).
+	~%-100%πέπομφα#Incorrect. The form for perfect active indicative 1st sing. of the verb “I send” is **πέπομφα** (Ch. 3).
+}
+
+
+::Q044::[markdown]acc. pl. of the noun “soul” :{
+	~%-100%ἀγοραί#Incorrect. The form for nom. pl. of the noun “marketplace” is **ἀγοραί** (Ch. 1).
+	~%100%ψυχάς#Correct: **ψυχάς** is the correct form for acc. pl. of the noun “soul”  (Chapter 1).
+	~%-100%ἐκελεύσατε#Incorrect. The form for aorist (1) active indicative 2nd pl. of the verb “I order” is **ἐκελεύσατε** (Ch. 2).
+	~%-100%ἐπέμψαμεν#Incorrect. The form for aorist (1) active indicative 1st pl. of the verb “I send” is **ἐπέμψαμεν** (Ch. 3).
+	~%-100%ψυχαῖς#Incorrect. The form for dat. pl. of the noun “soul”  is **ψυχαῖς** (Ch. 1).
+}
+
+
+::Q045::[markdown]λύσετε:{
+	~%-100%present active indicative 3rd sing. of the verb “I educate”#Incorrect. **παιδεύει** is present active indicative 3rd sing. of the verb “I educate” (Ch. 2).
+	~%-100%pluperfect active indicative 1st sing. of the verb “I educate”#Incorrect. **ἐπεπαιδεύκη** is pluperfect active indicative 1st sing. of the verb “I educate” (Ch. 3).
+	~%-100%aorist (1) active indicative 3rd pl. of the verb “I educate”#Incorrect. **ἐπαίδευσαν** is aorist (1) active indicative 3rd pl. of the verb “I educate” (Ch. 2).
+	~%-100%masc. nom. sing. of the definite article “the”#Incorrect. **ὁ** is masc. nom. sing. of the definite article “the” (Ch. 1).
+	~%100%future active indicative 2nd pl. of the verb “I loosen”#Correct: **λύσετε** is future active indicative 2nd pl. of the verb “I loosen” (Chapter 2).
+}
+
+
+::Q046::[markdown]pluperfect active indicative 1st pl. of the verb “I order”:{
+	~%-100%λύω#Incorrect. The form for present active indicative 1st sing. of the verb “I loosen” is **λύω** (Ch. 2).
+	~%-100%ἐπαίδευον#Incorrect. The form for imperfect active indicative 1st sing. of the verb “I educate” is **ἐπαίδευον** (Ch. 2).
+	~%-100%λύοιεν#Incorrect. The form for present active optative 3rd pl. of the verb “I loosen” is **λύοιεν** (Ch. 3).
+	~%-100%ἐλελύκετε#Incorrect. The form for pluperfect active indicative 2nd pl. of the verb “I loosen” is **ἐλελύκετε** (Ch. 3).
+	~%100%ἐκεκελεύκαμεν#Correct: **ἐκεκελεύκαμεν** is the correct form for pluperfect active indicative 1st pl. of the verb “I order” (Chapter 3).
+}
+
+
+::Q047::[markdown]ἀδελφός:{
+	~%100%nom. sing. of the noun “brother”#Correct: **ἀδελφός** is nom. sing. of the noun “brother” (Chapter 1).
+	~%-100%aorist (1) active subjunctive 1st sing. of the verb “I loosen”#Incorrect. **λύσω** is aorist (1) active subjunctive 1st sing. of the verb “I loosen” (Ch. 3).
+	~%-100%aorist (1) active subjunctive 1st pl. of the verb “I order”#Incorrect. **κελεύσωμεν** is aorist (1) active subjunctive 1st pl. of the verb “I order” (Ch. 3).
+	~%-100%present active indicative 2nd pl. of the verb “I educate”#Incorrect. **παιδεύετε** is present active indicative 2nd pl. of the verb “I educate” (Ch. 2).
+	~%-100%gen. pl. of the noun “brother”#Incorrect. **ἀδελφῶν** is gen. pl. of the noun “brother” (Ch. 1).
+}
+
+
+::Q048::[markdown]τάς:{
+	~%-100%aorist (1) active optative 2nd sing. of the verb “I send”#Incorrect. **πέμψειας** is aorist (1) active optative 2nd sing. of the verb “I send” (Ch. 3).
+	~%100%fem. acc. pl. of the definite article “the”#Correct: **τάς** is fem. acc. pl. of the definite article “the” (Chapter 1).
+	~%-100%gen. sing. of the noun “marketplace”#Incorrect. **ἀγορᾶς** is gen. sing. of the noun “marketplace” (Ch. 1).
+	~%-100%present active subjunctive 1st sing. of the verb “I loosen”#Incorrect. **λύω** is present active subjunctive 1st sing. of the verb “I loosen” (Ch. 3).
+	~%-100%present active subjunctive 2nd pl. of the verb “I loosen”#Incorrect. **λύητε** is present active subjunctive 2nd pl. of the verb “I loosen” (Ch. 3).
+}
+
+
+::Q049::[markdown]κελεύσεις:{
+	~%-100%present active optative 1st sing. of the verb “I educate”#Incorrect. **παιδεύοιμι** is present active optative 1st sing. of the verb “I educate” (Ch. 3).
+	~%-100%perfect active indicative 3rd sing. of the verb “I send”#Incorrect. **πέπομφεν** is perfect active indicative 3rd sing. of the verb “I send” (Ch. 3).
+	~%100%future active indicative 2nd sing. of the verb “I order”#Correct: **κελεύσεις** is future active indicative 2nd sing. of the verb “I order” (Chapter 2).
+	~%-100%aorist (1) active optative 1st pl. of the verb “I send”#Incorrect. **-** is aorist (1) active optative 1st pl. of the verb “I send” (Ch. 3).
+	~%-100%future active indicative 1st pl. of the verb “I educate”#Incorrect. **παιδεύομεν** is future active indicative 1st pl. of the verb “I educate” (Ch. 2).
+}
+
+
+::Q050::[markdown]ἄνθρωπον:{
+	~%-100%imperfect active indicative 2nd pl. of the verb “I loosen”#Incorrect. **ἐλύετε** is imperfect active indicative 2nd pl. of the verb “I loosen” (Ch. 2).
+	~%100%acc. sing. of the noun “human being”#Correct: **ἄνθρωπον** is acc. sing. of the noun “human being” (Chapter 1).
+	~%-100%perfect active indicative 1st pl. of the verb “I send”#Incorrect. **πεπόμφαμεν** is perfect active indicative 1st pl. of the verb “I send” (Ch. 3).
+	~%-100%acc. pl. of the noun “gift”#Incorrect. **δῶρα** is acc. pl. of the noun “gift” (Ch. 1).
+	~%-100%aorist (1) active optative 1st pl. of the verb “I educate”#Incorrect. **-** is aorist (1) active optative 1st pl. of the verb “I educate” (Ch. 3).
+}
+
+
+::Q051::[markdown]ἐπέμπετε:{
+	~%-100%nom. pl. of the noun “human being”#Incorrect. **ἄνθρωποι** is nom. pl. of the noun “human being” (Ch. 1).
+	~%-100%perfect active indicative 2nd pl. of the verb “I send”#Incorrect. **πεπόμφατε** is perfect active indicative 2nd pl. of the verb “I send” (Ch. 3).
+	~%-100%aorist (1) active optative 3rd pl. of the verb “I order”#Incorrect. **κελεύσαιεν** is aorist (1) active optative 3rd pl. of the verb “I order” (Ch. 3).
+	~%-100%gen. pl. of the noun “human being”#Incorrect. **ἀνθρώπων** is gen. pl. of the noun “human being” (Ch. 1).
+	~%100%imperfect active indicative 2nd pl. of the verb “I send”#Correct: **ἐπέμπετε** is imperfect active indicative 2nd pl. of the verb “I send” (Chapter 3).
+}
+
+
+::Q052::[markdown]ἐλύσατε:{
+	~%-100%present active optative 3rd pl. of the verb “I send”#Incorrect. **πέμποιεν** is present active optative 3rd pl. of the verb “I send” (Ch. 3).
+	~%-100%nom. pl. of the noun “skill” #Incorrect. **τέχναι** is nom. pl. of the noun “skill”  (Ch. 1).
+	~%-100%pluperfect active indicative 2nd pl. of the verb “I order”#Incorrect. **ἐκεκελεύκατε** is pluperfect active indicative 2nd pl. of the verb “I order” (Ch. 3).
+	~%-100%nom. sing. of the noun “island”#Incorrect. **νῆσος** is nom. sing. of the noun “island” (Ch. 1).
+	~%100%aorist (1) active indicative 2nd pl. of the verb “I loosen”#Correct: **ἐλύσατε** is aorist (1) active indicative 2nd pl. of the verb “I loosen” (Chapter 2).
+}
+
+
+::Q053::[markdown]gen. pl. of the noun “island”:{
+	~%-100%νήσῳ#Incorrect. The form for dat. sing. of the noun “island” is **νήσῳ** (Ch. 1).
+	~%-100%ἐκεκελεύκεσαν#Incorrect. The form for pluperfect active indicative 3rd pl. of the verb “I order” is **ἐκεκελεύκεσαν** (Ch. 3).
+	~%100%νήσων#Correct: **νήσων** is the correct form for gen. pl. of the noun “island” (Chapter 1).
+	~%-100%ἀγοράν#Incorrect. The form for acc. sing. of the noun “marketplace” is **ἀγοράν** (Ch. 1).
+	~%-100%ἔλυσα#Incorrect. The form for aorist (1) active indicative 1st sing. of the verb “I loosen” is **ἔλυσα** (Ch. 2).
+}
+
+
+::Q054::[markdown]future active indicative 3rd sing. of the verb “I send”:{
+	~%-100%κελεύσητε#Incorrect. The form for aorist (1) active subjunctive 2nd pl. of the verb “I order” is **κελεύσητε** (Ch. 3).
+	~%-100%κελεύσῃς#Incorrect. The form for aorist (1) active subjunctive 2nd sing. of the verb “I order” is **κελεύσῃς** (Ch. 3).
+	~%-100%ἔλυον#Incorrect. The form for imperfect active indicative 3rd pl. of the verb “I loosen” is **ἔλυον** (Ch. 2).
+	~%-100%λύσω#Incorrect. The form for future active indicative 1st sing. of the verb “I loosen” is **λύσω** (Ch. 2).
+	~%100%πέμψει#Correct: **πέμψει** is the correct form for future active indicative 3rd sing. of the verb “I send” (Chapter 3).
+}
+
+
+::Q055::[markdown]future active infinitive of the verb “I educate”:{
+	~%-100%ἐλύσαμεν#Incorrect. The form for aorist (1) active indicative 1st pl. of the verb “I loosen” is **ἐλύσαμεν** (Ch. 2).
+	~%-100%ἔπεμπες#Incorrect. The form for imperfect active indicative 2nd sing. of the verb “I send” is **ἔπεμπες** (Ch. 3).
+	~%-100%παιδεύσαιτε#Incorrect. The form for aorist (1) active optative 2nd pl. of the verb “I educate” is **παιδεύσαιτε** (Ch. 3).
+	~%-100%κελεύεις#Incorrect. The form for present active indicative 2nd sing. of the verb “I order” is **κελεύεις** (Ch. 2).
+	~%100%παιδεύσειν#Correct: **παιδεύσειν** is the correct form for future active infinitive of the verb “I educate” (Chapter 2).
+}
+
+
+::Q056::[markdown]masc. nom. sing. of the definite article “the”:{
+	~%100%ὁ#Correct: **ὁ** is the correct form for masc. nom. sing. of the definite article “the” (Chapter 1).
+	~%-100%παιδεύω#Incorrect. The form for present active subjunctive 1st sing. of the verb “I educate” is **παιδεύω** (Ch. 3).
+	~%-100%ἀνθρώπου#Incorrect. The form for gen. sing. of the noun “human being” is **ἀνθρώπου** (Ch. 1).
+	~%-100%κελεύσομεν#Incorrect. The form for future active indicative 1st pl. of the verb “I order” is **κελεύσομεν** (Ch. 2).
+	~%-100%ἐλύετε#Incorrect. The form for imperfect active indicative 2nd pl. of the verb “I loosen” is **ἐλύετε** (Ch. 2).
+}
+
+
+::Q057::[markdown]gen. sing. of the noun “soul” :{
+	~%100%ψυχῆς#Correct: **ψυχῆς** is the correct form for gen. sing. of the noun “soul”  (Chapter 1).
+	~%-100%ἐκεκελεύκειν#Incorrect. The form for pluperfect active indicative 3rd sing. of the verb “I order” is **ἐκεκελεύκειν** (Ch. 3).
+	~%-100%παιδεύσητε#Incorrect. The form for aorist (1) active subjunctive 2nd pl. of the verb “I educate” is **παιδεύσητε** (Ch. 3).
+	~%-100%ἐκέλευον#Incorrect. The form for imperfect active indicative 1st sing. of the verb “I order” is **ἐκέλευον** (Ch. 2).
+	~%-100%λύοιτε#Incorrect. The form for present active optative 2nd pl. of the verb “I loosen” is **λύοιτε** (Ch. 3).
+}
+
+
+::Q058::[markdown]acc. pl. of the noun “brother”:{
+	~%100%ἀδελφούς#Correct: **ἀδελφούς** is the correct form for acc. pl. of the noun “brother” (Chapter 1).
+	~%-100%-#Incorrect. The form for aorist (1) active optative 2nd pl. of the verb “I order” is **-** (Ch. 3).
+	~%-100%ἐπεπαιδεύκης#Incorrect. The form for pluperfect active indicative 2nd sing. of the verb “I educate” is **ἐπεπαιδεύκης** (Ch. 3).
+	~%-100%παιδεύσω#Incorrect. The form for future active indicative 1st sing. of the verb “I educate” is **παιδεύσω** (Ch. 2).
+	~%-100%λύοιεν#Incorrect. The form for present active optative 3rd pl. of the verb “I loosen” is **λύοιεν** (Ch. 3).
+}
+
+
+::Q059::[markdown]aorist (1) active optative 2nd sing. of the verb “I send”:{
+	~%100%πέμψειας#Correct: **πέμψαις** is the correct form for aorist (1) active optative 2nd sing. of the verb “I send” (Chapter 3).
+	~%-100%ἀδελφούς#Incorrect. The form for acc. pl. of the noun “brother” is **ἀδελφούς** (Ch. 1).
+	~%-100%ψυχαῖς#Incorrect. The form for dat. pl. of the noun “soul”  is **ψυχαῖς** (Ch. 1).
+	~%-100%ἐπαιδεύετε#Incorrect. The form for imperfect active indicative 2nd pl. of the verb “I educate” is **ἐπαιδεύετε** (Ch. 2).
+	~%-100%ἐλελύκετε#Incorrect. The form for pluperfect active indicative 2nd pl. of the verb “I loosen” is **ἐλελύκετε** (Ch. 3).
+}
+
+
+::Q060::[markdown]aorist (1) active indicative 1st pl. of the verb “I order”:{
+	~%100%ἐκελεύσαμεν#Correct: **ἐκελεύσαμεν** is the correct form for aorist (1) active indicative 1st pl. of the verb “I order” (Chapter 2).
+	~%-100%χώρᾳ#Incorrect. The form for dat. sing. of the noun “territory”  is **χώρᾳ** (Ch. 1).
+	~%-100%ἐλελύκη#Incorrect. The form for pluperfect active indicative 1st sing. of the verb “I loosen” is **ἐλελύκη** (Ch. 3).
+	~%-100%ἐπαιδεύσαμεν#Incorrect. The form for aorist (1) active indicative 1st pl. of the verb “I educate” is **ἐπαιδεύσαμεν** (Ch. 2).
+	~%-100%ἀνθρώποις#Incorrect. The form for dat. pl. of the noun “human being” is **ἀνθρώποις** (Ch. 1).
+}
+
+
+::Q061::[markdown]ἀγορά:{
+	~%-100%present active indicative 3rd pl. of the verb “I educate”#Incorrect. **παιδεύουσιν** is present active indicative 3rd pl. of the verb “I educate” (Ch. 2).
+	~%-100%aorist (1) active optative 1st sing. of the verb “I educate”#Incorrect. **παιδεύσαιμι** is aorist (1) active optative 1st sing. of the verb “I educate” (Ch. 3).
+	~%100%nom. sing. of the noun “marketplace”#Correct: **ἀγορά** is nom. sing. of the noun “marketplace” (Chapter 1).
+	~%-100%aorist (1) active infinitive of the verb “I order”#Incorrect. **κελεῦσαι** is aorist (1) active infinitive of the verb “I order” (Ch. 2).
+	~%-100%aorist (1) active indicative 2nd sing. of the verb “I order”#Incorrect. **ἐκέλευσας** is aorist (1) active indicative 2nd sing. of the verb “I order” (Ch. 2).
+}
+
+
+::Q062::[markdown]ψυχάς:{
+	~%100%acc. pl. of the noun “soul” #Correct: **ψυχάς** is acc. pl. of the noun “soul”  (Chapter 1).
+	~%-100%perfect active indicative 2nd sing. of the verb “I send”#Incorrect. **πέπομφας** is perfect active indicative 2nd sing. of the verb “I send” (Ch. 3).
+	~%-100%pluperfect active indicative 3rd pl. of the verb “I educate”#Incorrect. **ἐπεπαιδεύκεσαν** is pluperfect active indicative 3rd pl. of the verb “I educate” (Ch. 3).
+	~%-100%present active optative 1st sing. of the verb “I order”#Incorrect. **κελεύοιμι** is present active optative 1st sing. of the verb “I order” (Ch. 3).
+}
+
+
+::Q063::[markdown]ἀγορά:{
+	~%-100%present active subjunctive 2nd pl. of the verb “I loosen”#Incorrect. **λύητε** is present active subjunctive 2nd pl. of the verb “I loosen” (Ch. 3).
+	~%-100%future active indicative 2nd pl. of the verb “I send”#Incorrect. **πέμψετε** is future active indicative 2nd pl. of the verb “I send” (Ch. 3).
+	~%-100%present active subjunctive 3rd pl. of the verb “I educate”#Incorrect. **παιδεύωσιν** is present active subjunctive 3rd pl. of the verb “I educate” (Ch. 3).
+	~%-100%present active indicative 3rd pl. of the verb “I order”#Incorrect. **κελεύουσιν** is present active indicative 3rd pl. of the verb “I order” (Ch. 2).
+	~%100%nom. sing. of the noun “marketplace”#Correct: **ἀγορά** is nom. sing. of the noun “marketplace” (Chapter 1).
+}
+
+
+::Q064::[markdown]neut. gen. sing. of the definite article “the”:{
+	~%-100%κελεύσω#Incorrect. The form for aorist (1) active subjunctive 1st sing. of the verb “I order” is **κελεύσω** (Ch. 3).
+	~%-100%λόγος#Incorrect. The form for nom. sing. of the noun “word” is **λόγος** (Ch. 1).
+	~%-100%λύσῃς#Incorrect. The form for aorist (1) active subjunctive 2nd sing. of the verb “I loosen” is **λύσῃς** (Ch. 3).
+	~%100%τοῦ#Correct: **τοῦ** is the correct form for neut. gen. sing. of the definite article “the” (Chapter 1).
+	~%-100%λύσαι#Incorrect. The form for aorist (1) active optative 3rd sing. of the verb “I loosen” is **λύσαι** (Ch. 3).
+}
+
+
+::Q065::[markdown]πέμποιμεν:{
+	~%-100%perfect active indicative 2nd pl. of the verb “I educate”#Incorrect. **πεπαιδεύκατε** is perfect active indicative 2nd pl. of the verb “I educate” (Ch. 3).
+	~%-100%acc. pl. of the noun “soul” #Incorrect. **ψυχάς** is acc. pl. of the noun “soul”  (Ch. 1).
+	~%-100%present active optative 2nd pl. of the verb “I educate”#Incorrect. **παιδεύοιτε** is present active optative 2nd pl. of the verb “I educate” (Ch. 3).
+	~%-100%pluperfect active indicative 1st pl. of the verb “I loosen”#Incorrect. **ἐλελύκεμεν** is pluperfect active indicative 1st pl. of the verb “I loosen” (Ch. 3).
+	~%100%present active optative 1st pl. of the verb “I send”#Correct: **πέμποιμεν** is present active optative 1st pl. of the verb “I send” (Chapter 3).
+}
+
+
+::Q066::[markdown]αἱ:{
+	~%-100%aorist (1) active subjunctive 1st sing. of the verb “I send”#Incorrect. **πέμψω** is aorist (1) active subjunctive 1st sing. of the verb “I send” (Ch. 3).
+	~%-100%perfect active indicative 2nd sing. of the verb “I educate”#Incorrect. **πεπαιδεύκας** is perfect active indicative 2nd sing. of the verb “I educate” (Ch. 3).
+	~%-100%pluperfect active indicative 1st pl. of the verb “I order”#Incorrect. **ἐκεκελεύκαμεν** is pluperfect active indicative 1st pl. of the verb “I order” (Ch. 3).
+	~%-100%imperfect active indicative 1st sing. of the verb “I send”#Incorrect. **ἔπεμπον** is imperfect active indicative 1st sing. of the verb “I send” (Ch. 3).
+	~%100%fem. nom. pl. of the definite article “the”#Correct: **αἱ** is fem. nom. pl. of the definite article “the” (Chapter 1).
+}
+
+
+::Q067::[markdown]perfect active indicative 3rd pl. of the verb “I order”:{
+	~%-100%κελεύσειας#Incorrect. The form for aorist (1) active optative 2nd sing. of the verb “I order” is **κελεύσειας** (Ch. 3).
+	~%-100%κελεύσειν#Incorrect. The form for future active infinitive of the verb “I order” is **κελεύσειν** (Ch. 2).
+	~%100%κεκελεύκασιν#Correct: **κεκελεύκασιν** is the correct form for perfect active indicative 3rd pl. of the verb “I order” (Chapter 3).
+	~%-100%πέμψειαν#Incorrect. The form for aorist (1) active optative 3rd pl. of the verb “I send” is **πέμψειαν** (Ch. 3).
+	~%-100%πέμποιμι#Incorrect. The form for present active optative 1st sing. of the verb “I send” is **πέμποιμι** (Ch. 3).
+}
+
+
+::Q068::[markdown]παιδεύοις:{
+	~%-100%dat. pl. of the noun “soul” #Incorrect. **ψυχαῖς** is dat. pl. of the noun “soul”  (Ch. 1).
+	~%100%present active optative 2nd sing. of the verb “I educate”#Correct: **παιδεύοις** is present active optative 2nd sing. of the verb “I educate” (Chapter 3).
+	~%-100%aorist (1) active optative 1st pl. of the verb “I send”#Incorrect. **πέμψαιμεν** is aorist (1) active optative 1st pl. of the verb “I send” (Ch. 3).
+	~%-100%nom. pl. of the noun “gift”#Incorrect. **δῶρα** is nom. pl. of the noun “gift” (Ch. 1).
+	~%-100%dat. sing. of the noun “territory” #Incorrect. **χώρᾳ** is dat. sing. of the noun “territory”  (Ch. 1).
+}
+
+
+::Q069::[markdown]πέμψειας:{
+	~%100%aorist (1) active optative 2nd sing. of the verb “I send”#Correct: **πέμψειας** is aorist (1) active optative 2nd sing. of the verb “I send” (Chapter 3).
+	~%-100%acc. pl. of the noun “human being”#Incorrect. **ἀνθρώπους** is acc. pl. of the noun “human being” (Ch. 1).
+	~%-100%pluperfect active indicative 3rd sing. of the verb “I order”#Incorrect. **ἐκεκελεύκειν** is pluperfect active indicative 3rd sing. of the verb “I order” (Ch. 3).
+	~%-100%dat. pl. of the noun “soul” #Incorrect. **ψυχαῖς** is dat. pl. of the noun “soul”  (Ch. 1).
+	~%-100%imperfect active indicative 3rd sing. of the verb “I send”#Incorrect. **ἔπεμπε** is imperfect active indicative 3rd sing. of the verb “I send” (Ch. 3).
+}
+
+
+::Q070::[markdown]ἐπαίδευσα:{
+	~%100%aorist (1) active indicative 1st sing. of the verb “I educate”#Correct: **ἐπαίδευσα** is aorist (1) active indicative 1st sing. of the verb “I educate” (Chapter 2).
+	~%-100%nom. sing. of the noun “brother”#Incorrect. **ἀδελφός** is nom. sing. of the noun “brother” (Ch. 1).
+	~%-100%aorist (1) active optative 3rd pl. of the verb “I loosen”#Incorrect. **λύσειαν** is aorist (1) active optative 3rd pl. of the verb “I loosen” (Ch. 3).
+	~%-100%imperfect active indicative 1st pl. of the verb “I send”#Incorrect. **ἐπέμπομεν** is imperfect active indicative 1st pl. of the verb “I send” (Ch. 3).
+	~%-100%perfect active indicative 2nd pl. of the verb “I order”#Incorrect. **κεκελεύκατε** is perfect active indicative 2nd pl. of the verb “I order” (Ch. 3).
+}
+
+
+::Q071::[markdown]perfect active indicative 3rd pl. of the verb “I send”:{
+	~%100%πεπόμφασιν#Correct: **πεπόμφασιν** is the correct form for perfect active indicative 3rd pl. of the verb “I send” (Chapter 3).
+	~%-100%λύητε#Incorrect. The form for present active subjunctive 2nd pl. of the verb “I loosen” is **λύητε** (Ch. 3).
+	~%-100%ἀδελφόν#Incorrect. The form for acc. sing. of the noun “brother” is **ἀδελφόν** (Ch. 1).
+	~%-100%λύοιμι#Incorrect. The form for present active optative 1st sing. of the verb “I loosen” is **λύοιμι** (Ch. 3).
+	~%-100%τέχνης#Incorrect. The form for gen. sing. of the noun “skill”  is **τέχνης** (Ch. 1).
+}
+
+
+::Q072::[markdown]aorist (1) active indicative 1st sing. of the verb “I loosen”:{
+	~%100%ἔλυσα#Correct: **ἔλυσα** is the correct form for aorist (1) active indicative 1st sing. of the verb “I loosen” (Chapter 2).
+	~%-100%κελεῦσαι#Incorrect. The form for aorist (1) active infinitive of the verb “I order” is **κελεῦσαι** (Ch. 2).
+	~%-100%ἐπεπαιδεύκη#Incorrect. The form for pluperfect active indicative 1st sing. of the verb “I educate” is **ἐπεπαιδεύκη** (Ch. 3).
+	~%-100%λύετε#Incorrect. The form for present active indicative 2nd pl. of the verb “I loosen” is **λύετε** (Ch. 2).
+	~%-100%ἀγορά#Incorrect. The form for nom. sing. of the noun “marketplace” is **ἀγορά** (Ch. 1).
+}
+
+
+::Q073::[markdown]ἐλέλυκεν:{
+	~%100%pluperfect active indicative 3rd sing. of the verb “I loosen”#Correct: **ἐλέλυκεν** is pluperfect active indicative 3rd sing. of the verb “I loosen” (Chapter 3).
+	~%-100%gen. pl. of the noun “gift”#Incorrect. **δώρων** is gen. pl. of the noun “gift” (Ch. 1).
+	~%-100%perfect active indicative 1st pl. of the verb “I loosen”#Incorrect. **λελύκαμεν** is perfect active indicative 1st pl. of the verb “I loosen” (Ch. 3).
+	~%-100%imperfect active indicative 2nd sing. of the verb “I order”#Incorrect. **ἐκέλευες** is imperfect active indicative 2nd sing. of the verb “I order” (Ch. 2).
+	~%-100%present active indicative 2nd sing. of the verb “I send”#Incorrect. **πέμπεις** is present active indicative 2nd sing. of the verb “I send” (Ch. 3).
+}
+
+
+::Q074::[markdown]ἐκελεύσατε:{
+	~%100%aorist (1) active indicative 2nd pl. of the verb “I order”#Correct: **ἐκελεύσατε** is aorist (1) active indicative 2nd pl. of the verb “I order” (Chapter 2).
+	~%-100%perfect active indicative 3rd sing. of the verb “I loosen”#Incorrect. **λέλυκεν** is perfect active indicative 3rd sing. of the verb “I loosen” (Ch. 3).
+	~%-100%present active subjunctive 2nd sing. of the verb “I send”#Incorrect. **πέμπῃς** is present active subjunctive 2nd sing. of the verb “I send” (Ch. 3).
+	~%-100%present active subjunctive 2nd sing. of the verb “I loosen”#Incorrect. **λύῃς** is present active subjunctive 2nd sing. of the verb “I loosen” (Ch. 3).
+	~%-100%pluperfect active indicative 1st sing. of the verb “I educate”#Incorrect. **ἐπεπαιδεύκη** is pluperfect active indicative 1st sing. of the verb “I educate” (Ch. 3).
+}
+
+
+::Q075::[markdown]ἐλέλυκεν:{
+	~%-100%nom. pl. of the noun “brother”#Incorrect. **ἀδελφοί** is nom. pl. of the noun “brother” (Ch. 1).
+	~%100%pluperfect active indicative 3rd sing. of the verb “I loosen”#Correct: **ἐλέλυκεν** is pluperfect active indicative 3rd sing. of the verb “I loosen” (Chapter 3).
+	~%-100%present active infinitive of the verb “I educate”#Incorrect. **παιδεύειν** is present active infinitive of the verb “I educate” (Ch. 2).
+	~%-100%gen. pl. of the noun “gift”#Incorrect. **δώρων** is gen. pl. of the noun “gift” (Ch. 1).
+	~%-100%present active indicative 2nd pl. of the verb “I order”#Incorrect. **κελεύετε** is present active indicative 2nd pl. of the verb “I order” (Ch. 2).
+}
+
+
+::Q076::[markdown]κελεύσαις:{
+	~%100%aorist (1) active optative 2nd sing. of the verb “I order”#Correct: **κελεύσαις** is aorist (1) active optative 2nd sing. of the verb “I order” (Chapter 3).
+	~%-100%imperfect active indicative 1st sing. of the verb “I educate”#Incorrect. **ἐπαίδευον** is imperfect active indicative 1st sing. of the verb “I educate” (Ch. 2).
+	~%-100%present active indicative 1st sing. of the verb “I educate”#Incorrect. **παιδεύω** is present active indicative 1st sing. of the verb “I educate” (Ch. 2).
+	~%-100%aorist (1) active subjunctive 2nd pl. of the verb “I loosen”#Incorrect. **λύσητε** is aorist (1) active subjunctive 2nd pl. of the verb “I loosen” (Ch. 3).
+	~%-100%neut. dat. sing. of the definite article “the”#Incorrect. **τῷ** is neut. dat. sing. of the definite article “the” (Ch. 1).
+}
+
+
+::Q077::[markdown]neut. gen. pl. of the definite article “the”:{
+	~%-100%τεχνῶν#Incorrect. The form for gen. pl. of the noun “skill”  is **τεχνῶν** (Ch. 1).
+	~%-100%ἐκελεύετε#Incorrect. The form for imperfect active indicative 2nd pl. of the verb “I order” is **ἐκελεύετε** (Ch. 2).
+	~%100%τῶν#Correct: **τῶν** is the correct form for neut. gen. pl. of the definite article “the” (Chapter 1).
+	~%-100%λύοις#Incorrect. The form for present active optative 2nd sing. of the verb “I loosen” is **λύοις** (Ch. 3).
+	~%-100%πέμψαι#Incorrect. The form for aorist (1) active infinitive of the verb “I send” is **πέμψαι** (Ch. 3).
+}
+
+
+::Q078::[markdown]aorist (1) active optative 3rd pl. of the verb “I send”:{
+	~%-100%λύσαιμι#Incorrect. The form for aorist (1) active optative 1st sing. of the verb “I loosen” is **λύσαιμι** (Ch. 3).
+	~%100%πέμψαιεν#Correct: **πέμψαιεν** is the correct form for aorist (1) active optative 3rd pl. of the verb “I send” (Chapter 3).
+	~%-100%ἐπαίδευσαν#Incorrect. The form for aorist (1) active indicative 3rd pl. of the verb “I educate” is **ἐπαίδευσαν** (Ch. 2).
+	~%-100%παιδεῦσαι#Incorrect. The form for aorist (1) active infinitive of the verb “I educate” is **παιδεῦσαι** (Ch. 2).
+	~%-100%ἔπεμπε#Incorrect. The form for imperfect active indicative 3rd sing. of the verb “I send” is **ἔπεμπε** (Ch. 3).
+}
+
+
+::Q079::[markdown]λελυκέναι:{
+	~%100%perfect active infinitive of the verb “I loosen”#Correct: **λελυκέναι** is perfect active infinitive of the verb “I loosen” (Chapter 3).
+	~%-100%aorist (1) active optative 1st sing. of the verb “I educate”#Incorrect. **παιδεύσαιμι** is aorist (1) active optative 1st sing. of the verb “I educate” (Ch. 3).
+	~%-100%neut. dat. pl. of the definite article “the”#Incorrect. **τοῖς** is neut. dat. pl. of the definite article “the” (Ch. 1).
+	~%-100%acc. pl. of the noun “word”#Incorrect. **λόγους** is acc. pl. of the noun “word” (Ch. 1).
+	~%-100%pluperfect active indicative 3rd sing. of the verb “I order”#Incorrect. **ἐκεκελεύκειν** is pluperfect active indicative 3rd sing. of the verb “I order” (Ch. 3).
+}
+
+
+::Q080::[markdown]future active indicative 1st sing. of the verb “I loosen”:{
+	~%100%λύσω#Correct: **λύσω** is the correct form for future active indicative 1st sing. of the verb “I loosen” (Chapter 2).
+	~%-100%ἀνθρώπῳ#Incorrect. The form for dat. sing. of the noun “human being” is **ἀνθρώπῳ** (Ch. 1).
+	~%-100%τεχνῶν#Incorrect. The form for gen. pl. of the noun “skill”  is **τεχνῶν** (Ch. 1).
+	~%-100%δῶρα#Incorrect. The form for acc. pl. of the noun “gift” is **δῶρα** (Ch. 1).
+	~%-100%ὁ#Incorrect. The form for masc. nom. sing. of the definite article “the” is **ὁ** (Ch. 1).
+}
+
+
