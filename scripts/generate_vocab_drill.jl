@@ -6,10 +6,10 @@ generate_drill.jl
 Command-line vocabulary drill generator for Donafer.
 
 Usage examples:
-    julia --project=. generate_drill.jl
-    julia --project=. generate_drill.jl --chapter 4 --questions 80
-    julia --project=. generate_drill.jl -c 5 -q 120
-    julia --project=. generate_drill.jl --config config/custom.toml -c 3
+    julia --project=. scripts/generate_vocab_drill.jl
+    julia --project=. scripts/generate_vocab_drill.jl --chapter 4 --questions 80
+    julia --project=. scripts/generate_vocab_drill.jl -c 5 -q 120
+    julia --project=. scripts/generate_vocab_drill.jl --config config/custom.toml -c 3
 """
 
 # The below are unnecessary if launching with `julia --project=. …`
