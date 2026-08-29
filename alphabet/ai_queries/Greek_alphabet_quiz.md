@@ -27,3 +27,4 @@ For this quiz, let's always transliterate *upsilon* 'υ' as Latin "u". There are
 
 There is a similar issue with "c" and "k", as transliterations of *kappa*. I'm not worried about at, since I can tell them that for this quiz, kappa is to be transliterated as 'k', even if the English cognate has a "c".
 
+Conversation at: <https://grok.com/share/c2hhcmQtMg_62ccfb2d-d0cb-4ef2-b8c2-d984dbfd2734>
