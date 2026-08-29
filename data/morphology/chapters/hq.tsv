@@ -124,7 +124,30 @@
 5	verb	44-6_future_passive_indicative_παιδεύω-alt.txt
 5	verb	35-5_perfect_mp_indicative_παιδεύω.txt
 5	verb	39-5_pluperfect_mp_indicative_παιδεύω.txt
+// NEED πέμπω 
 
-// Chapter 6 : φύλαξ αἴξ ἐλπίς χάρις σῶμα relative pronoun
+// Chapter 6
+
+6	noun	φύλαξ.txt
+6	noun	σῶμα.txt
+6	noun	χάρις.txt
+6	noun	ἐλπίς.txt
+6	noun	αἴξ.txt
+6	pronoun	rel_pronoun.txt
+
+// Chapter 7
+
+// Future indicative middle
+
+// Aorist indicative middle
+
+// Aorist subunctive middle
+
+// Aorist optative middle
+
+// Aorist infinitive middle
+
+// λύω παιδεύω κελεύω πέμπω
+// could add: ἄρχω γράφω διδάσκω θύω παύω πείθω τάττω φυλάττω 
 
 
