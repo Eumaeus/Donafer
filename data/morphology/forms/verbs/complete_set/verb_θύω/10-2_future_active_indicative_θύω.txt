@@ -1,0 +1,15 @@
+template#template_verb_2_future_active_indicative.txt
+lemma#the verb “I sacrifice”
+
+θύσω
+θύσεις
+θύσει
+
+θύσετον
+θύσετον
+
+θύσομεν
+θύσετε
+θύσουσι
+
+θύσειν
