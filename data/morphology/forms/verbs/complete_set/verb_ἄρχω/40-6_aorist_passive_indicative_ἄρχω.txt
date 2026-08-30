@@ -1,4 +1,15 @@
 template#template_verb_6_aorist_passive_indicative.txt
 lemma#the verb “I lead; rule”
 
+ἤρχθην
+ἤρχθης
+ἤρχθη
 
+ἤρχθητον
+ἠρχθήτην
+
+ἤρχθημεν
+ἤρχθητε
+ἤρχθησαν
+
+ἀρχθῆναι

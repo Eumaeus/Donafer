@@ -1,4 +1,13 @@
 template#template_verb_3_aorist1_active_subjunctive.txt
 lemma#the verb “I lead; rule”
 
+ἄρξω
+ἄρξῃς
+ἄρξῃ
 
+ἄρξητον
+ἄρξητον
+
+ἄρξωμεν
+ἄρξητε
+ἄρξωσι
