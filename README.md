@@ -1,6 +1,20 @@
 # Donafer
 
-Code and data for generating practice drills, quizzes, and exercises for students of Ancient Greek.
+Code and data for generating practice drills, quizzes, and exercises for students of Ancient Greek. Output is in `.gift` format, for importing into Moodle.
+
+## Code
+
+The code is in Julia. Scripts for running it are in <scripts/>.
+
+You will need to add `ArgParse` to your Julia installation.
+
+Run a script with:
+
+`julia --project=. scripts/check_morphology_integrity.jl`
+
+(That script confirms that the morphology forms are valid and well-formed.)
+
+Further instructions are in the scripts.
 
 ## Data
 
