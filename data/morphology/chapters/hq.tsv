@@ -148,18 +148,29 @@
 6	pronoun	rel_pronoun.txt
 
 // Chapter 7
+7	verb	12-2_future_middle_indicative_λύω-alt.txt
+7	verb	12-2_future_middle_indicative_λύω.txt
+7	verb	18-3_aorist1_middle_indicative_λύω.txt
+7	verb	19-3_aorist1_middle_subjunctive_λύω.txt
+7	verb	20-3_aorist1_middle_optative_λύω.txt
+7	verb	20-3_aorist1_middle_optative_πέμπω.txt
+7	verb	19-3_aorist1_middle_subjunctive_πέμπω.txt
+7	verb	18-3_aorist1_middle_indicative_πέμπω.txt
+7	verb	12-2_future_middle_indicative_πέμπω.txt
+7	verb	12-2_future_middle_indicative_πέμπω-alt.txt
+7	verb	18-3_aorist1_middle_indicative_κελεύω.txt
+7	verb	19-3_aorist1_middle_subjunctive_κελεύω.txt
+7	verb	20-3_aorist1_middle_optative_κελεύω.txt
+7	verb	12-2_future_middle_indicative_κελεύω.txt
+7	verb	12-2_future_middle_indicative_κελεύω-alt.txt
+7	verb	12-2_future_middle_indicative_παιδεύω-alt.txt
+7	verb	12-2_future_middle_indicative_παιδεύω.txt
+7	verb	18-3_aorist1_middle_indicative_παιδεύω.txt
+7	verb	19-3_aorist1_middle_subjunctive_παιδεύω.txt
+7	verb	20-3_aorist1_middle_optative_παιδεύω.txt
 
-// Future indicative middle
+// To this point: 00-1, 01-1, 02-1, 04-1, 05-1, 06-1, 07-1, 09-1, 10-2, 12-2, 14-3, 15-3, 16-3, 18-3, 19-3, 20-3, 30-4, 34-5, 35-5, 39-5, 40-6, 41-6, 42-6, 44-6
 
-// Aorist indicative middle
-
-// Aorist subunctive middle
-
-// Aorist optative middle
-
-// Aorist infinitive middle
-
-// λύω παιδεύω κελεύω πέμπω
 // could add: ἄρχω γράφω διδάσκω θύω παύω πείθω τάττω φυλάττω 
 
 
