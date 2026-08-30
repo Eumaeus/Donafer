@@ -1,0 +1,59 @@
+// commented lines and blank lines are disregarded
+// perfect active participle
+
+
+perfect active participle: masc. nom. sing.
+perfect active participle: masc. gen. sing.
+perfect active participle: masc. dat. sing.
+perfect active participle: masc. acc. sing.
+perfect active participle: masc. voc. sing.
+
+perfect active participle: masc. nom. dual 
+perfect active participle: masc. voc. dual 
+perfect active participle: masc. acc. dual 
+perfect active participle: masc. gen. dual 
+perfect active participle: masc. dat. dual 
+
+perfect active participle: masc. nom. pl.
+perfect active participle: masc. gen. pl.
+perfect active participle: masc. dat. pl.
+perfect active participle: masc. acc. pl.
+perfect active participle: masc. voc. pl.
+
+
+perfect active participle: fem. nom. sing.
+perfect active participle: fem. gen. sing.
+perfect active participle: fem. dat. sing.
+perfect active participle: fem. acc. sing.
+perfect active participle: fem. voc. sing.
+
+perfect active participle: fem. nom. dual 
+perfect active participle: fem. voc. dual 
+perfect active participle: fem. acc. dual 
+perfect active participle: fem. gen. dual 
+perfect active participle: fem. dat. dual 
+
+perfect active participle: fem. nom. pl.
+perfect active participle: fem. gen. pl.
+perfect active participle: fem. dat. pl.
+perfect active participle: fem. acc. pl.
+perfect active participle: fem. voc. pl.
+
+
+perfect active participle: neut. nom. sing.
+perfect active participle: neut. gen. sing.
+perfect active participle: neut. dat. sing.
+perfect active participle: neut. acc. sing.
+perfect active participle: neut. voc. sing.
+
+perfect active participle: neut. nom. dual 
+perfect active participle: neut. voc. dual 
+perfect active participle: neut. acc. dual 
+perfect active participle: neut. gen. dual 
+perfect active participle: neut. dat. dual 
+
+perfect active participle: neut. nom. pl.
+perfect active participle: neut. gen. pl.
+perfect active participle: neut. dat. pl.
+perfect active participle: neut. acc. pl.
+perfect active participle: neut. voc. pl.

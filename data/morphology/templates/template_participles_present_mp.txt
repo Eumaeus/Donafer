@@ -1,0 +1,59 @@
+// commented lines and blank lines are disregarded
+// present middle/passive participle
+
+
+present middle/passive participle: masc. nom. sing.
+present middle/passive participle: masc. gen. sing.
+present middle/passive participle: masc. dat. sing.
+present middle/passive participle: masc. acc. sing.
+present middle/passive participle: masc. voc. sing.
+
+present middle/passive participle: masc. nom. dual 
+present middle/passive participle: masc. voc. dual 
+present middle/passive participle: masc. acc. dual 
+present middle/passive participle: masc. gen. dual 
+present middle/passive participle: masc. dat. dual 
+
+present middle/passive participle: masc. nom. pl.
+present middle/passive participle: masc. gen. pl.
+present middle/passive participle: masc. dat. pl.
+present middle/passive participle: masc. acc. pl.
+present middle/passive participle: masc. voc. pl.
+
+
+present middle/passive participle: fem. nom. sing.
+present middle/passive participle: fem. gen. sing.
+present middle/passive participle: fem. dat. sing.
+present middle/passive participle: fem. acc. sing.
+present middle/passive participle: fem. voc. sing.
+
+present middle/passive participle: fem. nom. dual 
+present middle/passive participle: fem. voc. dual 
+present middle/passive participle: fem. acc. dual 
+present middle/passive participle: fem. gen. dual 
+present middle/passive participle: fem. dat. dual 
+
+present middle/passive participle: fem. nom. pl.
+present middle/passive participle: fem. gen. pl.
+present middle/passive participle: fem. dat. pl.
+present middle/passive participle: fem. acc. pl.
+present middle/passive participle: fem. voc. pl.
+
+
+present middle/passive participle: neut. nom. sing.
+present middle/passive participle: neut. gen. sing.
+present middle/passive participle: neut. dat. sing.
+present middle/passive participle: neut. acc. sing.
+present middle/passive participle: neut. voc. sing.
+
+present middle/passive participle: neut. nom. dual 
+present middle/passive participle: neut. voc. dual 
+present middle/passive participle: neut. acc. dual 
+present middle/passive participle: neut. gen. dual 
+present middle/passive participle: neut. dat. dual 
+
+present middle/passive participle: neut. nom. pl.
+present middle/passive participle: neut. gen. pl.
+present middle/passive participle: neut. dat. pl.
+present middle/passive participle: neut. acc. pl.
+present middle/passive participle: neut. voc. pl.

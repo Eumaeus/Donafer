@@ -1,0 +1,59 @@
+// commented lines and blank lines are disregarded
+// future passive participle
+
+
+future passive participle: masc. nom. sing.
+future passive participle: masc. gen. sing.
+future passive participle: masc. dat. sing.
+future passive participle: masc. acc. sing.
+future passive participle: masc. voc. sing.
+
+future passive participle: masc. nom. dual 
+future passive participle: masc. voc. dual 
+future passive participle: masc. acc. dual 
+future passive participle: masc. gen. dual 
+future passive participle: masc. dat. dual 
+
+future passive participle: masc. nom. pl.
+future passive participle: masc. gen. pl.
+future passive participle: masc. dat. pl.
+future passive participle: masc. acc. pl.
+future passive participle: masc. voc. pl.
+
+
+future passive participle: fem. nom. sing.
+future passive participle: fem. gen. sing.
+future passive participle: fem. dat. sing.
+future passive participle: fem. acc. sing.
+future passive participle: fem. voc. sing.
+
+future passive participle: fem. nom. dual 
+future passive participle: fem. voc. dual 
+future passive participle: fem. acc. dual 
+future passive participle: fem. gen. dual 
+future passive participle: fem. dat. dual 
+
+future passive participle: fem. nom. pl.
+future passive participle: fem. gen. pl.
+future passive participle: fem. dat. pl.
+future passive participle: fem. acc. pl.
+future passive participle: fem. voc. pl.
+
+
+future passive participle: neut. nom. sing.
+future passive participle: neut. gen. sing.
+future passive participle: neut. dat. sing.
+future passive participle: neut. acc. sing.
+future passive participle: neut. voc. sing.
+
+future passive participle: neut. nom. dual 
+future passive participle: neut. voc. dual 
+future passive participle: neut. acc. dual 
+future passive participle: neut. gen. dual 
+future passive participle: neut. dat. dual 
+
+future passive participle: neut. nom. pl.
+future passive participle: neut. gen. pl.
+future passive participle: neut. dat. pl.
+future passive participle: neut. acc. pl.
+future passive participle: neut. voc. pl.

@@ -1,0 +1,59 @@
+// commented lines and blank lines are disregarded
+//future active participle
+
+
+future active participle: masc. nom. sing.
+future active participle: masc. gen. sing.
+future active participle: masc. dat. sing.
+future active participle: masc. acc. sing.
+future active participle: masc. voc. sing.
+
+future active participle: masc. nom. dual 
+future active participle: masc. voc. dual 
+future active participle: masc. acc. dual 
+future active participle: masc. gen. dual 
+future active participle: masc. dat. dual 
+
+future active participle: masc. nom. pl.
+future active participle: masc. gen. pl.
+future active participle: masc. dat. pl.
+future active participle: masc. acc. pl.
+future active participle: masc. voc. pl.
+
+
+future active participle: fem. nom. sing.
+future active participle: fem. gen. sing.
+future active participle: fem. dat. sing.
+future active participle: fem. acc. sing.
+future active participle: fem. voc. sing.
+
+future active participle: fem. nom. dual 
+future active participle: fem. voc. dual 
+future active participle: fem. acc. dual 
+future active participle: fem. gen. dual 
+future active participle: fem. dat. dual 
+
+future active participle: fem. nom. pl.
+future active participle: fem. gen. pl.
+future active participle: fem. dat. pl.
+future active participle: fem. acc. pl.
+future active participle: fem. voc. pl.
+
+
+future active participle: neut. nom. sing.
+future active participle: neut. gen. sing.
+future active participle: neut. dat. sing.
+future active participle: neut. acc. sing.
+future active participle: neut. voc. sing.
+
+future active participle: neut. nom. dual 
+future active participle: neut. voc. dual 
+future active participle: neut. acc. dual 
+future active participle: neut. gen. dual 
+future active participle: neut. dat. dual 
+
+future active participle: neut. nom. pl.
+future active participle: neut. gen. pl.
+future active participle: neut. dat. pl.
+future active participle: neut. acc. pl.
+future active participle: neut. voc. pl.

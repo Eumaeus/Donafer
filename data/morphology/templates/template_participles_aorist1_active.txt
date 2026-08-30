@@ -1,0 +1,59 @@
+// commented lines and blank lines are disregarded
+// aorist (1) active participle
+
+
+aorist (1) active participle: masc. nom. sing.
+aorist (1) active participle: masc. gen. sing.
+aorist (1) active participle: masc. dat. sing.
+aorist (1) active participle: masc. acc. sing.
+aorist (1) active participle: masc. voc. sing.
+
+aorist (1) active participle: masc. nom. dual 
+aorist (1) active participle: masc. voc. dual 
+aorist (1) active participle: masc. acc. dual 
+aorist (1) active participle: masc. gen. dual 
+aorist (1) active participle: masc. dat. dual 
+
+aorist (1) active participle: masc. nom. pl.
+aorist (1) active participle: masc. gen. pl.
+aorist (1) active participle: masc. dat. pl.
+aorist (1) active participle: masc. acc. pl.
+aorist (1) active participle: masc. voc. pl.
+
+
+aorist (1) active participle: fem. nom. sing.
+aorist (1) active participle: fem. gen. sing.
+aorist (1) active participle: fem. dat. sing.
+aorist (1) active participle: fem. acc. sing.
+aorist (1) active participle: fem. voc. sing.
+
+aorist (1) active participle: fem. nom. dual 
+aorist (1) active participle: fem. voc. dual 
+aorist (1) active participle: fem. acc. dual 
+aorist (1) active participle: fem. gen. dual 
+aorist (1) active participle: fem. dat. dual 
+
+aorist (1) active participle: fem. nom. pl.
+aorist (1) active participle: fem. gen. pl.
+aorist (1) active participle: fem. dat. pl.
+aorist (1) active participle: fem. acc. pl.
+aorist (1) active participle: fem. voc. pl.
+
+
+aorist (1) active participle: neut. nom. sing.
+aorist (1) active participle: neut. gen. sing.
+aorist (1) active participle: neut. dat. sing.
+aorist (1) active participle: neut. acc. sing.
+aorist (1) active participle: neut. voc. sing.
+
+aorist (1) active participle: neut. nom. dual 
+aorist (1) active participle: neut. voc. dual 
+aorist (1) active participle: neut. acc. dual 
+aorist (1) active participle: neut. gen. dual 
+aorist (1) active participle: neut. dat. dual 
+
+aorist (1) active participle: neut. nom. pl.
+aorist (1) active participle: neut. gen. pl.
+aorist (1) active participle: neut. dat. pl.
+aorist (1) active participle: neut. acc. pl.
+aorist (1) active participle: neut. voc. pl.

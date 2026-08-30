@@ -1,0 +1,59 @@
+// commented lines and blank lines are disregarded
+// future middle participle
+
+
+future middle participle: masc. nom. sing.
+future middle participle: masc. gen. sing.
+future middle participle: masc. dat. sing.
+future middle participle: masc. acc. sing.
+future middle participle: masc. voc. sing.
+
+future middle participle: masc. nom. dual 
+future middle participle: masc. voc. dual 
+future middle participle: masc. acc. dual 
+future middle participle: masc. gen. dual 
+future middle participle: masc. dat. dual 
+
+future middle participle: masc. nom. pl.
+future middle participle: masc. gen. pl.
+future middle participle: masc. dat. pl.
+future middle participle: masc. acc. pl.
+future middle participle: masc. voc. pl.
+
+
+future middle participle: fem. nom. sing.
+future middle participle: fem. gen. sing.
+future middle participle: fem. dat. sing.
+future middle participle: fem. acc. sing.
+future middle participle: fem. voc. sing.
+
+future middle participle: fem. nom. dual 
+future middle participle: fem. voc. dual 
+future middle participle: fem. acc. dual 
+future middle participle: fem. gen. dual 
+future middle participle: fem. dat. dual 
+
+future middle participle: fem. nom. pl.
+future middle participle: fem. gen. pl.
+future middle participle: fem. dat. pl.
+future middle participle: fem. acc. pl.
+future middle participle: fem. voc. pl.
+
+
+future middle participle: neut. nom. sing.
+future middle participle: neut. gen. sing.
+future middle participle: neut. dat. sing.
+future middle participle: neut. acc. sing.
+future middle participle: neut. voc. sing.
+
+future middle participle: neut. nom. dual 
+future middle participle: neut. voc. dual 
+future middle participle: neut. acc. dual 
+future middle participle: neut. gen. dual 
+future middle participle: neut. dat. dual 
+
+future middle participle: neut. nom. pl.
+future middle participle: neut. gen. pl.
+future middle participle: neut. dat. pl.
+future middle participle: neut. acc. pl.
+future middle participle: neut. voc. pl.

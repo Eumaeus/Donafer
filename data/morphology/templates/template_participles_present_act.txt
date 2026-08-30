@@ -1,0 +1,59 @@
+// commented lines and blank lines are disregarded
+// present active participle
+
+
+present active participle: masc. nom. sing.
+present active participle: masc. gen. sing.
+present active participle: masc. dat. sing.
+present active participle: masc. acc. sing.
+present active participle: masc. voc. sing.
+
+present active participle: masc. nom. dual 
+present active participle: masc. voc. dual 
+present active participle: masc. acc. dual 
+present active participle: masc. gen. dual 
+present active participle: masc. dat. dual 
+
+present active participle: masc. nom. pl.
+present active participle: masc. gen. pl.
+present active participle: masc. dat. pl.
+present active participle: masc. acc. pl.
+present active participle: masc. voc. pl.
+
+
+present active participle: fem. nom. sing.
+present active participle: fem. gen. sing.
+present active participle: fem. dat. sing.
+present active participle: fem. acc. sing.
+present active participle: fem. voc. sing.
+
+present active participle: fem. nom. dual 
+present active participle: fem. voc. dual 
+present active participle: fem. acc. dual 
+present active participle: fem. gen. dual 
+present active participle: fem. dat. dual 
+
+present active participle: fem. nom. pl.
+present active participle: fem. gen. pl.
+present active participle: fem. dat. pl.
+present active participle: fem. acc. pl.
+present active participle: fem. voc. pl.
+
+
+present active participle: neut. nom. sing.
+present active participle: neut. gen. sing.
+present active participle: neut. dat. sing.
+present active participle: neut. acc. sing.
+present active participle: neut. voc. sing.
+
+present active participle: neut. nom. dual 
+present active participle: neut. voc. dual 
+present active participle: neut. acc. dual 
+present active participle: neut. gen. dual 
+present active participle: neut. dat. dual 
+
+present active participle: neut. nom. pl.
+present active participle: neut. gen. pl.
+present active participle: neut. dat. pl.
+present active participle: neut. acc. pl.
+present active participle: neut. voc. pl.

@@ -1,0 +1,59 @@
+// commented lines and blank lines are disregarded
+// aorist (1) middle participle
+
+
+aorist (1) middle participle: masc. nom. sing.
+aorist (1) middle participle: masc. gen. sing.
+aorist (1) middle participle: masc. dat. sing.
+aorist (1) middle participle: masc. acc. sing.
+aorist (1) middle participle: masc. voc. sing.
+
+aorist (1) middle participle: masc. nom. dual 
+aorist (1) middle participle: masc. voc. dual 
+aorist (1) middle participle: masc. acc. dual 
+aorist (1) middle participle: masc. gen. dual 
+aorist (1) middle participle: masc. dat. dual 
+
+aorist (1) middle participle: masc. nom. pl.
+aorist (1) middle participle: masc. gen. pl.
+aorist (1) middle participle: masc. dat. pl.
+aorist (1) middle participle: masc. acc. pl.
+aorist (1) middle participle: masc. voc. pl.
+
+
+aorist (1) middle participle: fem. nom. sing.
+aorist (1) middle participle: fem. gen. sing.
+aorist (1) middle participle: fem. dat. sing.
+aorist (1) middle participle: fem. acc. sing.
+aorist (1) middle participle: fem. voc. sing.
+
+aorist (1) middle participle: fem. nom. dual 
+aorist (1) middle participle: fem. voc. dual 
+aorist (1) middle participle: fem. acc. dual 
+aorist (1) middle participle: fem. gen. dual 
+aorist (1) middle participle: fem. dat. dual 
+
+aorist (1) middle participle: fem. nom. pl.
+aorist (1) middle participle: fem. gen. pl.
+aorist (1) middle participle: fem. dat. pl.
+aorist (1) middle participle: fem. acc. pl.
+aorist (1) middle participle: fem. voc. pl.
+
+
+aorist (1) middle participle: neut. nom. sing.
+aorist (1) middle participle: neut. gen. sing.
+aorist (1) middle participle: neut. dat. sing.
+aorist (1) middle participle: neut. acc. sing.
+aorist (1) middle participle: neut. voc. sing.
+
+aorist (1) middle participle: neut. nom. dual 
+aorist (1) middle participle: neut. voc. dual 
+aorist (1) middle participle: neut. acc. dual 
+aorist (1) middle participle: neut. gen. dual 
+aorist (1) middle participle: neut. dat. dual 
+
+aorist (1) middle participle: neut. nom. pl.
+aorist (1) middle participle: neut. gen. pl.
+aorist (1) middle participle: neut. dat. pl.
+aorist (1) middle participle: neut. acc. pl.
+aorist (1) middle participle: neut. voc. pl.

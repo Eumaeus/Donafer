@@ -1,0 +1,59 @@
+// commented lines and blank lines are disregarded
+// perfect middle/passive participle
+
+
+perfect middle/passive participle: masc. nom. sing.
+perfect middle/passive participle: masc. gen. sing.
+perfect middle/passive participle: masc. dat. sing.
+perfect middle/passive participle: masc. acc. sing.
+perfect middle/passive participle: masc. voc. sing.
+
+perfect middle/passive participle: masc. nom. dual 
+perfect middle/passive participle: masc. voc. dual 
+perfect middle/passive participle: masc. acc. dual 
+perfect middle/passive participle: masc. gen. dual 
+perfect middle/passive participle: masc. dat. dual 
+
+perfect middle/passive participle: masc. nom. pl.
+perfect middle/passive participle: masc. gen. pl.
+perfect middle/passive participle: masc. dat. pl.
+perfect middle/passive participle: masc. acc. pl.
+perfect middle/passive participle: masc. voc. pl.
+
+
+perfect middle/passive participle: fem. nom. sing.
+perfect middle/passive participle: fem. gen. sing.
+perfect middle/passive participle: fem. dat. sing.
+perfect middle/passive participle: fem. acc. sing.
+perfect middle/passive participle: fem. voc. sing.
+
+perfect middle/passive participle: fem. nom. dual 
+perfect middle/passive participle: fem. voc. dual 
+perfect middle/passive participle: fem. acc. dual 
+perfect middle/passive participle: fem. gen. dual 
+perfect middle/passive participle: fem. dat. dual 
+
+perfect middle/passive participle: fem. nom. pl.
+perfect middle/passive participle: fem. gen. pl.
+perfect middle/passive participle: fem. dat. pl.
+perfect middle/passive participle: fem. acc. pl.
+perfect middle/passive participle: fem. voc. pl.
+
+
+perfect middle/passive participle: neut. nom. sing.
+perfect middle/passive participle: neut. gen. sing.
+perfect middle/passive participle: neut. dat. sing.
+perfect middle/passive participle: neut. acc. sing.
+perfect middle/passive participle: neut. voc. sing.
+
+perfect middle/passive participle: neut. nom. dual 
+perfect middle/passive participle: neut. voc. dual 
+perfect middle/passive participle: neut. acc. dual 
+perfect middle/passive participle: neut. gen. dual 
+perfect middle/passive participle: neut. dat. dual 
+
+perfect middle/passive participle: neut. nom. pl.
+perfect middle/passive participle: neut. gen. pl.
+perfect middle/passive participle: neut. dat. pl.
+perfect middle/passive participle: neut. acc. pl.
+perfect middle/passive participle: neut. voc. pl.
