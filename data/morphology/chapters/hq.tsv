@@ -124,7 +124,15 @@
 5	verb	44-6_future_passive_indicative_παιδεύω-alt.txt
 5	verb	35-5_perfect_mp_indicative_παιδεύω.txt
 5	verb	39-5_pluperfect_mp_indicative_παιδεύω.txt
-// NEED πέμπω 
+5	verb	05-1_present_mp_indicative_πέμπω-alt.txt
+5	verb	05-1_present_mp_indicative_πέμπω.txt
+5	verb	06-1_present_mp_subjunctive_πέμπω.txt
+5	verb	07-1_present_mp_optative_πέμπω.txt
+5	verb	09-1_imperfect_mp_indicative_πέμπω.txt
+5	verb	35-5_perfect_mp_indicative_πέμπω.txt
+5	verb	39-5_pluperfect_mp_indicative_πέμπω.txt
+5	verb	40-6_aorist_passive_indicative_πέμπω.txt
+
 
 // Chapter 6
 
