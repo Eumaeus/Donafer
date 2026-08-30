@@ -530,11 +530,25 @@ function word_distractors(greek::AbstractString, correct::AbstractString, n::Int
     push!(traps, replace(correct, "ph" => "f", "Ph" => "F"))
     push!(traps, replace(correct, "ch" => "kh", "Ch" => "Kh"))
     push!(traps, replace(correct, "x" => "ks", "X" => "Ks"))
+
+    # Rough/smooth trap: only for vowel-initial Greek.
+    # (A consonant cannot carry a breathing.)
+    vowels = Set(['α','ε','η','ι','ο','υ','ω',
+                  'ἀ','ἁ','ἐ','ἑ','ἠ','ἡ','ἰ','ἱ','ὀ','ὁ','ὐ','ὑ','ὠ','ὡ',
+                  'ἄ','ἅ','ἔ','ἕ','ἤ','ἥ','ἴ','ἵ','ὄ','ὅ','ὔ','ὕ','ὤ','ὥ',
+                  'Α','Ε','Η','Ι','Ο','Υ','Ω',
+                  'Ἀ','Ἁ','Ἐ','Ἑ','Ἠ','Ἡ','Ἰ','Ἱ','Ὀ','Ὁ','Ὑ','Ὠ','Ὡ'])
+
+    first_g = first(greek)   # first *character*, not first UTF-8 byte
+
     if startswith(correct, "h") || startswith(correct, "H")
-        push!(traps, correct[2:end])
-    else
+        push!(traps, correct[nextind(correct, 1):end])
+    elseif first_g in vowels
         push!(traps, "h" * lowercase(correct))
     end
+
+
+
     for t in unique(traps)
         if lowercase(t) ∉ used && t != correct && !isempty(t)
             push!(out, t); push!(used, lowercase(t))
@@ -674,6 +688,7 @@ function header_text(opts)
 //   η = ē , ω = ō , υ = u  (never y)
 //   θ = th , φ = ph , χ = ch , ψ = ps , ξ = x
 //   kappa = k  (even when English cognates use c)
+//   γγ = ng; γκ = nk; γχ = nch
 //
 // Distractor feedback: "That would appear in Greek as '…'."
 // ============================================================
