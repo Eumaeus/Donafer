@@ -1,4 +1,16 @@
 template#template_verb_5_perfect_mp_indicative.txt
 lemma#the verb “I send”
 
+πέπεμμαι
+πέπεμψαι
+πέπεμπται
+
+πέπεμφθον
+πέπεμφθον
+
+πεπέμμεθα
+πέπεμφθε
+πεπεμμένοι εἰσί
+
+πεπέμφθαι
 
