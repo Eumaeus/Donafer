@@ -1,4 +1,15 @@
 template#template_verb_3_aorist1_middle_indicative.txt
 lemma#the verb “I educate”
 
+ἐπαιδευσάμην
+ἐπαιδεύσω
+ἐπαιδεύσατο
 
+ἐπαιδεύσασθον
+ἐπαιδευσάσθην
+
+ἐπαιδευσάμεθα
+ἐπαιδεύσασθε
+ἐπαιδεύσαντο
+
+παιδεύσασθαι

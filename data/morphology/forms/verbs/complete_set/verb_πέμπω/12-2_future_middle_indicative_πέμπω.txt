@@ -2,3 +2,15 @@ template#template_verb_2_future_middle_indicative.txt
 lemma#the verb “I send”
 
 
+πέμψομαι
+πέμψῃ
+πέμψεται
+
+πέμψεσθον
+πέμψεσθον
+
+πεμψόμεθα
+πέμψεσθε
+πέμψονται
+
+πέμψεσθαι
