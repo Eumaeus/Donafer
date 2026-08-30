@@ -1,19 +1,42 @@
 // The categories are "noun", "verb", "prep", "adj", and "other".
+//
 // The pattern is:
+//
 //				category # Greek # English
+//
 // In the Greek field, different forms are separated by ";".
+//
 // So…
+//
 // 		ἐκ + gen; ἐξ + gen
+//
 // In the English field, different forms are separated by ";". So…
+//
 //			and; even; also
-// Items in category "noun" follow the pattern "nominative form, comma, genitive form, comma, definite article (to show gender)":
+//
+// Items in category "noun" follow the pattern 
+// "nominative form, comma, genitive form, comma, 
+// definite article (to show gender)":
+//
 //			ἀγορά, ἀγορᾶς, ἡ
-// Verbs include all principal parts, in this pattern (number space, principal-part, semicolon):
+//
+// Verbs include all principal parts, in this 
+// pattern (number, space, principal-part, semicolon):
+//
 //			1 πέμπω;2 πέμψω;3 ἔπεμψα;4 πέπομφα;5 πέπεμμαι;6 ἐπέμφθην
-// A verb may not have all six. The missing ones are omitted in the list, but the numbering of principal parts follows the traditional scheme where "1" is "present activr indicative" and "6" is "aorist passive":
+//
+// A verb may have fewer than six. The missing ones are 
+// omitted in the list, but the numbering of principal 
+// parts follows the traditional scheme where "1" is 
+// "present active indicative" and "6" is "aorist passive":
+//
 //			1 θάπτω;2 θάψω;3 ἔθαψα;5 τέθαμμαι;6 ἐτάφην
-// A verb may have more than one form of a numbered principal part:
-//			1 βλάπτω;2 βλάψω;3 ἔβλαψα;4 βέβλαφα;5 βέβλαμμαι;6 ἐβλάβην;6 ἐβλάφθην
+//
+// A verb may have more than one form of a numbered 
+// principal part:
+//
+//			1 βλάπτω;2 βλάψω;3 ἔβλαψα;4 βέβλαφα;
+//			5 βέβλαμμαι;6 ἐβλάβην;6 ἐβλάφθην
 
 // Unit 1
 1#noun#ἀγορά, ἀγορᾶς, ἡ#market place
