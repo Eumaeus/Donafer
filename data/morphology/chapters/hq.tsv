@@ -178,65 +178,8 @@
 7	verb	18-3_aorist1_middle_indicative_παιδεύω.txt
 7	verb	19-3_aorist1_middle_subjunctive_παιδεύω.txt
 7	verb	20-3_aorist1_middle_optative_παιδεύω.txt
-//			θύω (all forms thus far)
-7	verb	00-1_present_active_indicative_θύω.txt
-7	verb	01-1_present_active_subjunctive_θύω.txt
-7	verb	02-1_present_active_optative_θύω.txt
-7	verb	04-1_imperfect_active_indicative_θύω.txt
-7	verb	05-1_present_mp_indicative_θύω-alt.txt
-7	verb	05-1_present_mp_indicative_θύω.txt
-7	verb	06-1_present_mp_subjunctive_θύω.txt
-7	verb	07-1_present_mp_optative_θύω.txt
-7	verb	09-1_imperfect_mp_indicative_θύω.txt
-7	verb	10-2_future_active_indicative_θύω.txt
-7	verb	12-2_future_middle_indicative_θύω-alt.txt
-7	verb	12-2_future_middle_indicative_θύω.txt
-7	verb	14-3_aorist1_active_indicative_θύω.txt
-7	verb	15-3_aorist1_active_subjunctive_θύω.txt
-7	verb	16-3_aorist1_active_optative_θύω-alt.txt
-7	verb	16-3_aorist1_active_optative_θύω.txt
-7	verb	18-3_aorist1_middle_indicative_θύω.txt
-7	verb	19-3_aorist1_middle_subjunctive_θύω.txt
-7	verb	20-3_aorist1_middle_optative_θύω.txt
-7	verb	30-4_perfect_active_indicative_θύω.txt
-7	verb	34-5_pluperfect_active_indicative_θύω.txt
-7	verb	35-5_perfect_mp_indicative_θύω.txt
-7	verb	39-5_pluperfect_mp_indicative_θύω.txt
-7	verb	40-6_aorist_passive_indicative_θύω.txt
-7	verb	41-6_aorist_passive_subjunctive_θύω.txt
-7	verb	42-6_aorist_passive_optative_θύω-alt.txt
-7	verb	42-6_aorist_passive_optative_θύω.txt
-7	verb	44-6_future_passive_indicative_θύω.txt
-7	verb	44-6_future_passive_indicative_θύω-alt.txt
-//			ἄρχω (all forms thus far)
-7	verb	00-1_present_active_indicative_ἄρχω.txt
-7	verb	01-1_present_active_subjunctive_ἄρχω.txt
-7	verb	02-1_present_active_optative_ἄρχω.txt
-7	verb	04-1_imperfect_active_indicative_ἄρχω.txt
-7	verb	05-1_present_mp_indicative_ἄρχω-alt.txt
-7	verb	05-1_present_mp_indicative_ἄρχω.txt
-7	verb	06-1_present_mp_subjunctive_ἄρχω.txt
-7	verb	07-1_present_mp_optative_ἄρχω.txt
-7	verb	09-1_imperfect_mp_indicative_ἄρχω.txt
-7	verb	10-2_future_active_indicative_ἄρχω.txt
-7	verb	12-2_future_middle_indicative_ἄρχω-alt.txt
-7	verb	12-2_future_middle_indicative_ἄρχω.txt
-7	verb	14-3_aorist1_active_indicative_ἄρχω.txt
-7	verb	15-3_aorist1_active_subjunctive_ἄρχω.txt
-7	verb	16-3_aorist1_active_optative_ἄρχω-alt.txt
-7	verb	16-3_aorist1_active_optative_ἄρχω.txt
-7	verb	18-3_aorist1_middle_indicative_ἄρχω.txt
-7	verb	19-3_aorist1_middle_subjunctive_ἄρχω.txt
-7	verb	20-3_aorist1_middle_optative_ἄρχω.txt
-7	verb	30-4_perfect_active_indicative_ἄρχω.txt
-7	verb	34-5_pluperfect_active_indicative_ἄρχω.txt
-7	verb	35-5_perfect_mp_indicative_ἄρχω.txt
-7	verb	39-5_pluperfect_mp_indicative_ἄρχω.txt
-7	verb	40-6_aorist_passive_indicative_ἄρχω.txt
-7	verb	41-6_aorist_passive_subjunctive_ἄρχω.txt
-7	verb	42-6_aorist_passive_optative_ἄρχω-alt.txt
-7	verb	42-6_aorist_passive_optative_ἄρχω.txt
 //			λείπω (Forms so far, but 2nd Aorists!)
+//			γράφω, φυλάττω
 
 
 
@@ -254,7 +197,8 @@
 //			(participles)
 //			Do participles for λείπω θύω παιδεύω ἄρχω πέμπω
 //			in the adjectives directory
-//			Move main forms for θύω and ἄρχω here. Add πείθω
+//			Move main forms for θύω and ἄρχω here. 
+//			Add πείθω and τάττω
 
 //			θύω (all forms thus far)
 8	verb	00-1_present_active_indicative_θύω.txt
@@ -314,7 +258,63 @@
 8	verb	41-6_aorist_passive_subjunctive_ἄρχω.txt
 8	verb	42-6_aorist_passive_optative_ἄρχω-alt.txt
 8	verb	42-6_aorist_passive_optative_ἄρχω.txt
+//			τάττω, πείθω
 
-// could add: πείθω, γράφω διδάσκω παύω πείθω τάττω φυλάττω 
 
+// Chapter 9
+//			τιμάω, ποιέω
+//			add διδάσκω
 
+// Chapter 10
+//			δηλόω, ἁγγέλλω, μένω
+
+// Chapter 11
+//			imperative mood
+//			present active
+//			present m/p
+//			aorist1 middle
+//			aorist2 middle
+//			aorist passive
+//			
+//			add δέχομαι
+
+// Chapter 12
+//			-μι verbs: present, imperfect, future
+//			δίδωμι
+//			τίθημι
+//			ἱστήμι
+
+// Chapter 13
+//			δίδωμι aorist active and middle, perfect, pluperfect
+//			τίθημι
+//			ἱστήμι
+//			ἔρχομαι		
+
+// Chapter 14
+//			participles of -μι verbs present and aorist of
+//			δίδωμι τίθημι ἵστημι
+//			δείκνυμι all forms so far
+
+// Chapter 15
+//			εἰμί: present imperfect future subj opt imper
+//			participles in their files
+
+// Chapter 16
+//			φημί: present imperfect subj opt imper future aorists
+//			participle
+//			γίγνωσκω
+//			future optatives: λύω παιδεύω λείπω
+
+// Chapter 17
+//			εἶμι
+
+// Chapter 18
+//			ἵημι
+
+// Chapter 19
+//			οἶδα
+
+// Chapter 20
+//			δεῖ χρή
+//			κεῖμαι
+//			
