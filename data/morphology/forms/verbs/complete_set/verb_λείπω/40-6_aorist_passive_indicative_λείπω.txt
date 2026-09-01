@@ -1,4 +1,15 @@
 template#template_verb_6_aorist_passive_indicative.txt
 lemma#the verb “I leave”
 
+ἐλείφθην
+ἐλείφθης
+ἐλείφθη
 
+ἐλείφθητον
+ἐλειφθήτην
+
+ἐλείφθημεν
+ἐλείφθητε
+ἐλείφθησαν
+
+λειφθῆναι
