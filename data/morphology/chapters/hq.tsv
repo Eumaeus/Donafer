@@ -179,7 +179,38 @@
 7	verb	19-3_aorist1_middle_subjunctive_παιδεύω.txt
 7	verb	20-3_aorist1_middle_optative_παιδεύω.txt
 //			λείπω (Forms so far, but 2nd Aorists!)
-//			γράφω, φυλάττω
+7	verb	02-1_present_active_optative_φυλάττω.txt
+7	verb	00-1_present_active_indicative_φυλάττω.txt
+7	verb	01-1_present_active_subjunctive_φυλάττω.txt
+7	verb	04-1_imperfect_active_indicative_φυλάττω.txt
+7	verb	05-1_present_mp_indicative_φυλάττω-alt.txt
+7	verb	05-1_present_mp_indicative_φυλάττω.txt
+7	verb	06-1_present_mp_subjunctive_φυλάττω.txt
+7	verb	07-1_present_mp_optative_φυλάττω.txt
+7	verb	09-1_imperfect_mp_indicative_φυλάττω.txt
+7	verb	10-2_future_active_indicative_φυλάττω.txt
+7	verb	12-2_future_middle_indicative_φυλάττω-alt.txt
+7	verb	12-2_future_middle_indicative_φυλάττω.txt
+7	verb	22-3_aorist2_active_indicative_φυλάττω.txt
+7	verb	23-3_aorist2_active_subjunctive_φυλάττω.txt
+7	verb	24-3_aorist2_active_optative_φυλάττω.txt
+7	verb	26-3_aorist2_middle_indicative_φυλάττω.txt
+7	verb	27-3_aorist2_middle_subjunctive_φυλάττω.txt
+7	verb	28-3_aorist2_middle_optative_φυλάττω.txt
+7	verb	30-4_perfect_active_indicative_φυλάττω.txt
+7	verb	34-5_pluperfect_active_indicative_φυλάττω.txt
+7	verb	34-5_pluperfect_active_indicative_φυλάττω-alt.txt
+7	verb	35-5_perfect_mp_indicative_φυλάττω.txt
+7	verb	39-5_pluperfect_mp_indicative_φυλάττω.txt
+7	verb	40-6_aorist_passive_indicative_φυλάττω.txt
+7	verb	41-6_aorist_passive_subjunctive_φυλάττω.txt
+7	verb	42-6_aorist_passive_optative_φυλάττω-alt.txt
+7	verb	42-6_aorist_passive_optative_φυλάττω.txt
+7	verb	44-6_future_passive_indicative_φυλάττω-alt.txt
+7	verb	44-6_future_passive_indicative_φυλάττω.txt
+//			γράφω
+
+//			φυλάττω
 
 
 
@@ -189,14 +220,14 @@
 //			  First Aorist: 14-3, 15-3, 16-3, 18-3, 19-3, 20-3
 //			  Second Aorist: 22-3, 23-3, 24-3, 26-3, 27-3, 28-3
 //			30-4, 34-5, 35-5, 39-5, 40-6, 41-6, 42-6, 44-6
-//			-alt files for: 05, 12, 16, 42, 44
+//			-alt files for: 05, 12, 16, 34, 42, 44
 //			---------------------------
 
 
 // Chapter 8 
 //			(participles)
 //			Do participles for λείπω θύω παιδεύω ἄρχω πέμπω
-//			in the adjectives directory
+//			in the participles directory
 //			Move main forms for θύω and ἄρχω here. 
 //			Add πείθω and τάττω
 
