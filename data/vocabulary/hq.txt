@@ -290,3 +290,34 @@
 9#prep#ὑπέρ + acc# (of motion or measure) over; (of motion or measure) beyond*y
 
 // Unit 10
+verb#1 ἀγγέλλλω;2 ἁγγελῶ;3 ἤγγειλα;4 ἤγγελκα;5 ἤγγελμαι;6 ἠγγέλθην# announce
+adj#ἀλεθής, ἀληθές# true; real
+noun#ἀλήθεια, ἀληθείας, ἡ# truth; reality
+noun#ἀνήρ, ἀνδρός, ὁ# man
+verb#1 ἀξιόω;2 ἀξιώσω;3 ἠξίωσα;4 ἠξίωκα;5 ἠξίωμαι;6 ἠξιώθην# think worthy of; think it right; expect
+other#ἀπο-# away from
+noun#βασιλεύς, βασιλέως, ὁ# king
+noun#γένος, γένους, τό# race; kind
+adj#εὐγενής, εὑγενές# well-born; noble
+verb#1 δηλόω;2 δηλώσω;3 ἐδήλωσα;4 δεδήλωκα;5 δεδήλωμαι;6 ἑδηλώθην# make clear; show
+noun#Δημοσθένης, Δημοσθένους, ὁ# Demothenes (ῥήτωρ)
+other#ἑκ-# out of; thoroughly
+other#ἑξ-# out of; thoroughly
+adj#εὐδαίμων, εὔδαιμον# fortunate; wealthy; happy
+noun#θυγάτηρ, θυγατρός, ἡ# daughter
+noun#ἱερεύς, ἱερέως, ὁ# priest
+noun#ἱππεύς, ἱππέως, ὁ# horseman
+verb#1 καλέω;2 καλήσω;3 ἑκάλησα;4 κέκληκα;5 κέκλημαι;6 ἑκλήθην# call
+verb#1 μένω;2 μενῶ;3 ἕμεινα;4 μεμένηκα# remain; stay
+noun#μήτηρ, μητρός, ἡ# mother
+noun#νόμος, νόμου, ὁ# custom; law
+noun#πάθος, πάθους, τό#experience; suffering
+noun#πατήρ, πατρός, ὁ# father
+noun#πόλις, πόλεως, ἡ#city
+other#πότε# when?
+noun#Σωκράτης, Σωκράτους, ὁ# Sokrates
+adj#σώφρων, σῶφρον# prudent; temperate
+noun#τέλος, τέλους, τό# end; power
+verb#1 τελευτάω;2 τελευτήσω;3 ἑτελεύτησα;4 τετελεύτηκα;5 τετελεύτημαι;6 ἑτελευτήθην# finish; die
+noun#φύσις, φύσεως, ἡ# nature
+other#ὥστε# so as; so that
