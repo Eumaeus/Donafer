@@ -2,11 +2,17 @@
 # ============================================================
 # generate_greek_quiz.jl
 #
-# C. Blackwell & Grok.ai
+# Christopher Blackwell. CC-BY-NC 2026.
 #
 # Generate Moodle GIFT quizzes on the Ancient Greek alphabet.
 #
 # Why this exists
+# ---------------
+# Creating quizzes in Moodle is a nightmare.
+# Typing a quiz in `.gift` format is better, but tedious
+# and prone to error.
+#
+# Latest Version
 # ---------------
 # Some Moodle sites disable "shuffle within questions". In that
 # case GIFT answers appear in file order, so a quiz that always
