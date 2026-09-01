@@ -1,4 +1,13 @@
 template#template_verb_3_aorist1_active_subjunctive.txt
 lemma#the verb “I write”
 
+γρᾰ́ψω
+γρᾰ́ψῃς
+γρᾰ́ψῃ
 
+γρᾰ́ψητον
+γρᾰ́ψητον
+
+γρᾰ́ψωμεν
+γρᾰ́ψητε
+γρᾰ́ψωσι
