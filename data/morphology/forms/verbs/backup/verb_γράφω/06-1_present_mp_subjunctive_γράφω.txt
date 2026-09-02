@@ -1,0 +1,13 @@
+template#template_verb_1_present_mp_subjunctive.txt
+lemma#the verb “I write”
+
+γράφωμαι
+γράφῃ
+γράφηται
+
+γράφησθον
+γράφησθον
+
+γραφώμεθα
+γράφησθε
+γράφωνται

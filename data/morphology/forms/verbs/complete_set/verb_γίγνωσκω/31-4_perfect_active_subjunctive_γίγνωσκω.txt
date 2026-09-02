@@ -1,0 +1,4 @@
+template#template_verb_4_perfect_active_subjunctive.txt
+lemma#the verb “I understand”
+
+

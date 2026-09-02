@@ -1,0 +1,14 @@
+template#template_verb_5_pluperfect_active_indicative.txt
+lemma#the verb “I write”
+
+
+ἐγεγράφειν
+ἐγεγράφεις
+ἐγεγράφει
+
+ἐγεγράφειτον
+ἐγεγραφέτην
+
+ἐγεγράφειμεν
+ἐγεγράφειτε
+ἐγεγράφεισαν

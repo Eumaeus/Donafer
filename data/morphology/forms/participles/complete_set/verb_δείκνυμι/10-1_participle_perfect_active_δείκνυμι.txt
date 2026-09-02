@@ -1,0 +1,4 @@
+template_participle_perfect_active.txt
+lemma#the verb “I show”
+
+

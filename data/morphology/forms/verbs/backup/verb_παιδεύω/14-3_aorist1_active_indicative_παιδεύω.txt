@@ -1,0 +1,17 @@
+template#template_verb_3_aorist1_active_indicative.txt
+lemma#the verb “I educate”
+
+ἐπαίδευσα
+ἐπαίδευσας
+ἐπαίδευσε
+
+ἐπαιδεύσατον
+ἐπαιδευσάτην
+
+ἐπαιδεύσαμεν
+ἐπαιδεύσατε
+ἐπαίδευσαν
+
+παιδεῦσαι
+
+

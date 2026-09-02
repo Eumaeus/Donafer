@@ -1,0 +1,15 @@
+template#template_verb_1_present_active_indicative.txt
+lemma#the verb “I send”
+
+πέμπω
+πέμπεις 
+πέμπει
+
+πέμπετον
+πέμπετον
+
+πέμπομεν
+πέμπετε
+πέμπουσιν
+
+πέμπειν

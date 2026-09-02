@@ -1,0 +1,13 @@
+template#template_verb_3_aorist1_active_optative.txt
+lemma#the verb “I write”
+
+γράψαιμι
+γράψαις
+γράψαι
+
+γράψαιτον
+γραψαίτην
+
+γράψαιμεν
+γράψαιτε
+γράψαιεν

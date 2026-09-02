@@ -1,0 +1,15 @@
+
+template_participle_present_act.txt
+template_participle_present_mp.txt
+template_participle_future_active.txt
+template_participle_future_middle.txt
+template_participle_future_passive.txt
+template_participle_aorist1_active.txt
+template_participle_aorist1_middle.txt
+template_participle_aorist2_active.txt
+template_participle_aorist2_middle.txt
+template_participle_aorist_passive.txt
+template_participle_perfect_active.txt
+template_participle_perfect_mp.txt
+
+

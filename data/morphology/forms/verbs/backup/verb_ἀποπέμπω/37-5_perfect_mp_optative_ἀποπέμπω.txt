@@ -1,0 +1,4 @@
+template#template_verb_5_perfect_mp_optative.txt
+lemma#the verb “I send away”
+
+

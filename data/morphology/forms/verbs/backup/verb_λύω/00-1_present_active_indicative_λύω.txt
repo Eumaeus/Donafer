@@ -1,0 +1,16 @@
+template#template_verb_1_present_active_indicative.txt
+lemma#the verb “I loosen”
+
+
+λύω
+λύεις
+λύει
+
+λύετον
+λύετον
+
+λύομεν
+λύετε
+λύουσιν
+
+λύειν

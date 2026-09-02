@@ -1,0 +1,4 @@
+template_participle_future_active.txt
+lemma#the verb “I understand”
+
+

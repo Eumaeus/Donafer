@@ -1,0 +1,4 @@
+template#template_verb_6_aorist_passive_subjunctive.txt
+lemma#the verb “I stand”
+
+

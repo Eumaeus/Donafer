@@ -1,0 +1,4 @@
+template#template_verb_2_future_middle_optative.txt
+lemma#the verb “I throw”
+
+

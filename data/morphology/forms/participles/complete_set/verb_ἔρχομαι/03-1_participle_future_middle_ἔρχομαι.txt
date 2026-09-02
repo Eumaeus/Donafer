@@ -1,0 +1,4 @@
+template_participle_future_middle.txt
+lemma#the verb “I go; I come”
+
+

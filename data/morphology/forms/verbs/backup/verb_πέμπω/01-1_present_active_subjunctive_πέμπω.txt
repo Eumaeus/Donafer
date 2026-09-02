@@ -1,0 +1,14 @@
+template#template_verb_1_present_active_subjunctive.txt
+lemma#the verb “I send”
+
+πέμπω
+πέμπῃς 
+πέμπῃ
+
+πέμπητον
+πέμπητον
+
+πέμπωμεν
+πέμπετε
+πέμπωσιν
+

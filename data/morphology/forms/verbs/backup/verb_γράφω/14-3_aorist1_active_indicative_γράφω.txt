@@ -1,0 +1,15 @@
+template#template_verb_3_aorist1_active_indicative.txt
+lemma#the verb “I write”
+
+ἔγραψα
+ἔγραψας
+ἔγραψε
+
+ἐγράψατον
+ἐγραψάτην
+
+ἐγράψαμεν
+ἐγράψατε
+ἔγραψαν
+
+γράψαι

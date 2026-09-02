@@ -1,0 +1,13 @@
+template#template_verb_1_present_active_optative.txt
+lemma#the verb “I lead; rule”
+
+ἄρχοιμι
+ἄρχοις
+ἄρχοι
+
+ἄρχοιτον
+ἀρχοίτην
+
+ἄρχοιμεν
+ἄρχοιτε
+ἄρχοιεν

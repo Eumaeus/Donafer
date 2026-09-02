@@ -1,0 +1,15 @@
+template#template_verb_2_future_middle_indicative.txt
+lemma#the verb “I sacrifice”
+
+θύσομαι
+θύσῃ
+θύσεται
+
+θύσεσθον
+θύσεσθον
+
+θυσόμεθα
+θύσεσθε
+θύσονται
+
+θύσεσθαι

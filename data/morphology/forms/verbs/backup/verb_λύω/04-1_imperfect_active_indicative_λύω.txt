@@ -1,0 +1,15 @@
+template#template_verb_1_imperfect_active_indicative.txt
+lemma#the verb “I loosen”
+
+ἔλυον
+ἔλυες
+ἔλυε
+
+ἐλύετον
+ἐλυέτην
+
+ἐλύομεν
+ἐλύετε
+ἔλυον
+
+

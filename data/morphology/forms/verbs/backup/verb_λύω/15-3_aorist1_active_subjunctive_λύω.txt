@@ -1,0 +1,13 @@
+template#template_verb_3_aorist1_active_subjunctive.txt
+lemma#the verb “I loosen”
+
+λύσω
+λύσῃς 
+λύσῃ
+
+λύσητον
+λύσητον
+
+λύσωμεν
+λύσητε
+λύσωσιν

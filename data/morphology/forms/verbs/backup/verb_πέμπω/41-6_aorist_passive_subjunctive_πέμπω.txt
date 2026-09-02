@@ -1,0 +1,14 @@
+template#template_verb_6_aorist_passive_subjunctive.txt
+lemma#the verb “I send”
+
+
+πεμθῶ
+πεμθῇς 
+πεμθῇ
+
+πεμθῆτον
+πεμθῆτον
+
+πεμθῶμεν
+πεμθῆτε
+πεμθῶσιν

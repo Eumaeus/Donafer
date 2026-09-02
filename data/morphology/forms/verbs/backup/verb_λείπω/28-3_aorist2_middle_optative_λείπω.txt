@@ -1,0 +1,13 @@
+template#template_verb_3_aorist2_middle_optative.txt
+lemma#the verb “I leave”
+
+λιποίμην
+λίποιο
+λίποιτο
+
+λίποισθον
+λιποίσθην
+
+λιποίμεθα
+λίποισθε
+λίποιντο

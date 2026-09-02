@@ -1,0 +1,18 @@
+template#template_verb_1_present_active_indicative.txt
+lemma#the verb “I order”
+
+
+κελεύω
+κελεύεις 
+κελεύει
+
+κελεύετον
+κελεύετον
+
+κελεύομεν
+κελεύετε
+κελεύουσιν
+
+κελεύειν
+
+

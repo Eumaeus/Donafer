@@ -1,0 +1,4 @@
+template#template_verb_1_imperfect_mp_indicative.txt
+lemma#the verb “It is necessary (δεῖ)”
+
+

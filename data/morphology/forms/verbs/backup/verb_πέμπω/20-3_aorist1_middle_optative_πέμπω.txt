@@ -1,0 +1,13 @@
+template#template_verb_3_aorist1_middle_optative.txt
+lemma#the verb “I send”
+
+πεμψοίμην
+πέμψοιο
+πέμψοιτο
+
+πέμψοισθον
+πεμψοίσθην
+
+πεμψοίμεθα
+πέμψοισθε
+πέμψοιντο
