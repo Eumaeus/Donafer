@@ -1,4 +1,16 @@
 template#template_verb_4_perfect_active_indicative.txt
 lemma#the verb “I arrange”
 
+τέταχα
+τέταχας
+τέταχε
+
+τετάχατον
+τετάχατον
+
+τετάχαμεν
+τετάχατε
+τετάχασι
+
+τεταχέναι
 

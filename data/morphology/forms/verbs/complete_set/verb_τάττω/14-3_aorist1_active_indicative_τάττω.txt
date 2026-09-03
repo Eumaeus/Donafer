@@ -1,4 +1,15 @@
 template#template_verb_3_aorist1_active_indicative.txt
 lemma#the verb “I arrange”
 
+ἔταξα
+ἔταξας
+ἔταξε
 
+ἐτάξατον
+ἐταξάτην
+
+ἐτάξαμεν
+ἐτάξατε
+ἔταξαν
+
+τάξαι

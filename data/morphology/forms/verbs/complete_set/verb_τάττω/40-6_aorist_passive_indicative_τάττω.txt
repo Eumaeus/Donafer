@@ -1,4 +1,15 @@
 template#template_verb_6_aorist_passive_indicative.txt
 lemma#the verb “I arrange”
 
+ἐτάχθην
+ἐτάχθης
+ἐτάχθη
 
+ἐτάχθητον
+ἐταχθήτην
+
+ἐτάχθημεν
+ἐτάχθητε
+ἐτάχθησαν
+
+ταχθῆναι

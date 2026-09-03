@@ -1,4 +1,13 @@
 template#template_verb_1_imperfect_active_indicative.txt
 lemma#the verb “I arrange”
 
+ἔταττον
+ἔταττες
+ἔταττε
 
+ἐτάττετον
+ἐταττέτην
+
+ἐτάττομεν
+ἐτάττετε
+ἔταττον
