@@ -283,11 +283,11 @@
 
 // Chapter 8 
 //			(participles)
-//			Do participles for λείπω θύω παιδεύω ἄρχω πέμπω
+//			Do participles for ἄρχω πέμπω
 //			in the participles directory
 //			Move main forms for θύω and ἄρχω here. 
 //			Add πείθω and τάττω
-
+//
 //			θύω (all forms thus far)
 8	verb	00-1_present_active_indicative_θύω.txt
 8	verb	01-1_present_active_subjunctive_θύω.txt
@@ -346,25 +346,80 @@
 8	verb	41-6_aorist_passive_subjunctive_ἄρχω.txt
 8	verb	42-6_aorist_passive_optative_ἄρχω-alt.txt
 8	verb	42-6_aorist_passive_optative_ἄρχω.txt
-//			τάττω, πείθω
+//			τάττω - all forms thus far
+//			τάττω - participles
+//			πείθω - all forms thus far 
+//			πείθω - participles
+//			θύω - participles
+8	participle	00-1_participle_present_act_θύω.txt
+8	participle	01-1_participle_present_mp_θύω.txt
+8	participle	02-1_participle_future_active_θύω.txt
+8	participle	03-1_participle_future_middle_θύω.txt
+8	participle	04-1_participle_future_passive_θύω.txt
+8	participle	05-1_participle_aorist1_active_θύω.txt
+8	participle	06-1_participle_aorist1_middle_θύω.txt
+8	participle	09-1_participle_aorist_passive_θύω.txt
+8	participle	10-1_participle_perfect_active_θύω.txt
+8	participle	11-1_participle_perfect_mp_θύω.txt
+//			παιδεύω - participles
+8	participle	00-1_participle_present_act_παιδεύω.txt
+8	participle	01-1_participle_present_mp_παιδεύω.txt
+8	participle	02-1_participle_future_active_παιδεύω.txt
+8	participle	03-1_participle_future_middle_παιδεύω.txt
+8	participle	04-1_participle_future_passive_παιδεύω.txt
+8	participle	05-1_participle_aorist1_active_παιδεύω.txt
+8	participle	06-1_participle_aorist1_middle_παιδεύω.txt
+8	participle	09-1_participle_aorist_passive_παιδεύω.txt
+8	participle	10-1_participle_perfect_active_παιδεύω.txt
+8	participle	11-1_participle_perfect_mp_παιδεύω.txt
+//			λείπω - participles
+8	participle	00-1_participle_present_act_λείπω.txt
+8	participle	01-1_participle_present_mp_λείπω.txt
+8	participle	02-1_participle_future_active_λείπω.txt
+8	participle	03-1_participle_future_middle_λείπω.txt
+8	participle	04-1_participle_future_passive_λείπω.txt
+8	participle	07-1_participle_aorist2_active_λείπω.txt
+8	participle	08-1_participle_aorist2_middle_λείπω.txt
+8	participle	09-1_participle_aorist_passive_λείπω.txt
+8	participle	10-1_participle_perfect_active_λείπω.txt
+8	participle	11-1_participle_perfect_mp_λείπω.txt
 
 
 // Chapter 9
-//			τιμάω, ποιέω
-//			add διδάσκω
+//			τιμάω - all forms thus far
+//			ποιέω - all forms thus far
+//			διδάσκω - all forms thus far
+//			τιμάω - participles
+//			ποιέω - participles
+//			διδάσκω - participles
+//			ἄρχω - participles
 
 // Chapter 10
-//			δηλόω, ἁγγέλλω, μένω
+//			δηλόω - all forms thus far
+//			δηλόω - participles
+//			ἁγγέλλω - all forms thus far
+//			ἁγγέλλω - participles
+//			μένω - all forms thus far
+//			μένω - participles
 
 // Chapter 11
-//			imperative mood
-//			present active
-//			present m/p
-//			aorist1 middle
-//			aorist2 middle
-//			aorist passive
-//			
-//			add δέχομαι
+//
+//			03, 08, 11
+//			   17, 21 (aorist1)
+//			   25, 29 (aorist2)
+//			33, 38, 43
+
+//			present active imperative
+//			present m/p imperative
+//			aorist1 middle imperative
+//			aorist2 middle imperative
+//			perfect active imperative
+//			perfect middle/passive imperative
+//			aorist passive imperative
+//
+//			θύω πείθω παιδεύω τάττω φυλάττω ἄρχω γράφω λείπω κελεύω πέμπω	
+//			τιμάω ποιέω δηλόω ἀγγέλλω μένω
+//			δέχομαι
 
 // Chapter 12
 //			-μι verbs: present, imperfect, future
@@ -376,7 +431,7 @@
 //			δίδωμι aorist active and middle, perfect, pluperfect
 //			τίθημι
 //			ἱστήμι
-//			ἔρχομαι		
+//			ἔρχομαι - all forms thus far		
 
 // Chapter 14
 //			participles of -μι verbs present and aorist of
