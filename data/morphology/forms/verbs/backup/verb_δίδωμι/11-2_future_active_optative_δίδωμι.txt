@@ -1,4 +1,0 @@
-template#template_verb_2_future_active_optative.txt
-lemma#the verb “I give”
-
-
