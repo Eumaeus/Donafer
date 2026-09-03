@@ -389,30 +389,35 @@
 8	participle	10-1_participle_perfect_active_τάττω.txt
 8	participle	11-1_participle_perfect_mp_τάττω.txt
 //			πείθω - all forms thus far 
-00-1_present_active_indicative_πείθω.txt
-01-1_present_active_subjunctive_πείθω.txt
-02-1_present_active_optative_πείθω.txt
-04-1_imperfect_active_indicative_πείθω.txt
-05-1_present_mp_indicative_πείθω-alt.txt
-05-1_present_mp_indicative_πείθω.txt
-06-1_present_mp_subjunctive_πείθω.txt
-07-1_present_mp_optative_πείθω.txt
-09-1_imperfect_mp_indicative_πείθω.txt
-10-2_future_active_indicative_πείθω.txt
-12-2_future_middle_indicative_πείθω-alt.txt
-12-2_future_middle_indicative_πείθω.txt
-22-3_aorist2_active_indicative_πείθω.txt
-23-3_aorist2_active_subjunctive_πείθω.txt
-24-3_aorist2_active_optative_πείθω.txt
-26-3_aorist2_middle_indicative_πείθω.txt
-27-3_aorist2_middle_subjunctive_πείθω.txt
-28-3_aorist2_middle_optative_πείθω.txt
-30-4_perfect_active_indicative_πείθω.txt
-34-5_pluperfect_active_indicative_πείθω-alt.txt
-34-5_pluperfect_active_indicative_πείθω.txt
-35-5_perfect_mp_indicative_πείθω.txt
-39-5_pluperfect_mp_indicative_πείθω.txt
-
+8	verb	00-1_present_active_indicative_πείθω.txt
+8	verb	01-1_present_active_subjunctive_πείθω.txt
+8	verb	02-1_present_active_optative_πείθω.txt
+8	verb	04-1_imperfect_active_indicative_πείθω.txt
+8	verb	05-1_present_mp_indicative_πείθω-alt.txt
+8	verb	05-1_present_mp_indicative_πείθω.txt
+8	verb	06-1_present_mp_subjunctive_πείθω.txt
+8	verb	07-1_present_mp_optative_πείθω.txt
+8	verb	09-1_imperfect_mp_indicative_πείθω.txt
+8	verb	10-2_future_active_indicative_πείθω.txt
+8	verb	12-2_future_middle_indicative_πείθω-alt.txt
+8	verb	12-2_future_middle_indicative_πείθω.txt
+8	verb	22-3_aorist2_active_indicative_πείθω.txt
+8	verb	23-3_aorist2_active_subjunctive_πείθω.txt
+8	verb	24-3_aorist2_active_optative_πείθω.txt
+8	verb	26-3_aorist2_middle_indicative_πείθω.txt
+8	verb	27-3_aorist2_middle_subjunctive_πείθω.txt
+8	verb	28-3_aorist2_middle_optative_πείθω.txt
+8	verb	30-4_perfect_active_indicative_πείθω.txt
+8	verb	34-5_pluperfect_active_indicative_πείθω-alt.txt
+8	verb	34-5_pluperfect_active_indicative_πείθω.txt
+8	verb	35-5_perfect_mp_indicative_πείθω.txt
+8	verb	39-5_pluperfect_mp_indicative_πείθω.txt
+8	verb	40-6_aorist_passive_indicative_πείθω.txt
+8	verb	41-6_aorist_passive_subjunctive_πείθω.txt
+8	verb	42-6_aorist_passive_optative_πείθω-alt.txt
+8	verb	42-6_aorist_passive_optative_πείθω.txt
+8	verb	44-6_future_passive_indicative_πείθω-alt.txt
+8	verb	44-6_future_passive_indicative_πείθω.txt
 //			πείθω - participles
 8	participle	04-1_participle_future_passive_πείθω.txt
 8	participle	00-1_participle_present_act_πείθω.txt
