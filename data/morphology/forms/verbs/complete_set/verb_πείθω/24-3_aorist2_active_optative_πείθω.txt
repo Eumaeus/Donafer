@@ -1,4 +1,13 @@
 template#template_verb_3_aorist2_active_optative.txt
 lemma#the verb “I persuade”
 
+πίθοιμι
+πίθοις
+πίθοι
 
+πίθοιτον
+πιθοίτην
+
+πίθοιμεν
+πίθοιτε
+πίθοιεν

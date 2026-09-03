@@ -1,4 +1,13 @@
 template#template_verb_1_present_active_subjunctive.txt
 lemma#the verb “I persuade”
 
+πείθω
+πείθῃς
+πείθῃ
 
+πείθητον
+πείθητον
+
+πείθωμεν
+πείθητε
+πείθωσι

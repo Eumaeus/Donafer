@@ -1,4 +1,15 @@
 template#template_verb_3_aorist2_active_indicative.txt
 lemma#the verb “I persuade”
 
+ἔπιθον
+ἔπιθες
+ἔπιθε
 
+ἐπίθετον
+ἐπιθέτην
+
+ἐπίθομεν
+ἐπίθετε
+ἔπιθον
+
+πιθεῖν

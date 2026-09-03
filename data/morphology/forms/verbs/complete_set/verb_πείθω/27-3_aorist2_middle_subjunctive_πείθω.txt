@@ -1,4 +1,13 @@
 template#template_verb_3_aorist2_middle_subjunctive.txt
 lemma#the verb “I persuade”
 
+πιθώμαι
+πιθῇ
+πιθῆται
 
+πιθῆσθον
+πιθῆσθον
+
+πιθώμεθα
+πιθῆσθε
+πιθῶνται
