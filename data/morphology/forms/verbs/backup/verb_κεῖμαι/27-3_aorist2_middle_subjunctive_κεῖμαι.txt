@@ -1,4 +1,0 @@
-template#template_verb_3_aorist2_middle_subjunctive.txt
-lemma#the verb “I lie down”
-
-
