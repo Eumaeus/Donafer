@@ -1,4 +1,0 @@
-template#template_verb_3_aorist2_active_imperative.txt
-lemma#the verb “I know (οἶδα)”
-
-

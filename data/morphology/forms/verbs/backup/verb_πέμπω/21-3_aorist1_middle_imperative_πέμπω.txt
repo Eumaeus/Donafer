@@ -1,4 +1,0 @@
-template#template_verb_3_aorist1_middle_imperative.txt
-lemma#the verb “I send”
-
-
