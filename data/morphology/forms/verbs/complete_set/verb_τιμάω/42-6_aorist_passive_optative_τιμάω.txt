@@ -1,4 +1,13 @@
 template#template_verb_6_aorist_passive_optative.txt
 lemma#the verb “I honor”
 
+τιμηθείην
+τιμηθείης
+τιμηθείη
 
+τιμηθεῖτον
+τιμηθείτην
+
+τιμηθεῖμεν
+τιμηθεῖτε
+τιμηθεῖεν

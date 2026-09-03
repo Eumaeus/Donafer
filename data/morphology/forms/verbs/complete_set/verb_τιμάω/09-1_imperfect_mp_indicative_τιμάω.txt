@@ -1,4 +1,13 @@
 template#template_verb_1_imperfect_mp_indicative.txt
 lemma#the verb “I honor”
 
+ἐτιμώμην
+ἐτιμῶ
+ἐτιμᾶτο
 
+ἐτιμᾶσθον
+ἐτιμάσθην
+
+ἐτιμώμεθα
+ἐτιμᾶσθε
+ἐτιμῶντο

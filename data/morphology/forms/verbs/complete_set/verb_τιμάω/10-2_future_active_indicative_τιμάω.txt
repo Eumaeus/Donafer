@@ -1,4 +1,15 @@
 template#template_verb_2_future_active_indicative.txt
 lemma#the verb “I honor”
 
+τιμήσω
+τιμήσεις
+τιμήσει
 
+τιμήσετον
+τιμήσετον
+
+τιμήσομεν
+τιμήσετε
+τιμήσουσι
+
+τιμήσειν

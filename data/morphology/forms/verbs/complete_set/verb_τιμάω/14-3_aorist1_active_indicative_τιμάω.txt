@@ -1,4 +1,15 @@
 template#template_verb_3_aorist1_active_indicative.txt
 lemma#the verb “I honor”
 
+ἐτίμησα
+ἐτίμησας
+ἐτίμησε
 
+ἐτιμήσατον
+ἐτιμησάτην
+
+ἐτιμήσαμεν
+ἐτιμήσατε
+ἐτίμησαν
+
+τιμῆσαι
