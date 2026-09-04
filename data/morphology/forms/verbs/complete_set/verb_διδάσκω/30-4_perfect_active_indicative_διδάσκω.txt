@@ -1,4 +1,15 @@
 template#template_verb_4_perfect_active_indicative.txt
 lemma#the verb “I teach”
 
+δεδίδαχα
+δεδίδαχας
+δεδίδαχε
 
+δεδιδάχατον
+δεδιδάχατον
+
+δεδιδάχαμεν
+δεδιδάχατε
+δεδιδάχασι
+
+δεδιδαχέναι

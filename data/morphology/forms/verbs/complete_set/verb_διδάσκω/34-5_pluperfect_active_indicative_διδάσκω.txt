@@ -1,4 +1,13 @@
 template#template_verb_5_pluperfect_active_indicative.txt
 lemma#the verb “I teach”
 
+ἐδεδιδάχειν
+ἐδεδιδάχεις
+ἐδεδιδάχει
 
+ἐδεδιδάχειτον
+ἐδεδιδαχείτην
+
+ἐδεδιδάχειμεν
+ἐδεδιδάχειτε
+ἐδεδιδάχεσαν

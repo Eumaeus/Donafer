@@ -1,4 +1,15 @@
 template#template_verb_6_aorist_passive_indicative.txt
 lemma#the verb “I teach”
 
+ἐδιδάχθην
+ἐδιδάχθης
+ἐδιδάχθη
 
+ἐδιδάχθητον
+ἐδιδαχθήτην
+
+ἐδιδάχθημεν
+ἐδιδάχθητε
+ἐδιδάχθησαν
+
+διδαχθῆναι

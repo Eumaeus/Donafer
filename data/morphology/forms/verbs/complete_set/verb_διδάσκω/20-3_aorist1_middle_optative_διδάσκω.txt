@@ -1,4 +1,13 @@
 template#template_verb_3_aorist1_middle_optative.txt
 lemma#the verb “I teach”
 
+διδαξαίμην
+διδάξαιο
+διδάξαιτο
 
+διδάξαισθον
+διδαξαίσθην
+
+διδαξαίμεθα
+διδάξαισθε
+διδάξαιντο

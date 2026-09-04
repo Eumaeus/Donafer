@@ -1,4 +1,13 @@
 template#template_verb_1_present_active_subjunctive.txt
 lemma#the verb “I teach”
 
+διδάσκω
+διδάσκῃς
+διδάσκῃ
 
+διδάσκητον
+διδάσκητον
+
+διδάσκωμεν
+διδάσκητε
+διδάσκωσι
