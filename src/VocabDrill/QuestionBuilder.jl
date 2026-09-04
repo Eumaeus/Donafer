@@ -11,7 +11,7 @@ struct Question
     stem::String
     correct_answers::Vector{String}
     distractors::Vector{String}
-    feedback_correct::String
+    feedback_correct::Dict{String, String}   # was String
     feedback_wrong::Dict{String, String}
     chapter::Int
     category::String
@@ -43,7 +43,12 @@ function build_question(
         actual_correct_answers = [ans for ans in all_options if ans in full_correct_answers]
         actual_distractors     = [ans for ans in all_options if !(ans in actual_correct_answers)]
 
-        feedback_correct = build_feedback(item, direction)
+        feedback_correct = Dict{String, String}()
+        for ans in actual_correct_answers
+            fb_item = item_for_correct_answer(item, ans, direction, pool)
+            feedback_correct[ans] = build_feedback(fb_item, direction)
+        end
+
         feedback_wrong = Dict{String, String}()
         for dist_ans in actual_distractors
             matching = filter(x -> x.english == dist_ans, pool)
@@ -65,7 +70,12 @@ function build_question(
         actual_correct_answers = [ans for ans in all_options if ans in full_correct_answers]
         actual_distractors     = [ans for ans in all_options if !(ans in actual_correct_answers)]
 
-        feedback_correct = build_feedback(item, direction)
+        feedback_correct = Dict{String, String}()
+        for ans in actual_correct_answers
+            fb_item = item_for_correct_answer(item, ans, direction, pool)
+            feedback_correct[ans] = build_feedback(fb_item, direction)
+        end
+
         feedback_wrong = Dict{String, String}()
         for dist_ans in actual_distractors
             # Find original item for feedback (need full greek_display)
@@ -76,6 +86,32 @@ function build_question(
 
     return Question(stem, actual_correct_answers, actual_distractors,
                     feedback_correct, feedback_wrong, item.chapter, item.category)
+end
+
+# Find the VocabItem that actually corresponds to this displayed correct option.
+function item_for_correct_answer(
+    item::VocabItem,
+    answer::String,
+    direction::Symbol,
+    pool::Vector{VocabItem},
+)
+    matching = if direction == :greek_to_english
+        # stem is Greek; answer is an English gloss
+        filter(x -> x.greek_display == item.greek_display && x.english == answer, pool)
+    else
+        # stem is English; answer is a (cleaned) Greek form
+        filter(x -> x.english == item.english &&
+                    clean_greek_form(x.greek_display) == answer, pool)
+    end
+
+    if isempty(matching) && direction == :greek_to_english
+        # verbs: stem was cleaned ("ἦρχα") but greek_display is "4 ἦρχα"
+        matching = filter(x -> clean_greek_form(x.greek_display) ==
+                               clean_greek_form(item.greek_display) &&
+                               x.english == answer, pool)
+    end
+
+    return isempty(matching) ? item : first(matching)
 end
 
 # --- Helper functions ---
@@ -128,9 +164,10 @@ function to_gift(q::Question; qid::String = "Q")::String
     println(io, "::$(qid)::[markdown]$(q.stem):{")
 
     # Combine and shuffle options so correct answer isn't always first
-    options = [(ans, true, q.feedback_correct) for ans in q.correct_answers]
-    append!(options, [(dist, false, get(q.feedback_wrong, dist, "Incorrect.")) for dist in q.distractors])
-
+    options = [(ans, true, get(q.feedback_correct, ans, "Correct."))
+           for ans in q.correct_answers]
+    append!(options, [(dist, false, get(q.feedback_wrong, dist, "Incorrect."))
+                  for dist in q.distractors])
     shuffle!(options)   # ← This is the key change
 
     for (text, is_correct, fb) in options
