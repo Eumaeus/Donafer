@@ -154,6 +154,8 @@
 6	pronoun	rel_pronoun.txt
 
 // Chapter 7
+//			ἐκεῖνος ἐκείνη ἐκεῖνο
+
 //			λύω
 7	verb	12-2_future_middle_indicative_λύω-alt.txt
 7	verb	12-2_future_middle_indicative_λύω.txt
@@ -269,7 +271,9 @@
 7	verb	44-6_future_passive_indicative_φυλάττω-alt.txt
 7	verb	44-6_future_passive_indicative_φυλάττω.txt
 
-// Chapter 8 
+// Chapter 8
+//			πᾶς πᾶσα πᾶν
+
 //			θύω (all forms thus far)
 8	verb	00-1_present_active_indicative_θύω.txt
 8	verb	01-1_present_active_subjunctive_θύω.txt
@@ -459,6 +463,9 @@
 
 
 // Chapter 9
+//			ὅδε ἥδε τόδε
+//			οὗτος αὕτη τοῦτο
+
 //			τιμάω - all forms thus far
 9	verb	00-1_present_active_indicative_τιμάω.txt
 9	verb	01-1_present_active_subjunctive_τιμάω.txt
@@ -599,6 +606,11 @@
 9	participle	11-1_participle_perfect_mp_ἄρχω.txt
 
 // Chapter 10
+//			μήτηρ, ἀνήρ, γένος, Σωκράτης, πόλις
+//			βασιλεύς
+//			εὐδαίμων εὔδαιμον
+//			εὐγενής εὐγενές 
+
 //			δηλόω - all forms thus far
 //			δηλόω - participles
 //			ἁγγέλλω - all forms thus far
@@ -607,6 +619,7 @@
 //			μένω - participles
 
 // Chapter 11
+//			αὐτός αὐτή αὐτό
 //
 //			03, 08, 11
 //			   17, 21 (aorist1)
@@ -643,25 +656,62 @@
 //			δείκνυμι all forms so far
 
 // Chapter 15
+//			τίς τί
+//			τις τι
+//			ἐγώ, σύ 
+//			ἐμαυτοῦ, σεαυτοῦ, ἑαυτοῦ, 
+//			ἐμός, ἡμέτερος, σός, ὑμέτερος 
 //			εἰμί: present imperfect future subj opt imper
 //			participles in their files
 
 // Chapter 16
+//			πολύς πολλή πολύ
+//			ναῦς 
 //			φημί: present imperfect subj opt imper future aorists
 //			participle
 //			γίγνωσκω
 //			future optatives: λύω παιδεύω λείπω
 
 // Chapter 17
+//			μέγας μεγάλη μέγα
+//			ἡδύς ἡδεῖα ἡδύ
+//			μέσος μεσαίτερος μεσαίτατος
+//			παλαιός παλαίτερος παλαίτατος
+//			φίλος φιλαίτερος φιλαίτατος/φίλτατος
+//			δίκαιος δικαιότερος δικαιότατος
+//			ἄξιος ἀξιώτερος ἀξιοώτατος
+//			ἡδύς ἡδίων ἥδιστοσ		
+//			αἰσχρός αἰσχίων αἴσχιστος
+//			ἐχθρός ἐχθίων ἔχθιστος
+//			καλός? ἡδίων ἥδιστος
+//			φίλος  μᾶλλον φίλος μάλιστα φίλος
+//			εὐγενής μᾶλλον εὐγενής μάλιστα εὐγενής
+//			οὐδείς οὐδεμία οὐδέν
+//			μηδείς μηδεμία μηδέν
+//
 //			εἶμι
 
 // Chapter 18
+//			ὅστις ἥτις ὅτι
+//			ποῖος ποία ποῖον
+//			πόσος πόση πόσον
+//			πότερος ποτέρα πότερον
 //			ἵημι
 
 // Chapter 19
+//			ἀγαθός ἀμείνων ἄριστος
+//			βελτίων βέλστιστος κρείττον
+//			κακίων κάκιστος
+//			χείρων χείριστος
+//			ἥττων μείζων μέγιστος πλείων ἐλάχιστος
+//			ῥᾴδιος ῥᾴων ῥᾴστος
+//			ταχύς θάττων τάχιστος 
 //			οἶδα
 
 // Chapter 20
+//			λυτέος δοτέος δοτέον
+//			ἀρκτέος γραπτέος πρακτέος
+//			νοῦς ἄστυ 
 //			δεῖ χρή
 //			κεῖμαι
 //			
