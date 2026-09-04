@@ -1,4 +1,4 @@
-$CATEGORY: Vocabulary/HansenQuinn/1-hand-edit
+$CATEGORY: Vocabulary/HansenQuinn/1
 
 ::Q001::[markdown]the:{
 	~%-100%σοφός, σοφή, σοφόν#Incorrect. **σοφός, σοφή, σοφόν** means “wise” (Chapter 6).
@@ -94,19 +94,25 @@ $CATEGORY: Vocabulary/HansenQuinn/1-hand-edit
 	~%-100%before#Incorrect. **πρό + gen** means “before” (Chapter 2).
 }
 
+// *******************
+// Incorrect feedback!
+// *******************
 ::Q012::[markdown]from:{
 	~%-100%πρό + gen#Incorrect. **πρό + gen** means “before” (Chapter 2).
 	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
-	~%100%ἀπό + gen#Correct: **ἀπό + gen** → “from” (Chapter 1).
+	~%100%ἀπό + gen#Correct: **ἐκ + gen; ἐξ + gen** → “from” (Chapter 1).
 	~%-100%παρά + dat#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
 }
 
+// *******************
+// Incorrect feedback!
+// *******************
 ::Q013::[markdown]καί:{
 	~%-100%both… and#Incorrect. **καί… καί** means “both… and” (Chapter 1).
 	~%-100%so#Incorrect. **οὕτως** means “so” (Chapter 9).
 	~%-100%and yet#Incorrect. **καίτοι** means “and yet” (Chapter 4).
 	~%-100%accordingly#Incorrect. **οὖν** means “accordingly” (Chapter 7).
-	~%100%and#Correct: **καί** → “and” (Chapter 1).
+	~%100%and#Correct: **καί** → “even” (Chapter 1).
 }
 
 
@@ -234,11 +240,14 @@ $CATEGORY: Vocabulary/HansenQuinn/1-hand-edit
 	~%-100%tool#Incorrect. **ὅπλον, ὅπλου, ὁ** means “tool” (Chapter 4).
 }
 
+// *******************
+// Incorrect feedback!
+// *******************
 ::Q028::[markdown]εἰς + acc:{
 	~%-100%around#Incorrect. **περί + acc.** means “around” (Chapter 3).
 	~%-100%over#Incorrect. **ὑπέρ + gen** means “over” (Chapter 9).
 	~%-100%with#Incorrect. **μετά + gen.** means “with” (Chapter 4).
-	~%100%to#Correct: **εἰς + acc** → “to” (Chapter 1).
+	~%100%to#Correct: **εἰς + acc** → “into” (Chapter 1).
 	~%-100%against#Incorrect. **κατά + gen** means “against” (Chapter 6).
 }
 
@@ -260,10 +269,13 @@ $CATEGORY: Vocabulary/HansenQuinn/1-hand-edit
 	~%-100%gift#Incorrect. **δῶρον, δώρου, τό** means “gift” (Chapter 1).
 }
 
+// *******************
+// Incorrect feedback!
+// *******************
 ::Q031::[markdown]τέχνη, τέχνης, ἡ:{
 	~%-100%silence#Incorrect. **σιγή, σιγῆς, ἡ** means “silence” (Chapter 9).
 	~%-100%fear#Incorrect. **φόβος, φόβου, ὁ** means “fear” (Chapter 5).
-	~%100%craft#Correct: **τέχνη, τέχνης, ἡ** → “craft” (Chapter 1).
+	~%100%craft#Correct: **τέχνη, τέχνης, ἡ** → “art” (Chapter 1).
 	~%-100%letter (of alphabet)#Incorrect. **γράμμα, γράμματος, τό** means “letter (of alphabet)” (Chapter 7).
 	~%-100%host#Incorrect. **ξένος, ξένου, ὁ** means “host” (Chapter 2).
 }
@@ -295,12 +307,15 @@ $CATEGORY: Vocabulary/HansenQuinn/1-hand-edit
 	~%-100%ἅτε; οἷα#Incorrect. **ἅτε; οἷα** means “in as much as” (Chapter 8).
 }
 
+// *******************
+// Incorrect feedback!
+// *******************
 ::Q035::[markdown]εἰς + acc:{
 	~%-100%from beside#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
 	~%-100%from#Incorrect. **ἐκ + gen; ἐξ + gen** means “from” (Chapter 1).
 	~%-100%under#Incorrect. **ὑπὸ + gen** means “under” (Chapter 5).
 	~%-100%in front of#Incorrect. **πρό + gen** means “in front of” (Chapter 2).
-	~%100%for (purpose)#Correct: **εἰς + acc** → “for (purpose)” (Chapter 1).
+	~%100%for (purpose)#Correct: **εἰς + acc** → “into” (Chapter 1).
 }
 
 
@@ -357,9 +372,12 @@ $CATEGORY: Vocabulary/HansenQuinn/1-hand-edit
 	~%100%βιβλίον, βιβλίου, τό#Correct: **βιβλίον, βιβλίου, τό** → “book” (Chapter 1).
 }
 
+// *******************
+// Incorrect feedback!
+// *******************
 ::Q042::[markdown]λόγος, λόγου, ὁ:{
 	~%-100%non-Greek#Incorrect. **βάρβαρος, βαρβάρου, ὁ** means “non-Greek” (Chapter 9).
-	~%100%story#Correct: **λόγος, λόγου, ὁ** → “story” (Chapter 1).
+	~%100%story#Correct: **λόγος, λόγου, ὁ** → “speech” (Chapter 1).
 	~%-100%muse#Incorrect. **μοῦσα, μούσης, ἡ** means “muse” (Chapter 4).
 	~%-100%foreign#Incorrect. **βάρβαρος, βαρβάρου, ὁ** means “foreign” (Chapter 9).
 	~%-100%guest-friend#Incorrect. **ξένος, ξένου, ὁ** means “guest-friend” (Chapter 2).
@@ -373,10 +391,13 @@ $CATEGORY: Vocabulary/HansenQuinn/1-hand-edit
 	~%100%θεός, ὁ#Correct: **θεός, ὁ** → “god” (Chapter 1).
 }
 
+// *******************
+// Incorrect feedback!
+// *******************
 ::Q044::[markdown]λόγος, λόγου, ὁ:{
 	~%-100%favor#Incorrect. **χάρις, χάριτος, ἡ** means “favor” (Chapter 6).
 	~%-100%phalanx#Incorrect. **φάλαγξ, φάλαγγος, ἡ** means “phalanx” (Chapter 6).
-	~%100%speech#Correct: **λόγος, λόγου, ὁ** → “speech” (Chapter 1).
+	~%100%speech#Correct: **λόγος, λόγου, ὁ** → “story” (Chapter 1).
 	~%-100%letter (of alphabet)#Incorrect. **γράμμα, γράμματος, τό** means “letter (of alphabet)” (Chapter 7).
 	~%-100%deed#Incorrect. **ἔργον, ἔργου, τό** means “deed” (Chapter 1).
 }
@@ -408,11 +429,14 @@ $CATEGORY: Vocabulary/HansenQuinn/1-hand-edit
 	~%-100%θάνατος, θανάτου, ὁ#Incorrect. **θάνατος, θανάτου, ὁ** means “death” (Chapter 5).
 }
 
+// *******************
+// Incorrect feedback!
+// *******************
 ::Q048::[markdown]εἰς + acc:{
 	~%-100%about#Incorrect. **περί + gen** means “about” (Chapter 3).
 	~%-100%instead of#Incorrect. **ἀντί + gen** means “instead of” (Chapter 3).
 	~%-100%on account of#Incorrect. **διά + acc** means “on account of” (Chapter 3).
-	~%100%into#Correct: **εἰς + acc** → “into” (Chapter 1).
+	~%100%into#Correct: **εἰς + acc** → “for (purpose)” (Chapter 1).
 }
 
 
@@ -424,11 +448,14 @@ $CATEGORY: Vocabulary/HansenQuinn/1-hand-edit
 	~%100%ἔργον, ἔργου, τό#Correct: **ἔργον, ἔργου, τό** → “work” (Chapter 1).
 }
 
+// *******************
+// Incorrect feedback!
+// *******************
 ::Q050::[markdown]λόγος, λόγου, ὁ:{
 	~%-100%a sacrifice#Incorrect. **θυσίᾱ, θύσίᾱς, ἡ** means “a sacrifice” (Chapter 3).
 	~%-100%theft#Incorrect. **κλοπή, κλοπῆς, ἡ** means “theft” (Chapter 7).
 	~%-100%dance#Incorrect. **χορεύω** is Principal Part 1 of **χορεύω** “dance” (Chapter 6).
-	~%100%story#Correct: **λόγος, λόγου, ὁ** → “story” (Chapter 1).
+	~%100%speech#Correct: **λόγος, λόγου, ὁ** → “story” (Chapter 1).
 	~%-100%old man#Incorrect. **γέρων, γέροντος, ὁ** means “old man” (Chapter 6).
 }
 

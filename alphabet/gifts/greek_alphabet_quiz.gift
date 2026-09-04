@@ -1,4 +1,4 @@
-$CATEGORY: Intro/Greek_Alphabet_2026-08-29-2
+$CATEGORY: Intro/Greek_Alphabet_2026-09-03-02
 
 // ============================================================
 // Introductory Ancient Greek – Alphabet, Syllables & Words
@@ -10,9 +10,9 @@ $CATEGORY: Intro/Greek_Alphabet_2026-08-29-2
 // shuffle).
 //
 // Progression:
-//   20 character questions
-//   20 syllable questions
-//   60 word questions
+//   40 character questions
+//   30 syllable questions
+//   30 word questions
 //
 // Transliteration rules applied:
 //   rough breathing → h   (ἁ = ha, ῥ = rh)
@@ -28,902 +28,902 @@ $CATEGORY: Intro/Greek_Alphabet_2026-08-29-2
 // ============================================================
 
 ::Characters 01::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Ὁ</span> {
-	~ē#That would appear in Greek as 'η'.
-	~i#That would appear in Greek as 'ι'.
-	=ho#Correct.
-	~o#That would appear in Greek as 'ο'.
-	~ō#That would appear in Greek as 'ω'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">κ</span> {
+	~e#That would appear in Greek as 'ε'.
+	~he#That would appear in Greek as 'ἑ'.
+	=k#Correct.
+	~ch#That would appear in Greek as 'χ'.
+	~x#That would appear in Greek as 'ξ'.
 }
 
 ::Characters 02::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἅ</span> {
-	=ha#Correct.
-	~n#That would appear in Greek as 'ν'.
-	~hu#That would appear in Greek as 'ὑ'.
-	~e#That would appear in Greek as 'ε'.
-	~a#That would appear in Greek as 'α'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ρ</span> {
+	~i#That would appear in Greek as 'ι'.
+	~p#That would appear in Greek as 'π'.
+	~th#That would appear in Greek as 'θ'.
+	~rh#That would appear in Greek as 'ῥ'.
+	=r#Correct.
 }
 
 ::Characters 03::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἵ</span> {
-	~i#That would appear in Greek as 'ι'.
-	=hi#Correct.
-	~hō#That would appear in Greek as 'ὡ'.
-	~g#That would appear in Greek as 'γ'.
-	~b#That would appear in Greek as 'β'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἡ</span> {
+	~ho#That would appear in Greek as 'ὁ'.
+	~hu#That would appear in Greek as 'ὑ'.
+	=hē#Correct.
+	~ē#That would appear in Greek as 'η'.
+	~z#That would appear in Greek as 'ζ'.
 }
 
 ::Characters 04::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ο</span> {
-	~s#That would appear in Greek as 'σ'.
-	~ho#That would appear in Greek as 'ὁ'.
-	=o#Correct.
-	~ō#That would appear in Greek as 'ω'.
-	~he#That would appear in Greek as 'ἑ'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">α</span> {
+	~e#That would appear in Greek as 'ε'.
+	~ha#That would appear in Greek as 'ἁ'.
+	~p#That would appear in Greek as 'π'.
+	~b#That would appear in Greek as 'β'.
+	=a#Correct.
 }
 
 ::Characters 05::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Σ</span> {
-	~ō#That would appear in Greek as 'ω'.
-	~d#That would appear in Greek as 'δ'.
-	=s#Correct.
-	~o#That would appear in Greek as 'ο'.
-	~ng#That would appear in Greek as 'γγ'.
-}
-
-::Characters 06::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ὑ</span> {
-	~o#That would appear in Greek as 'ο'.
-	=hu#Correct.
-	~ō#That would appear in Greek as 'ω'.
-	~hi#That would appear in Greek as 'ἱ'.
-	~u#That would appear in Greek as 'υ'.
-}
-
-::Characters 07::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Κ</span> {
-	~ch#That would appear in Greek as 'χ'.
-	=k#Correct.
-	~x#That would appear in Greek as 'ξ'.
-	~nk#That would appear in Greek as 'γκ'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Φ</span> {
+	~ps#That would appear in Greek as 'ψ'.
+	~th#That would appear in Greek as 'θ'.
+	=ph#Correct.
+	~rh#That would appear in Greek as 'ῥ'.
 	~m#That would appear in Greek as 'μ'.
 }
 
-::Characters 08::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Θ</span> {
-	~l#That would appear in Greek as 'λ'.
-	=th#Correct.
-	~ph#That would appear in Greek as 'φ'.
+::Characters 06::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἅ</span> {
+	=ha#Correct.
+	~s#That would appear in Greek as 'σ'.
+	~a#That would appear in Greek as 'α'.
 	~b#That would appear in Greek as 'β'.
-	~k#That would appear in Greek as 'κ'.
+	~x#That would appear in Greek as 'ξ'.
+}
+
+::Characters 07::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Λ</span> {
+	~i#That would appear in Greek as 'ι'.
+	~ch#That would appear in Greek as 'χ'.
+	~th#That would appear in Greek as 'θ'.
+	=l#Correct.
+	~x#That would appear in Greek as 'ξ'.
+}
+
+::Characters 08::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἆ</span> {
+	~ha#That would appear in Greek as 'ἁ'.
+	~ch#That would appear in Greek as 'χ'.
+	=a#Correct.
+	~ng#That would appear in Greek as 'γγ'.
+	~nch#That would appear in Greek as 'γχ'.
 }
 
 ::Characters 09::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">υ</span> {
-	~i#That would appear in Greek as 'ι'.
-	=u#Correct.
-	~g#That would appear in Greek as 'γ'.
-	~hu#That would appear in Greek as 'ὑ'.
-	~n#That would appear in Greek as 'ν'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Ν</span> {
+	=n#Correct.
+	~m#That would appear in Greek as 'μ'.
+	~th#That would appear in Greek as 'θ'.
+	~nch#That would appear in Greek as 'γχ'.
+	~u#That would appear in Greek as 'υ'.
 }
 
 ::Characters 10::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἑ</span> {
-	~b#That would appear in Greek as 'β'.
-	=he#Correct.
-	~hō#That would appear in Greek as 'ὡ'.
-	~ph#That would appear in Greek as 'φ'.
-	~e#That would appear in Greek as 'ε'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ν</span> {
+	~m#That would appear in Greek as 'μ'.
+	=n#Correct.
+	~th#That would appear in Greek as 'θ'.
+	~he#That would appear in Greek as 'ἑ'.
+	~u#That would appear in Greek as 'υ'.
 }
 
 ::Characters 11::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Β</span> {
-	~a#That would appear in Greek as 'α'.
-	~i#That would appear in Greek as 'ι'.
-	~e#That would appear in Greek as 'ε'.
-	~th#That would appear in Greek as 'θ'.
-	=b#Correct.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Ὑ</span> {
+	~d#That would appear in Greek as 'δ'.
+	~rh#That would appear in Greek as 'ῥ'.
+	~u#That would appear in Greek as 'υ'.
+	~hō#That would appear in Greek as 'ὡ'.
+	=hu#Correct.
 }
 
 ::Characters 12::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Χ</span> {
-	~r#That would appear in Greek as 'ρ'.
-	~k#That would appear in Greek as 'κ'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">χ</span> {
 	~x#That would appear in Greek as 'ξ'.
+	~k#That would appear in Greek as 'κ'.
 	=ch#Correct.
 	~l#That would appear in Greek as 'λ'.
+	~t#That would appear in Greek as 'τ'.
 }
 
 ::Characters 13::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Ἠ</span> {
-	~i#That would appear in Greek as 'ι'.
-	=ē#Correct.
-	~hi#That would appear in Greek as 'ἱ'.
-	~hē#That would appear in Greek as 'ἡ'.
-	~e#That would appear in Greek as 'ε'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἀ</span> {
+	~nch#That would appear in Greek as 'γχ'.
+	~n#That would appear in Greek as 'ν'.
+	~ha#That would appear in Greek as 'ἁ'.
+	~x#That would appear in Greek as 'ξ'.
+	=a#Correct.
 }
 
 ::Characters 14::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Ἐ</span> {
-	~he#That would appear in Greek as 'ἑ'.
-	~ē#That would appear in Greek as 'η'.
-	~r#That would appear in Greek as 'ρ'.
-	~a#That would appear in Greek as 'α'.
-	=e#Correct.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ῳ</span> {
+	~rh#That would appear in Greek as 'ῥ'.
+	~hō#That would appear in Greek as 'ὡ'.
+	=ō#Correct.
+	~z#That would appear in Greek as 'ζ'.
+	~o#That would appear in Greek as 'ο'.
 }
 
 ::Characters 15::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">μ</span> {
-	=m#Correct.
-	~ē#That would appear in Greek as 'η'.
-	~n#That would appear in Greek as 'ν'.
-	~nch#That would appear in Greek as 'γχ'.
-	~ha#That would appear in Greek as 'ἁ'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">δ</span> {
+	~rh#That would appear in Greek as 'ῥ'.
+	~ho#That would appear in Greek as 'ὁ'.
+	~k#That would appear in Greek as 'κ'.
+	=d#Correct.
+	~he#That would appear in Greek as 'ἑ'.
 }
 
 ::Characters 16::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">π</span> {
-	=p#Correct.
-	~ho#That would appear in Greek as 'ὁ'.
-	~ph#That would appear in Greek as 'φ'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ὗ</span> {
+	~u#That would appear in Greek as 'υ'.
+	~rh#That would appear in Greek as 'ῥ'.
+	~i#That would appear in Greek as 'ι'.
+	=hu#Correct.
 	~r#That would appear in Greek as 'ρ'.
-	~hō#That would appear in Greek as 'ὡ'.
 }
 
 ::Characters 17::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἁ</span> {
-	~p#That would appear in Greek as 'π'.
-	=ha#Correct.
-	~th#That would appear in Greek as 'θ'.
-	~a#That would appear in Greek as 'α'.
-	~hē#That would appear in Greek as 'ἡ'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἥ</span> {
+	~ho#That would appear in Greek as 'ὁ'.
+	=hē#Correct.
+	~ē#That would appear in Greek as 'η'.
+	~nch#That would appear in Greek as 'γχ'.
+	~l#That would appear in Greek as 'λ'.
 }
 
 ::Characters 18::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Ἱ</span> {
-	~nch#That would appear in Greek as 'γχ'.
-	=hi#Correct.
-	~nk#That would appear in Greek as 'γκ'.
-	~th#That would appear in Greek as 'θ'.
-	~i#That would appear in Greek as 'ι'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἐ</span> {
+	=e#Correct.
+	~hu#That would appear in Greek as 'ὑ'.
+	~ē#That would appear in Greek as 'η'.
+	~he#That would appear in Greek as 'ἑ'.
+	~ho#That would appear in Greek as 'ὁ'.
 }
 
 ::Characters 19::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ξ</span> {
-	~ch#That would appear in Greek as 'χ'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ψ</span> {
+	~t#That would appear in Greek as 'τ'.
+	~ph#That would appear in Greek as 'φ'.
 	~ho#That would appear in Greek as 'ὁ'.
-	=x#Correct.
-	~z#That would appear in Greek as 'ζ'.
-	~k#That would appear in Greek as 'κ'.
+	~ō#That would appear in Greek as 'ω'.
+	=ps#Correct.
 }
 
 ::Characters 20::
-Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">γ</span> {
-	=g#Correct.
-	~hē#That would appear in Greek as 'ἡ'.
-	~u#That would appear in Greek as 'υ'.
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Α</span> {
+	~ha#That would appear in Greek as 'ἁ'.
 	~nch#That would appear in Greek as 'γχ'.
+	~s#That would appear in Greek as 'σ'.
+	~k#That would appear in Greek as 'κ'.
+	=a#Correct.
+}
+
+::Characters 21::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ε</span> {
+	=e#Correct.
+	~ō#That would appear in Greek as 'ω'.
+	~ē#That would appear in Greek as 'η'.
+	~he#That would appear in Greek as 'ἑ'.
+	~p#That would appear in Greek as 'π'.
+}
+
+::Characters 22::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">β</span> {
+	~th#That would appear in Greek as 'θ'.
+	~ha#That would appear in Greek as 'ἁ'.
+	~ho#That would appear in Greek as 'ὁ'.
+	~l#That would appear in Greek as 'λ'.
+	=b#Correct.
+}
+
+::Characters 23::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ὖ</span> {
+	~g#That would appear in Greek as 'γ'.
+	=u#Correct.
+	~hu#That would appear in Greek as 'ὑ'.
+	~i#That would appear in Greek as 'ι'.
+	~n#That would appear in Greek as 'ν'.
+}
+
+::Characters 24::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Θ</span> {
+	~z#That would appear in Greek as 'ζ'.
+	~ph#That would appear in Greek as 'φ'.
+	~b#That would appear in Greek as 'β'.
+	~ch#That would appear in Greek as 'χ'.
+	=th#Correct.
+}
+
+::Characters 25::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ὀ</span> {
+	=o#Correct.
+	~ho#That would appear in Greek as 'ὁ'.
+	~l#That would appear in Greek as 'λ'.
+	~s#That would appear in Greek as 'σ'.
 	~ō#That would appear in Greek as 'ω'.
 }
 
-::Syllables 01::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">λῇ</span> {
-	=lē#Correct.
-	~ka#That would appear in Greek as 'κἀ'.
+::Characters 26::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ο</span> {
+	~ho#That would appear in Greek as 'ὁ'.
+	~he#That would appear in Greek as 'ἑ'.
+	~ō#That would appear in Greek as 'ω'.
+	=o#Correct.
+	~s#That would appear in Greek as 'σ'.
+}
+
+::Characters 27::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ὥ</span> {
+	~ō#That would appear in Greek as 'ω'.
+	~ph#That would appear in Greek as 'φ'.
+	=hō#Correct.
+	~nch#That would appear in Greek as 'γχ'.
+	~hu#That would appear in Greek as 'ὑ'.
+}
+
+::Characters 28::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ὧ</span> {
+	=hō#Correct.
+	~g#That would appear in Greek as 'γ'.
+	~ps#That would appear in Greek as 'ψ'.
+	~ō#That would appear in Greek as 'ω'.
+	~hu#That would appear in Greek as 'ὑ'.
+}
+
+::Characters 29::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">σ</span> {
+	~ha#That would appear in Greek as 'ἁ'.
+	~o#That would appear in Greek as 'ο'.
+	=s#Correct.
+	~hō#That would appear in Greek as 'ὡ'.
+	~d#That would appear in Greek as 'δ'.
+}
+
+::Characters 30::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ὡ</span> {
+	~ps#That would appear in Greek as 'ψ'.
+	~t#That would appear in Greek as 'τ'.
+	~ō#That would appear in Greek as 'ω'.
+	~u#That would appear in Greek as 'υ'.
+	=hō#Correct.
+}
+
+::Characters 31::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Ἰ</span> {
+	~ē#That would appear in Greek as 'η'.
+	=i#Correct.
+	~hi#That would appear in Greek as 'ἱ'.
+	~u#That would appear in Greek as 'υ'.
+	~ho#That would appear in Greek as 'ὁ'.
+}
+
+::Characters 32::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Ο</span> {
+	~ho#That would appear in Greek as 'ὁ'.
 	~ch#That would appear in Greek as 'χ'.
-	~no#That would appear in Greek as 'νό'.
-	~de#That would appear in Greek as 'δέ'.
+	~ō#That would appear in Greek as 'ω'.
+	=o#Correct.
+	~s#That would appear in Greek as 'σ'.
+}
+
+::Characters 33::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἵ</span> {
+	~g#That would appear in Greek as 'γ'.
+	~x#That would appear in Greek as 'ξ'.
+	~i#That would appear in Greek as 'ι'.
+	=hi#Correct.
+	~ps#That would appear in Greek as 'ψ'.
+}
+
+::Characters 34::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">τ</span> {
+	=t#Correct.
+	~a#That would appear in Greek as 'α'.
+	~e#That would appear in Greek as 'ε'.
+	~nk#That would appear in Greek as 'γκ'.
+	~ē#That would appear in Greek as 'η'.
+}
+
+::Characters 35::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Γ</span> {
+	~rh#That would appear in Greek as 'ῥ'.
+	~ha#That would appear in Greek as 'ἁ'.
+	=g#Correct.
+	~z#That would appear in Greek as 'ζ'.
+	~u#That would appear in Greek as 'υ'.
+}
+
+::Characters 36::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Ἠ</span> {
+	~hē#That would appear in Greek as 'ἡ'.
+	~e#That would appear in Greek as 'ε'.
+	~i#That would appear in Greek as 'ι'.
+	~nch#That would appear in Greek as 'γχ'.
+	=ē#Correct.
+}
+
+::Characters 37::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ἑ</span> {
+	~ō#That would appear in Greek as 'ω'.
+	~ps#That would appear in Greek as 'ψ'.
+	~a#That would appear in Greek as 'α'.
+	~e#That would appear in Greek as 'ε'.
+	=he#Correct.
+}
+
+::Characters 38::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">ὁ</span> {
+	=ho#Correct.
+	~ō#That would appear in Greek as 'ω'.
+	~e#That would appear in Greek as 'ε'.
+	~o#That would appear in Greek as 'ο'.
+	~ha#That would appear in Greek as 'ἁ'.
+}
+
+::Characters 39::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Η</span> {
+	~i#That would appear in Greek as 'ι'.
+	~hu#That would appear in Greek as 'ὑ'.
+	=ē#Correct.
+	~e#That would appear in Greek as 'ε'.
+	~hē#That would appear in Greek as 'ἡ'.
+}
+
+::Characters 40::
+Select the correct Latin-alphabet transliteration of the following Greek character:<br><br><span style="font-size:1.9em;">Ξ</span> {
+	~z#That would appear in Greek as 'ζ'.
+	~l#That would appear in Greek as 'λ'.
+	~k#That would appear in Greek as 'κ'.
+	~ch#That would appear in Greek as 'χ'.
+	=x#Correct.
+}
+
+::Syllables 01::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">κλε</span> {
+	~ch#That would appear in Greek as 'χ'.
+	~cho#That would appear in Greek as 'χό'.
+	=kle#Correct.
+	~x#That would appear in Greek as 'ξ'.
+	~hēd#That would appear in Greek as 'ἡδ'.
 }
 
 ::Syllables 02::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">φῶ</span> {
-	~psē#That would appear in Greek as 'ψή'.
-	~th#That would appear in Greek as 'θ'.
-	~ps#That would appear in Greek as 'ψ'.
-	=phō#Correct.
-	~rha#That would appear in Greek as 'ῥά'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ξέ</span> {
+	=xe#Correct.
+	~z#That would appear in Greek as 'ζ'.
+	~k#That would appear in Greek as 'κ'.
+	~gu#That would appear in Greek as 'γυ'.
+	~ch#That would appear in Greek as 'χ'.
 }
 
 ::Syllables 03::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">γυ</span> {
-	~kle#That would appear in Greek as 'κλε'.
-	=gu#Correct.
-	~lē#That would appear in Greek as 'λῇ'.
-	~tu#That would appear in Greek as 'τύ'.
-	~u#That would appear in Greek as 'υ'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">θοῦ</span> {
+	~tha#That would appear in Greek as 'θά'.
+	=thou#Correct.
+	~cho#That would appear in Greek as 'χό'.
+	~b#That would appear in Greek as 'β'.
+	~ph#That would appear in Greek as 'φ'.
 }
 
 ::Syllables 04::
 Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">χό</span> {
+	~eg#That would appear in Greek as 'ἐγ'.
+	~x#That would appear in Greek as 'ξ'.
+	~l#That would appear in Greek as 'λ'.
 	=cho#Correct.
 	~k#That would appear in Greek as 'κ'.
-	~l#That would appear in Greek as 'λ'.
-	~x#That would appear in Greek as 'ξ'.
-	~chai#That would appear in Greek as 'χαῖ'.
 }
 
 ::Syllables 05::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">βα</span> {
-	~blē#That would appear in Greek as 'βλη'.
-	~tha#That would appear in Greek as 'θά'.
-	=ba#Correct.
-	~gu#That would appear in Greek as 'γυ'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">βλη</span> {
+	=blē#Correct.
+	~phi#That would appear in Greek as 'φί'.
+	~ba#That would appear in Greek as 'βα'.
+	~pra#That would appear in Greek as 'πρα'.
 	~th#That would appear in Greek as 'θ'.
 }
 
 ::Syllables 06::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">νό</span> {
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">μή</span> {
+	=mē#Correct.
+	~kle#That would appear in Greek as 'κλε'.
 	~pra#That would appear in Greek as 'πρα'.
-	=no#Correct.
-	~u#That would appear in Greek as 'υ'.
-	~m#That would appear in Greek as 'μ'.
-	~psē#That would appear in Greek as 'ψή'.
+	~n#That would appear in Greek as 'ν'.
+	~tu#That would appear in Greek as 'τύ'.
 }
 
 ::Syllables 07::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">νῷ</span> {
-	~gē#That would appear in Greek as 'γῆ'.
-	~m#That would appear in Greek as 'μ'.
-	~u#That would appear in Greek as 'υ'.
-	=nō#Correct.
-	~cho#That would appear in Greek as 'χό'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ῥά</span> {
+	~dō#That would appear in Greek as 'δῶ'.
+	~anch#That would appear in Greek as 'ανχ'.
+	~r#That would appear in Greek as 'ρ'.
+	~ank#That would appear in Greek as 'αγκ'.
+	=rha#Correct.
 }
 
 ::Syllables 08::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">πῦ</span> {
-	~phi#That would appear in Greek as 'φί'.
-	=pu#Correct.
-	~r#That would appear in Greek as 'ρ'.
-	~lē#That would appear in Greek as 'λῇ'.
-	~no#That would appear in Greek as 'νό'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">βα</span> {
+	~thou#That would appear in Greek as 'θοῦ'.
+	~th#That would appear in Greek as 'θ'.
+	~stra#That would appear in Greek as 'στρα'.
+	~hab#That would appear in Greek as 'ἁβ'.
+	=ba#Correct.
 }
 
 ::Syllables 09::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ξέ</span> {
-	~pu#That would appear in Greek as 'πῦ'.
-	=xe#Correct.
-	~z#That would appear in Greek as 'ζ'.
-	~k#That would appear in Greek as 'κ'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">κἀ</span> {
+	~x#That would appear in Greek as 'ξ'.
 	~ch#That would appear in Greek as 'χ'.
+	~phō#That would appear in Greek as 'φῶ'.
+	~zē#That would appear in Greek as 'ζῆ'.
+	=ka#Correct.
 }
 
 ::Syllables 10::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">αγκ</span> {
-	~nō#That would appear in Greek as 'νῷ'.
-	=ank#Correct.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">αγγ</span> {
+	~mē#That would appear in Greek as 'μή'.
+	~ki#That would appear in Greek as 'κί'.
+	~mu#That would appear in Greek as 'μῦ'.
 	~a#That would appear in Greek as 'α'.
-	~pu#That would appear in Greek as 'πῦ'.
-	~lē#That would appear in Greek as 'λῇ'.
+	=ang#Correct.
 }
 
 ::Syllables 11::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ἐγ</span> {
-	~ang#That would appear in Greek as 'αγγ'.
-	~he#That would appear in Greek as 'ἑ'.
-	=eg#Correct.
-	~dō#That would appear in Greek as 'δῶ'.
-	~mē#That would appear in Greek as 'μή'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">θά</span> {
+	=tha#Correct.
+	~b#That would appear in Greek as 'β'.
+	~nō#That would appear in Greek as 'νῷ'.
+	~de#That would appear in Greek as 'δέ'.
+	~ph#That would appear in Greek as 'φ'.
 }
 
 ::Syllables 12::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">τύ</span> {
-	~mu#That would appear in Greek as 'μῦ'.
-	=tu#Correct.
-	~pra#That would appear in Greek as 'πρα'.
-	~bi#That would appear in Greek as 'βί'.
-	~ank#That would appear in Greek as 'αγκ'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">χυ</span> {
+	~k#That would appear in Greek as 'κ'.
+	~de#That would appear in Greek as 'δέ'.
+	=chu#Correct.
+	~xu#That would appear in Greek as 'ξυ'.
+	~l#That would appear in Greek as 'λ'.
 }
 
 ::Syllables 13::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">γά</span> {
-	~u#That would appear in Greek as 'υ'.
-	=ga#Correct.
-	~thou#That would appear in Greek as 'θοῦ'.
-	~so#That would appear in Greek as 'σό'.
-	~zē#That would appear in Greek as 'ζῆ'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ζῆ</span> {
+	=zē#Correct.
+	~hab#That would appear in Greek as 'ἁβ'.
+	~la#That would appear in Greek as 'λά'.
+	~ank#That would appear in Greek as 'αγκ'.
+	~x#That would appear in Greek as 'ξ'.
 }
 
 ::Syllables 14::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ἡδ</span> {
-	~pra#That would appear in Greek as 'πρα'.
-	~mu#That would appear in Greek as 'μῦ'.
-	~hab#That would appear in Greek as 'ἁβ'.
-	=hēd#Correct.
-	~ē#That would appear in Greek as 'η'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">φῶ</span> {
+	=phō#Correct.
+	~ki#That would appear in Greek as 'κί'.
+	~th#That would appear in Greek as 'θ'.
+	~ps#That would appear in Greek as 'ψ'.
+	~ga#That would appear in Greek as 'γά'.
 }
 
 ::Syllables 15::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ῥά</span> {
-	~pa#That would appear in Greek as 'πά'.
-	~r#That would appear in Greek as 'ρ'.
-	~la#That would appear in Greek as 'λά'.
-	=rha#Correct.
-	~de#That would appear in Greek as 'δέ'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">φί</span> {
+	~rha#That would appear in Greek as 'ῥά'.
+	=phi#Correct.
+	~ps#That would appear in Greek as 'ψ'.
+	~thea#That would appear in Greek as 'θεά'.
+	~th#That would appear in Greek as 'θ'.
 }
 
 ::Syllables 16::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">μή</span> {
-	~phō#That would appear in Greek as 'φῶ'.
-	~bi#That would appear in Greek as 'βί'.
-	~ba#That would appear in Greek as 'βα'.
-	~n#That would appear in Greek as 'ν'.
-	=mē#Correct.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">σό</span> {
+	~xu#That would appear in Greek as 'ξυ'.
+	=so#Correct.
+	~o#That would appear in Greek as 'ο'.
+	~pa#That would appear in Greek as 'πά'.
+	~de#That would appear in Greek as 'δέ'.
 }
 
 ::Syllables 17::
 Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ἁβ</span> {
-	~xe#That would appear in Greek as 'ξέ'.
-	=hab#Correct.
-	~eg#That would appear in Greek as 'ἐγ'.
+	~pra#That would appear in Greek as 'πρα'.
 	~a#That would appear in Greek as 'α'.
-	~thou#That would appear in Greek as 'θοῦ'.
+	~ba#That would appear in Greek as 'βα'.
+	~thea#That would appear in Greek as 'θεά'.
+	=hab#Correct.
 }
 
 ::Syllables 18::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">λά</span> {
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">πρα</span> {
+	=pra#Correct.
 	~thou#That would appear in Greek as 'θοῦ'.
-	~xe#That would appear in Greek as 'ξέ'.
-	~ch#That would appear in Greek as 'χ'.
-	~mu#That would appear in Greek as 'μῦ'.
-	=la#Correct.
+	~r#That would appear in Greek as 'ρ'.
+	~gu#That would appear in Greek as 'γυ'.
+	~de#That would appear in Greek as 'δέ'.
 }
 
 ::Syllables 19::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">δῶ</span> {
-	~pra#That would appear in Greek as 'πρα'.
-	=dō#Correct.
-	~mu#That would appear in Greek as 'μῦ'.
-	~xu#That would appear in Greek as 'ξυ'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">μῦ</span> {
+	=mu#Correct.
+	~n#That would appear in Greek as 'ν'.
+	~bi#That would appear in Greek as 'βί'.
+	~eg#That would appear in Greek as 'ἐγ'.
 	~hēd#That would appear in Greek as 'ἡδ'.
 }
 
 ::Syllables 20::
-Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">στρα</span> {
-	~ru#That would appear in Greek as 'ρυ'.
-	=stra#Correct.
-	~kle#That would appear in Greek as 'κλε'.
-	~o#That would appear in Greek as 'ο'.
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">γυ</span> {
+	~mu#That would appear in Greek as 'μῦ'.
+	~thou#That would appear in Greek as 'θοῦ'.
+	~lē#That would appear in Greek as 'λῇ'.
+	=gu#Correct.
+	~u#That would appear in Greek as 'υ'.
+}
+
+::Syllables 21::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">λῇ</span> {
+	~ga#That would appear in Greek as 'γά'.
+	~bi#That would appear in Greek as 'βί'.
+	=lē#Correct.
+	~ch#That would appear in Greek as 'χ'.
+	~la#That would appear in Greek as 'λά'.
+}
+
+::Syllables 22::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">νῷ</span> {
+	~rha#That would appear in Greek as 'ῥά'.
+	~u#That would appear in Greek as 'υ'.
+	~blē#That would appear in Greek as 'βλη'.
+	=nō#Correct.
+	~m#That would appear in Greek as 'μ'.
+}
+
+::Syllables 23::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">θεά</span> {
+	~b#That would appear in Greek as 'β'.
+	~hēd#That would appear in Greek as 'ἡδ'.
+	~ba#That would appear in Greek as 'βα'.
+	=thea#Correct.
+	~ph#That would appear in Greek as 'φ'.
+}
+
+::Syllables 24::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ρυ</span> {
+	~la#That would appear in Greek as 'λά'.
+	~mu#That would appear in Greek as 'μῦ'.
+	=ru#Correct.
+	~p#That would appear in Greek as 'π'.
+	~rh#That would appear in Greek as 'ῥ'.
+}
+
+::Syllables 25::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ψή</span> {
+	=psē#Correct.
+	~xu#That would appear in Greek as 'ξυ'.
+	~gu#That would appear in Greek as 'γυ'.
+	~ph#That would appear in Greek as 'φ'.
+	~lē#That would appear in Greek as 'λῇ'.
+}
+
+::Syllables 26::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">δῶ</span> {
+	=dō#Correct.
+	~ba#That would appear in Greek as 'βα'.
+	~hab#That would appear in Greek as 'ἁβ'.
+	~stra#That would appear in Greek as 'στρα'.
+	~thou#That would appear in Greek as 'θοῦ'.
+}
+
+::Syllables 27::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ἡδ</span> {
+	~ē#That would appear in Greek as 'η'.
+	~xu#That would appear in Greek as 'ξυ'.
+	~eg#That would appear in Greek as 'ἐγ'.
+	~chai#That would appear in Greek as 'χαῖ'.
+	=hēd#Correct.
+}
+
+::Syllables 28::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">κί</span> {
+	~ch#That would appear in Greek as 'χ'.
 	~so#That would appear in Greek as 'σό'.
+	~x#That would appear in Greek as 'ξ'.
+	~chu#That would appear in Greek as 'χυ'.
+	=ki#Correct.
+}
+
+::Syllables 29::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">λά</span> {
+	~hēd#That would appear in Greek as 'ἡδ'.
+	=la#Correct.
+	~ch#That would appear in Greek as 'χ'.
+	~ank#That would appear in Greek as 'αγκ'.
+	~xe#That would appear in Greek as 'ξέ'.
+}
+
+::Syllables 30::
+Select the correct Latin-alphabet transliteration of the following Greek syllable:<br><br><span style="font-size:1.8em;">ξυ</span> {
+	~z#That would appear in Greek as 'ζ'.
+	~k#That would appear in Greek as 'κ'.
+	~zē#That would appear in Greek as 'ζῆ'.
+	~chu#That would appear in Greek as 'χυ'.
+	=xu#Correct.
 }
 
 ::Words 01::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἀδελφός</span> {
-	~historia#That would appear in Greek as 'ἱστορία'.
-	~adelfos#Not under this quiz's rules (φ is written ph, not f).
-	=adelphos#Correct.
-	~chōras#That would appear in Greek as 'χώρᾱς'.
-	~hadelphos#Not under this quiz's rules (there is no rough breathing here, so no h).
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἀγορά</span> {
+	~psuchē#That would appear in Greek as 'ψυχή'.
+	~to#That would appear in Greek as 'τό'.
+	~hagora#Not under this quiz's rules (there is no rough breathing here, so no h).
+	=agora#Correct.
+	~tois#That would appear in Greek as 'τοῖς'.
 }
 
 ::Words 02::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">στέφανος</span> {
-	=stephanos#Correct.
-	~psuchēs#That would appear in Greek as 'ψῡχῆς'.
-	~stefanos#Not under this quiz's rules (φ is written ph, not f).
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ξένου</span> {
+	~agoras#That would appear in Greek as 'ἀγορᾶς'.
+	~ksenou#Not under this quiz's rules (ξ is written x, not ks).
 	~de#That would appear in Greek as 'δέ'.
-	~stephanou#That would appear in Greek as 'στέφανου'.
+	=xenou#Correct.
+	~xenoy#Not under this quiz's rules (υ is written u, not y).
 }
 
 ::Words 03::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">νῦν</span> {
-	~Apollōn#That would appear in Greek as 'Ἀπόλλων'.
-	=nun#Correct.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ζῶον</span> {
+	~ex#That would appear in Greek as 'ἐξ'.
+	~chrusos#That would appear in Greek as 'χρυσός'.
+	=zōon#Correct.
+	~xenou#That would appear in Greek as 'ξένου'.
 	~Hēra#That would appear in Greek as 'Ἥρα'.
-	~Nestōr#That would appear in Greek as 'Νέστωρ'.
-	~nyn#Not under this quiz's rules (υ is written u, not y).
 }
 
 ::Words 04::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">χώρᾱς</span> {
-	~philias#That would appear in Greek as 'φιλίας'.
-	~philos#That would appear in Greek as 'φίλος'.
-	=chōras#Correct.
-	~khōras#Not under this quiz's rules (χ is written ch, not kh).
-	~oun#That would appear in Greek as 'οὖν'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ὁδοῦ</span> {
+	~hodoy#Not under this quiz's rules (υ is written u, not y).
+	~ex#That would appear in Greek as 'ἐξ'.
+	=hodou#Correct.
+	~odou#Not under this quiz's rules (the rough breathing must be written as h).
+	~eu#That would appear in Greek as 'εὖ'.
 }
 
 ::Words 05::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">εἰ</span> {
-	=ei#Correct.
-	~pur#That would appear in Greek as 'πῦρ'.
-	~Kalupsō#That would appear in Greek as 'Καλυψώ'.
-	~humeis#That would appear in Greek as 'ὑμεῖς'.
-	~hei#Not under this quiz's rules (there is no rough breathing here, so no h).
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Ὀδυσσεύς</span> {
+	~ara#That would appear in Greek as 'ἆρα'.
+	~hodusseus#Not under this quiz's rules (there is no rough breathing here, so no h).
+	=Odusseus#Correct.
+	~Hēra#That would appear in Greek as 'Ἥρα'.
+	~Odysseys#Not under this quiz's rules (υ is written u, not y).
 }
 
 ::Words 06::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἵππος</span> {
-	~ippos#Not under this quiz's rules (the rough breathing must be written as h).
-	~polemos#That would appear in Greek as 'πόλεμος'.
-	~angelou#That would appear in Greek as 'ἀγγέλου'.
-	=hippos#Correct.
-	~Zeus#That would appear in Greek as 'Ζεύς'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἀγαθή</span> {
+	~noos#That would appear in Greek as 'νόος'.
+	~hagathē#Not under this quiz's rules (there is no rough breathing here, so no h).
+	~machēs#That would appear in Greek as 'μάχης'.
+	=agathē#Correct.
+	~sophia#That would appear in Greek as 'σοφία'.
 }
 
 ::Words 07::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ταῖς</span> {
-	~logou#That would appear in Greek as 'λόγου'.
-	=tais#Correct.
-	~chōras#That would appear in Greek as 'χώρᾱς'.
-	~dōrou#That would appear in Greek as 'δώρου'.
-	~harmonia#That would appear in Greek as 'ἁρμονία'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἱστορία</span> {
+	=historia#Correct.
+	~hupo#That would appear in Greek as 'ὑπό'.
+	~thea#That would appear in Greek as 'θεά'.
+	~polis#That would appear in Greek as 'πόλις'.
+	~istoria#Not under this quiz's rules (the rough breathing must be written as h).
 }
 
 ::Words 08::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἄνθρωπος</span> {
-	~hanthrōpos#Not under this quiz's rules (there is no rough breathing here, so no h).
-	=anthrōpos#Correct.
-	~ouk#That would appear in Greek as 'οὐκ'.
-	~eis#That would appear in Greek as 'εἰς'.
-	~philou#That would appear in Greek as 'φίλου'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἀνθρώπου</span> {
+	=anthrōpou#Correct.
+	~kakōn#That would appear in Greek as 'κακῶν'.
+	~hanthrōpou#Not under this quiz's rules (there is no rough breathing here, so no h).
+	~kai#That would appear in Greek as 'καί'.
+	~anthrōpoy#Not under this quiz's rules (υ is written u, not y).
 }
 
 ::Words 09::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">τό</span> {
-	~agoras#That would appear in Greek as 'ἀγορᾶς'.
-	~ouk#That would appear in Greek as 'οὐκ'.
-	~sophais#That would appear in Greek as 'σοφαῖς'.
-	~adelphos#That would appear in Greek as 'ἀδελφός'.
-	=to#Correct.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">λόγος</span> {
+	~anthrōpos#That would appear in Greek as 'ἄνθρωπος'.
+	=logos#Correct.
+	~ou#That would appear in Greek as 'οὐ'.
+	~theos#That would appear in Greek as 'θεός'.
+	~xenou#That would appear in Greek as 'ξένου'.
 }
 
 ::Words 10::
 Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἔργου</span> {
-	~ergoy#Not under this quiz's rules (υ is written u, not y).
 	~hergou#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~stephanou#That would appear in Greek as 'στέφανου'.
-	~eis#That would appear in Greek as 'εἰς'.
+	~eu#That would appear in Greek as 'εὖ'.
 	=ergou#Correct.
+	~ergoy#Not under this quiz's rules (υ is written u, not y).
+	~adelphos#That would appear in Greek as 'ἀδελφός'.
 }
 
 ::Words 11::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">οὐ</span> {
-	~oy#Not under this quiz's rules (υ is written u, not y).
-	~Eurukleia#That would appear in Greek as 'Εὐρύκλεια'.
-	=ou#Correct.
-	~hou#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~logou#That would appear in Greek as 'λόγου'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Πηνελόπη</span> {
+	~ou#That would appear in Greek as 'οὐ'.
+	~oikia#That would appear in Greek as 'οἰκία'.
+	~bios#That would appear in Greek as 'βίος'.
+	=Pēnelopē#Correct.
+	~stephanou#That would appear in Greek as 'στέφανου'.
 }
 
 ::Words 12::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">λόγου</span> {
-	~logoy#Not under this quiz's rules (υ is written u, not y).
-	~zōou#That would appear in Greek as 'ζῶου'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">νῆσος</span> {
+	~oikos#That would appear in Greek as 'οἶκος'.
+	~Hēra#That would appear in Greek as 'Ἥρα'.
+	=nēsos#Correct.
 	~dōrou#That would appear in Greek as 'δώρου'.
-	=logou#Correct.
-	~to#That would appear in Greek as 'τό'.
+	~dōron#That would appear in Greek as 'δῶρον'.
 }
 
 ::Words 13::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ὑμεῖς</span> {
-	~hymeis#Not under this quiz's rules (υ is written u, not y).
-	~umeis#Not under this quiz's rules (the rough breathing must be written as h).
-	~Zeus#That would appear in Greek as 'Ζεύς'.
-	~technēs#That would appear in Greek as 'τέχνης'.
-	=humeis#Correct.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἡμεῖς</span> {
+	~para#That would appear in Greek as 'παρά'.
+	~anti#That would appear in Greek as 'ἀντί'.
+	~ergon#That would appear in Greek as 'ἔργον'.
+	~ēmeis#Not under this quiz's rules (the rough breathing must be written as h).
+	=hēmeis#Correct.
 }
 
 ::Words 14::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἀπό</span> {
-	=apo#Correct.
-	~epi#That would appear in Greek as 'ἐπι'.
-	~en#That would appear in Greek as 'ἐν'.
-	~hapo#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~eis#That would appear in Greek as 'εἰς'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">σοφία</span> {
+	~historia#That would appear in Greek as 'ἱστορία'.
+	~hudōr#That would appear in Greek as 'ὕδωρ'.
+	~sofia#Not under this quiz's rules (φ is written ph, not f).
+	~logou#That would appear in Greek as 'λόγου'.
+	=sophia#Correct.
 }
 
 ::Words 15::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἀγαθή</span> {
-	~pro#That would appear in Greek as 'πρό'.
-	~agoras#That would appear in Greek as 'ἀγορᾶς'.
-	~hagathē#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~dōrou#That would appear in Greek as 'δώρου'.
-	=agathē#Correct.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">θεός</span> {
+	~adelphou#That would appear in Greek as 'ἀδελφοῦ'.
+	~logos#That would appear in Greek as 'λόγος'.
+	~ergou#That would appear in Greek as 'ἔργου'.
+	~logou#That would appear in Greek as 'λόγου'.
+	=theos#Correct.
 }
 
 ::Words 16::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">τοῖς</span> {
-	~kakos#That would appear in Greek as 'κακός'.
-	~mēnin#That would appear in Greek as 'μῆνιν'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἀγορᾶς</span> {
+	~gunē#That would appear in Greek as 'γυνή'.
+	~ex#That would appear in Greek as 'ἐξ'.
+	=agoras#Correct.
+	~hagoras#Not under this quiz's rules (there is no rough breathing here, so no h).
 	~en#That would appear in Greek as 'ἐν'.
-	=tois#Correct.
-	~psuchēs#That would appear in Greek as 'ψῡχῆς'.
 }
 
 ::Words 17::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">χρόνος</span> {
-	~stephanou#That would appear in Greek as 'στέφανου'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">τέχνης</span> {
+	=technēs#Correct.
+	~Kirkē#That would appear in Greek as 'Κίρκη'.
+	~tekhnēs#Not under this quiz's rules (χ is written ch, not kh).
+	~ex#That would appear in Greek as 'ἐξ'.
 	~dōra#That would appear in Greek as 'δῶρα'.
-	=chronos#Correct.
-	~khronos#Not under this quiz's rules (χ is written ch, not kh).
-	~to#That would appear in Greek as 'τό'.
 }
 
 ::Words 18::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">καλός</span> {
-	~calos#Not under this quiz's rules (κ is written k, not c).
-	~luō#That would appear in Greek as 'λύω'.
-	=kalos#Correct.
-	~pente#That would appear in Greek as 'πέντε'.
-	~to#That would appear in Greek as 'τό'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ξένος</span> {
+	=xenos#Correct.
+	~technē#That would appear in Greek as 'τέχνη'.
+	~adelphos#That would appear in Greek as 'ἀδελφός'.
+	~homērou#That would appear in Greek as 'Ὁμήρου'.
+	~ksenos#Not under this quiz's rules (ξ is written x, not ks).
 }
 
 ::Words 19::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">μῆνιν</span> {
-	~polemos#That would appear in Greek as 'πόλεμος'.
-	~anti#That would appear in Greek as 'ἀντί'.
-	~nēsou#That would appear in Greek as 'νήσου'.
-	~pepompha#That would appear in Greek as 'πέπομφα'.
-	=mēnin#Correct.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἐν</span> {
+	~Kirkē#That would appear in Greek as 'Κίρκη'.
+	~thumos#That would appear in Greek as 'θυμός'.
+	~hen#Not under this quiz's rules (there is no rough breathing here, so no h).
+	~oikia#That would appear in Greek as 'οἰκία'.
+	=en#Correct.
 }
 
 ::Words 20::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">πόλεμος</span> {
-	=polemos#Correct.
-	~machēs#That would appear in Greek as 'μάχης'.
-	~psuchē#That would appear in Greek as 'ψυχή'.
-	~chrusos#That would appear in Greek as 'χρυσός'.
-	~pente#That would appear in Greek as 'πέντε'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">τοίνυν</span> {
+	=toinun#Correct.
+	~kakos#That would appear in Greek as 'κακός'.
+	~to#That would appear in Greek as 'τό'.
+	~adelphos#That would appear in Greek as 'ἀδελφός'.
+	~toinyn#Not under this quiz's rules (υ is written u, not y).
 }
 
 ::Words 21::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">τέχνη</span> {
-	~tekhnē#Not under this quiz's rules (χ is written ch, not kh).
-	=technē#Correct.
-	~philia#That would appear in Greek as 'φιλία'.
-	~logou#That would appear in Greek as 'λόγου'.
-	~ho#That would appear in Greek as 'ὁ'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἀντί</span> {
+	~to#That would appear in Greek as 'τό'.
+	~hanti#Not under this quiz's rules (there is no rough breathing here, so no h).
+	~historia#That would appear in Greek as 'ἱστορία'.
+	=anti#Correct.
+	~chrusos#That would appear in Greek as 'χρυσός'.
 }
 
 ::Words 22::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">τό</span> {
-	=to#Correct.
-	~thea#That would appear in Greek as 'θεά'.
-	~nun#That would appear in Greek as 'νῦν'.
-	~chōra#That would appear in Greek as 'χώρᾱ'.
-	~tais#That would appear in Greek as 'ταῖς'.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Νέστωρ</span> {
+	~oikos#That would appear in Greek as 'οἶκος'.
+	=Nestōr#Correct.
+	~erchomai#That would appear in Greek as 'ἔρχομαι'.
+	~philos#That would appear in Greek as 'φίλος'.
+	~stephanos#That would appear in Greek as 'στέφανος'.
 }
 
 ::Words 23::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ψῡχή</span> {
-	~psukhē#Not under this quiz's rules (χ is written ch, not kh).
-	~psychē#Not under this quiz's rules (υ is written u, not y).
-	~esti#That would appear in Greek as 'ἐστι'.
-	~hudōr#That would appear in Greek as 'ὕδωρ'.
-	=psuchē#Correct.
-}
-
-::Words 24::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">φίλος</span> {
-	~filos#Not under this quiz's rules (φ is written ph, not f).
-	=philos#Correct.
-	~dōron#That would appear in Greek as 'δῶρον'.
-	~ek#That would appear in Greek as 'ἐκ'.
-	~oikos#That would appear in Greek as 'οἶκος'.
-}
-
-::Words 25::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Καλυψώ</span> {
-	~Calupsō#Not under this quiz's rules (κ is written k, not c).
-	~Kalypsō#Not under this quiz's rules (υ is written u, not y).
-	~oikia#That would appear in Greek as 'οἰκία'.
-	=Kalupsō#Correct.
-	~Kirkē#That would appear in Greek as 'Κίρκη'.
-}
-
-::Words 26::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">μάχη</span> {
-	~makhē#Not under this quiz's rules (χ is written ch, not kh).
-	~kuklos#That would appear in Greek as 'κύκλος'.
-	~chronos#That would appear in Greek as 'χρόνος'.
-	=machē#Correct.
-	~ho#That would appear in Greek as 'ὁ'.
-}
-
-::Words 27::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Ἑρμῆς</span> {
-	~Apollōn#That would appear in Greek as 'Ἀπόλλων'.
-	~agora#That would appear in Greek as 'ἀγορά'.
-	~ermēs#Not under this quiz's rules (the rough breathing must be written as h).
-	~dōra#That would appear in Greek as 'δῶρα'.
-	=Hermēs#Correct.
-}
-
-::Words 28::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">πόλις</span> {
-	~hēmeis#That would appear in Greek as 'ἡμεῖς'.
-	=polis#Correct.
-	~epi#That would appear in Greek as 'ἐπι'.
-	~ara#That would appear in Greek as 'ἆρα'.
-	~erchomai#That would appear in Greek as 'ἔρχομαι'.
-}
-
-::Words 29::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ναῦς</span> {
-	~kuklos#That would appear in Greek as 'κύκλος'.
-	~oikos#That would appear in Greek as 'οἶκος'.
-	~nays#Not under this quiz's rules (υ is written u, not y).
-	~hippos#That would appear in Greek as 'ἵππος'.
-	=naus#Correct.
-}
-
-::Words 30::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">καί</span> {
-	~cai#Not under this quiz's rules (κ is written k, not c).
-	~logos#That would appear in Greek as 'λόγος'.
-	~logou#That would appear in Greek as 'λόγου'.
-	~psuchē#That would appear in Greek as 'ψυχή'.
-	=kai#Correct.
-}
-
-::Words 31::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Ἥρα</span> {
-	~Kirkē#That would appear in Greek as 'Κίρκη'.
-	~chrusos#That would appear in Greek as 'χρυσός'.
-	~zōon#That would appear in Greek as 'ζῶον'.
-	=Hēra#Correct.
-	~ēra#Not under this quiz's rules (the rough breathing must be written as h).
-}
-
-::Words 32::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ὁδός</span> {
-	~epi#That would appear in Greek as 'ἐπι'.
-	~philia#That would appear in Greek as 'φιλία'.
-	~agora#That would appear in Greek as 'ἀγορά'.
-	~odos#Not under this quiz's rules (the rough breathing must be written as h).
-	=hodos#Correct.
-}
-
-::Words 33::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">θεός</span> {
-	~ex#That would appear in Greek as 'ἐξ'.
-	~Tēlemachos#That would appear in Greek as 'Τηλέμαχος'.
-	~noos#That would appear in Greek as 'νόος'.
-	=theos#Correct.
-	~epi#That would appear in Greek as 'ἐπι'.
-}
-
-::Words 34::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">δημοκρατία</span> {
-	~xenou#That would appear in Greek as 'ξένου'.
-	~dēmocratia#Not under this quiz's rules (κ is written k, not c).
-	~pro#That would appear in Greek as 'πρό'.
-	=dēmokratia#Correct.
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">τό</span> {
+	~agathē#That would appear in Greek as 'ἀγαθή'.
+	=to#Correct.
 	~tais#That would appear in Greek as 'ταῖς'.
-}
-
-::Words 35::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">εἰς</span> {
-	~heis#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~noos#That would appear in Greek as 'νόος'.
-	~dōrou#That would appear in Greek as 'δώρου'.
-	=eis#Correct.
+	~Poseidōn#That would appear in Greek as 'Ποσειδῶν'.
 	~biblion#That would appear in Greek as 'βιβλίον'.
 }
 
-::Words 36::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">οἰκίας</span> {
-	~oicias#Not under this quiz's rules (κ is written k, not c).
-	~kakōn#That would appear in Greek as 'κακῶν'.
-	=oikias#Correct.
-	~hoikias#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~esti#That would appear in Greek as 'ἐστι'.
-}
-
-::Words 37::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">τέχνης</span> {
-	=technēs#Correct.
-	~Tēlemachos#That would appear in Greek as 'Τηλέμαχος'.
-	~gar#That would appear in Greek as 'γάρ'.
-	~chronos#That would appear in Greek as 'χρόνος'.
-	~tekhnēs#Not under this quiz's rules (χ is written ch, not kh).
-}
-
-::Words 38::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Ἀθήνη</span> {
-	~psuchē#That would appear in Greek as 'ψυχή'.
-	~kakos#That would appear in Greek as 'κακός'.
-	=Athēnē#Correct.
-	~humeis#That would appear in Greek as 'ὑμεῖς'.
-	~hathēnē#Not under this quiz's rules (there is no rough breathing here, so no h).
-}
-
-::Words 39::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Κίρκη</span> {
-	~zōon#That would appear in Greek as 'ζῶον'.
-	=Kirkē#Correct.
-	~Circē#Not under this quiz's rules (κ is written k, not c).
-	~Pēnelopē#That would appear in Greek as 'Πηνελόπη'.
-	~logos#That would appear in Greek as 'λόγος'.
-}
-
-::Words 40::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἐκ</span> {
-	~hek#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~pur#That would appear in Greek as 'πῦρ'.
-	~ec#Not under this quiz's rules (κ is written k, not c).
-	=ek#Correct.
-	~eis#That would appear in Greek as 'εἰς'.
-}
-
-::Words 41::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">εὖ</span> {
-	~hodou#That would appear in Greek as 'ὁδοῦ'.
-	~heu#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~ey#Not under this quiz's rules (υ is written u, not y).
-	=eu#Correct.
-	~ex#That would appear in Greek as 'ἐξ'.
-}
-
-::Words 42::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Ποσειδῶν</span> {
-	~eisi#That would appear in Greek as 'εἰσί'.
-	=Poseidōn#Correct.
-	~machē#That would appear in Greek as 'μάχη'.
-	~tois#That would appear in Greek as 'τοῖς'.
-	~harmonia#That would appear in Greek as 'ἁρμονία'.
-}
-
-::Words 43::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἔγωγε</span> {
-	=egōge#Correct.
-	~hegōge#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~ergou#That would appear in Greek as 'ἔργου'.
+::Words 24::
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Ζεύς</span> {
+	~Zeys#Not under this quiz's rules (υ is written u, not y).
+	~noos#That would appear in Greek as 'νόος'.
 	~psuchēs#That would appear in Greek as 'ψῡχῆς'.
-	~agathē#That would appear in Greek as 'ἀγαθή'.
+	=Zeus#Correct.
+	~Apollōn#That would appear in Greek as 'Ἀπόλλων'.
 }
 
-::Words 44::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ζῶου</span> {
-	~ergou#That would appear in Greek as 'ἔργου'.
-	~zōoy#Not under this quiz's rules (υ is written u, not y).
-	~philou#That would appear in Greek as 'φίλου'.
-	=zōou#Correct.
-	~tais#That would appear in Greek as 'ταῖς'.
-}
-
-::Words 45::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">οἰκία</span> {
-	~machē#That would appear in Greek as 'μάχη'.
-	=oikia#Correct.
-	~oicia#Not under this quiz's rules (κ is written k, not c).
-	~Homēros#That would appear in Greek as 'Ὅμηρος'.
-	~hoikia#Not under this quiz's rules (there is no rough breathing here, so no h).
-}
-
-::Words 46::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">δῶρα</span> {
-	~egōge#That would appear in Greek as 'ἔγωγε'.
-	~machē#That would appear in Greek as 'μάχη'.
-	~theos#That would appear in Greek as 'θεός'.
-	~xenou#That would appear in Greek as 'ξένου'.
-	=dōra#Correct.
-}
-
-::Words 47::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἤ</span> {
-	~naus#That would appear in Greek as 'ναῦς'.
-	~kuklos#That would appear in Greek as 'κύκλος'.
-	~to#That would appear in Greek as 'τό'.
-	=ē#Correct.
-	~hē#That would appear in Greek as 'ἡ'.
-}
-
-::Words 48::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ξένου</span> {
-	~xenoy#Not under this quiz's rules (υ is written u, not y).
-	=xenou#Correct.
-	~ksenou#Not under this quiz's rules (ξ is written x, not ks).
-	~philosophia#That would appear in Greek as 'φιλοσοφία'.
-	~Kirkē#That would appear in Greek as 'Κίρκη'.
-}
-
-::Words 49::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">δέ</span> {
-	=de#Correct.
-	~adelphos#That would appear in Greek as 'ἀδελφός'.
-	~machēs#That would appear in Greek as 'μάχης'.
-	~luō#That would appear in Greek as 'λύω'.
-	~kuklos#That would appear in Greek as 'κύκλος'.
-}
-
-::Words 50::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">σοφαῖς</span> {
-	~Athēnē#That would appear in Greek as 'Ἀθήνη'.
-	~ara#That would appear in Greek as 'ἆρα'.
-	=sophais#Correct.
-	~bios#That would appear in Greek as 'βίος'.
-	~sofais#Not under this quiz's rules (φ is written ph, not f).
-}
-
-::Words 51::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ὁδοῦ</span> {
+::Words 25::
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">τό</span> {
 	~hodos#That would appear in Greek as 'ὁδός'.
+	=to#Correct.
+	~biblion#That would appear in Greek as 'βιβλίον'.
+	~thea#That would appear in Greek as 'θεά'.
+	~pur#That would appear in Greek as 'πῦρ'.
+}
+
+::Words 26::
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ναῦς</span> {
+	~nays#Not under this quiz's rules (υ is written u, not y).
 	~pro#That would appear in Greek as 'πρό'.
-	=hodou#Correct.
-	~hodoy#Not under this quiz's rules (υ is written u, not y).
-	~odou#Not under this quiz's rules (the rough breathing must be written as h).
-}
-
-::Words 52::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἀντί</span> {
-	~theos#That would appear in Greek as 'θεός'.
-	=anti#Correct.
-	~egōge#That would appear in Greek as 'ἔγωγε'.
-	~Hēra#That would appear in Greek as 'Ἥρα'.
-	~hanti#Not under this quiz's rules (there is no rough breathing here, so no h).
-}
-
-::Words 53::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἀνήρ</span> {
-	~oikos#That would appear in Greek as 'οἶκος'.
-	~oikias#That would appear in Greek as 'οἰκίας'.
-	=anēr#Correct.
-	~logos#That would appear in Greek as 'λόγος'.
-	~hanēr#Not under this quiz's rules (there is no rough breathing here, so no h).
-}
-
-::Words 54::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">δώρου</span> {
-	=dōrou#Correct.
-	~dōron#That would appear in Greek as 'δῶρον'.
-	~polis#That would appear in Greek as 'πόλις'.
-	~dōroy#Not under this quiz's rules (υ is written u, not y).
-	~oikos#That would appear in Greek as 'οἶκος'.
-}
-
-::Words 55::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">τῶν</span> {
-	~philias#That would appear in Greek as 'φιλίας'.
-	=tōn#Correct.
-	~epi#That would appear in Greek as 'ἐπι'.
-	~philia#That would appear in Greek as 'φιλία'.
-	~machē#That would appear in Greek as 'μάχη'.
-}
-
-::Words 56::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Ὀδυσσεύς</span> {
-	~Odysseys#Not under this quiz's rules (υ is written u, not y).
-	~bibliou#That would appear in Greek as 'βιβλίου'.
-	~hodusseus#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~ē#That would appear in Greek as 'ἤ'.
-	=Odusseus#Correct.
-}
-
-::Words 57::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">στέφανου</span> {
-	~stephanoy#Not under this quiz's rules (υ is written u, not y).
-	~stefanou#Not under this quiz's rules (φ is written ph, not f).
-	=stephanou#Correct.
-	~logos#That would appear in Greek as 'λόγος'.
-	~andra#That would appear in Greek as 'ἄνδρα'.
-}
-
-::Words 58::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">λύω</span> {
-	=luō#Correct.
-	~lyō#Not under this quiz's rules (υ is written u, not y).
-	~ex#That would appear in Greek as 'ἐξ'.
-	~ou#That would appear in Greek as 'οὐ'.
-	~tais#That would appear in Greek as 'ταῖς'.
-}
-
-::Words 59::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἁρμονία</span> {
-	~adelphos#That would appear in Greek as 'ἀδελφός'.
-	~armonia#Not under this quiz's rules (the rough breathing must be written as h).
-	=harmonia#Correct.
-	~Kalupsō#That would appear in Greek as 'Καλυψώ'.
+	=naus#Correct.
 	~philos#That would appear in Greek as 'φίλος'.
+	~to#That would appear in Greek as 'τό'.
 }
 
-::Words 60::
-Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἔργον</span> {
-	~nēsos#That would appear in Greek as 'νῆσος'.
-	~hergon#Not under this quiz's rules (there is no rough breathing here, so no h).
-	~luō#That would appear in Greek as 'λύω'.
-	=ergon#Correct.
-	~oikia#That would appear in Greek as 'οἰκία'.
+::Words 27::
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἁρμονία</span> {
+	~armonia#Not under this quiz's rules (the rough breathing must be written as h).
+	~philia#That would appear in Greek as 'φιλία'.
+	=harmonia#Correct.
+	~anthrōpos#That would appear in Greek as 'ἄνθρωπος'.
+	~hodou#That would appear in Greek as 'ὁδοῦ'.
+}
+
+::Words 28::
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">Ὁμήρου</span> {
+	~logos#That would appear in Greek as 'λόγος'.
+	=homērou#Correct.
+	~omērou#Not under this quiz's rules (the rough breathing must be written as h).
+	~gar#That would appear in Greek as 'γάρ'.
+	~homēroy#Not under this quiz's rules (υ is written u, not y).
+}
+
+::Words 29::
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">θεά</span> {
+	~tois#That would appear in Greek as 'τοῖς'.
+	~pente#That would appear in Greek as 'πέντε'.
+	~kakos#That would appear in Greek as 'κακός'.
+	=thea#Correct.
+	~de#That would appear in Greek as 'δέ'.
+}
+
+::Words 30::
+Select the correct Latin-alphabet transliteration of the following Greek word:<br><br><span style="font-size:1.5em;">ἔγωγε</span> {
+	~eisi#That would appear in Greek as 'εἰσί'.
+	~to#That would appear in Greek as 'τό'.
+	~eu#That would appear in Greek as 'εὖ'.
+	~hegōge#Not under this quiz's rules (there is no rough breathing here, so no h).
+	=egōge#Correct.
 }
 
