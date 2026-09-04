@@ -1,4 +1,15 @@
 template#template_verb_3_aorist1_middle_indicative.txt
 lemma#the verb “I make”
 
+ἐποιησάμην
+ἐποιήσω
+ἐποιήσατο
 
+ἐποιήσασθον
+ἐποιησάσθην
+
+ἐποιησάμεθα
+ἐποιήσασθε
+ἐποιήσαντο
+
+ποιήσασθαι

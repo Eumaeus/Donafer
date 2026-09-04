@@ -1,4 +1,15 @@
 template#template_verb_2_future_active_indicative.txt
 lemma#the verb “I make”
 
+ποιήσω
+ποιήσεις
+ποιήσει
 
+ποιήσετον
+ποιήσετον
+
+ποιήσομεν
+ποιήσετε
+ποιήσουσι
+
+ποιήσειν

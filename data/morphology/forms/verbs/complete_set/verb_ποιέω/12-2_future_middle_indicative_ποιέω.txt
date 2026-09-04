@@ -1,4 +1,15 @@
 template#template_verb_2_future_middle_indicative.txt
 lemma#the verb “I make”
 
+ποιήσομαι
+ποιήσῃ
+ποιήσεται
 
+ποιήσεσθον
+ποιήσεσθον
+
+ποιησόμεθα
+ποιήσεσθε
+ποιήσονται
+
+ποιήσεσθαι

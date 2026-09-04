@@ -1,4 +1,13 @@
 template#template_verb_6_aorist_passive_subjunctive.txt
 lemma#the verb “I make”
 
+ποιηθῶ
+ποιηθῇς
+ποιηθῇ
 
+ποιηθῆτον
+ποιηθῆτον
+
+ποιηθῶμεν
+ποιηθῆτε
+ποιηθῶσι
