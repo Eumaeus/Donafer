@@ -554,9 +554,49 @@
 9	verb	44-6_future_passive_indicative_διδάσκω-alt.txt
 9	verb	44-6_future_passive_indicative_διδάσκω.txt
 //			τιμάω - participles
+9	participle	00-1_participle_present_act_τιμάω.txt
+9	participle	01-1_participle_present_mp_τιμάω.txt
+9	participle	02-1_participle_future_active_τιμάω.txt
+9	participle	03-1_participle_future_middle_τιμάω.txt
+9	participle	04-1_participle_future_passive_τιμάω.txt
+9	participle	05-1_participle_aorist1_active_τιμάω.txt
+9	participle	06-1_participle_aorist1_middle_τιμάω.txt
+9	participle	09-1_participle_aorist_passive_τιμάω.txt
+9	participle	10-1_participle_perfect_active_τιμάω.txt
+9	participle	11-1_participle_perfect_mp_τιμάω.txt
 //			ποιέω - participles
+9	participle	00-1_participle_present_act_ποιέω.txt
+9	participle	01-1_participle_present_mp_ποιέω.txt
+9	participle	02-1_participle_future_active_ποιέω.txt
+9	participle	03-1_participle_future_middle_ποιέω.txt
+9	participle	04-1_participle_future_passive_ποιέω.txt
+9	participle	05-1_participle_aorist1_active_ποιέω.txt
+9	participle	06-1_participle_aorist1_middle_ποιέω.txt
+9	participle	09-1_participle_aorist_passive_ποιέω.txt
+9	participle	10-1_participle_perfect_active_ποιέω.txt
+9	participle	11-1_participle_perfect_mp_ποιέω.txt
 //			διδάσκω - participles
+9	participle	00-1_participle_present_act_διδάσκω.txt
+9	participle	01-1_participle_present_mp_διδάσκω.txt
+9	participle	02-1_participle_future_active_διδάσκω.txt
+9	participle	03-1_participle_future_middle_διδάσκω.txt
+9	participle	04-1_participle_future_passive_διδάσκω.txt
+9	participle	05-1_participle_aorist1_active_διδάσκω.txt
+9	participle	06-1_participle_aorist1_middle_διδάσκω.txt
+9	participle	09-1_participle_aorist_passive_διδάσκω.txt
+9	participle	10-1_participle_perfect_active_διδάσκω.txt
+9	participle	11-1_participle_perfect_mp_διδάσκω.txt
 //			ἄρχω - participles
+9	participle	00-1_participle_present_act_ἄρχω.txt
+9	participle	01-1_participle_present_mp_ἄρχω.txt
+9	participle	02-1_participle_future_active_ἄρχω.txt
+9	participle	03-1_participle_future_middle_ἄρχω.txt
+9	participle	04-1_participle_future_passive_ἄρχω.txt
+9	participle	05-1_participle_aorist1_active_ἄρχω.txt
+9	participle	06-1_participle_aorist1_middle_ἄρχω.txt
+9	participle	09-1_participle_aorist_passive_ἄρχω.txt
+9	participle	10-1_participle_perfect_active_ἄρχω.txt
+9	participle	11-1_participle_perfect_mp_ἄρχω.txt
 
 // Chapter 10
 //			δηλόω - all forms thus far
