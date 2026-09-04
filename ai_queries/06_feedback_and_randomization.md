@@ -67,6 +67,48 @@ Thanks for your earlier help with this, and thanks in advance for any help!
 
 ---
 
-Conversation at: <https://x.com/i/grok/share/eda5e0750aee47bda0bc794cfe038451>
 
 Thank you! I will make these changes and check. I'll let you know if I have problems. These changes look great.
+
+---
+
+Conversation at: <https://x.com/i/grok/share/eda5e0750aee47bda0bc794cfe038451>
+
+
+Those changes seem to have worked perfectly. Thank you!
+
+One more request for help while we're talking…
+
+I have checked in a quiz build from the latest code: `generated/vocab/vocab_drill_ch1.gift`.
+
+There are at least two generated questions with more than one correct answer. This is great! 
+
+But in these cases, I would like to force the students to see and mark _all_ correct answers.
+
+So in these cases, the points awarded should be `~50%` in the `.gift`.
+
+It is not impossible that there might be three correct answers. If I recall, there is something special you have to use three significant-figures when dividing 100% by three… `~%33.333%`.
+
+~~~
+::Q011::[markdown]εἰς + acc:{
+	~%100%to#Correct: **εἰς + acc** → “to” (Chapter 1).
+	~%-100%concerning#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%-100%before#Incorrect. **πρό + gen** means “before” (Chapter 2).
+	~%-100%on behalf of#Incorrect. **ὑπέρ + gen** means “on behalf of” (Chapter 9).
+	~%100%into#Correct: **εἰς + acc** → “into” (Chapter 1).
+}
+~~~
+
+~~~
+::Q020::[markdown]land:{
+	~%-100%φάλαγξ, φάλαγγος, ἡ#Incorrect. **φάλαγξ, φάλαγγος, ἡ** means “line of battle” (Chapter 6).
+	~%100%χώρᾱ, χώρᾱς, ἡ#Correct: **χώρᾱ, χώρᾱς, ἡ** → “land” (Chapter 1).
+	~%-100%χρυσός, χρυσοῦ, ὁ#Incorrect. **χρυσός, χρυσοῦ, ὁ** means “gold” (Chapter 2).
+	~%100%γῆ, γῆς, ἡ#Correct: **γῆ, γῆς, ἡ** → “land” (Chapter 5).
+	~%-100%δόξα, δόξης, ἡ#Incorrect. **δόξα, δόξης, ἡ** means “expectation” (Chapter 5).
+}
+~~~
+
+Conversation at <https://x.com/i/grok/share/df54bef07d3744888360ae369999d5cd>
+
+Perfect! Thank you! We're in business.

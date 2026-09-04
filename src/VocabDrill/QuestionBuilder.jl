@@ -159,19 +159,30 @@ function build_wrong_feedback(wrong::VocabItem)
     end
 end
 
+# Weight for each correct option so the weights sum to 100.
+# 1 → 100, 2 → 50, 3 → 33.33333 (Moodle’s documented 100/3 form).
+function format_correct_weight(n_correct::Int)::String
+    n_correct <= 1 && return "100"
+    weight = 100 / n_correct
+    isinteger(weight) && return string(Int(weight))
+    return string(round(weight; digits=5))
+end
+
 function to_gift(q::Question; qid::String = "Q")::String
     io = IOBuffer()
     println(io, "::$(qid)::[markdown]$(q.stem):{")
 
-    # Combine and shuffle options so correct answer isn't always first
+    n_correct = max(length(q.correct_answers), 1)
+    correct_marker = "~%$(format_correct_weight(n_correct))%"
+
     options = [(ans, true, get(q.feedback_correct, ans, "Correct."))
-           for ans in q.correct_answers]
+               for ans in q.correct_answers]
     append!(options, [(dist, false, get(q.feedback_wrong, dist, "Incorrect."))
-                  for dist in q.distractors])
-    shuffle!(options)   # ← This is the key change
+                      for dist in q.distractors])
+    shuffle!(options)
 
     for (text, is_correct, fb) in options
-        marker = is_correct ? "~%100%" : "~%-100%"
+        marker = is_correct ? correct_marker : "~%-100%"
         println(io, "\t$(marker)$(text)#$(fb)")
     end
 
