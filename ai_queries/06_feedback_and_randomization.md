@@ -61,3 +61,6 @@ But I suspect the problem might lie in this line, line 43 in `src/VocabDrill/Que
 actual_correct_answers = [ans for ans in all_options if ans in full_correct_answers]
 
 ~~~
+
+
+Thanks for your earlier help with this, and thanks in advance for any help!
