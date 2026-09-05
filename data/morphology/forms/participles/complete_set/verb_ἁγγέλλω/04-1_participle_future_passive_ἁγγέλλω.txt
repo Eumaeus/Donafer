@@ -1,4 +1,0 @@
-template_participle_future_passive.txt
-lemma#the verb “I announce”
-
-

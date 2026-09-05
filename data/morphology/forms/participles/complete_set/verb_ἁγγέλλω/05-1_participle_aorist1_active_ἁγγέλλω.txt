@@ -1,4 +1,0 @@
-template_participle_aorist1_active.txt
-lemma#the verb “I announce”
-
-

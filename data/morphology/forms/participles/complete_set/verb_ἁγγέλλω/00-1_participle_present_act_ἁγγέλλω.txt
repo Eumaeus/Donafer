@@ -1,4 +1,0 @@
-template_participle_present_active.txt
-lemma#the verb “I announce”
-
-
