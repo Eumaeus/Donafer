@@ -155,7 +155,7 @@
 
 // Chapter 7
 //			ἐκεῖνος ἐκείνη ἐκεῖνο
-
+7	adjective	ἐκεῖνος.txt
 //			λύω
 7	verb	12-2_future_middle_indicative_λύω-alt.txt
 7	verb	12-2_future_middle_indicative_λύω.txt
@@ -273,7 +273,7 @@
 
 // Chapter 8
 //			πᾶς πᾶσα πᾶν
-
+8	adjective	πᾶς.txt
 //			θύω (all forms thus far)
 8	verb	00-1_present_active_indicative_θύω.txt
 8	verb	01-1_present_active_subjunctive_θύω.txt
@@ -465,7 +465,8 @@
 // Chapter 9
 //			ὅδε ἥδε τόδε
 //			οὗτος αὕτη τοῦτο
-
+9	adjective	οὗτος.txt
+9	adjective	ὅδε.txt
 //			τιμάω - all forms thus far
 9	verb	00-1_present_active_indicative_τιμάω.txt
 9	verb	01-1_present_active_subjunctive_τιμάω.txt
