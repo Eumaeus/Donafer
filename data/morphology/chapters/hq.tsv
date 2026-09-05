@@ -3,7 +3,8 @@
 //		pronoun
 //		noun
 //		adjective
-//		participle (allows these to be combined with either adjectives or verbs)
+//		participle 
+//		   (allows these to be combined with either adjectives or verbs)
 //		verb
 // Blanklines and commented lines are ignored
 
@@ -458,13 +459,12 @@
 //			  Second Aorist: 22-3, 23-3, 24-3, 26-3, 27-3, 28-3
 //			30-4, 34-5, 35-5, 39-5, 40-6, 41-6, 42-6, 44-6
 //			-alt files for: 05, 12, 16, 34, 42, 44
-			-alt (contracts): 02
+//			-alt (contracts): 02
 //			---------------------------
 
 
 // Chapter 9
-//			ὅδε ἥδε τόδε
-//			οὗτος αὕτη τοῦτο
+//			οὗτος, ὅδε
 9	adjective	οὗτος.txt
 9	adjective	ὅδε.txt
 //			τιμάω - all forms thus far
@@ -624,6 +624,18 @@
 //			μένω - all forms thus far
 //			μένω - participles
 
+//			---------------------------
+//			To this point: 
+//			00-1, 01-1, 02-1, 04-1, 05-1, 06-1, 07-1, 09-1, 10-2, 12-2
+//			  First Aorist: 14-3, 15-3, 16-3, 18-3, 19-3, 20-3
+//			  Second Aorist: 22-3, 23-3, 24-3, 26-3, 27-3, 28-3
+//			30-4, 34-5, 35-5, 39-5, 40-6, 41-6, 42-6, 44-6
+//			-alt files for: 05, 12, 16, 34, 42, 44
+//			-alt (contracts): 02
+//			---------------------------
+
+
+
 // Chapter 11
 //			αὐτός
 11	adjective	αὐτός.txt
@@ -663,10 +675,15 @@
 //			δείκνυμι all forms so far
 
 // Chapter 15
-//			τίς τί
-//			τις τι
-//			ἐγώ, σύ 
+//			τίς, τις, ἐγώ, σύ
+15	pronoun	ἐγώ.txt
+15	pronoun	σύ.txt
+15	pronoun	τις.txt
+15	pronoun	τίς.txt
 //			ἐμαυτοῦ, σεαυτοῦ, ἑαυτοῦ, 
+15	pronoun	ἑαυτοῦ.txt
+15	pronoun	ἐμαυτοῦ.txt
+15	pronoun	σεαυτοῦ.txt
 //			ἐμός, ἡμέτερος, σός, ὑμέτερος 
 //			εἰμί: present imperfect future subj opt imper
 //			participles in their files
@@ -700,6 +717,7 @@
 
 // Chapter 18
 //			ὅστις ἥτις ὅτι
+18	pronoun	ὅστις.txt
 //			ποῖος ποία ποῖον
 //			πόσος πόση πόσον
 //			πότερος ποτέρα πότερον
