@@ -15,8 +15,11 @@ output_filename_prefix = "morph_drill_hq"
 [selection]
 # Later: how many questions per category, per tense/voice/mood, etc.
 include_categories = ["noun", "pronoun", "adjective", "verb", "participle"]
-# In "intro_mode" distracters are chosen without regard for category.
-# With "intro_mode = false" distracters are chosen from the same category.
+# distracter_mode:
+#   "lemma" — other forms of the same word 
+#			(fallback to type, then all, if needed)
+#   "type"  — same part of speech
+#   "all"   — any form in the chapter range
 distracter_mode = "lemma" # choices are "all", "type", "lemma"
 number_choices = 5
 active_knowledge_fraction = 0.5

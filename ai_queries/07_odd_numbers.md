@@ -28,3 +28,9 @@ Should it happen that there are three correct answers—not impossible—Moodle 
 3. In the `.toml` there is a comment referring to "intro_mode". I think that is out-of-date, replaced by the richer "distracter_mode". If you can confirm that this is the case, I'll remove that confusing comment.
 
 Thank you!
+
+Conversation at: <https://x.com/i/grok/share/45383f17261142f6be50718964db538b>
+
+Thanks! This looks terrific. I really appreciate both the code and the very clear explanation.
+
+I'll test it out and come back if I have more questions.
