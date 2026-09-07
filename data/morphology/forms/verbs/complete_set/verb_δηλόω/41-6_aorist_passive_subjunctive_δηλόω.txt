@@ -1,4 +1,13 @@
 template#template_verb_6_aorist_passive_subjunctive.txt
 lemma#the verb “I make clear”
 
+δηλωθῶ
+δηλωθῇς
+δηλωθῇ
 
+δηλωθῆτον
+δηλωθῆτον
+
+δηλωθῶμεν
+δηλωθῆτε
+δηλωθῶσι

@@ -1,4 +1,16 @@
 template#template_verb_3_aorist1_middle_indicative.txt
 lemma#the verb “I make clear”
 
+ἐδηλωσάμην
+ἐδηλώσω
+ἐδηλώσατο
+
+ἐδηλώσασθον
+ἐδηλωσάτην
+
+ἐδηλωσάμεθα
+ἐδηλώσασθε
+ἐδηλώσαντο
+
+δηλώσασθαι
 

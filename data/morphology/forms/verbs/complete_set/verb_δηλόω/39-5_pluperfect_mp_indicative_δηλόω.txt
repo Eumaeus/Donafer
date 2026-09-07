@@ -1,4 +1,13 @@
 template#template_verb_5_pluperfect_mp_indicative.txt
 lemma#the verb “I make clear”
 
+ἐδεδηλώμην
+ἐδεδήλωσο
+ἐδεδήλωτο
 
+ἐδεδήλωσθον
+ἐδεδηλώσθην
+
+ἐδεδηλώμεθα
+ἐδεδήλωσθε
+ἐδεδήλωντο
