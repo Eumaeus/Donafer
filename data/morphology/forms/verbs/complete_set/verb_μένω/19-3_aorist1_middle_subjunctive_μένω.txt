@@ -1,4 +1,13 @@
 template#template_verb_3_aorist1_middle_subjunctive.txt
 lemma#the verb “I remain”
 
+μείνωμαι
+μείνῃ
+μείνηται
 
+μείνησθον
+μείνησθον
+
+μεινώμεθα
+μείνησθε
+μείνωνται
