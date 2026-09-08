@@ -680,7 +680,31 @@
 10	verb	42-6_aorist_passive_optative_ἀγγέλλω.txt
 10	verb	44-6_future_passive_indicative_ἀγγέλλω-alt.txt
 10	verb	44-6_future_passive_indicative_ἀγγέλλω.txt
-//			μένω - all forms thus far
+//			μένω - all forms thus far (μένω lacks passive forms)
+10	verb	02-1_present_active_optative_μένω.txt
+10	verb	01-1_present_active_subjunctive_μένω.txt
+10	verb	00-1_present_active_indicative_μένω.txt
+10	verb	04-1_imperfect_active_indicative_μένω.txt
+10	verb	05-1_present_mp_indicative_μένω-alt.txt
+10	verb	05-1_present_mp_indicative_μένω.txt
+10	verb	06-1_present_mp_subjunctive_μένω.txt
+10	verb	07-1_present_mp_optative_μένω.txt
+10	verb	09-1_imperfect_mp_indicative_μένω.txt
+10	verb	10-2_future_active_indicative_μένω.txt
+10	verb	12-2_future_middle_indicative_μένω-alt.txt
+10	verb	12-2_future_middle_indicative_μένω.txt
+10	verb	14-3_aorist1_active_indicative_μένω.txt
+10	verb	15-3_aorist1_active_subjunctive_μένω.txt
+10	verb	16-3_aorist1_active_optative_μένω-alt.txt
+10	verb	16-3_aorist1_active_optative_μένω.txt
+10	verb	18-3_aorist1_middle_indicative_μένω.txt
+10	verb	19-3_aorist1_middle_subjunctive_μένω.txt
+10	verb	20-3_aorist1_middle_optative_μένω.txt
+10	verb	30-4_perfect_active_indicative_μένω.txt
+10	verb	34-5_pluperfect_active_indicative_μένω-alt.txt
+10	verb	34-5_pluperfect_active_indicative_μένω.txt
+10	verb	35-5_perfect_mp_indicative_μένω.txt
+10	verb	39-5_pluperfect_mp_indicative_μένω.txt
 //			ἁγγέλλω - participles
 //			δηλόω - participles
 //			μένω - participles
