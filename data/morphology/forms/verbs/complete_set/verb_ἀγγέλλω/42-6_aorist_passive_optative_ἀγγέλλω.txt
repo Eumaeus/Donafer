@@ -1,4 +1,13 @@
 template#template_verb_6_aorist_passive_optative.txt
 lemma#the verb “I announce”
 
+ἀγγελθείην
+ἀγγελθείης
+ἀγγελθείη
 
+ἀγγελθεῖτον
+ἀγγελθείτην
+
+ἀγγελθεῖμεν
+ἀγγελθεῖτε
+ἀγγελθεῖεν
