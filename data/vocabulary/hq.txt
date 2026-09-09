@@ -290,36 +290,72 @@
 9#prep#ὑπέρ + acc# (of motion or measure) over; (of motion or measure) beyond*y
 
 // Unit 10
-verb#1 ἀγγέλλλω;2 ἁγγελῶ;3 ἤγγειλα;4 ἤγγελκα;5 ἤγγελμαι;6 ἠγγέλθην# announce
-adj#ἀλεθής, ἀληθές# true; real
-noun#ἀλήθεια, ἀληθείας, ἡ# truth; reality
-noun#ἀνήρ, ἀνδρός, ὁ# man
-verb#1 ἀξιόω;2 ἀξιώσω;3 ἠξίωσα;4 ἠξίωκα;5 ἠξίωμαι;6 ἠξιώθην# think worthy of; think it right; expect
-other#ἀπο-# away from
-noun#βασιλεύς, βασιλέως, ὁ# king
-noun#γένος, γένους, τό# race; kind
-adj#εὐγενής, εὑγενές# well-born; noble
-verb#1 δηλόω;2 δηλώσω;3 ἐδήλωσα;4 δεδήλωκα;5 δεδήλωμαι;6 ἑδηλώθην# make clear; show
-noun#Δημοσθένης, Δημοσθένους, ὁ# Demothenes (ῥήτωρ)
-other#ἑκ-# out of; thoroughly
-other#ἑξ-# out of; thoroughly
-adj#εὐδαίμων, εὔδαιμον# fortunate; wealthy; happy
-noun#θυγάτηρ, θυγατρός, ἡ# daughter
-noun#ἱερεύς, ἱερέως, ὁ# priest
-noun#ἱππεύς, ἱππέως, ὁ# horseman
-verb#1 καλέω;2 καλήσω;3 ἑκάλησα;4 κέκληκα;5 κέκλημαι;6 ἑκλήθην# call
-verb#1 μένω;2 μενῶ;3 ἕμεινα;4 μεμένηκα# remain; stay
-noun#μήτηρ, μητρός, ἡ# mother
-noun#νόμος, νόμου, ὁ# custom; law
-noun#πάθος, πάθους, τό#experience; suffering
-noun#πατήρ, πατρός, ὁ# father
-noun#πόλις, πόλεως, ἡ#city
-other#πότε# when?
-noun#Σωκράτης, Σωκράτους, ὁ# Sokrates
-adj#σώφρων, σῶφρον# prudent; temperate
-noun#τέλος, τέλους, τό# end; power
-verb#1 τελευτάω;2 τελευτήσω;3 ἑτελεύτησα;4 τετελεύτηκα;5 τετελεύτημαι;6 ἑτελευτήθην# finish; die
-noun#φύσις, φύσεως, ἡ# nature
-other#ὥστε# so as; so that
+10#verb#1 ἀγγέλλλω;2 ἁγγελῶ;3 ἤγγειλα;4 ἤγγελκα;5 ἤγγελμαι;6 ἠγγέλθην# announce
+10#adj#ἀλεθής, ἀληθές# true; real
+10#noun#ἀλήθεια, ἀληθείας, ἡ# truth; reality
+10#noun#ἀνήρ, ἀνδρός, ὁ# man
+10#verb#1 ἀξιόω;2 ἀξιώσω;3 ἠξίωσα;4 ἠξίωκα;5 ἠξίωμαι;6 ἠξιώθην# think worthy of; think it right; expect
+10#other#ἀπο-# away from
+10#noun#βασιλεύς, βασιλέως, ὁ# king
+10#noun#γένος, γένους, τό# race; kind
+10#adj#εὐγενής, εὑγενές# well-born; noble
+10#verb#1 δηλόω;2 δηλώσω;3 ἐδήλωσα;4 δεδήλωκα;5 δεδήλωμαι;6 ἑδηλώθην# make clear; show
+10#noun#Δημοσθένης, Δημοσθένους, ὁ# Demothenes (ῥήτωρ)
+10#other#ἑκ-# out of; thoroughly
+10#other#ἑξ-# out of; thoroughly
+10#adj#εὐδαίμων, εὔδαιμον# fortunate; wealthy; happy
+10#noun#θυγάτηρ, θυγατρός, ἡ# daughter
+10#noun#ἱερεύς, ἱερέως, ὁ# priest
+10#noun#ἱππεύς, ἱππέως, ὁ# horseman
+10#verb#1 καλέω;2 καλήσω;3 ἑκάλησα;4 κέκληκα;5 κέκλημαι;6 ἑκλήθην# call
+10#verb#1 μένω;2 μενῶ;3 ἕμεινα;4 μεμένηκα# remain; stay
+10#noun#μήτηρ, μητρός, ἡ# mother
+10#noun#νόμος, νόμου, ὁ# custom; law
+10#noun#πάθος, πάθους, τό#experience; suffering
+10#noun#πατήρ, πατρός, ὁ# father
+10#noun#πόλις, πόλεως, ἡ#city
+10#other#πότε# when?
+10#noun#Σωκράτης, Σωκράτους, ὁ# Sokrates
+10#adj#σώφρων, σῶφρον# prudent; temperate
+10#noun#τέλος, τέλους, τό# end; power
+10#verb#1 τελευτάω;2 τελευτήσω;3 ἑτελεύτησα;4 τετελεύτηκα;5 τετελεύτημαι;6 ἑτελευτήθην# finish; die
+10#noun#φύσις, φύσεως, ἡ# nature
+10#other#ὥστε# so as; so that
 
 // Unit 11
+11#other#ἀεί# always
+11#adj#αἴτιος αἰτία αἴτιον# responsible (for) + gen.; guilty (of) + gen.
+11#noun#αἰτία, αἰτίας, ἡ# responsibility; guilt; cause
+11#verb#1 ἀκούω;2 ἀκούσομαι;3 ἤκουσα;4 ἀκήκοα;6 ἠκούσθην# hear (+ acc. of thing); hear (+ gen. of person); be spoken of
+11#adj#αὐτός, αὐτή, αὐτό# same; -self; him, her, it
+11#adj#ἄφρων, ἄφρον# senseless; foolish
+11#verb#1 βάλλω;2 βαλῶ;3 ἔβαλον;4 βέβληκα;5 βέβλημαι;6 ἐβλήθην# throw; hit (with thrown object)
+11#verb#1 βούλομαι;2 βουλήσομαι;5 βεβούλημαι;6 ἐβουλήθην#want
+11#noun#γυνή, γυναικός, ἡ# woman; wife
+11#verb#1 δέχομαι;2 δέξομαι;3 ἐδεξάμην;5 δέδεγμαι# receive; welcome
+11#verb#1 ἀποδέχομαι# receive favorably; accept
+11#other#εἰσ-# into; in; on
+11#other#ἐνταῦθα# here; there; then
+11#other#ἐπειδάν# after; when; whenever
+11#other#ἑπτά# seven
+11#noun#ἔρως, ἔρωτος, ὁ# love
+11#noun#καιρός, καιροῦ, ὁ# right moment
+11#noun#κάλλος, κάλλους, τό#beauty
+11#noun#κῆρυξ, κήρυκος, ὁ# herald
+11#verb#1 λαμβάνω;2 λήψομαι;3 ἔλαβον;4 εἴληφα;5 εἴλημμαι;6 ἐλήφθην# take
+11#other#ὀκτώ# eight
+11#other#ὅτε# when; whenever
+11#other#ὅταν# when; whenever
+11#verb#1 πάσχω;2 πείσομαι;3 ἔπαθον;4 πέπονθα# suffer; have done to one
+11#other#πῶς# how?
+11#other#πως# in any way; in some way
+11#other#τότε# then
+11#noun#τύχη, τύχης, ἡ# fortune; chance
+11#adj#εὐτυκής, εὐτυκές# lucky
+11#noun#ὕβρις, ὕβρεως, ἡ# insolence
+11#noun#φόνος, φόνου, ὁ# murder; killing
+11#noun#φονεύς, φονέως, ὁ# murderer
+
+
+
+
