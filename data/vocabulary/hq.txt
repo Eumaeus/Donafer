@@ -356,6 +356,22 @@
 11#noun#φόνος, φόνου, ὁ# murder; killing
 11#noun#φονεύς, φονέως, ὁ# murderer
 
+// Unit 12
 
+// Unit 13
+
+// Unit 14
+
+// Unit 15
+
+// Unit 16
+
+// Unit 17
+
+// Unit 18
+
+// Unit 19
+
+// Unit 20
 
 
