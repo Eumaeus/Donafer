@@ -5,8 +5,8 @@
 
 [general]
 chapters_file = "data/morphology/chapters/hq.tsv"
-from_chapter = 1 # default
-current_chapter = 5
+from_chapter = 2 # default
+current_chapter = 2
 num_questions = 20
 # random_seed = 42
 output_directory = "generated/morph"
@@ -20,12 +20,12 @@ include_categories = ["noun", "pronoun", "adjective", "verb", "participle"]
 #			(fallback to type, then all, if needed)
 #   "type"  — same part of speech
 #   "all"   — any form in the chapter range
-distracter_mode = "lemma" # choices are "all", "type", "lemma"
+distracter_mode = "type" # choices are "all", "type", "lemma"
 number_choices = 5
-active_knowledge_fraction = 0.5
+active_knowledge_fraction = 0.2
 include_vocative = false # "false" excludes any form with "voc." in the description
 include_dual = false # "false" excludes any form with "dual" in the description
-# current_chapter_fraction = 0.5
+current_chapter_fraction = 0.8
 # etc.
 
 [moodle]
