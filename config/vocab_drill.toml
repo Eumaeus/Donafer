@@ -5,11 +5,11 @@
 
 [general]
 data_source = "data/vocabulary/hq.txt"
-current_chapter = 5              # Which chapter/unit we are currently teaching
-num_questions = 120              # Total questions in the generated drill
+current_chapter = 3              # Which chapter/unit we are currently teaching
+num_questions = 50              # Total questions in the generated drill
 #random_seed = 42                # Set to null or omit for non-reproducible runs
 output_directory = "generated/vocab"
-output_filename_prefix = "vocab_drill"
+output_filename_prefix = "vocab_drill_"
 
 [proportions]
 # Fraction of questions that test active knowledge (Greek → English)
@@ -17,7 +17,7 @@ output_filename_prefix = "vocab_drill"
 active_to_passive_ratio = 0.5
 
 # Fraction of questions drawn from the current chapter (the rest are review)
-current_chapter_fraction = 0.5
+current_chapter_fraction = 0.8
 
 [question]
 num_choices = 5         # Number of options per multiple-choice question
