@@ -1,0 +1,452 @@
+$CATEGORY: Morphology/HansenQuinn/Ch1d
+
+::Q001::[markdown]ἀδελφοῦ:{
+	~%-100%nom. pl. of the noun “brother”#Incorrect. The nom. pl. of the noun “brother” is **ἀδελφοί** (Ch. 1).
+	~%-100%dat. pl. of the noun “brother”#Incorrect. The dat. pl. of the noun “brother” is **ἀδελφοῖς** (Ch. 1).
+	~%-100%acc. sing. of the noun “brother”#Incorrect. The acc. sing. of the noun “brother” is **ἀδελφόν** (Ch. 1).
+	~%100%gen. sing. of the noun “brother”#Correct: **ἀδελφοῦ** is gen. sing. of the noun “brother” (Chapter 1).
+	~%-100%gen. pl. of the noun “brother”#Incorrect. The gen. pl. of the noun “brother” is **ἀδελφῶν** (Ch. 1).
+}
+
+
+::Q002::[markdown]λόγοι:{
+	~%-100%gen. pl. of the noun “word”#Incorrect. The gen. pl. of the noun “word” is **λόγων** (Ch. 1).
+	~%-100%dat. pl. of the noun “word”#Incorrect. The dat. pl. of the noun “word” is **λόγοις** (Ch. 1).
+	~%-100%gen. sing. of the noun “word”#Incorrect. The gen. sing. of the noun “word” is **λόγου** (Ch. 1).
+	~%100%nom. pl. of the noun “word”#Correct: **λόγοι** is nom. pl. of the noun “word” (Chapter 1).
+	~%-100%acc. sing. of the noun “word”#Incorrect. The acc. sing. of the noun “word” is **λόγον** (Ch. 1).
+}
+
+
+::Q003::[markdown]λόγων:{
+	~%-100%dat. sing. of the noun “word”#Incorrect. The dat. sing. of the noun “word” is **λόγῳ** (Ch. 1).
+	~%-100%acc. pl. of the noun “word”#Incorrect. The acc. pl. of the noun “word” is **λόγους** (Ch. 1).
+	~%-100%nom. sing. of the noun “word”#Incorrect. The nom. sing. of the noun “word” is **λόγος** (Ch. 1).
+	~%100%gen. pl. of the noun “word”#Correct: **λόγων** is gen. pl. of the noun “word” (Chapter 1).
+	~%-100%dat. pl. of the noun “word”#Incorrect. The dat. pl. of the noun “word” is **λόγοις** (Ch. 1).
+}
+
+
+::Q004::[markdown]gen. sing. of the noun “word”:{
+	~%-100%λόγων#Incorrect. **λόγων** is the gen. pl. of the noun “word” (Ch. 1).
+	~%-100%λόγῳ#Incorrect. **λόγῳ** is the dat. sing. of the noun “word” (Ch. 1).
+	~%-100%λόγοι#Incorrect. **λόγοι** is the nom. pl. of the noun “word” (Ch. 1).
+	~%-100%λόγον#Incorrect. **λόγον** is the acc. sing. of the noun “word” (Ch. 1).
+	~%100%λόγου#Correct: **λόγου** is the correct form for gen. sing. of the noun “word” (Chapter 1).
+}
+
+
+::Q005::[markdown]acc. pl. of the noun “brother”:{
+	~%-100%ἀδελφοί#Incorrect. **ἀδελφοί** is the nom. pl. of the noun “brother” (Ch. 1).
+	~%100%ἀδελφούς#Correct: **ἀδελφούς** is the correct form for acc. pl. of the noun “brother” (Chapter 1).
+	~%-100%ἀδελφῶν#Incorrect. **ἀδελφῶν** is the gen. pl. of the noun “brother” (Ch. 1).
+	~%-100%ἀδελφοῦ#Incorrect. **ἀδελφοῦ** is the gen. sing. of the noun “brother” (Ch. 1).
+	~%-100%ἀδελφῷ#Incorrect. **ἀδελφῷ** is the dat. sing. of the noun “brother” (Ch. 1).
+}
+
+
+::Q006::[markdown]ἀδελφόν:{
+	~%100%acc. sing. of the noun “brother”#Correct: **ἀδελφόν** is acc. sing. of the noun “brother” (Chapter 1).
+	~%-100%gen. sing. of the noun “brother”#Incorrect. The gen. sing. of the noun “brother” is **ἀδελφοῦ** (Ch. 1).
+	~%-100%acc. pl. of the noun “brother”#Incorrect. The acc. pl. of the noun “brother” is **ἀδελφούς** (Ch. 1).
+	~%-100%nom. sing. of the noun “brother”#Incorrect. The nom. sing. of the noun “brother” is **ἀδελφός** (Ch. 1).
+	~%-100%dat. pl. of the noun “brother”#Incorrect. The dat. pl. of the noun “brother” is **ἀδελφοῖς** (Ch. 1).
+}
+
+
+::Q007::[markdown]masc. gen. pl. of the definite article “the”:{
+	~%-100%ταῖς#Incorrect. **ταῖς** is the fem. dat. pl. of the definite article “the” (Ch. 1).
+	~%-100%τοῖς#Incorrect. **τοῖς** is the neut. dat. pl. of the definite article “the” (Ch. 1).
+	~%-100%ὁ#Incorrect. **ὁ** is the masc. nom. sing. of the definite article “the” (Ch. 1).
+	~%100%τῶν#Correct: **τῶν** is the correct form for masc. gen. pl. of the definite article “the” (Chapter 1).
+	~%-100%τό#Incorrect. **τό** is the neut. nom. sing. of the definite article “the” (Ch. 1).
+}
+
+
+::Q008::[markdown]οἱ:{
+	~%-100%neut. acc. pl. of the definite article “the”#Incorrect. The neut. acc. pl. of the definite article “the” is **τά** (Ch. 1).
+	~%-100%fem. nom. sing. of the definite article “the”#Incorrect. The fem. nom. sing. of the definite article “the” is **ἡ** (Ch. 1).
+	~%-100%neut. dat. sing. of the definite article “the”#Incorrect. The neut. dat. sing. of the definite article “the” is **τῷ** (Ch. 1).
+	~%-100%masc. gen. pl. of the definite article “the”#Incorrect. The masc. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%100%masc. nom. pl. of the definite article “the”#Correct: **οἱ** is masc. nom. pl. of the definite article “the” (Chapter 1).
+}
+
+
+::Q009::[markdown]fem. gen. pl. of the definite article “the”:{
+	~%-100%τό#Incorrect. **τό** is the neut. acc. sing. of the definite article “the” (Ch. 1).
+	~%-100%τοῦ#Incorrect. **τοῦ** is the neut. gen. sing. of the definite article “the” (Ch. 1).
+	~%-100%τάς#Incorrect. **τάς** is the fem. acc. pl. of the definite article “the” (Ch. 1).
+	~%100%τῶν#Correct: **τῶν** is the correct form for fem. gen. pl. of the definite article “the” (Chapter 1).
+	~%-100%τῆς#Incorrect. **τῆς** is the fem. gen. sing. of the definite article “the” (Ch. 1).
+}
+
+
+::Q010::[markdown]τήν:{
+	~%-100%neut. dat. sing. of the definite article “the”#Incorrect. The neut. dat. sing. of the definite article “the” is **τῷ** (Ch. 1).
+	~%100%fem. acc. sing. of the definite article “the”#Correct: **τήν** is fem. acc. sing. of the definite article “the” (Chapter 1).
+	~%-100%masc. acc. sing. of the definite article “the”#Incorrect. The masc. acc. sing. of the definite article “the” is **τόν** (Ch. 1).
+	~%-100%fem. acc. pl. of the definite article “the”#Incorrect. The fem. acc. pl. of the definite article “the” is **τάς** (Ch. 1).
+	~%-100%fem. gen. sing. of the definite article “the”#Incorrect. The fem. gen. sing. of the definite article “the” is **τῆς** (Ch. 1).
+}
+
+
+::Q011::[markdown]χῶραι:{
+	~%-100%gen. pl. of the noun “territory” #Incorrect. The gen. pl. of the noun “territory”  is **χωρῶν** (Ch. 1).
+	~%-100%acc. pl. of the noun “territory” #Incorrect. The acc. pl. of the noun “territory”  is **χώρας** (Ch. 1).
+	~%-100%acc. sing. of the noun “territory” #Incorrect. The acc. sing. of the noun “territory”  is **χώραν** (Ch. 1).
+	~%100%nom. pl. of the noun “territory” #Correct: **χῶραι** is nom. pl. of the noun “territory”  (Chapter 1).
+	~%-100%nom. sing. of the noun “territory” #Incorrect. The nom. sing. of the noun “territory”  is **χώρα** (Ch. 1).
+}
+
+
+::Q012::[markdown]dat. sing. of the noun “human being”:{
+	~%-100%ἀνθρώπων#Incorrect. **ἀνθρώπων** is the gen. pl. of the noun “human being” (Ch. 1).
+	~%100%ἀνθρώπῳ#Correct: **ἀνθρώπῳ** is the correct form for dat. sing. of the noun “human being” (Chapter 1).
+	~%-100%ἀνθρώποις#Incorrect. **ἀνθρώποις** is the dat. pl. of the noun “human being” (Ch. 1).
+	~%-100%ἄνθρωποι#Incorrect. **ἄνθρωποι** is the nom. pl. of the noun “human being” (Ch. 1).
+	~%-100%ἄνθρωπος#Incorrect. **ἄνθρωπος** is the nom. sing. of the noun “human being” (Ch. 1).
+}
+
+
+::Q013::[markdown]gen. pl. of the noun “human being”:{
+	~%-100%ἄνθρωποι#Incorrect. **ἄνθρωποι** is the nom. pl. of the noun “human being” (Ch. 1).
+	~%-100%ἀνθρώπῳ#Incorrect. **ἀνθρώπῳ** is the dat. sing. of the noun “human being” (Ch. 1).
+	~%-100%ἀνθρώπους#Incorrect. **ἀνθρώπους** is the acc. pl. of the noun “human being” (Ch. 1).
+	~%100%ἀνθρώπων#Correct: **ἀνθρώπων** is the correct form for gen. pl. of the noun “human being” (Chapter 1).
+	~%-100%ἀνθρώπου#Incorrect. **ἀνθρώπου** is the gen. sing. of the noun “human being” (Ch. 1).
+}
+
+
+::Q014::[markdown]gen. sing. of the noun “word”:{
+	~%-100%λόγον#Incorrect. **λόγον** is the acc. sing. of the noun “word” (Ch. 1).
+	~%100%λόγου#Correct: **λόγου** is the correct form for gen. sing. of the noun “word” (Chapter 1).
+	~%-100%λόγοι#Incorrect. **λόγοι** is the nom. pl. of the noun “word” (Ch. 1).
+	~%-100%λόγοις#Incorrect. **λόγοις** is the dat. pl. of the noun “word” (Ch. 1).
+	~%-100%λόγων#Incorrect. **λόγων** is the gen. pl. of the noun “word” (Ch. 1).
+}
+
+
+::Q015::[markdown]τά:{
+	~%50%neut. nom. pl. of the definite article “the”#Correct: **τά** is neut. nom. pl. of the definite article “the” (Chapter 1).
+	~%50%neut. acc. pl. of the definite article “the”#Correct: **τά** is neut. acc. pl. of the definite article “the” (Chapter 1).
+	~%-100%neut. nom. sing. of the definite article “the”#Incorrect. The neut. nom. sing. of the definite article “the” is **τό** (Ch. 1).
+	~%-100%fem. nom. pl. of the definite article “the”#Incorrect. The fem. nom. pl. of the definite article “the” is **αἱ** (Ch. 1).
+	~%-100%neut. dat. pl. of the definite article “the”#Incorrect. The neut. dat. pl. of the definite article “the” is **τοῖς** (Ch. 1).
+}
+
+
+::Q016::[markdown]neut. nom. pl. of the definite article “the”:{
+	~%-100%τούς#Incorrect. **τούς** is the masc. acc. pl. of the definite article “the” (Ch. 1).
+	~%-100%τάς#Incorrect. **τάς** is the fem. acc. pl. of the definite article “the” (Ch. 1).
+	~%-100%τῆς#Incorrect. **τῆς** is the fem. gen. sing. of the definite article “the” (Ch. 1).
+	~%-100%τό#Incorrect. **τό** is the neut. nom. sing. of the definite article “the” (Ch. 1).
+	~%100%τά#Correct: **τά** is the correct form for neut. nom. pl. of the definite article “the” (Chapter 1).
+}
+
+
+::Q017::[markdown]dat. pl. of the noun “island”:{
+	~%-100%νήσων#Incorrect. **νήσων** is the gen. pl. of the noun “island” (Ch. 1).
+	~%-100%νήσους#Incorrect. **νήσους** is the acc. pl. of the noun “island” (Ch. 1).
+	~%-100%νῆσον#Incorrect. **νῆσον** is the acc. sing. of the noun “island” (Ch. 1).
+	~%-100%νῆσοι#Incorrect. **νῆσοι** is the nom. pl. of the noun “island” (Ch. 1).
+	~%100%νήσοις#Correct: **νήσοις** is the correct form for dat. pl. of the noun “island” (Chapter 1).
+}
+
+
+::Q018::[markdown]ἀγοράν:{
+	~%-100%gen. sing. of the noun “marketplace”#Incorrect. The gen. sing. of the noun “marketplace” is **ἀγορᾶς** (Ch. 1).
+	~%-100%dat. sing. of the noun “marketplace”#Incorrect. The dat. sing. of the noun “marketplace” is **ἀγορᾷ** (Ch. 1).
+	~%-100%dat. pl. of the noun “marketplace”#Incorrect. The dat. pl. of the noun “marketplace” is **ἀγοραῖς** (Ch. 1).
+	~%100%acc. sing. of the noun “marketplace”#Correct: **ἀγοράν** is acc. sing. of the noun “marketplace” (Chapter 1).
+	~%-100%gen. pl. of the noun “marketplace”#Incorrect. The gen. pl. of the noun “marketplace” is **ἀγορῶν** (Ch. 1).
+}
+
+
+::Q019::[markdown]ἡ:{
+	~%-100%fem. acc. pl. of the definite article “the”#Incorrect. The fem. acc. pl. of the definite article “the” is **τάς** (Ch. 1).
+	~%-100%neut. dat. pl. of the definite article “the”#Incorrect. The neut. dat. pl. of the definite article “the” is **τοῖς** (Ch. 1).
+	~%-100%masc. gen. pl. of the definite article “the”#Incorrect. The masc. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%-100%neut. acc. sing. of the definite article “the”#Incorrect. The neut. acc. sing. of the definite article “the” is **τό** (Ch. 1).
+	~%100%fem. nom. sing. of the definite article “the”#Correct: **ἡ** is fem. nom. sing. of the definite article “the” (Chapter 1).
+}
+
+
+::Q020::[markdown]ἀνθρώπου:{
+	~%-100%dat. pl. of the noun “human being”#Incorrect. The dat. pl. of the noun “human being” is **ἀνθρώποις** (Ch. 1).
+	~%-100%nom. sing. of the noun “human being”#Incorrect. The nom. sing. of the noun “human being” is **ἄνθρωπος** (Ch. 1).
+	~%100%gen. sing. of the noun “human being”#Correct: **ἀνθρώπου** is gen. sing. of the noun “human being” (Chapter 1).
+	~%-100%gen. pl. of the noun “human being”#Incorrect. The gen. pl. of the noun “human being” is **ἀνθρώπων** (Ch. 1).
+	~%-100%acc. pl. of the noun “human being”#Incorrect. The acc. pl. of the noun “human being” is **ἀνθρώπους** (Ch. 1).
+}
+
+
+::Q021::[markdown]τέχνῃ:{
+	~%-100%acc. pl. of the noun “skill” #Incorrect. The acc. pl. of the noun “skill”  is **τέχνας** (Ch. 1).
+	~%100%dat. sing. of the noun “skill” #Correct: **τέχνῃ** is dat. sing. of the noun “skill”  (Chapter 1).
+	~%-100%dat. pl. of the noun “skill” #Incorrect. The dat. pl. of the noun “skill”  is **τέχναις** (Ch. 1).
+	~%-100%acc. sing. of the noun “skill” #Incorrect. The acc. sing. of the noun “skill”  is **τέχνην** (Ch. 1).
+	~%-100%gen. sing. of the noun “skill” #Incorrect. The gen. sing. of the noun “skill”  is **τέχνης** (Ch. 1).
+}
+
+
+::Q022::[markdown]dat. sing. of the noun “marketplace”:{
+	~%-100%ἀγορᾶς#Incorrect. **ἀγορᾶς** is the gen. sing. of the noun “marketplace” (Ch. 1).
+	~%100%ἀγορᾷ#Correct: **ἀγορᾷ** is the correct form for dat. sing. of the noun “marketplace” (Chapter 1).
+	~%-100%ἀγοραί#Incorrect. **ἀγοραί** is the nom. pl. of the noun “marketplace” (Ch. 1).
+	~%-100%ἀγοράν#Incorrect. **ἀγοράν** is the acc. sing. of the noun “marketplace” (Ch. 1).
+	~%-100%ἀγοραῖς#Incorrect. **ἀγοραῖς** is the dat. pl. of the noun “marketplace” (Ch. 1).
+}
+
+
+::Q023::[markdown]νήσους:{
+	~%-100%gen. pl. of the noun “island”#Incorrect. The gen. pl. of the noun “island” is **νήσων** (Ch. 1).
+	~%100%acc. pl. of the noun “island”#Correct: **νήσους** is acc. pl. of the noun “island” (Chapter 1).
+	~%-100%nom. sing. of the noun “island”#Incorrect. The nom. sing. of the noun “island” is **νῆσος** (Ch. 1).
+	~%-100%acc. sing. of the noun “island”#Incorrect. The acc. sing. of the noun “island” is **νῆσον** (Ch. 1).
+	~%-100%gen. sing. of the noun “island”#Incorrect. The gen. sing. of the noun “island” is **νήσου** (Ch. 1).
+}
+
+
+::Q024::[markdown]ψυχαῖς:{
+	~%-100%acc. sing. of the noun “soul” #Incorrect. The acc. sing. of the noun “soul”  is **ψυχήν** (Ch. 1).
+	~%-100%nom. pl. of the noun “soul” #Incorrect. The nom. pl. of the noun “soul”  is **ψυχαί** (Ch. 1).
+	~%-100%gen. pl. of the noun “soul” #Incorrect. The gen. pl. of the noun “soul”  is **ψυχῶν** (Ch. 1).
+	~%100%dat. pl. of the noun “soul” #Correct: **ψυχαῖς** is dat. pl. of the noun “soul”  (Chapter 1).
+	~%-100%acc. pl. of the noun “soul” #Incorrect. The acc. pl. of the noun “soul”  is **ψυχάς** (Ch. 1).
+}
+
+
+::Q025::[markdown]ψυχάς:{
+	~%-100%nom. pl. of the noun “soul” #Incorrect. The nom. pl. of the noun “soul”  is **ψυχαί** (Ch. 1).
+	~%-100%dat. pl. of the noun “soul” #Incorrect. The dat. pl. of the noun “soul”  is **ψυχαῖς** (Ch. 1).
+	~%100%acc. pl. of the noun “soul” #Correct: **ψυχάς** is acc. pl. of the noun “soul”  (Chapter 1).
+	~%-100%gen. sing. of the noun “soul” #Incorrect. The gen. sing. of the noun “soul”  is **ψυχῆς** (Ch. 1).
+	~%-100%dat. sing. of the noun “soul” #Incorrect. The dat. sing. of the noun “soul”  is **ψυχῇ** (Ch. 1).
+}
+
+
+::Q026::[markdown]gen. sing. of the noun “island”:{
+	~%-100%νήσοις#Incorrect. **νήσοις** is the dat. pl. of the noun “island” (Ch. 1).
+	~%100%νήσου#Correct: **νήσου** is the correct form for gen. sing. of the noun “island” (Chapter 1).
+	~%-100%νῆσος#Incorrect. **νῆσος** is the nom. sing. of the noun “island” (Ch. 1).
+	~%-100%νῆσοι#Incorrect. **νῆσοι** is the nom. pl. of the noun “island” (Ch. 1).
+	~%-100%νήσους#Incorrect. **νήσους** is the acc. pl. of the noun “island” (Ch. 1).
+}
+
+
+::Q027::[markdown]τέχνῃ:{
+	~%-100%acc. sing. of the noun “skill” #Incorrect. The acc. sing. of the noun “skill”  is **τέχνην** (Ch. 1).
+	~%100%dat. sing. of the noun “skill” #Correct: **τέχνῃ** is dat. sing. of the noun “skill”  (Chapter 1).
+	~%-100%nom. pl. of the noun “skill” #Incorrect. The nom. pl. of the noun “skill”  is **τέχναι** (Ch. 1).
+	~%-100%gen. pl. of the noun “skill” #Incorrect. The gen. pl. of the noun “skill”  is **τεχνῶν** (Ch. 1).
+	~%-100%acc. pl. of the noun “skill” #Incorrect. The acc. pl. of the noun “skill”  is **τέχνας** (Ch. 1).
+}
+
+
+::Q028::[markdown]gen. pl. of the noun “territory” :{
+	~%100%χωρῶν#Correct: **χωρῶν** is the correct form for gen. pl. of the noun “territory”  (Chapter 1).
+	~%-100%χώραις#Incorrect. **χώραις** is the dat. pl. of the noun “territory”  (Ch. 1).
+	~%-100%χώρα#Incorrect. **χώρα** is the nom. sing. of the noun “territory”  (Ch. 1).
+	~%-100%χώραν#Incorrect. **χώραν** is the acc. sing. of the noun “territory”  (Ch. 1).
+	~%-100%χώρας#Incorrect. **χώρας** is the acc. pl. of the noun “territory”  (Ch. 1).
+}
+
+
+::Q029::[markdown]ἀδελφοῖς:{
+	~%-100%gen. sing. of the noun “brother”#Incorrect. The gen. sing. of the noun “brother” is **ἀδελφοῦ** (Ch. 1).
+	~%-100%nom. pl. of the noun “brother”#Incorrect. The nom. pl. of the noun “brother” is **ἀδελφοί** (Ch. 1).
+	~%-100%nom. sing. of the noun “brother”#Incorrect. The nom. sing. of the noun “brother” is **ἀδελφός** (Ch. 1).
+	~%100%dat. pl. of the noun “brother”#Correct: **ἀδελφοῖς** is dat. pl. of the noun “brother” (Chapter 1).
+	~%-100%acc. pl. of the noun “brother”#Incorrect. The acc. pl. of the noun “brother” is **ἀδελφούς** (Ch. 1).
+}
+
+
+::Q030::[markdown]τοῖς:{
+	~%50%neut. dat. pl. of the definite article “the”#Correct: **τοῖς** is neut. dat. pl. of the definite article “the” (Chapter 1).
+	~%50%masc. dat. pl. of the definite article “the”#Correct: **τοῖς** is masc. dat. pl. of the definite article “the” (Chapter 1).
+	~%-100%masc. acc. pl. of the definite article “the”#Incorrect. The masc. acc. pl. of the definite article “the” is **τούς** (Ch. 1).
+	~%-100%fem. acc. pl. of the definite article “the”#Incorrect. The fem. acc. pl. of the definite article “the” is **τάς** (Ch. 1).
+	~%-100%masc. nom. pl. of the definite article “the”#Incorrect. The masc. nom. pl. of the definite article “the” is **οἱ** (Ch. 1).
+}
+
+
+::Q031::[markdown]acc. pl. of the noun “human being”:{
+	~%-100%ἀνθρώποις#Incorrect. **ἀνθρώποις** is the dat. pl. of the noun “human being” (Ch. 1).
+	~%-100%ἄνθρωπος#Incorrect. **ἄνθρωπος** is the nom. sing. of the noun “human being” (Ch. 1).
+	~%-100%ἀνθρώπων#Incorrect. **ἀνθρώπων** is the gen. pl. of the noun “human being” (Ch. 1).
+	~%-100%ἄνθρωπον#Incorrect. **ἄνθρωπον** is the acc. sing. of the noun “human being” (Ch. 1).
+	~%100%ἀνθρώπους#Correct: **ἀνθρώπους** is the correct form for acc. pl. of the noun “human being” (Chapter 1).
+}
+
+
+::Q032::[markdown]ἀδελφός:{
+	~%-100%dat. pl. of the noun “brother”#Incorrect. The dat. pl. of the noun “brother” is **ἀδελφοῖς** (Ch. 1).
+	~%-100%acc. sing. of the noun “brother”#Incorrect. The acc. sing. of the noun “brother” is **ἀδελφόν** (Ch. 1).
+	~%-100%acc. pl. of the noun “brother”#Incorrect. The acc. pl. of the noun “brother” is **ἀδελφούς** (Ch. 1).
+	~%-100%nom. pl. of the noun “brother”#Incorrect. The nom. pl. of the noun “brother” is **ἀδελφοί** (Ch. 1).
+	~%100%nom. sing. of the noun “brother”#Correct: **ἀδελφός** is nom. sing. of the noun “brother” (Chapter 1).
+}
+
+
+::Q033::[markdown]dat. pl. of the noun “brother”:{
+	~%100%ἀδελφοῖς#Correct: **ἀδελφοῖς** is the correct form for dat. pl. of the noun “brother” (Chapter 1).
+	~%-100%ἀδελφοῦ#Incorrect. **ἀδελφοῦ** is the gen. sing. of the noun “brother” (Ch. 1).
+	~%-100%ἀδελφῷ#Incorrect. **ἀδελφῷ** is the dat. sing. of the noun “brother” (Ch. 1).
+	~%-100%ἀδελφῶν#Incorrect. **ἀδελφῶν** is the gen. pl. of the noun “brother” (Ch. 1).
+	~%-100%ἀδελφούς#Incorrect. **ἀδελφούς** is the acc. pl. of the noun “brother” (Ch. 1).
+}
+
+
+::Q034::[markdown]δώρων:{
+	~%100%gen. pl. of the noun “gift”#Correct: **δώρων** is gen. pl. of the noun “gift” (Chapter 1).
+	~%-100%acc. sing. of the noun “gift”#Incorrect. The acc. sing. of the noun “gift” is **δῶρον** (Ch. 1).
+	~%-100%dat. pl. of the noun “gift”#Incorrect. The dat. pl. of the noun “gift” is **δώροις** (Ch. 1).
+	~%-100%gen. sing. of the noun “gift”#Incorrect. The gen. sing. of the noun “gift” is **δώρου** (Ch. 1).
+	~%-100%nom. pl. of the noun “gift”#Incorrect. The nom. pl. of the noun “gift” is **δῶρα** (Ch. 1).
+}
+
+
+::Q035::[markdown]ψυχῆς:{
+	~%-100%dat. pl. of the noun “soul” #Incorrect. The dat. pl. of the noun “soul”  is **ψυχαῖς** (Ch. 1).
+	~%-100%acc. sing. of the noun “soul” #Incorrect. The acc. sing. of the noun “soul”  is **ψυχήν** (Ch. 1).
+	~%-100%nom. sing. of the noun “soul” #Incorrect. The nom. sing. of the noun “soul”  is **ψυχή** (Ch. 1).
+	~%100%gen. sing. of the noun “soul” #Correct: **ψυχῆς** is gen. sing. of the noun “soul”  (Chapter 1).
+	~%-100%nom. pl. of the noun “soul” #Incorrect. The nom. pl. of the noun “soul”  is **ψυχαί** (Ch. 1).
+}
+
+
+::Q036::[markdown]neut. dat. pl. of the definite article “the”:{
+	~%-100%τῷ#Incorrect. **τῷ** is the masc. dat. sing. of the definite article “the” (Ch. 1).
+	~%-100%ὁ#Incorrect. **ὁ** is the masc. nom. sing. of the definite article “the” (Ch. 1).
+	~%100%τοῖς#Correct: **τοῖς** is the correct form for neut. dat. pl. of the definite article “the” (Chapter 1).
+	~%-100%τοῦ#Incorrect. **τοῦ** is the neut. gen. sing. of the definite article “the” (Ch. 1).
+	~%-100%τά#Incorrect. **τά** is the neut. acc. pl. of the definite article “the” (Ch. 1).
+}
+
+
+::Q037::[markdown]χώρα:{
+	~%-100%dat. pl. of the noun “territory” #Incorrect. The dat. pl. of the noun “territory”  is **χώραις** (Ch. 1).
+	~%100%nom. sing. of the noun “territory” #Correct: **χώρα** is nom. sing. of the noun “territory”  (Chapter 1).
+	~%-100%gen. sing. of the noun “territory” #Incorrect. The gen. sing. of the noun “territory”  is **χώρας** (Ch. 1).
+	~%-100%gen. pl. of the noun “territory” #Incorrect. The gen. pl. of the noun “territory”  is **χωρῶν** (Ch. 1).
+	~%-100%acc. pl. of the noun “territory” #Incorrect. The acc. pl. of the noun “territory”  is **χώρας** (Ch. 1).
+}
+
+
+::Q038::[markdown]dat. pl. of the noun “soul” :{
+	~%100%ψυχαῖς#Correct: **ψυχαῖς** is the correct form for dat. pl. of the noun “soul”  (Chapter 1).
+	~%-100%ψυχή#Incorrect. **ψυχή** is the nom. sing. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχήν#Incorrect. **ψυχήν** is the acc. sing. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχάς#Incorrect. **ψυχάς** is the acc. pl. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχῆς#Incorrect. **ψυχῆς** is the gen. sing. of the noun “soul”  (Ch. 1).
+}
+
+
+::Q039::[markdown]acc. sing. of the noun “territory” :{
+	~%-100%χώρᾳ#Incorrect. **χώρᾳ** is the dat. sing. of the noun “territory”  (Ch. 1).
+	~%-100%χῶραι#Incorrect. **χῶραι** is the nom. pl. of the noun “territory”  (Ch. 1).
+	~%100%χώραν#Correct: **χώραν** is the correct form for acc. sing. of the noun “territory”  (Chapter 1).
+	~%-100%χώρας#Incorrect. **χώρας** is the gen. sing. of the noun “territory”  (Ch. 1).
+	~%-100%χώραις#Incorrect. **χώραις** is the dat. pl. of the noun “territory”  (Ch. 1).
+}
+
+
+::Q040::[markdown]dat. pl. of the noun “soul” :{
+	~%-100%ψυχάς#Incorrect. **ψυχάς** is the acc. pl. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχῇ#Incorrect. **ψυχῇ** is the dat. sing. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχήν#Incorrect. **ψυχήν** is the acc. sing. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχαί#Incorrect. **ψυχαί** is the nom. pl. of the noun “soul”  (Ch. 1).
+	~%100%ψυχαῖς#Correct: **ψυχαῖς** is the correct form for dat. pl. of the noun “soul”  (Chapter 1).
+}
+
+
+::Q041::[markdown]nom. pl. of the noun “gift”:{
+	~%100%δῶρα#Correct: **δῶρα** is the correct form for nom. pl. of the noun “gift” (Chapter 1).
+	~%-100%δώροις#Incorrect. **δώροις** is the dat. pl. of the noun “gift” (Ch. 1).
+	~%-100%δώρῳ#Incorrect. **δώρῳ** is the dat. sing. of the noun “gift” (Ch. 1).
+	~%-100%δῶρον#Incorrect. **δῶρον** is the acc. sing. of the noun “gift” (Ch. 1).
+	~%-100%δώρων#Incorrect. **δώρων** is the gen. pl. of the noun “gift” (Ch. 1).
+}
+
+
+::Q042::[markdown]ἀγορά:{
+	~%-100%gen. sing. of the noun “marketplace”#Incorrect. The gen. sing. of the noun “marketplace” is **ἀγορᾶς** (Ch. 1).
+	~%100%nom. sing. of the noun “marketplace”#Correct: **ἀγορά** is nom. sing. of the noun “marketplace” (Chapter 1).
+	~%-100%nom. pl. of the noun “marketplace”#Incorrect. The nom. pl. of the noun “marketplace” is **ἀγοραί** (Ch. 1).
+	~%-100%dat. pl. of the noun “marketplace”#Incorrect. The dat. pl. of the noun “marketplace” is **ἀγοραῖς** (Ch. 1).
+	~%-100%gen. pl. of the noun “marketplace”#Incorrect. The gen. pl. of the noun “marketplace” is **ἀγορῶν** (Ch. 1).
+}
+
+
+::Q043::[markdown]acc. pl. of the noun “island”:{
+	~%100%νήσους#Correct: **νήσους** is the correct form for acc. pl. of the noun “island” (Chapter 1).
+	~%-100%νήσοις#Incorrect. **νήσοις** is the dat. pl. of the noun “island” (Ch. 1).
+	~%-100%νῆσος#Incorrect. **νῆσος** is the nom. sing. of the noun “island” (Ch. 1).
+	~%-100%νήσου#Incorrect. **νήσου** is the gen. sing. of the noun “island” (Ch. 1).
+	~%-100%νῆσοι#Incorrect. **νῆσοι** is the nom. pl. of the noun “island” (Ch. 1).
+}
+
+
+::Q044::[markdown]λόγου:{
+	~%-100%nom. sing. of the noun “word”#Incorrect. The nom. sing. of the noun “word” is **λόγος** (Ch. 1).
+	~%-100%nom. pl. of the noun “word”#Incorrect. The nom. pl. of the noun “word” is **λόγοι** (Ch. 1).
+	~%-100%dat. sing. of the noun “word”#Incorrect. The dat. sing. of the noun “word” is **λόγῳ** (Ch. 1).
+	~%100%gen. sing. of the noun “word”#Correct: **λόγου** is gen. sing. of the noun “word” (Chapter 1).
+	~%-100%acc. pl. of the noun “word”#Incorrect. The acc. pl. of the noun “word” is **λόγους** (Ch. 1).
+}
+
+
+::Q045::[markdown]nom. pl. of the noun “word”:{
+	~%-100%λόγοις#Incorrect. **λόγοις** is the dat. pl. of the noun “word” (Ch. 1).
+	~%-100%λόγου#Incorrect. **λόγου** is the gen. sing. of the noun “word” (Ch. 1).
+	~%-100%λόγων#Incorrect. **λόγων** is the gen. pl. of the noun “word” (Ch. 1).
+	~%-100%λόγῳ#Incorrect. **λόγῳ** is the dat. sing. of the noun “word” (Ch. 1).
+	~%100%λόγοι#Correct: **λόγοι** is the correct form for nom. pl. of the noun “word” (Chapter 1).
+}
+
+
+::Q046::[markdown]acc. pl. of the noun “soul” :{
+	~%100%ψυχάς#Correct: **ψυχάς** is the correct form for acc. pl. of the noun “soul”  (Chapter 1).
+	~%-100%ψυχαῖς#Incorrect. **ψυχαῖς** is the dat. pl. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχήν#Incorrect. **ψυχήν** is the acc. sing. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχῶν#Incorrect. **ψυχῶν** is the gen. pl. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχῇ#Incorrect. **ψυχῇ** is the dat. sing. of the noun “soul”  (Ch. 1).
+}
+
+
+::Q047::[markdown]acc. pl. of the noun “word”:{
+	~%-100%λόγῳ#Incorrect. **λόγῳ** is the dat. sing. of the noun “word” (Ch. 1).
+	~%-100%λόγων#Incorrect. **λόγων** is the gen. pl. of the noun “word” (Ch. 1).
+	~%-100%λόγου#Incorrect. **λόγου** is the gen. sing. of the noun “word” (Ch. 1).
+	~%-100%λόγος#Incorrect. **λόγος** is the nom. sing. of the noun “word” (Ch. 1).
+	~%100%λόγους#Correct: **λόγους** is the correct form for acc. pl. of the noun “word” (Chapter 1).
+}
+
+
+::Q048::[markdown]nom. sing. of the noun “soul” :{
+	~%100%ψυχή#Correct: **ψυχή** is the correct form for nom. sing. of the noun “soul”  (Chapter 1).
+	~%-100%ψυχαί#Incorrect. **ψυχαί** is the nom. pl. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχήν#Incorrect. **ψυχήν** is the acc. sing. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχῆς#Incorrect. **ψυχῆς** is the gen. sing. of the noun “soul”  (Ch. 1).
+	~%-100%ψυχάς#Incorrect. **ψυχάς** is the acc. pl. of the noun “soul”  (Ch. 1).
+}
+
+
+::Q049::[markdown]νήσους:{
+	~%-100%gen. pl. of the noun “island”#Incorrect. The gen. pl. of the noun “island” is **νήσων** (Ch. 1).
+	~%-100%nom. sing. of the noun “island”#Incorrect. The nom. sing. of the noun “island” is **νῆσος** (Ch. 1).
+	~%-100%acc. sing. of the noun “island”#Incorrect. The acc. sing. of the noun “island” is **νῆσον** (Ch. 1).
+	~%100%acc. pl. of the noun “island”#Correct: **νήσους** is acc. pl. of the noun “island” (Chapter 1).
+	~%-100%dat. pl. of the noun “island”#Incorrect. The dat. pl. of the noun “island” is **νήσοις** (Ch. 1).
+}
+
+
+::Q050::[markdown]τῆς:{
+	~%100%fem. gen. sing. of the definite article “the”#Correct: **τῆς** is fem. gen. sing. of the definite article “the” (Chapter 1).
+	~%-100%fem. acc. sing. of the definite article “the”#Incorrect. The fem. acc. sing. of the definite article “the” is **τήν** (Ch. 1).
+	~%-100%masc. nom. pl. of the definite article “the”#Incorrect. The masc. nom. pl. of the definite article “the” is **οἱ** (Ch. 1).
+	~%-100%fem. nom. sing. of the definite article “the”#Incorrect. The fem. nom. sing. of the definite article “the” is **ἡ** (Ch. 1).
+	~%-100%neut. acc. pl. of the definite article “the”#Incorrect. The neut. acc. pl. of the definite article “the” is **τά** (Ch. 1).
+}
+
+

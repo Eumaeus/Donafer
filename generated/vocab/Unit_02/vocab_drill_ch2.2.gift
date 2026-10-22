@@ -1,0 +1,623 @@
+$CATEGORY: Vocabulary/HansenQuinn/2.2
+
+::Q001::[markdown]λύω:{
+	~%-100%have come#Incorrect. **ἥκω** is Principal Part 1 of **ἥκω** “have come” (Chapter 8).
+	~%-100%do#Incorrect. **πράττω** is Principal Part 1 of **πράττω** “do” (Chapter 5).
+	~%50%free#Correct: **λύω** is Principal Part 1 of **λύω** “free” (Chapter 2).
+	~%-100%be spoken of#Incorrect. **ἀκούω** is Principal Part 1 of **ἀκούω** “be spoken of” (Chapter 11).
+	~%50%unbind#Correct: **λύω** is Principal Part 1 of **λύω** “unbind” (Chapter 2).
+}
+
+
+::Q002::[markdown]μέν… δέ (postpos. conjs.):{
+	~%-100%conditional#Incorrect. **ἄν** means “conditional” (Chapter 4).
+	~%-100%all the same#Incorrect. **ὅμως** means “all the same” (Chapter 8).
+	~%-100%for the sake of#Incorrect. **χάριν** means “for the sake of” (Chapter 6).
+	~%-100%introduces a question#Incorrect. **ἆρα** means “introduces a question” (Chapter 2).
+	~%100%on the one hand… on the other hand#Correct: **μέν… δέ (postpos. conjs.)** → “on the one hand… on the other hand” (Chapter 2).
+}
+
+
+::Q003::[markdown]ξένος, ξένου, ὁ:{
+	~%-100%responsibility#Incorrect. **αἰτία, αἰτίας, ἡ** means “responsibility” (Chapter 11).
+	~%-100%messenger#Incorrect. **ἄγγελος, ἀγγέλου, ὁ** means “messenger” (Chapter 2).
+	~%100%guest-friend#Correct: **ξένος, ξένου, ὁ** → “guest-friend” (Chapter 2).
+	~%-100%heavily armed foot soldier#Incorrect. **ὁπλιτης, ὁπλίτου, ὁ** means “heavily armed foot soldier” (Chapter 4).
+	~%-100%assembly#Incorrect. **ἐκκλησίᾱ, ἐκκλησίᾱς, ἡ** means “assembly” (Chapter 3).
+}
+
+
+::Q004::[markdown]παιδεύσω:{
+	~%-100%remain#Incorrect. **μένω** is Principal Part 1 of **μένω** “remain” (Chapter 10).
+	~%-100%send#Incorrect. **πέμπω** is Principal Part 1 of **πέμπω** “send” (Chapter 2).
+	~%-100%prevent#Incorrect. **κωλύω** is Principal Part 1 of **κωλύω** “prevent” (Chapter 6).
+	~%100%educate#Correct: **παιδεύσω** is Principal Part 2 of **παιδεύω** “educate” (Chapter 2).
+	~%-100%(middle) obey#Incorrect. **πείθω** is Principal Part 1 of **πείθω** “(middle) obey” (Chapter 5).
+}
+
+
+::Q005::[markdown]ξένος, ξένου, ὁ:{
+	~%-100%judgement#Incorrect. **γνώμη, γνώμης, ἡ** means “judgement” (Chapter 6).
+	~%-100%trial#Incorrect. **πεῖρα πείρας, ἡ** means “trial” (Chapter 9).
+	~%100%foreigner#Correct: **ξένος, ξένου, ὁ** → “foreigner” (Chapter 2).
+	~%-100%respect#Incorrect. **τιμή, τιμῆς, ἡ** means “respect” (Chapter 7).
+	~%-100%poet#Incorrect. **ποιητής, ποιητοῦ, ὁ** means “poet” (Chapter 4).
+}
+
+
+::Q006::[markdown]for (explanatory):{
+	~%-100%ὦ#Incorrect. **ὦ** means “"Oh!", interjection used with vocative” (Chapter 1).
+	~%-100%ὅταν#Incorrect. **ὅταν** means “when” (Chapter 11).
+	~%-100%ἐνταῦθα#Incorrect. **ἐνταῦθα** means “here” (Chapter 11).
+	~%-100%ἐπεί#Incorrect. **ἐπεί** means “after” (Chapter 3).
+	~%100%γάρ#Correct: **γάρ** → “for (explanatory)” (Chapter 2).
+}
+
+
+::Q007::[markdown]λέλυμαι:{
+	~%-100%hinder#Incorrect. **κωλύω** is Principal Part 1 of **κωλύω** “hinder” (Chapter 6).
+	~%-100%leave#Incorrect. **λείπω** is Principal Part 1 of **λείπω** “leave” (Chapter 7).
+	~%-100%to be willing#Incorrect. **ἐθέλω** is Principal Part 1 of **ἐθέλω** “to be willing” (Chapter 4).
+	~%-100%receive#Incorrect. **δέχομαι** is Principal Part 1 of **δέχομαι** “receive” (Chapter 11).
+	~%100%free#Correct: **λέλυμαι** is Principal Part 5 of **λύω** “free” (Chapter 2).
+}
+
+
+::Q008::[markdown]educate:{
+	~%-100%ἥξω#Incorrect. **ἥξω** is Principal Part 2 of **ἥκω** “have come” (Chapter 8).
+	~%-100%κωλύσω#Incorrect. **κωλύσω** is Principal Part 2 of **κωλύω** “hinder” (Chapter 6).
+	~%-100%τετελεύτημαι#Incorrect. **τετελεύτημαι** is Principal Part 5 of **τελευτάω** “finish” (Chapter 10).
+	~%100%παιδεύω#Correct: **παιδεύω** is Principal Part 1 of **παιδεύω** “educate” (Chapter 2).
+	~%-100%ἐπράχθην#Incorrect. **ἐπράχθην** is Principal Part 6 of **πράττω** “do” (Chapter 5).
+}
+
+
+::Q009::[markdown]to the side of:{
+	~%-100%ὑπὸ + acc#Incorrect. **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%100%παρά + acc#Correct: **παρά + acc** → “to the side of” (Chapter 2).
+	~%-100%μετά + gen.#Incorrect. **μετά + gen.** means “with” (Chapter 4).
+	~%-100%διά + gen#Incorrect. **διά + gen** means “through” (Chapter 3).
+	~%-100%ὑπέρ + gen#Incorrect. **ὑπέρ + gen** means “over” (Chapter 9).
+}
+
+
+::Q010::[markdown]command:{
+	~%-100%ἐθέλω#Incorrect. **ἐθέλω** is Principal Part 1 of **ἐθέλω** “to be willing” (Chapter 4).
+	~%-100%κέκλημαι#Incorrect. **κέκλημαι** is Principal Part 5 of **καλέω** “call” (Chapter 10).
+	~%-100%ἔπαθον#Incorrect. **ἔπαθον** is Principal Part 3 of **πάσχω** “suffer” (Chapter 11).
+	~%100%κεκέλευσμαι#Correct: **κεκέλευσμαι** is Principal Part 5 of **κελεύω** “command” (Chapter 2).
+	~%-100%παιδεύω#Incorrect. **παιδεύω** is Principal Part 1 of **παιδεύω** “educate” (Chapter 2).
+}
+
+
+::Q011::[markdown]εὖ:{
+	~%-100%in that place#Incorrect. **ἐκεῖ** means “in that place” (Chapter 7).
+	~%100%well#Correct: **εὖ** → “well” (Chapter 2).
+	~%-100%not#Incorrect. **οὐ; οὐκ; οὐχ (adv.)** means “not” (Chapter 2).
+	~%-100%when#Incorrect. **ἐπεί** means “when” (Chapter 3).
+	~%-100%since#Incorrect. **ἐπεί** means “since” (Chapter 3).
+}
+
+
+::Q012::[markdown]now:{
+	~%-100%ὡς#Incorrect. **ὡς** means “in order that” (Chapter 8).
+	~%-100%ἐνταῦθα#Incorrect. **ἐνταῦθα** means “here” (Chapter 11).
+	~%100%νῦν#Correct: **νῦν** → “now” (Chapter 2).
+	~%-100%εὖ#Incorrect. **εὖ** means “well” (Chapter 2).
+	~%-100%εἰσ-#Incorrect. **εἰσ-** means “into” (Chapter 11).
+}
+
+
+::Q013::[markdown]πεπαίδευμαι:{
+	~%100%teach#Correct: **πεπαίδευμαι** is Principal Part 5 of **παιδεύω** “teach” (Chapter 2).
+	~%-100%make stop#Incorrect. **παύω** is Principal Part 1 of **παύω** “make stop” (Chapter 3).
+	~%-100%hit (with thrown object)#Incorrect. **βάλλω** is Principal Part 1 of **βάλλω** “hit (with thrown object)” (Chapter 11).
+	~%-100%harm#Incorrect. **βλάπτω** is Principal Part 1 of **βλάπτω** “harm” (Chapter 5).
+	~%-100%expect#Incorrect. **ἀξιόω** is Principal Part 1 of **ἀξιόω** “expect” (Chapter 10).
+}
+
+
+::Q014::[markdown]host:{
+	~%-100%Δημοσθένης, Δημοσθένους, ὁ#Incorrect. **Δημοσθένης, Δημοσθένους, ὁ** means “Demothenes (ῥήτωρ)” (Chapter 10).
+	~%100%ξένος, ξένου, ὁ#Correct: **ξένος, ξένου, ὁ** → “host” (Chapter 2).
+	~%-100%τέλος, τέλους, τό#Incorrect. **τέλος, τέλους, τό** means “end” (Chapter 10).
+	~%-100%νῆσος, νήσου, ἡ#Incorrect. **νῆσος, νήσου, ἡ** means “island” (Chapter 1).
+	~%-100%τέχνη, τέχνης, ἡ#Incorrect. **τέχνη, τέχνης, ἡ** means “art” (Chapter 1).
+}
+
+
+::Q015::[markdown]πέντε:{
+	~%-100%at least#Incorrect. **γε** means “at least” (Chapter 6).
+	~%100%five#Correct: **πέντε** → “five” (Chapter 2).
+	~%-100%you know#Incorrect. **τοι** means “you know” (Chapter 6).
+	~%-100%so that#Incorrect. **ὥστε** means “so that” (Chapter 10).
+	~%-100%in#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+}
+
+
+::Q016::[markdown]send:{
+	~%-100%βούλομαι#Incorrect. **βούλομαι** is Principal Part 1 of **βούλομαι** “want” (Chapter 11).
+	~%-100%ἔπαυσα#Incorrect. **ἔπαυσα** is Principal Part 3 of **παύω** “stop” (Chapter 3).
+	~%100%ἔπεμψα#Correct: **ἔπεμψα** is Principal Part 3 of **πέμπω** “send” (Chapter 2).
+	~%-100%ἠκούσθην#Incorrect. **ἠκούσθην** is Principal Part 6 of **ἀκούω** “hear (+ acc. of thing)” (Chapter 11).
+	~%-100%κελεύω#Incorrect. **κελεύω** is Principal Part 1 of **κελεύω** “command” (Chapter 2).
+}
+
+
+::Q017::[markdown]or:{
+	~%100%ἤ#Correct: **ἤ** → “or” (Chapter 2).
+	~%-100%ἐπειδάν#Incorrect. **ἐπειδάν** means “after” (Chapter 11).
+	~%-100%πέντε#Incorrect. **πέντε** means “five” (Chapter 2).
+	~%-100%ἅτε; οἷα#Incorrect. **ἅτε; οἷα** means “in as much as” (Chapter 8).
+}
+
+
+::Q018::[markdown]educate:{
+	~%-100%ἔλιπον#Incorrect. **ἔλιπον** is Principal Part 3 of **λείπω** “leave” (Chapter 7).
+	~%-100%νενίκηκα#Incorrect. **νενίκηκα** is Principal Part 4 of **νικάω** “win” (Chapter 9).
+	~%-100%ἥξω#Incorrect. **ἥξω** is Principal Part 2 of **ἥκω** “have come” (Chapter 8).
+	~%100%παιδεύω#Correct: **παιδεύω** is Principal Part 1 of **παιδεύω** “educate” (Chapter 2).
+	~%-100%ἠδίκησα#Incorrect. **ἠδίκησα** is Principal Part 3 of **ἀδικέω** “do wrong” (Chapter 9).
+}
+
+
+::Q019::[markdown]ἆρα:{
+	~%-100%in any way#Incorrect. **πως** means “in any way” (Chapter 11).
+	~%-100%after#Incorrect. **ἐπεί** means “after” (Chapter 3).
+	~%-100%conditional#Incorrect. **ἄν** means “conditional” (Chapter 4).
+	~%-100%or#Incorrect. **ἤ** means “or” (Chapter 2).
+	~%100%introduces a question#Correct: **ἆρα** → “introduces a question” (Chapter 2).
+}
+
+
+::Q020::[markdown]λέλυκα:{
+	~%-100%stay#Incorrect. **μένω** is Principal Part 1 of **μένω** “stay” (Chapter 10).
+	~%-100%dance#Incorrect. **χορεύω** is Principal Part 1 of **χορεύω** “dance” (Chapter 6).
+	~%-100%make#Incorrect. **ποιέω** is Principal Part 1 of **ποιέω** “make” (Chapter 9).
+	~%100%unbind#Correct: **λέλυκα** is Principal Part 4 of **λύω** “unbind” (Chapter 2).
+	~%-100%show#Incorrect. **δηλόω** is Principal Part 1 of **δηλόω** “show” (Chapter 10).
+}
+
+
+::Q021::[markdown]πέμπω:{
+	~%-100%make#Incorrect. **ποιέω** is Principal Part 1 of **ποιέω** “make” (Chapter 9).
+	~%-100%announce#Incorrect. **ἀγγέλλλω** is Principal Part 1 of **ἀγγέλλλω** “announce” (Chapter 10).
+	~%-100%I sacrifice#Incorrect. **θύω** is Principal Part 1 of **θύω** “I sacrifice” (Chapter 3).
+	~%100%send#Correct: **πέμπω** is Principal Part 1 of **πέμπω** “send” (Chapter 2).
+	~%-100%(passive) be governed#Incorrect. **πολῑτεύω** is Principal Part 1 of **πολῑτεύω** “(passive) be governed” (Chapter 6).
+}
+
+
+::Q022::[markdown]ἐκελεύσθην:{
+	~%-100%have done to one#Incorrect. **πάσχω** is Principal Part 1 of **πάσχω** “have done to one” (Chapter 11).
+	~%-100%hear (+ gen. of person)#Incorrect. **ἀκούω** is Principal Part 1 of **ἀκούω** “hear (+ gen. of person)” (Chapter 11).
+	~%100%command#Correct: **ἐκελεύσθην** is Principal Part 6 of **κελεύω** “command” (Chapter 2).
+	~%-100%to wrong#Incorrect. **ἀδικέω** is Principal Part 1 of **ἀδικέω** “to wrong” (Chapter 9).
+	~%-100%take#Incorrect. **λαμβάνω** is Principal Part 1 of **λαμβάνω** “take” (Chapter 11).
+}
+
+
+::Q023::[markdown]ξένος, ξένου, ὁ:{
+	~%-100%opinion#Incorrect. **γνώμη, γνώμης, ἡ** means “opinion” (Chapter 6).
+	~%-100%silver#Incorrect. **ἄργυρος, ἄργυρου, ὁ** means “silver” (Chapter 5).
+	~%-100%earth#Incorrect. **γῆ, γῆς, ἡ** means “earth” (Chapter 5).
+	~%-100%a sacrifice#Incorrect. **θυσίᾱ, θύσίᾱς, ἡ** means “a sacrifice” (Chapter 3).
+	~%100%foreigner#Correct: **ξένος, ξένου, ὁ** → “foreigner” (Chapter 2).
+}
+
+
+::Q024::[markdown]παιδεύσω:{
+	~%-100%think it right#Incorrect. **ἀξιόω** is Principal Part 1 of **ἀξιόω** “think it right” (Chapter 10).
+	~%100%educate#Correct: **παιδεύσω** is Principal Part 2 of **παιδεύω** “educate” (Chapter 2).
+	~%-100%(passive) be governed#Incorrect. **πολῑτεύω** is Principal Part 1 of **πολῑτεύω** “(passive) be governed” (Chapter 6).
+	~%-100%leave#Incorrect. **λείπω** is Principal Part 1 of **λείπω** “leave” (Chapter 7).
+	~%-100%arrange, order#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “arrange, order” (Chapter 4).
+}
+
+
+::Q025::[markdown]unbind:{
+	~%-100%σέσωκα#Incorrect. **σέσωκα** is Principal Part 4 of **σῴζω** “save” (Chapter 7).
+	~%-100%ἐπολῑτεύθην#Incorrect. **ἐπολῑτεύθην** is Principal Part 6 of **πολῑτεύω** “live as a citizen” (Chapter 6).
+	~%-100%δεδίδαχα#Incorrect. **δεδίδαχα** is Principal Part 4 of **διδάσκω** “teach” (Chapter 4).
+	~%100%λέλυμαι#Correct: **λέλυμαι** is Principal Part 5 of **λύω** “unbind” (Chapter 2).
+	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “draw up (in battle)” (Chapter 4).
+}
+
+
+::Q026::[markdown]teach:{
+	~%-100%κωλύσω#Incorrect. **κωλύσω** is Principal Part 2 of **κωλύω** “hinder” (Chapter 6).
+	~%-100%ἐλήφθην#Incorrect. **ἐλήφθην** is Principal Part 6 of **λαμβάνω** “take” (Chapter 11).
+	~%-100%ἔπεισα#Incorrect. **ἔπεισα** is Principal Part 3 of **πείθω** “persuade” (Chapter 5).
+	~%100%παιδεύσω#Correct: **παιδεύσω** is Principal Part 2 of **παιδεύω** “teach” (Chapter 2).
+	~%-100%ἀκήκοα#Incorrect. **ἀκήκοα** is Principal Part 4 of **ἀκούω** “hear (+ acc. of thing)” (Chapter 11).
+}
+
+
+::Q027::[markdown]unbind:{
+	~%-100%πέπρᾱγμαι#Incorrect. **πέπρᾱγμαι** is Principal Part 5 of **πράττω** “do” (Chapter 5).
+	~%100%λέλυμαι#Correct: **λέλυμαι** is Principal Part 5 of **λύω** “unbind” (Chapter 2).
+	~%-100%πολῑτεύω#Incorrect. **πολῑτεύω** is Principal Part 1 of **πολῑτεύω** “live as a citizen” (Chapter 6).
+	~%-100%ἦρξα#Incorrect. **ἦρξα** is Principal Part 3 of **ἄρχω** “rule” (Chapter 5).
+	~%-100%ἀξιώσω#Incorrect. **ἀξιώσω** is Principal Part 2 of **ἀξιόω** “think worthy of” (Chapter 10).
+}
+
+
+::Q028::[markdown]παρά + acc:{
+	~%-100%at the side of#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%on behalf of#Incorrect. **ὑπέρ + gen** means “on behalf of” (Chapter 9).
+	~%-100%under#Incorrect. **ὑπὸ + gen** means “under” (Chapter 5).
+	~%-100%in#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+	~%100%contrary to#Correct: **παρά + acc** → “contrary to” (Chapter 2).
+}
+
+
+::Q029::[markdown]teach:{
+	~%-100%χορεύσω#Incorrect. **χορεύσω** is Principal Part 2 of **χορεύω** “dance” (Chapter 6).
+	~%-100%λύσω#Incorrect. **λύσω** is Principal Part 2 of **λύω** “unbind” (Chapter 2).
+	~%-100%ἐνικήθην#Incorrect. **ἐνικήθην** is Principal Part 6 of **νικάω** “win” (Chapter 9).
+	~%-100%ἐθέλω#Incorrect. **ἐθέλω** is Principal Part 1 of **ἐθέλω** “to be willing” (Chapter 4).
+	~%100%πεπαίδευκα#Correct: **πεπαίδευκα** is Principal Part 4 of **παιδεύω** “teach” (Chapter 2).
+}
+
+
+::Q030::[markdown]at the house of:{
+	~%-100%περί + dat#Incorrect. **περί + dat** means “around” (Chapter 3).
+	~%-100%πρό + gen#Incorrect. **πρό + gen** means “before” (Chapter 2).
+	~%-100%σύv + dative#Incorrect. **σύv + dative** means “with” (Chapter 4).
+	~%-100%ἀντί + gen#Incorrect. **ἀντί + gen** means “instead of” (Chapter 3).
+	~%100%παρά + dat#Correct: **παρά + dat** → “at the house of” (Chapter 2).
+}
+
+
+::Q031::[markdown]στέφανος, στέφανου, ὁ:{
+	~%-100%woman#Incorrect. **γυνή, γυναικός, ἡ** means “woman” (Chapter 11).
+	~%-100%prize#Incorrect. **ἆθλον ἄθλου, τό** means “prize” (Chapter 3).
+	~%-100%tool#Incorrect. **ὅπλον, ὅπλου, ὁ** means “tool” (Chapter 4).
+	~%100%crown#Correct: **στέφανος, στέφανου, ὁ** → “crown” (Chapter 2).
+	~%-100%plain#Incorrect. **πεδίον, πεδίου, τό** means “plain” (Chapter 5).
+}
+
+
+::Q032::[markdown]οὐ; οὐκ; οὐχ (adv.):{
+	~%100%not#Correct: **οὐ; οὐκ; οὐχ (adv.)** → “not” (Chapter 2).
+	~%-100%even#Incorrect. **καί** means “even” (Chapter 1).
+	~%-100%and#Incorrect. **καί** means “and” (Chapter 1).
+	~%-100%accordingly#Incorrect. **οὖν** means “accordingly” (Chapter 7).
+	~%-100%since#Incorrect. **ἐπεί** means “since” (Chapter 3).
+}
+
+
+::Q033::[markdown]πόλεμος, πολέμου, ὁ:{
+	~%-100%poem#Incorrect. **ποίημα, ποίηματος, τό** means “poem” (Chapter 7).
+	~%-100%brother#Incorrect. **ἀδελφός, ἀδελφοῦ, ὁ** means “brother” (Chapter 1).
+	~%100%war#Correct: **πόλεμος, πολέμου, ὁ** → “war” (Chapter 2).
+	~%-100%stone#Incorrect. **λίθος, λίθου, ὁ** means “stone” (Chapter 5).
+	~%-100%a sacrifice#Incorrect. **θυσίᾱ, θύσίᾱς, ἡ** means “a sacrifice” (Chapter 3).
+}
+
+
+::Q034::[markdown]πέμψω:{
+	~%-100%leave#Incorrect. **λείπω** is Principal Part 1 of **λείπω** “leave” (Chapter 7).
+	~%-100%wish#Incorrect. **ἐθέλω** is Principal Part 1 of **ἐθέλω** “wish” (Chapter 4).
+	~%100%send#Correct: **πέμψω** is Principal Part 2 of **πέμπω** “send” (Chapter 2).
+	~%-100%dance#Incorrect. **χορεύω** is Principal Part 1 of **χορεύω** “dance” (Chapter 6).
+	~%-100%stop#Incorrect. **παύω** is Principal Part 1 of **παύω** “stop” (Chapter 3).
+}
+
+
+::Q035::[markdown]ἄγγελος, ἀγγέλου, ὁ:{
+	~%-100%man#Incorrect. **ἄνθρωπος, ἀνθρώπου, ὁ** means “man” (Chapter 1).
+	~%-100%stade (ca. 600 ft.)#Incorrect. **στάδιον, σταδίου, τό** means “stade (ca. 600 ft.)” (Chapter 6).
+	~%-100%commander#Incorrect. **στρατηγός, στρατηγοῦ, ὁ** means “commander” (Chapter 8).
+	~%100%messenger#Correct: **ἄγγελος, ἀγγέλου, ὁ** → “messenger” (Chapter 2).
+	~%-100%dance#Incorrect. **χορεύω** is Principal Part 1 of **χορεύω** “dance” (Chapter 6).
+}
+
+
+::Q036::[markdown]παρά + gen:{
+	~%-100%under (with motion)#Incorrect. **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%-100%contrary to#Incorrect. **παρά + acc** means “contrary to” (Chapter 2).
+	~%-100%under#Incorrect. **ὑπὸ + gen** means “under” (Chapter 5).
+	~%-100%toward (of time)#Incorrect. **ὑπὸ + acc** means “toward (of time)” (Chapter 5).
+	~%100%from beside#Correct: **παρά + gen** → “from beside” (Chapter 2).
+}
+
+
+::Q037::[markdown]send:{
+	~%-100%ἐπολῑτεύθην#Incorrect. **ἐπολῑτεύθην** is Principal Part 6 of **πολῑτεύω** “live as a citizen” (Chapter 6).
+	~%-100%ἠξίωκα#Incorrect. **ἠξίωκα** is Principal Part 4 of **ἀξιόω** “think worthy of” (Chapter 10).
+	~%-100%λύσω#Incorrect. **λύσω** is Principal Part 2 of **λύω** “unbind” (Chapter 2).
+	~%-100%πεποίημαι#Incorrect. **πεποίημαι** is Principal Part 5 of **ποιέω** “make” (Chapter 9).
+	~%100%ἐπέμφθην#Correct: **ἐπέμφθην** is Principal Part 6 of **πέμπω** “send” (Chapter 2).
+}
+
+
+::Q038::[markdown]ἔλυσα:{
+	~%-100%finish#Incorrect. **τελευτάω** is Principal Part 1 of **τελευτάω** “finish” (Chapter 10).
+	~%-100%remain#Incorrect. **μένω** is Principal Part 1 of **μένω** “remain” (Chapter 10).
+	~%-100%hurt#Incorrect. **βλάπτω** is Principal Part 1 of **βλάπτω** “hurt” (Chapter 5).
+	~%-100%take part in a dance#Incorrect. **χορεύω** is Principal Part 1 of **χορεύω** “take part in a dance” (Chapter 6).
+	~%100%free#Correct: **ἔλυσα** is Principal Part 3 of **λύω** “free” (Chapter 2).
+}
+
+
+::Q039::[markdown]οὐ; οὐκ; οὐχ (adv.):{
+	~%-100%so#Incorrect. **οὕτως** means “so” (Chapter 9).
+	~%100%not#Correct: **οὐ; οὐκ; οὐχ (adv.)** → “not” (Chapter 2).
+	~%-100%on the one hand… on the other hand#Incorrect. **μέν… δέ (postpos. conjs.)** means “on the one hand… on the other hand” (Chapter 2).
+	~%-100%and yet#Incorrect. **καίτοι** means “and yet” (Chapter 4).
+}
+
+
+::Q040::[markdown]χρυσός, χρυσοῦ, ὁ:{
+	~%-100%shrine#Incorrect. **ἱερόν, ἱεροῦ, τό** means “shrine” (Chapter 5).
+	~%100%gold#Correct: **χρυσός, χρυσοῦ, ὁ** → “gold” (Chapter 2).
+	~%-100%bridge#Incorrect. **γέφυρα, γεφύρας, ἡ** means “bridge” (Chapter 4).
+	~%-100%earth#Incorrect. **γῆ, γῆς, ἡ** means “earth” (Chapter 5).
+}
+
+
+::Q041::[markdown]κελεύω:{
+	~%-100%steal#Incorrect. **κλέπτω** is Principal Part 1 of **κλέπτω** “steal” (Chapter 7).
+	~%-100%receive#Incorrect. **δέχομαι** is Principal Part 1 of **δέχομαι** “receive” (Chapter 11).
+	~%100%command#Correct: **κελεύω** is Principal Part 1 of **κελεύω** “command” (Chapter 2).
+	~%-100%write#Incorrect. **γράφω** is Principal Part 1 of **γράφω** “write” (Chapter 3).
+}
+
+
+::Q042::[markdown]δέ:{
+	~%-100%whenever#Incorrect. **ἐπειδάν** means “whenever” (Chapter 11).
+	~%-100%in fact#Incorrect. **δή** means “in fact” (Chapter 3).
+	~%100%but#Correct: **δέ** → “but” (Chapter 2).
+	~%-100%next#Incorrect. **ἔπειτα** means “next” (Chapter 8).
+	~%-100%as#Incorrect. **ὡς** means “as” (Chapter 8).
+}
+
+
+::Q043::[markdown]send:{
+	~%-100%δεδήλωκα#Incorrect. **δεδήλωκα** is Principal Part 4 of **δηλόω** “make clear” (Chapter 10).
+	~%100%ἐπέμφθην#Correct: **ἐπέμφθην** is Principal Part 6 of **πέμπω** “send” (Chapter 2).
+	~%-100%τέταγμαι#Incorrect. **τέταγμαι** is Principal Part 5 of **τάττω** “draw up (in battle)” (Chapter 4).
+	~%-100%σῴζω#Incorrect. **σῴζω** is Principal Part 1 of **σῴζω** “save” (Chapter 7).
+	~%-100%τιμήσω#Incorrect. **τιμήσω** is Principal Part 2 of **τιμάω** “to honor” (Chapter 9).
+}
+
+
+::Q044::[markdown]λέλυκα:{
+	~%100%free#Correct: **λέλυκα** is Principal Part 4 of **λύω** “free” (Chapter 2).
+	~%-100%do wrong#Incorrect. **ἀδικέω** is Principal Part 1 of **ἀδικέω** “do wrong” (Chapter 9).
+	~%-100%command#Incorrect. **κελεύω** is Principal Part 1 of **κελεύω** “command” (Chapter 2).
+	~%-100%teach#Incorrect. **παιδεύω** is Principal Part 1 of **παιδεύω** “teach” (Chapter 2).
+	~%-100%live as a citizen#Incorrect. **πολῑτεύω** is Principal Part 1 of **πολῑτεύω** “live as a citizen” (Chapter 6).
+}
+
+
+::Q045::[markdown]friend:{
+	~%-100%γνώμη, γνώμης, ἡ#Incorrect. **γνώμη, γνώμης, ἡ** means “mind” (Chapter 6).
+	~%100%φίλος, φίλου, ὁ#Correct: **φίλος, φίλου, ὁ** → “friend” (Chapter 2).
+	~%-100%βουλή, βουλῆς, ἡ#Incorrect. **βουλή, βουλῆς, ἡ** means “will” (Chapter 3).
+	~%-100%γῆ, γῆς, ἡ#Incorrect. **γῆ, γῆς, ἡ** means “earth” (Chapter 5).
+	~%-100%ὅπλον, ὅπλου, ὁ#Incorrect. **ὅπλον, ὅπλου, ὁ** means “tool” (Chapter 4).
+}
+
+
+::Q046::[markdown]λύω:{
+	~%-100%steal#Incorrect. **κλέπτω** is Principal Part 1 of **κλέπτω** “steal” (Chapter 7).
+	~%-100%educate#Incorrect. **παιδεύω** is Principal Part 1 of **παιδεύω** “educate” (Chapter 2).
+	~%-100%be a slave (+ dat)#Incorrect. **δουλεύω** is Principal Part 1 of **δουλεύω** “be a slave (+ dat)” (Chapter 6).
+	~%-100%I sacrifice#Incorrect. **θύω** is Principal Part 1 of **θύω** “I sacrifice” (Chapter 3).
+	~%100%unbind#Correct: **λύω** is Principal Part 1 of **λύω** “unbind” (Chapter 2).
+}
+
+
+::Q047::[markdown]at the side of:{
+	~%100%παρά + dat#Correct: **παρά + dat** → “at the side of” (Chapter 2).
+	~%-100%ὑπέρ + gen#Incorrect. **ὑπέρ + gen** means “over” (Chapter 9).
+	~%-100%διά + gen#Incorrect. **διά + gen** means “through” (Chapter 3).
+	~%-100%ἀπό + gen#Incorrect. **ἀπό + gen** means “from” (Chapter 2).
+}
+
+
+::Q048::[markdown]either… or:{
+	~%-100%ἐάν#Incorrect. **ἐάν** means “if” (Chapter 4).
+	~%-100%πως#Incorrect. **πως** means “in any way” (Chapter 11).
+	~%-100%ἅμα#Incorrect. **ἅμα** means “at once” (Chapter 8).
+	~%100%ἤ… ἤ#Correct: **ἤ… ἤ** → “either… or” (Chapter 2).
+	~%-100%γάρ#Incorrect. **γάρ** means “for (explanatory)” (Chapter 2).
+}
+
+
+::Q049::[markdown]animal:{
+	~%-100%αἴξ, αἰγός, ὁ or ἡ#Incorrect. **αἴξ, αἰγός, ὁ or ἡ** means “goat” (Chapter 6).
+	~%100%ζῶον, ζῶου, τό#Correct: **ζῶον, ζῶου, τό** → “animal” (Chapter 2).
+	~%-100%πρᾶγμα, πρᾶγματος, τό#Incorrect. **πρᾶγμα, πρᾶγματος, τό** means “affair” (Chapter 6).
+	~%-100%βουλή, βουλῆς, ἡ#Incorrect. **βουλή, βουλῆς, ἡ** means “will” (Chapter 3).
+	~%-100%ὕδωρ, ὕδατος, τό#Incorrect. **ὕδωρ, ὕδατος, τό** means “water” (Chapter 9).
+}
+
+
+::Q050::[markdown]πρό + gen:{
+	~%100%before#Correct: **πρό + gen** → “before” (Chapter 2).
+	~%-100%instead of#Incorrect. **ἀντί + gen** means “instead of” (Chapter 3).
+	~%-100%under (with motion)#Incorrect. **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%-100%from#Incorrect. **ἐκ + gen; ἐξ + gen** means “from” (Chapter 1).
+}
+
+
+::Q051::[markdown]στέφανος, στέφανου, ὁ:{
+	~%-100%man#Incorrect. **ἄνθρωπος, ἀνθρώπου, ὁ** means “man” (Chapter 1).
+	~%-100%animal#Incorrect. **ζῶον, ζῶου, τό** means “animal” (Chapter 2).
+	~%-100%bridge#Incorrect. **γέφυρα, γεφύρας, ἡ** means “bridge” (Chapter 4).
+	~%100%crown#Correct: **στέφανος, στέφανου, ὁ** → “crown” (Chapter 2).
+	~%-100%race#Incorrect. **γένος, γένους, τό** means “race” (Chapter 10).
+}
+
+
+::Q052::[markdown]πέπεμμαι:{
+	~%-100%steal#Incorrect. **κλέπτω** is Principal Part 1 of **κλέπτω** “steal” (Chapter 7).
+	~%-100%arrange, order#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “arrange, order” (Chapter 4).
+	~%-100%be present#Incorrect. **ἥκω** is Principal Part 1 of **ἥκω** “be present” (Chapter 8).
+	~%100%send#Correct: **πέπεμμαι** is Principal Part 5 of **πέμπω** “send” (Chapter 2).
+	~%-100%unbind#Incorrect. **λύω** is Principal Part 1 of **λύω** “unbind” (Chapter 2).
+}
+
+
+::Q053::[markdown]πρό + gen:{
+	~%-100%after#Incorrect. **ἐπεί** means “after” (Chapter 3).
+	~%100%before#Correct: **πρό + gen** → “before” (Chapter 2).
+	~%-100%in order that#Incorrect. **ἵνα, ὡς, ὅπως** means “in order that” (Chapter 3).
+	~%-100%at the side of#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%over#Incorrect. **ὑπέρ + gen** means “over” (Chapter 9).
+}
+
+
+::Q054::[markdown]λύσω:{
+	~%-100%do#Incorrect. **πράττω** is Principal Part 1 of **πράττω** “do” (Chapter 5).
+	~%-100%hurt#Incorrect. **βλάπτω** is Principal Part 1 of **βλάπτω** “hurt” (Chapter 5).
+	~%100%free#Correct: **λύσω** is Principal Part 2 of **λύω** “free” (Chapter 2).
+	~%-100%think worthy of#Incorrect. **ἀξιόω** is Principal Part 1 of **ἀξιόω** “think worthy of” (Chapter 10).
+	~%-100%to honor#Incorrect. **τιμάω** is Principal Part 1 of **τιμάω** “to honor” (Chapter 9).
+}
+
+
+::Q055::[markdown]command:{
+	~%100%κεκέλευκα#Correct: **κεκέλευκα** is Principal Part 4 of **κελεύω** “command” (Chapter 2).
+	~%-100%βέβλαμμαι#Incorrect. **βέβλαμμαι** is Principal Part 5 of **βλάπτω** “hurt” (Chapter 5).
+	~%-100%ἠθέληκα#Incorrect. **ἠθέληκα** is Principal Part 4 of **ἐθέλω** “to be willing” (Chapter 4).
+	~%-100%ἑπείσθην#Incorrect. **ἑπείσθην** is Principal Part 6 of **πείθω** “persuade” (Chapter 5).
+	~%-100%ἥκω#Incorrect. **ἥκω** is Principal Part 1 of **ἥκω** “have come” (Chapter 8).
+}
+
+
+::Q056::[markdown]κεκέλευσμαι:{
+	~%-100%hear (+ gen. of person)#Incorrect. **ἀκούω** is Principal Part 1 of **ἀκούω** “hear (+ gen. of person)” (Chapter 11).
+	~%-100%hurt#Incorrect. **βλάπτω** is Principal Part 1 of **βλάπτω** “hurt” (Chapter 5).
+	~%-100%educate#Incorrect. **παιδεύω** is Principal Part 1 of **παιδεύω** “educate” (Chapter 2).
+	~%100%command#Correct: **κεκέλευσμαι** is Principal Part 5 of **κελεύω** “command” (Chapter 2).
+	~%-100%to honor#Incorrect. **τιμάω** is Principal Part 1 of **τιμάω** “to honor” (Chapter 9).
+}
+
+
+::Q057::[markdown]six:{
+	~%-100%ὡς#Incorrect. **ὡς** means “in order that” (Chapter 8).
+	~%-100%οὖν#Incorrect. **οὖν** means “therefore” (Chapter 7).
+	~%-100%ἐπειδάν#Incorrect. **ἐπειδάν** means “after” (Chapter 11).
+	~%100%ἑξ#Correct: **ἑξ** → “six” (Chapter 2).
+}
+
+
+::Q058::[markdown]ἔλύθην:{
+	~%-100%be present#Incorrect. **ἥκω** is Principal Part 1 of **ἥκω** “be present” (Chapter 8).
+	~%-100%finish#Incorrect. **τελευτάω** is Principal Part 1 of **τελευτάω** “finish” (Chapter 10).
+	~%100%free#Correct: **ἔλύθην** is Principal Part 6 of **λύω** “free” (Chapter 2).
+	~%-100%live as a citizen#Incorrect. **πολῑτεύω** is Principal Part 1 of **πολῑτεύω** “live as a citizen” (Chapter 6).
+	~%-100%conduct the government#Incorrect. **πολῑτεύω** is Principal Part 1 of **πολῑτεύω** “conduct the government” (Chapter 6).
+}
+
+
+::Q059::[markdown]educate:{
+	~%-100%γράψω#Incorrect. **γράψω** is Principal Part 2 of **γράφω** “write” (Chapter 3).
+	~%-100%ἔβαλον#Incorrect. **ἔβαλον** is Principal Part 3 of **βάλλω** “throw” (Chapter 11).
+	~%-100%νενίκημαι#Incorrect. **νενίκημαι** is Principal Part 5 of **νικάω** “win” (Chapter 9).
+	~%-100%τετίμημαι#Incorrect. **τετίμημαι** is Principal Part 5 of **τιμάω** “to honor” (Chapter 9).
+	~%100%ἐπαιδεύθην#Correct: **ἐπαιδεύθην** is Principal Part 6 of **παιδεύω** “educate” (Chapter 2).
+}
+
+
+::Q060::[markdown]teach:{
+	~%-100%ἔπεμψα#Incorrect. **ἔπεμψα** is Principal Part 3 of **πέμπω** “send” (Chapter 2).
+	~%-100%ἀξιώσω#Incorrect. **ἀξιώσω** is Principal Part 2 of **ἀξιόω** “think worthy of” (Chapter 10).
+	~%-100%ἐνικήθην#Incorrect. **ἐνικήθην** is Principal Part 6 of **νικάω** “win” (Chapter 9).
+	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “draw up (in battle)” (Chapter 4).
+	~%100%πεπαίδευκα#Correct: **πεπαίδευκα** is Principal Part 4 of **παιδεύω** “teach” (Chapter 2).
+}
+
+
+::Q061::[markdown]from:{
+	~%-100%περί + gen#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%100%ἀπό + gen#Correct: **ἀπό + gen** → “from” (Chapter 2).
+	~%-100%παρά + acc#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+	~%-100%παρά + gen#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+}
+
+
+::Q062::[markdown]κεκέλευκα:{
+	~%-100%stay#Incorrect. **μένω** is Principal Part 1 of **μένω** “stay” (Chapter 10).
+	~%100%command#Correct: **κεκέλευκα** is Principal Part 4 of **κελεύω** “command” (Chapter 2).
+	~%-100%do wrong#Incorrect. **ἀδικέω** is Principal Part 1 of **ἀδικέω** “do wrong” (Chapter 9).
+	~%-100%prevent#Incorrect. **κωλύω** is Principal Part 1 of **κωλύω** “prevent” (Chapter 6).
+	~%-100%want#Incorrect. **βούλομαι** is Principal Part 1 of **βούλομαι** “want” (Chapter 11).
+}
+
+
+::Q063::[markdown]ἔλύθην:{
+	~%-100%steal#Incorrect. **κλέπτω** is Principal Part 1 of **κλέπτω** “steal” (Chapter 7).
+	~%-100%take part in a dance#Incorrect. **χορεύω** is Principal Part 1 of **χορεύω** “take part in a dance” (Chapter 6).
+	~%100%unbind#Correct: **ἔλύθην** is Principal Part 6 of **λύω** “unbind” (Chapter 2).
+	~%-100%make stop#Incorrect. **παύω** is Principal Part 1 of **παύω** “make stop” (Chapter 3).
+}
+
+
+::Q064::[markdown]away from:{
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%-100%ὑπέρ + acc#Incorrect. **ὑπέρ + acc** means “(of motion or measure) over” (Chapter 9).
+	~%-100%ἐκ + gen; ἐξ + gen#Incorrect. **ἐκ + gen; ἐξ + gen** means “from” (Chapter 1).
+	~%100%ἀπό + gen#Correct: **ἀπό + gen** → “away from” (Chapter 2).
+	~%-100%περί + gen#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+}
+
+
+::Q065::[markdown]πεπαίδευμαι:{
+	~%-100%be a slave (+ dat)#Incorrect. **δουλεύω** is Principal Part 1 of **δουλεύω** “be a slave (+ dat)” (Chapter 6).
+	~%-100%do wrong#Incorrect. **ἀδικέω** is Principal Part 1 of **ἀδικέω** “do wrong” (Chapter 9).
+	~%-100%harm#Incorrect. **βλάπτω** is Principal Part 1 of **βλάπτω** “harm” (Chapter 5).
+	~%100%educate#Correct: **πεπαίδευμαι** is Principal Part 5 of **παιδεύω** “educate” (Chapter 2).
+	~%-100%die#Incorrect. **τελευτάω** is Principal Part 1 of **τελευτάω** “die” (Chapter 10).
+}
+
+
+::Q066::[markdown]free:{
+	~%-100%ἔλαβον#Incorrect. **ἔλαβον** is Principal Part 3 of **λαμβάνω** “take” (Chapter 11).
+	~%-100%ἀποδέχομαι#Incorrect. **ἀποδέχομαι** is Principal Part 1 of **ἀποδέχομαι** “receive favorably” (Chapter 11).
+	~%-100%κέκλεμμαι#Incorrect. **κέκλεμμαι** is Principal Part 5 of **κλέπτω** “steal” (Chapter 7).
+	~%100%ἔλυσα#Correct: **ἔλυσα** is Principal Part 3 of **λύω** “free” (Chapter 2).
+	~%-100%νικήσω#Incorrect. **νικήσω** is Principal Part 2 of **νικάω** “win” (Chapter 9).
+}
+
+
+::Q067::[markdown]teach:{
+	~%-100%καλέω#Incorrect. **καλέω** is Principal Part 1 of **καλέω** “call” (Chapter 10).
+	~%100%ἐδιδάχθην#Correct: **ἐδιδάχθην** is Principal Part 6 of **διδάσκω** “teach” (Chapter 4).
+	~%-100%τετελεύτηκα#Incorrect. **τετελεύτηκα** is Principal Part 4 of **τελευτάω** “finish” (Chapter 10).
+	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “draw up (in battle)” (Chapter 4).
+	~%-100%κεχόρευκα#Incorrect. **κεχόρευκα** is Principal Part 4 of **χορεύω** “dance” (Chapter 6).
+}
+
+
+::Q068::[markdown]παρά + acc:{
+	~%-100%toward (of time)#Incorrect. **ὑπὸ + acc** means “toward (of time)” (Chapter 5).
+	~%-100%instead of#Incorrect. **ἀντί + gen** means “instead of” (Chapter 3).
+	~%-100%under the power of#Incorrect. **ὑπὸ + dat** means “under the power of” (Chapter 5).
+	~%-100%under#Incorrect. **ὑπὸ + gen** means “under” (Chapter 5).
+	~%100%contrary to#Correct: **παρά + acc** → “contrary to” (Chapter 2).
+}
+
+
+::Q069::[markdown]φιλία φιλίας, ἡ:{
+	~%-100%tool#Incorrect. **ὅπλον, ὅπλου, ὁ** means “tool” (Chapter 4).
+	~%-100%experience#Incorrect. **πεῖρα πείρας, ἡ** means “experience” (Chapter 9).
+	~%-100%favor#Incorrect. **χάρις, χάριτος, ἡ** means “favor” (Chapter 6).
+	~%100%friendship#Correct: **φιλία φιλίας, ἡ** → “friendship” (Chapter 2).
+	~%-100%woman#Incorrect. **γυνή, γυναικός, ἡ** means “woman” (Chapter 11).
+}
+
+
+::Q070::[markdown]παιδεύω:{
+	~%100%teach#Correct: **παιδεύω** is Principal Part 1 of **παιδεύω** “teach” (Chapter 2).
+	~%-100%finish#Incorrect. **τελευτάω** is Principal Part 1 of **τελευτάω** “finish” (Chapter 10).
+	~%-100%want#Incorrect. **βούλομαι** is Principal Part 1 of **βούλομαι** “want” (Chapter 11).
+	~%-100%(middle) obey#Incorrect. **πείθω** is Principal Part 1 of **πείθω** “(middle) obey” (Chapter 5).
+}
+
+

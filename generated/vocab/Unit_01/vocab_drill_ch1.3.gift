@@ -1,0 +1,446 @@
+$CATEGORY: Vocabulary/HansenQuinn/1.3
+
+::Q001::[markdown]the:{
+	~%100%ὁ; ἡ; τό#Correct: **ὁ; ἡ; τό** → “the” (Chapter 1).
+	~%-100%σώφρων, σῶφρον#Incorrect. **σώφρων, σῶφρον** means “prudent” (Chapter 10).
+	~%-100%οὗτος αὕτη τοῦτο#Incorrect. **οὗτος αὕτη τοῦτο** means “this” (Chapter 9).
+	~%-100%ἀνάξιος, ἀνάξιον#Incorrect. **ἀνάξιος, ἀνάξιον** means “unworthy of ( + gen)” (Chapter 4).
+	~%-100%ἐκεῖνος, ἐκείνη, ἐκεῖνο#Incorrect. **ἐκεῖνος, ἐκείνη, ἐκεῖνο** means “that” (Chapter 7).
+}
+
+
+::Q002::[markdown]ἐκ + gen; ἐξ + gen:{
+	~%-100%under (with motion)#Incorrect. **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%-100%to the side of#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+	~%100%out of#Correct: **ἐκ + gen; ἐξ + gen** → “out of” (Chapter 1).
+	~%-100%on account of#Incorrect. **διά + acc** means “on account of” (Chapter 3).
+}
+
+
+::Q003::[markdown]δῶρον, δώρου, τό:{
+	~%-100%danger#Incorrect. **κίνδυνος, κινδύνου, ὁ** means “danger” (Chapter 5).
+	~%100%gift#Correct: **δῶρον, δώρου, τό** → “gift” (Chapter 1).
+	~%-100%plain#Incorrect. **πεδίον, πεδίου, τό** means “plain” (Chapter 5).
+	~%-100%reputation#Incorrect. **δόξα, δόξης, ἡ** means “reputation” (Chapter 5).
+	~%-100%skill#Incorrect. **τέχνη, τέχνης, ἡ** means “skill” (Chapter 1).
+}
+
+
+::Q004::[markdown]μάχη, μάχης, ἡ:{
+	~%100%battle#Correct: **μάχη, μάχης, ἡ** → “battle” (Chapter 1).
+	~%-100%heavily armed foot soldier#Incorrect. **ὁπλιτης, ὁπλίτου, ὁ** means “heavily armed foot soldier” (Chapter 4).
+	~%-100%horse#Incorrect. **ἵππος, ἵππου, ὁ or ἡ** means “horse” (Chapter 5).
+	~%-100%belief#Incorrect. **δόξα, δόξης, ἡ** means “belief” (Chapter 5).
+	~%-100%man#Incorrect. **ἄνθρωπος, ἀνθρώπου, ὁ** means “man” (Chapter 1).
+}
+
+
+::Q005::[markdown]εἰς + acc:{
+	~%100%into#Correct: **εἰς + acc** → “into” (Chapter 1).
+	~%-100%with#Incorrect. **μετά + gen.** means “with” (Chapter 4).
+	~%-100%(of motion or measure) over#Incorrect. **ὑπέρ + acc** means “(of motion or measure) over” (Chapter 9).
+	~%-100%around#Incorrect. **περί + acc.** means “around” (Chapter 3).
+	~%-100%under#Incorrect. **ὑπὸ + gen** means “under” (Chapter 5).
+}
+
+
+::Q006::[markdown]οἰκία, οἰκίας, ἡ:{
+	~%-100%custom#Incorrect. **νόμος, νόμου, ὁ** means “custom” (Chapter 10).
+	~%-100%Demothenes (ῥήτωρ)#Incorrect. **Δημοσθένης, Δημοσθένους, ὁ** means “Demothenes (ῥήτωρ)” (Chapter 10).
+	~%100%house#Correct: **οἰκία, οἰκίας, ἡ** → “house” (Chapter 1).
+	~%-100%wine#Incorrect. **οἶνος, οἴνου, ὁ** means “wine” (Chapter 8).
+	~%-100%chance#Incorrect. **τύχη, τύχης, ἡ** means “chance” (Chapter 11).
+}
+
+
+::Q007::[markdown]ὁ; ἡ; τό:{
+	~%100%the#Correct: **ὁ; ἡ; τό** → “the” (Chapter 1).
+	~%-100%worthy of ( + gen.)#Incorrect. **ἄξιος, ἀξίᾱ, ἄξιον** means “worthy of ( + gen.)” (Chapter 4).
+	~%-100%unjust#Incorrect. **ἄδικος, ἄδικον** means “unjust” (Chapter 4).
+	~%-100%him, her, it#Incorrect. **αὐτός, αὐτή, αὐτό** means “him, her, it” (Chapter 11).
+	~%-100%hostile#Incorrect. **πολέμιος, πολεμίᾱ, πολέμιον** means “hostile” (Chapter 5).
+}
+
+
+::Q008::[markdown]ἐν + dat:{
+	~%-100%into#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%-100%except (+ gen.)#Incorrect. **ἄνευ** means “except (+ gen.)” (Chapter 7).
+	~%-100%around#Incorrect. **περί + acc.** means “around” (Chapter 3).
+	~%100%in#Correct: **ἐν + dat** → “in” (Chapter 1).
+}
+
+
+::Q009::[markdown]εἰς + acc:{
+	~%-100%concerning#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%100%for (purpose)#Correct: **εἰς + acc** → “for (purpose)” (Chapter 1).
+	~%-100%under#Incorrect. **ὑπὸ + gen** means “under” (Chapter 5).
+	~%-100%under the power of#Incorrect. **ὑπὸ + dat** means “under the power of” (Chapter 5).
+}
+
+
+::Q010::[markdown]ἔργον, ἔργου, τό:{
+	~%100%work#Correct: **ἔργον, ἔργου, τό** → “work” (Chapter 1).
+	~%-100%bridge#Incorrect. **γέφυρα, γεφύρας, ἡ** means “bridge” (Chapter 4).
+	~%-100%justice#Incorrect. **δίκη, δίκης, ἡ** means “justice” (Chapter 4).
+	~%-100%beauty#Incorrect. **κάλλος, κάλλους, τό** means “beauty” (Chapter 11).
+	~%-100%right moment#Incorrect. **καιρός, καιροῦ, ὁ** means “right moment” (Chapter 11).
+}
+
+
+::Q011::[markdown]εἰς + acc:{
+	~%50%to#Correct: **εἰς + acc** → “to” (Chapter 1).
+	~%50%into#Correct: **εἰς + acc** → “into” (Chapter 1).
+	~%-100%before#Incorrect. **πρό + gen** means “before” (Chapter 2).
+	~%-100%on behalf of#Incorrect. **ὑπέρ + gen** means “on behalf of” (Chapter 9).
+	~%-100%concerning#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+}
+
+
+::Q012::[markdown]from:{
+	~%100%ἀπό + gen#Correct: **ἀπό + gen** → “from” (Chapter 2).
+	~%-100%πρό + gen#Incorrect. **πρό + gen** means “before” (Chapter 2).
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%-100%παρά + dat#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+}
+
+
+::Q013::[markdown]καί:{
+	~%-100%would that#Incorrect. **εἴθε; εἰ γάρ** means “would that” (Chapter 7).
+	~%-100%in any way#Incorrect. **πως** means “in any way” (Chapter 11).
+	~%-100%when#Incorrect. **ἐπεί** means “when” (Chapter 3).
+	~%-100%"Oh!", interjection used with vocative#Incorrect. **ὦ** means “"Oh!", interjection used with vocative” (Chapter 1).
+	~%100%and#Correct: **καί** → “and” (Chapter 1).
+}
+
+
+::Q014::[markdown]work:{
+	~%-100%μοῖρα, μοίρᾱς, ἡ#Incorrect. **μοῖρα, μοίρᾱς, ἡ** means “fate” (Chapter 4).
+	~%-100%ἀγών, ἀγῶνος, ὁ#Incorrect. **ἀγών, ἀγῶνος, ὁ** means “contest” (Chapter 9).
+	~%-100%φάλαγξ, φάλαγγος, ἡ#Incorrect. **φάλαγξ, φάλαγγος, ἡ** means “line of battle” (Chapter 6).
+	~%100%ἔργον, ἔργου, τό#Correct: **ἔργον, ἔργου, τό** → “work” (Chapter 1).
+	~%-100%κλοπή, κλοπῆς, ἡ#Incorrect. **κλοπή, κλοπῆς, ἡ** means “theft” (Chapter 7).
+}
+
+
+::Q015::[markdown]χώρᾱ, χώρᾱς, ἡ:{
+	~%-100%father#Incorrect. **πατήρ, πατρός, ὁ** means “father” (Chapter 10).
+	~%-100%bribe#Incorrect. **δῶρον, δώρου, τό** means “bribe” (Chapter 1).
+	~%100%land#Correct: **χώρᾱ, χώρᾱς, ἡ** → “land” (Chapter 1).
+	~%-100%choral dancer#Incorrect. **χορευτής, χορευτοῦ, ὁ** means “choral dancer” (Chapter 6).
+	~%-100%friendship#Incorrect. **φιλία φιλίας, ἡ** means “friendship” (Chapter 2).
+}
+
+
+::Q016::[markdown]χώρᾱ, χώρᾱς, ἡ:{
+	~%100%country#Correct: **χώρᾱ, χώρᾱς, ἡ** → “country” (Chapter 1).
+	~%-100%reality#Incorrect. **ἀλήθεια, ἀληθείας, ἡ** means “reality” (Chapter 10).
+	~%-100%experience#Incorrect. **πεῖρα πείρας, ἡ** means “experience” (Chapter 9).
+	~%-100%heavily armed foot soldier#Incorrect. **ὁπλιτης, ὁπλίτου, ὁ** means “heavily armed foot soldier” (Chapter 4).
+	~%-100%night#Incorrect. **νύξ, νυκτός, ἡ** means “night” (Chapter 6).
+}
+
+
+::Q017::[markdown]human being:{
+	~%-100%στρατηγός, στρατηγοῦ, ὁ#Incorrect. **στρατηγός, στρατηγοῦ, ὁ** means “general” (Chapter 8).
+	~%-100%ἀρχή, ἀρχῆς, ἡ#Incorrect. **ἀρχή, ἀρχῆς, ἡ** means “beginning” (Chapter 4).
+	~%-100%τρόπος, τρόπου, ὁ#Incorrect. **τρόπος, τρόπου, ὁ** means “way” (Chapter 9).
+	~%-100%φίλος, φίλου, ὁ#Incorrect. **φίλος, φίλου, ὁ** means “friend” (Chapter 2).
+	~%100%ἄνθρωπος, ἀνθρώπου, ὁ#Correct: **ἄνθρωπος, ἀνθρώπου, ὁ** → “human being” (Chapter 1).
+}
+
+
+::Q018::[markdown]island:{
+	~%-100%ἀγών, ἀγῶνος, ὁ#Incorrect. **ἀγών, ἀγῶνος, ὁ** means “contest” (Chapter 9).
+	~%-100%τρόπος, τρόπου, ὁ#Incorrect. **τρόπος, τρόπου, ὁ** means “way” (Chapter 9).
+	~%-100%ἀνήρ, ἀνδρός, ὁ#Incorrect. **ἀνήρ, ἀνδρός, ὁ** means “man” (Chapter 10).
+	~%100%νῆσος, νήσου, ἡ#Correct: **νῆσος, νήσου, ἡ** → “island” (Chapter 1).
+	~%-100%δῶρον, δώρου, τό#Incorrect. **δῶρον, δώρου, τό** means “gift” (Chapter 1).
+}
+
+
+::Q019::[markdown]"Oh!", interjection used with vocative:{
+	~%-100%οἷα#Incorrect. **οἷα** means “(with participle, the speaker believes this)” (Chapter 8).
+	~%100%ὦ#Correct: **ὦ** → “"Oh!", interjection used with vocative” (Chapter 1).
+	~%-100%ἔπειτα#Incorrect. **ἔπειτα** means “then” (Chapter 8).
+	~%-100%ὡς#Incorrect. **ὡς** means “in order that” (Chapter 8).
+	~%-100%ἅτε; οἷα#Incorrect. **ἅτε; οἷα** means “in as much as” (Chapter 8).
+}
+
+
+::Q020::[markdown]soul:{
+	~%-100%στρατηγός, στρατηγοῦ, ὁ#Incorrect. **στρατηγός, στρατηγοῦ, ὁ** means “general” (Chapter 8).
+	~%-100%γνώμη, γνώμης, ἡ#Incorrect. **γνώμη, γνώμης, ἡ** means “mind” (Chapter 6).
+	~%-100%Ἕλλην, Ἕλληνος, ὁ#Incorrect. **Ἕλλην, Ἕλληνος, ὁ** means “Greek (person)” (Chapter 6).
+	~%-100%ἐκκλησίᾱ, ἐκκλησίᾱς, ἡ#Incorrect. **ἐκκλησίᾱ, ἐκκλησίᾱς, ἡ** means “assembly” (Chapter 3).
+	~%100%ψῡχή, ψῡχῆς, ἡ#Correct: **ψῡχή, ψῡχῆς, ἡ** → “soul” (Chapter 1).
+}
+
+
+::Q021::[markdown]man:{
+	~%-100%νῆσος, νήσου, ἡ#Incorrect. **νῆσος, νήσου, ἡ** means “island” (Chapter 1).
+	~%-100%γένος, γένους, τό#Incorrect. **γένος, γένους, τό** means “race” (Chapter 10).
+	~%-100%γῆ, γῆς, ἡ#Incorrect. **γῆ, γῆς, ἡ** means “earth” (Chapter 5).
+	~%-100%γέφυρα, γεφύρας, ἡ#Incorrect. **γέφυρα, γεφύρας, ἡ** means “bridge” (Chapter 4).
+	~%100%ἀνήρ, ἀνδρός, ὁ#Correct: **ἀνήρ, ἀνδρός, ὁ** → “man” (Chapter 10).
+}
+
+
+::Q022::[markdown]market place:{
+	~%-100%γράμμα, γράμματος, τό#Incorrect. **γράμμα, γράμματος, τό** means “letter (of alphabet)” (Chapter 7).
+	~%-100%ἀρχή, ἀρχῆς, ἡ#Incorrect. **ἀρχή, ἀρχῆς, ἡ** means “beginning” (Chapter 4).
+	~%100%ἀγορά, ἀγορᾶς, ἡ#Correct: **ἀγορά, ἀγορᾶς, ἡ** → “market place” (Chapter 1).
+	~%-100%μήτηρ, μητρός, ἡ#Incorrect. **μήτηρ, μητρός, ἡ** means “mother” (Chapter 10).
+	~%-100%γνώμη, γνώμης, ἡ#Incorrect. **γνώμη, γνώμης, ἡ** means “mind” (Chapter 6).
+}
+
+
+::Q023::[markdown]both… and:{
+	~%-100%τοι#Incorrect. **τοι** means “you know” (Chapter 6).
+	~%100%καί… καί#Correct: **καί… καί** → “both… and” (Chapter 1).
+	~%-100%ἀλλά#Incorrect. **ἀλλά** means “but” (Chapter 3).
+	~%-100%καί#Incorrect. **καί** means “and” (Chapter 1).
+	~%-100%ἑξ#Incorrect. **ἑξ** means “six” (Chapter 2).
+}
+
+
+::Q024::[markdown]and:{
+	~%-100%οὕτως#Incorrect. **οὕτως** means “in this way” (Chapter 9).
+	~%100%καί#Correct: **καί** → “and” (Chapter 1).
+	~%-100%εἴθε; εἰ γάρ#Incorrect. **εἴθε; εἰ γάρ** means “introduces optative of wish” (Chapter 7).
+	~%-100%ἐνταῦθα#Incorrect. **ἐνταῦθα** means “here” (Chapter 11).
+	~%-100%ὥστε#Incorrect. **ὥστε** means “so as” (Chapter 10).
+}
+
+
+::Q025::[markdown]house:{
+	~%-100%πολίτης, πολίτου, ὁ#Incorrect. **πολίτης, πολίτου, ὁ** means “citizen” (Chapter 4).
+	~%-100%γέρων, γέροντος, ὁ#Incorrect. **γέρων, γέροντος, ὁ** means “old man” (Chapter 6).
+	~%-100%τρόπος, τρόπου, ὁ#Incorrect. **τρόπος, τρόπου, ὁ** means “way” (Chapter 9).
+	~%-100%Ἕλλην, Ἕλληνος, ὁ#Incorrect. **Ἕλλην, Ἕλληνος, ὁ** means “Greek (person)” (Chapter 6).
+	~%100%οἰκία, οἰκίας, ἡ#Correct: **οἰκία, οἰκίας, ἡ** → “house” (Chapter 1).
+}
+
+
+::Q026::[markdown]νῆσος, νήσου, ἡ:{
+	~%-100%wisdom#Incorrect. **σοφία, σοφίας, ἡ** means “wisdom” (Chapter 6).
+	~%-100%thing#Incorrect. **χρῆμα, χρημάτος, τό** means “thing” (Chapter 8).
+	~%-100%thief#Incorrect. **κλέπτης, κλέπτου, ὁ** means “thief” (Chapter 7).
+	~%-100%truth#Incorrect. **ἀλήθεια, ἀληθείας, ἡ** means “truth” (Chapter 10).
+	~%100%island#Correct: **νῆσος, νήσου, ἡ** → “island” (Chapter 1).
+}
+
+
+::Q027::[markdown]ὁδός, ὁδοῦ, ἡ:{
+	~%-100%gold#Incorrect. **χρυσός, χρυσοῦ, ὁ** means “gold” (Chapter 2).
+	~%-100%expectation#Incorrect. **δόξα, δόξης, ἡ** means “expectation” (Chapter 5).
+	~%-100%non-Greek#Incorrect. **βάρβαρος, βαρβάρου, ὁ** means “non-Greek” (Chapter 9).
+	~%100%road#Correct: **ὁδός, ὁδοῦ, ἡ** → “road” (Chapter 1).
+	~%-100%chance#Incorrect. **τύχη, τύχης, ἡ** means “chance” (Chapter 11).
+}
+
+
+::Q028::[markdown]εἰς + acc:{
+	~%100%to#Correct: **εἰς + acc** → “to” (Chapter 1).
+	~%-100%with#Incorrect. **μετά + gen.** means “with” (Chapter 4).
+	~%-100%against#Incorrect. **κατά + gen** means “against” (Chapter 6).
+	~%-100%around#Incorrect. **περί + acc.** means “around” (Chapter 3).
+	~%-100%over#Incorrect. **ὑπέρ + gen** means “over” (Chapter 9).
+}
+
+
+::Q029::[markdown]Homer:{
+	~%-100%χρῆμα, χρημάτος, τό#Incorrect. **χρῆμα, χρημάτος, τό** means “thing” (Chapter 8).
+	~%100%Ὅμηρος, Ὁμήρου, ὁ#Correct: **Ὅμηρος, Ὁμήρου, ὁ** → “Homer” (Chapter 1).
+	~%-100%τρόπος, τρόπου, ὁ#Incorrect. **τρόπος, τρόπου, ὁ** means “way” (Chapter 9).
+	~%-100%λίθος, λίθου, ὁ#Incorrect. **λίθος, λίθου, ὁ** means “stone” (Chapter 5).
+	~%-100%ψῡχή, ψῡχῆς, ἡ#Incorrect. **ψῡχή, ψῡχῆς, ἡ** means “soul” (Chapter 1).
+}
+
+
+::Q030::[markdown]ὁδός, ὁδοῦ, ἡ:{
+	~%-100%indictment#Incorrect. **γραφή, γραφῆς, ἠ** means “indictment” (Chapter 7).
+	~%-100%chance#Incorrect. **τύχη, τύχης, ἡ** means “chance” (Chapter 11).
+	~%100%road#Correct: **ὁδός, ὁδοῦ, ἡ** → “road” (Chapter 1).
+	~%-100%bribe#Incorrect. **δῶρον, δώρου, τό** means “bribe” (Chapter 1).
+	~%-100%glory#Incorrect. **δόξα, δόξης, ἡ** means “glory” (Chapter 5).
+}
+
+
+::Q031::[markdown]τέχνη, τέχνης, ἡ:{
+	~%100%craft#Correct: **τέχνη, τέχνης, ἡ** → “craft” (Chapter 1).
+	~%-100%grace#Incorrect. **χάρις, χάριτος, ἡ** means “grace” (Chapter 6).
+	~%-100%god#Incorrect. **θεός, ὁ** means “god” (Chapter 1).
+	~%-100%friend#Incorrect. **φίλος, φίλου, ὁ** means “friend” (Chapter 2).
+	~%-100%fortune#Incorrect. **τύχη, τύχης, ἡ** means “fortune” (Chapter 11).
+}
+
+
+::Q032::[markdown]τέχνη, τέχνης, ἡ:{
+	~%-100%responsibility#Incorrect. **αἰτία, αἰτίας, ἡ** means “responsibility” (Chapter 11).
+	~%100%art#Correct: **τέχνη, τέχνης, ἡ** → “art” (Chapter 1).
+	~%-100%attempt#Incorrect. **πεῖρα πείρας, ἡ** means “attempt” (Chapter 9).
+	~%-100%herald#Incorrect. **κῆρυξ, κήρυκος, ὁ** means “herald” (Chapter 11).
+	~%-100%kind#Incorrect. **γένος, γένους, τό** means “kind” (Chapter 10).
+}
+
+
+::Q033::[markdown]θεός, ἡ:{
+	~%-100%end#Incorrect. **τέλος, τέλους, τό** means “end” (Chapter 10).
+	~%-100%non-Greek#Incorrect. **βάρβαρος, βαρβάρου, ὁ** means “non-Greek” (Chapter 9).
+	~%-100%craft#Incorrect. **τέχνη, τέχνης, ἡ** means “craft” (Chapter 1).
+	~%100%goddess#Correct: **θεός, ἡ** → “goddess” (Chapter 1).
+	~%-100%assembly#Incorrect. **ἐκκλησίᾱ, ἐκκλησίᾱς, ἡ** means “assembly” (Chapter 3).
+}
+
+
+::Q034::[markdown]also:{
+	~%100%καί#Correct: **καί** → “also” (Chapter 1).
+	~%-100%οὕτως#Incorrect. **οὕτως** means “in this way” (Chapter 9).
+	~%-100%ὥστε#Incorrect. **ὥστε** means “so as” (Chapter 10).
+	~%-100%ὅς; ἥ; ὅν#Incorrect. **ὅς; ἥ; ὅν** means “who” (Chapter 6).
+	~%-100%ἐπεί#Incorrect. **ἐπεί** means “after” (Chapter 3).
+}
+
+
+::Q035::[markdown]εἰς + acc:{
+	~%-100%from#Incorrect. **ἐκ + gen; ἐξ + gen** means “from” (Chapter 1).
+	~%-100%from beside#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+	~%-100%in front of#Incorrect. **πρό + gen** means “in front of” (Chapter 2).
+	~%100%for (purpose)#Correct: **εἰς + acc** → “for (purpose)” (Chapter 1).
+	~%-100%under#Incorrect. **ὑπὸ + gen** means “under” (Chapter 5).
+}
+
+
+::Q036::[markdown]βιβλίον, βιβλίου, τό:{
+	~%-100%hope#Incorrect. **ἐλπίς, ἐλπίδος, ἡ** means “hope” (Chapter 6).
+	~%-100%god#Incorrect. **θεός, ὁ** means “god” (Chapter 1).
+	~%-100%wine#Incorrect. **οἶνος, οἴνου, ὁ** means “wine” (Chapter 8).
+	~%100%book#Correct: **βιβλίον, βιβλίου, τό** → “book” (Chapter 1).
+	~%-100%work#Incorrect. **ἔργον, ἔργου, τό** means “work” (Chapter 1).
+}
+
+
+::Q037::[markdown]τέχνη, τέχνης, ἡ:{
+	~%100%skill#Correct: **τέχνη, τέχνης, ἡ** → “skill” (Chapter 1).
+	~%-100%divine being#Incorrect. **δαίμων, δαίμονος, ὁ or ἡ** means “divine being” (Chapter 9).
+	~%-100%reality#Incorrect. **ἀλήθεια, ἀληθείας, ἡ** means “reality” (Chapter 10).
+	~%-100%democracy#Incorrect. **δημοκρατία, δημοκρατίας, ἡ** means “democracy” (Chapter 3).
+	~%-100%rule#Incorrect. **ἀρχή, ἀρχῆς, ἡ** means “rule” (Chapter 4).
+}
+
+
+::Q038::[markdown]deed:{
+	~%-100%ἵππος, ἵππου, ὁ or ἡ#Incorrect. **ἵππος, ἵππου, ὁ or ἡ** means “horse” (Chapter 5).
+	~%-100%νεανίας, νεανίου, ὁ#Incorrect. **νεανίας, νεανίου, ὁ** means “young man” (Chapter 4).
+	~%-100%γνώμη, γνώμης, ἡ#Incorrect. **γνώμη, γνώμης, ἡ** means “mind” (Chapter 6).
+	~%-100%θυσίᾱ, θύσίᾱς, ἡ#Incorrect. **θυσίᾱ, θύσίᾱς, ἡ** means “a sacrifice” (Chapter 3).
+	~%100%ἔργον, ἔργου, τό#Correct: **ἔργον, ἔργου, τό** → “deed” (Chapter 1).
+}
+
+
+::Q039::[markdown]land:{
+	~%-100%τέχνη, τέχνης, ἡ#Incorrect. **τέχνη, τέχνης, ἡ** means “art” (Chapter 1).
+	~%-100%βουλή, βουλῆς, ἡ#Incorrect. **βουλή, βουλῆς, ἡ** means “will” (Chapter 3).
+	~%-100%λίθος, λίθου, ὁ#Incorrect. **λίθος, λίθου, ὁ** means “stone” (Chapter 5).
+	~%100%γῆ, γῆς, ἡ#Correct: **γῆ, γῆς, ἡ** → “land” (Chapter 5).
+	~%-100%ἄνθρωπος, ἀνθρώπου, ὁ#Incorrect. **ἄνθρωπος, ἀνθρώπου, ὁ** means “man” (Chapter 1).
+}
+
+
+::Q040::[markdown]ἀδελφός, ἀδελφοῦ, ὁ:{
+	~%-100%theft#Incorrect. **κλοπή, κλοπῆς, ἡ** means “theft” (Chapter 7).
+	~%-100%experience#Incorrect. **πεῖρα πείρας, ἡ** means “experience” (Chapter 9).
+	~%-100%Sokrates#Incorrect. **Σωκράτης, Σωκράτους, ὁ** means “Sokrates” (Chapter 10).
+	~%100%brother#Correct: **ἀδελφός, ἀδελφοῦ, ὁ** → “brother” (Chapter 1).
+	~%-100%line of battle#Incorrect. **φάλαγξ, φάλαγγος, ἡ** means “line of battle” (Chapter 6).
+}
+
+
+::Q041::[markdown]book:{
+	~%-100%ἀρετή, ἀρετῆς, ἡ#Incorrect. **ἀρετή, ἀρετῆς, ἡ** means “excellence” (Chapter 3).
+	~%100%βιβλίον, βιβλίου, τό#Correct: **βιβλίον, βιβλίου, τό** → “book” (Chapter 1).
+	~%-100%τρόπος, τρόπου, ὁ#Incorrect. **τρόπος, τρόπου, ὁ** means “way” (Chapter 9).
+	~%-100%ἱερόν, ἱεροῦ, τό#Incorrect. **ἱερόν, ἱεροῦ, τό** means “shrine” (Chapter 5).
+	~%-100%ξένος, ξένου, ὁ#Incorrect. **ξένος, ξένου, ὁ** means “guest-friend” (Chapter 2).
+}
+
+
+::Q042::[markdown]λόγος, λόγου, ὁ:{
+	~%-100%father#Incorrect. **πατήρ, πατρός, ὁ** means “father” (Chapter 10).
+	~%-100%land#Incorrect. **χώρᾱ, χώρᾱς, ἡ** means “land” (Chapter 1).
+	~%-100%experience#Incorrect. **πεῖρα πείρας, ἡ** means “experience” (Chapter 9).
+	~%100%story#Correct: **λόγος, λόγου, ὁ** → “story” (Chapter 1).
+	~%-100%wreath#Incorrect. **στέφανος, στέφανου, ὁ** means “wreath” (Chapter 2).
+}
+
+
+::Q043::[markdown]god:{
+	~%-100%χορός, χοροῦ, ὁ#Incorrect. **χορός, χοροῦ, ὁ** means “dance” (Chapter 6).
+	~%-100%στέφανος, στέφανου, ὁ#Incorrect. **στέφανος, στέφανου, ὁ** means “crown” (Chapter 2).
+	~%100%θεός, ὁ#Correct: **θεός, ὁ** → “god” (Chapter 1).
+	~%-100%πολίτης, πολίτου, ὁ#Incorrect. **πολίτης, πολίτου, ὁ** means “citizen” (Chapter 4).
+}
+
+
+::Q044::[markdown]λόγος, λόγου, ὁ:{
+	~%100%speech#Correct: **λόγος, λόγου, ὁ** → “speech” (Chapter 1).
+	~%-100%contest#Incorrect. **ἀγών, ἀγῶνος, ὁ** means “contest” (Chapter 9).
+	~%-100%commander#Incorrect. **στρατηγός, στρατηγοῦ, ὁ** means “commander” (Chapter 8).
+	~%-100%goddess#Incorrect. **θεός, ἡ** means “goddess” (Chapter 1).
+	~%-100%rhetoric#Incorrect. **ῤητορική, ῤητορικῆς, ἠ** means “rhetoric” (Chapter 7).
+}
+
+
+::Q045::[markdown]δῶρον, δώρου, τό:{
+	~%-100%island#Incorrect. **νῆσος, νήσου, ἡ** means “island” (Chapter 1).
+	~%-100%fate#Incorrect. **μοῖρα, μοίρᾱς, ἡ** means “fate” (Chapter 4).
+	~%100%bribe#Correct: **δῶρον, δώρου, τό** → “bribe” (Chapter 1).
+	~%-100%wreath#Incorrect. **στέφανος, στέφανου, ὁ** means “wreath” (Chapter 2).
+	~%-100%beginning#Incorrect. **ἀρχή, ἀρχῆς, ἡ** means “beginning” (Chapter 4).
+}
+
+
+::Q046::[markdown]word:{
+	~%-100%ἀρετή, ἀρετῆς, ἡ#Incorrect. **ἀρετή, ἀρετῆς, ἡ** means “excellence” (Chapter 3).
+	~%100%λόγος, λόγου, ὁ#Correct: **λόγος, λόγου, ὁ** → “word” (Chapter 1).
+	~%-100%σωτήρ, σωτῆρος, ὀ (voc. σῶτερ)#Incorrect. **σωτήρ, σωτῆρος, ὀ (voc. σῶτερ)** means “saviour” (Chapter 7).
+	~%-100%ποιητής, ποιητοῦ, ὁ#Incorrect. **ποιητής, ποιητοῦ, ὁ** means “poet” (Chapter 4).
+	~%-100%χώρᾱ, χώρᾱς, ἡ#Incorrect. **χώρᾱ, χώρᾱς, ἡ** means “land” (Chapter 1).
+}
+
+
+::Q047::[markdown]battle:{
+	~%-100%πόλις, πόλεως, ἡ#Incorrect. **πόλις, πόλεως, ἡ** means “city” (Chapter 10).
+	~%100%μάχη, μάχης, ἡ#Correct: **μάχη, μάχης, ἡ** → “battle” (Chapter 1).
+	~%-100%ἀνήρ, ἀνδρός, ὁ#Incorrect. **ἀνήρ, ἀνδρός, ὁ** means “man” (Chapter 10).
+	~%-100%νύξ, νυκτός, ἡ#Incorrect. **νύξ, νυκτός, ἡ** means “night” (Chapter 6).
+	~%-100%οἰκία, οἰκίας, ἡ#Incorrect. **οἰκία, οἰκίας, ἡ** means “house” (Chapter 1).
+}
+
+
+::Q048::[markdown]εἰς + acc:{
+	~%-100%about#Incorrect. **περί + gen** means “about” (Chapter 3).
+	~%-100%on account of#Incorrect. **διά + acc** means “on account of” (Chapter 3).
+	~%100%into#Correct: **εἰς + acc** → “into” (Chapter 1).
+	~%-100%instead of#Incorrect. **ἀντί + gen** means “instead of” (Chapter 3).
+}
+
+
+::Q049::[markdown]work:{
+	~%-100%ἀγών, ἀγῶνος, ὁ#Incorrect. **ἀγών, ἀγῶνος, ὁ** means “contest” (Chapter 9).
+	~%100%ἔργον, ἔργου, τό#Correct: **ἔργον, ἔργου, τό** → “work” (Chapter 1).
+	~%-100%ἄνθρωπος, ἀνθρώπου, ὁ#Incorrect. **ἄνθρωπος, ἀνθρώπου, ὁ** means “man” (Chapter 1).
+	~%-100%φάλαγξ, φάλαγγος, ἡ#Incorrect. **φάλαγξ, φάλαγγος, ἡ** means “line of battle” (Chapter 6).
+	~%-100%τέλος, τέλους, τό#Incorrect. **τέλος, τέλους, τό** means “end” (Chapter 10).
+}
+
+
+::Q050::[markdown]λόγος, λόγου, ὁ:{
+	~%-100%favor#Incorrect. **χάρις, χάριτος, ἡ** means “favor” (Chapter 6).
+	~%100%speech#Correct: **λόγος, λόγου, ὁ** → “speech” (Chapter 1).
+	~%-100%sea#Incorrect. **θάλαττα, θαλάττης, ἡ** means “sea” (Chapter 4).
+	~%-100%practice#Incorrect. **ἐμπειρία, ἐμπειρίας, ἡ** means “practice” (Chapter 9).
+	~%-100%life#Incorrect. **βίος, βίου, ὁ** means “life” (Chapter 9).
+}
+
+

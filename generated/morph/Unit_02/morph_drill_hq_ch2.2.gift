@@ -1,0 +1,452 @@
+$CATEGORY: Morphology/HansenQuinn/Ch2_unified2
+
+::Q001::[markdown]ἔλυσας:{
+	~%100%aorist (1) active indicative 2nd sing. of the verb “I loosen”#Correct: **ἔλυσας** is aorist (1) active indicative 2nd sing. of the verb “I loosen” (Chapter 2).
+	~%-100%present active indicative 1st pl. of the verb “I educate”#Incorrect. The present active indicative 1st pl. of the verb “I educate” is **παιδεύομεν** (Ch. 2).
+	~%-100%aorist (1) active indicative 2nd pl. of the verb “I loosen”#Incorrect. The aorist (1) active indicative 2nd pl. of the verb “I loosen” is **ἐλύσατε** (Ch. 2).
+	~%-100%imperfect active indicative 2nd sing. of the verb “I loosen”#Incorrect. The imperfect active indicative 2nd sing. of the verb “I loosen” is **ἔλυες** (Ch. 2).
+	~%-100%imperfect active indicative 2nd pl. of the verb “I order”#Incorrect. The imperfect active indicative 2nd pl. of the verb “I order” is **ἐκελεύετε** (Ch. 2).
+}
+
+
+::Q002::[markdown]ἐκελεύετε:{
+	~%-100%present active infinitive of the verb “I educate”#Incorrect. The present active infinitive of the verb “I educate” is **παιδεύειν** (Ch. 2).
+	~%100%imperfect active indicative 2nd pl. of the verb “I order”#Correct: **ἐκελεύετε** is imperfect active indicative 2nd pl. of the verb “I order” (Chapter 2).
+	~%-100%aorist (1) active indicative 3rd pl. of the verb “I loosen”#Incorrect. The aorist (1) active indicative 3rd pl. of the verb “I loosen” is **ἔλυσαν** (Ch. 2).
+	~%-100%present active indicative 2nd pl. of the verb “I order”#Incorrect. The present active indicative 2nd pl. of the verb “I order” is **κελεύετε** (Ch. 2).
+	~%-100%aorist (1) active indicative 2nd pl. of the verb “I order”#Incorrect. The aorist (1) active indicative 2nd pl. of the verb “I order” is **ἐκελεύσατε** (Ch. 2).
+}
+
+
+::Q003::[markdown]ἐκέλευσαν:{
+	~%100%aorist (1) active indicative 3rd pl. of the verb “I order”#Correct: **ἐκέλευσαν** is aorist (1) active indicative 3rd pl. of the verb “I order” (Chapter 2).
+	~%-100%aorist (1) active indicative 2nd pl. of the verb “I order”#Incorrect. The aorist (1) active indicative 2nd pl. of the verb “I order” is **ἐκελεύσατε** (Ch. 2).
+	~%-100%future active indicative 2nd pl. of the verb “I order”#Incorrect. The future active indicative 2nd pl. of the verb “I order” is **κελεύσετε** (Ch. 2).
+	~%-100%future active indicative 2nd pl. of the verb “I loosen”#Incorrect. The future active indicative 2nd pl. of the verb “I loosen” is **λύσετε** (Ch. 2).
+	~%-100%imperfect active indicative 1st pl. of the verb “I loosen”#Incorrect. The imperfect active indicative 1st pl. of the verb “I loosen” is **ἐλύομεν** (Ch. 2).
+}
+
+
+::Q004::[markdown]masc. gen. sing. of the definite article “the”:{
+	~%-100%τό#Incorrect. **τό** is the neut. acc. sing. of the definite article “the” (Ch. 1).
+	~%-100%τάς#Incorrect. **τάς** is the fem. acc. pl. of the definite article “the” (Ch. 1).
+	~%-100%τῆς#Incorrect. **τῆς** is the fem. gen. sing. of the definite article “the” (Ch. 1).
+	~%100%τοῦ#Correct: **τοῦ** is the correct form for masc. gen. sing. of the definite article “the” (Chapter 1).
+	~%-100%τοῖς#Incorrect. **τοῖς** is the neut. dat. pl. of the definite article “the” (Ch. 1).
+}
+
+
+::Q005::[markdown]ἀγοραῖς:{
+	~%100%dat. pl. of the noun “marketplace”#Correct: **ἀγοραῖς** is dat. pl. of the noun “marketplace” (Chapter 1).
+	~%-100%gen. pl. of the noun “human being”#Incorrect. The gen. pl. of the noun “human being” is **ἀνθρώπων** (Ch. 1).
+	~%-100%acc. pl. of the noun “word”#Incorrect. The acc. pl. of the noun “word” is **λόγους** (Ch. 1).
+	~%-100%acc. pl. of the noun “soul” #Incorrect. The acc. pl. of the noun “soul”  is **ψυχάς** (Ch. 1).
+	~%-100%nom. sing. of the noun “skill” #Incorrect. The nom. sing. of the noun “skill”  is **τέχνη** (Ch. 1).
+}
+
+
+::Q006::[markdown]λύομεν:{
+	~%-100%imperfect active indicative 3rd sing. of the verb “I loosen”#Incorrect. The imperfect active indicative 3rd sing. of the verb “I loosen” is **ἔλυε** (Ch. 2).
+	~%-100%present active indicative 2nd sing. of the verb “I order”#Incorrect. The present active indicative 2nd sing. of the verb “I order” is **κελεύεις** (Ch. 2).
+	~%-100%future active indicative 2nd pl. of the verb “I loosen”#Incorrect. The future active indicative 2nd pl. of the verb “I loosen” is **λύσετε** (Ch. 2).
+	~%100%present active indicative 1st pl. of the verb “I loosen”#Correct: **λύομεν** is present active indicative 1st pl. of the verb “I loosen” (Chapter 2).
+	~%-100%imperfect active indicative 3rd pl. of the verb “I educate”#Incorrect. The imperfect active indicative 3rd pl. of the verb “I educate” is **ἐπαίδευον** (Ch. 2).
+}
+
+
+::Q007::[markdown]τό:{
+	~%50%neut. nom. sing. of the definite article “the”#Correct: **τό** is neut. nom. sing. of the definite article “the” (Chapter 1).
+	~%-100%neut. nom. pl. of the definite article “the”#Incorrect. The neut. nom. pl. of the definite article “the” is **τά** (Ch. 1).
+	~%-100%masc. gen. sing. of the definite article “the”#Incorrect. The masc. gen. sing. of the definite article “the” is **τοῦ** (Ch. 1).
+	~%-100%fem. gen. pl. of the definite article “the”#Incorrect. The fem. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%50%neut. acc. sing. of the definite article “the”#Correct: **τό** is neut. acc. sing. of the definite article “the” (Chapter 1).
+}
+
+
+::Q008::[markdown]χώρα:{
+	~%-100%nom. pl. of the noun “skill” #Incorrect. The nom. pl. of the noun “skill”  is **τέχναι** (Ch. 1).
+	~%-100%acc. pl. of the noun “island”#Incorrect. The acc. pl. of the noun “island” is **νήσους** (Ch. 1).
+	~%-100%dat. pl. of the noun “word”#Incorrect. The dat. pl. of the noun “word” is **λόγοις** (Ch. 1).
+	~%-100%dat. sing. of the noun “human being”#Incorrect. The dat. sing. of the noun “human being” is **ἀνθρώπῳ** (Ch. 1).
+	~%100%nom. sing. of the noun “territory” #Correct: **χώρα** is nom. sing. of the noun “territory”  (Chapter 1).
+}
+
+
+::Q009::[markdown]λόγους:{
+	~%-100%acc. sing. of the noun “word”#Incorrect. The acc. sing. of the noun “word” is **λόγον** (Ch. 1).
+	~%100%acc. pl. of the noun “word”#Correct: **λόγους** is acc. pl. of the noun “word” (Chapter 1).
+	~%-100%gen. pl. of the noun “marketplace”#Incorrect. The gen. pl. of the noun “marketplace” is **ἀγορῶν** (Ch. 1).
+	~%-100%nom. sing. of the noun “island”#Incorrect. The nom. sing. of the noun “island” is **νῆσος** (Ch. 1).
+	~%-100%nom. sing. of the noun “skill” #Incorrect. The nom. sing. of the noun “skill”  is **τέχνη** (Ch. 1).
+}
+
+
+::Q010::[markdown]χῶραι:{
+	~%-100%dat. pl. of the noun “territory” #Incorrect. The dat. pl. of the noun “territory”  is **χώραις** (Ch. 1).
+	~%-100%acc. pl. of the noun “marketplace”#Incorrect. The acc. pl. of the noun “marketplace” is **ἀγοράς** (Ch. 1).
+	~%-100%dat. sing. of the noun “soul” #Incorrect. The dat. sing. of the noun “soul”  is **ψυχῇ** (Ch. 1).
+	~%100%nom. pl. of the noun “territory” #Correct: **χῶραι** is nom. pl. of the noun “territory”  (Chapter 1).
+	~%-100%nom. sing. of the noun “marketplace”#Incorrect. The nom. sing. of the noun “marketplace” is **ἀγορά** (Ch. 1).
+}
+
+
+::Q011::[markdown]acc. pl. of the noun “soul” :{
+	~%-100%ἀνθρώπους#Incorrect. **ἀνθρώπους** is the acc. pl. of the noun “human being” (Ch. 1).
+	~%-100%λόγῳ#Incorrect. **λόγῳ** is the dat. sing. of the noun “word” (Ch. 1).
+	~%-100%δῶρα#Incorrect. **δῶρα** is the nom. pl. of the noun “gift” (Ch. 1).
+	~%100%ψυχάς#Correct: **ψυχάς** is the correct form for acc. pl. of the noun “soul”  (Chapter 1).
+	~%-100%ἀγοράς#Incorrect. **ἀγοράς** is the acc. pl. of the noun “marketplace” (Ch. 1).
+}
+
+
+::Q012::[markdown]ψυχάς:{
+	~%100%acc. pl. of the noun “soul” #Correct: **ψυχάς** is acc. pl. of the noun “soul”  (Chapter 1).
+	~%-100%nom. pl. of the noun “brother”#Incorrect. The nom. pl. of the noun “brother” is **ἀδελφοί** (Ch. 1).
+	~%-100%acc. sing. of the noun “territory” #Incorrect. The acc. sing. of the noun “territory”  is **χώραν** (Ch. 1).
+	~%-100%dat. pl. of the noun “brother”#Incorrect. The dat. pl. of the noun “brother” is **ἀδελφοῖς** (Ch. 1).
+	~%-100%gen. sing. of the noun “island”#Incorrect. The gen. sing. of the noun “island” is **νήσου** (Ch. 1).
+}
+
+
+::Q013::[markdown]κελεύσεις:{
+	~%-100%imperfect active indicative 1st pl. of the verb “I order”#Incorrect. The imperfect active indicative 1st pl. of the verb “I order” is **ἐκελεύομεν** (Ch. 2).
+	~%100%future active indicative 2nd sing. of the verb “I order”#Correct: **κελεύσεις** is future active indicative 2nd sing. of the verb “I order” (Chapter 2).
+	~%-100%present active indicative 3rd pl. of the verb “I order”#Incorrect. The present active indicative 3rd pl. of the verb “I order” is **κελεύουσιν** (Ch. 2).
+	~%-100%aorist (1) active indicative 1st sing. of the verb “I loosen”#Incorrect. The aorist (1) active indicative 1st sing. of the verb “I loosen” is **ἔλυσα** (Ch. 2).
+	~%-100%present active indicative 1st pl. of the verb “I order”#Incorrect. The present active indicative 1st pl. of the verb “I order” is **κελεύομεν** (Ch. 2).
+}
+
+
+::Q014::[markdown]dat. pl. of the noun “skill” :{
+	~%-100%χῶραι#Incorrect. **χῶραι** is the nom. pl. of the noun “territory”  (Ch. 1).
+	~%100%τέχναις#Correct: **τέχναις** is the correct form for dat. pl. of the noun “skill”  (Chapter 1).
+	~%-100%νήσου#Incorrect. **νήσου** is the gen. sing. of the noun “island” (Ch. 1).
+	~%-100%ἀγορά#Incorrect. **ἀγορά** is the nom. sing. of the noun “marketplace” (Ch. 1).
+	~%-100%ἀγοράς#Incorrect. **ἀγοράς** is the acc. pl. of the noun “marketplace” (Ch. 1).
+}
+
+
+::Q015::[markdown]τῶν:{
+	~%33.333%fem. gen. pl. of the definite article “the”#Correct: **τῶν** is fem. gen. pl. of the definite article “the” (Chapter 1).
+	~%33.333%masc. gen. pl. of the definite article “the”#Correct: **τῶν** is masc. gen. pl. of the definite article “the” (Chapter 1).
+	~%-100%masc. dat. pl. of the definite article “the”#Incorrect. The masc. dat. pl. of the definite article “the” is **τοῖς** (Ch. 1).
+	~%-100%fem. dat. pl. of the definite article “the”#Incorrect. The fem. dat. pl. of the definite article “the” is **ταῖς** (Ch. 1).
+	~%33.333%neut. gen. pl. of the definite article “the”#Correct: **τῶν** is neut. gen. pl. of the definite article “the” (Chapter 1).
+}
+
+
+::Q016::[markdown]nom. pl. of the noun “word”:{
+	~%-100%ἄνθρωπον#Incorrect. **ἄνθρωπον** is the acc. sing. of the noun “human being” (Ch. 1).
+	~%-100%τέχναις#Incorrect. **τέχναις** is the dat. pl. of the noun “skill”  (Ch. 1).
+	~%100%λόγοι#Correct: **λόγοι** is the correct form for nom. pl. of the noun “word” (Chapter 1).
+	~%-100%ἀγοράν#Incorrect. **ἀγοράν** is the acc. sing. of the noun “marketplace” (Ch. 1).
+	~%-100%δώρων#Incorrect. **δώρων** is the gen. pl. of the noun “gift” (Ch. 1).
+}
+
+
+::Q017::[markdown]ἐκέλευσα:{
+	~%-100%imperfect active indicative 2nd pl. of the verb “I educate”#Incorrect. The imperfect active indicative 2nd pl. of the verb “I educate” is **ἐπαιδεύετε** (Ch. 2).
+	~%-100%present active indicative 3rd sing. of the verb “I loosen”#Incorrect. The present active indicative 3rd sing. of the verb “I loosen” is **λύει** (Ch. 2).
+	~%-100%imperfect active indicative 3rd sing. of the verb “I educate”#Incorrect. The imperfect active indicative 3rd sing. of the verb “I educate” is **ἐπαίδευε** (Ch. 2).
+	~%100%aorist (1) active indicative 1st sing. of the verb “I order”#Correct: **ἐκέλευσα** is aorist (1) active indicative 1st sing. of the verb “I order” (Chapter 2).
+	~%-100%aorist (1) active infinitive of the verb “I loosen”#Incorrect. The aorist (1) active infinitive of the verb “I loosen” is **λῦσαι** (Ch. 2).
+}
+
+
+::Q018::[markdown]ἔλυον:{
+	~%50%imperfect active indicative 1st sing. of the verb “I loosen”#Correct: **ἔλυον** is imperfect active indicative 1st sing. of the verb “I loosen” (Chapter 2).
+	~%50%imperfect active indicative 3rd pl. of the verb “I loosen”#Correct: **ἔλυον** is imperfect active indicative 3rd pl. of the verb “I loosen” (Chapter 2).
+	~%-100%aorist (1) active infinitive of the verb “I loosen”#Incorrect. The aorist (1) active infinitive of the verb “I loosen” is **λῦσαι** (Ch. 2).
+	~%-100%aorist (1) active indicative 2nd pl. of the verb “I loosen”#Incorrect. The aorist (1) active indicative 2nd pl. of the verb “I loosen” is **ἐλύσατε** (Ch. 2).
+	~%-100%aorist (1) active infinitive of the verb “I educate”#Incorrect. The aorist (1) active infinitive of the verb “I educate” is **παιδεῦσαι** (Ch. 2).
+}
+
+
+::Q019::[markdown]τόν:{
+	~%100%masc. acc. sing. of the definite article “the”#Correct: **τόν** is masc. acc. sing. of the definite article “the” (Chapter 1).
+	~%-100%fem. nom. sing. of the definite article “the”#Incorrect. The fem. nom. sing. of the definite article “the” is **ἡ** (Ch. 1).
+	~%-100%neut. nom. pl. of the definite article “the”#Incorrect. The neut. nom. pl. of the definite article “the” is **τά** (Ch. 1).
+	~%-100%fem. acc. pl. of the definite article “the”#Incorrect. The fem. acc. pl. of the definite article “the” is **τάς** (Ch. 1).
+	~%-100%neut. nom. sing. of the definite article “the”#Incorrect. The neut. nom. sing. of the definite article “the” is **τό** (Ch. 1).
+}
+
+
+::Q020::[markdown]παιδεύειν:{
+	~%-100%imperfect active indicative 3rd pl. of the verb “I loosen”#Incorrect. The imperfect active indicative 3rd pl. of the verb “I loosen” is **ἔλυον** (Ch. 2).
+	~%-100%present active indicative 1st sing. of the verb “I loosen”#Incorrect. The present active indicative 1st sing. of the verb “I loosen” is **λύω** (Ch. 2).
+	~%-100%future active indicative 2nd sing. of the verb “I order”#Incorrect. The future active indicative 2nd sing. of the verb “I order” is **κελεύσεις** (Ch. 2).
+	~%-100%aorist (1) active indicative 3rd sing. of the verb “I educate”#Incorrect. The aorist (1) active indicative 3rd sing. of the verb “I educate” is **ἐπαίδευσε** (Ch. 2).
+	~%100%present active infinitive of the verb “I educate”#Correct: **παιδεύειν** is present active infinitive of the verb “I educate” (Chapter 2).
+}
+
+
+::Q021::[markdown]λόγοις:{
+	~%100%dat. pl. of the noun “word”#Correct: **λόγοις** is dat. pl. of the noun “word” (Chapter 1).
+	~%-100%acc. pl. of the noun “word”#Incorrect. The acc. pl. of the noun “word” is **λόγους** (Ch. 1).
+	~%-100%acc. sing. of the noun “island”#Incorrect. The acc. sing. of the noun “island” is **νῆσον** (Ch. 1).
+	~%-100%acc. pl. of the noun “territory” #Incorrect. The acc. pl. of the noun “territory”  is **χώρας** (Ch. 1).
+	~%-100%gen. pl. of the noun “island”#Incorrect. The gen. pl. of the noun “island” is **νήσων** (Ch. 1).
+}
+
+
+::Q022::[markdown]ἀνθρώπου:{
+	~%-100%acc. pl. of the noun “territory” #Incorrect. The acc. pl. of the noun “territory”  is **χώρας** (Ch. 1).
+	~%-100%nom. sing. of the noun “territory” #Incorrect. The nom. sing. of the noun “territory”  is **χώρα** (Ch. 1).
+	~%-100%gen. sing. of the noun “soul” #Incorrect. The gen. sing. of the noun “soul”  is **ψυχῆς** (Ch. 1).
+	~%-100%acc. pl. of the noun “soul” #Incorrect. The acc. pl. of the noun “soul”  is **ψυχάς** (Ch. 1).
+	~%100%gen. sing. of the noun “human being”#Correct: **ἀνθρώπου** is gen. sing. of the noun “human being” (Chapter 1).
+}
+
+
+::Q023::[markdown]χώρᾳ:{
+	~%-100%nom. sing. of the noun “island”#Incorrect. The nom. sing. of the noun “island” is **νῆσος** (Ch. 1).
+	~%-100%dat. pl. of the noun “marketplace”#Incorrect. The dat. pl. of the noun “marketplace” is **ἀγοραῖς** (Ch. 1).
+	~%-100%gen. pl. of the noun “human being”#Incorrect. The gen. pl. of the noun “human being” is **ἀνθρώπων** (Ch. 1).
+	~%-100%nom. pl. of the noun “brother”#Incorrect. The nom. pl. of the noun “brother” is **ἀδελφοί** (Ch. 1).
+	~%100%dat. sing. of the noun “territory” #Correct: **χώρᾳ** is dat. sing. of the noun “territory”  (Chapter 1).
+}
+
+
+::Q024::[markdown]δώρῳ:{
+	~%-100%dat. sing. of the noun “marketplace”#Incorrect. The dat. sing. of the noun “marketplace” is **ἀγορᾷ** (Ch. 1).
+	~%-100%gen. pl. of the noun “skill” #Incorrect. The gen. pl. of the noun “skill”  is **τεχνῶν** (Ch. 1).
+	~%-100%nom. sing. of the noun “word”#Incorrect. The nom. sing. of the noun “word” is **λόγος** (Ch. 1).
+	~%-100%nom. pl. of the noun “island”#Incorrect. The nom. pl. of the noun “island” is **νῆσοι** (Ch. 1).
+	~%100%dat. sing. of the noun “gift”#Correct: **δώρῳ** is dat. sing. of the noun “gift” (Chapter 1).
+}
+
+
+::Q025::[markdown]ἔλυσας:{
+	~%-100%aorist (1) active infinitive of the verb “I loosen”#Incorrect. The aorist (1) active infinitive of the verb “I loosen” is **λῦσαι** (Ch. 2).
+	~%-100%future active indicative 3rd pl. of the verb “I loosen”#Incorrect. The future active indicative 3rd pl. of the verb “I loosen” is **λύσουσιν** (Ch. 2).
+	~%-100%present active indicative 1st sing. of the verb “I educate”#Incorrect. The present active indicative 1st sing. of the verb “I educate” is **παιδεύω** (Ch. 2).
+	~%-100%present active indicative 3rd pl. of the verb “I educate”#Incorrect. The present active indicative 3rd pl. of the verb “I educate” is **παιδεύουσιν** (Ch. 2).
+	~%100%aorist (1) active indicative 2nd sing. of the verb “I loosen”#Correct: **ἔλυσας** is aorist (1) active indicative 2nd sing. of the verb “I loosen” (Chapter 2).
+}
+
+
+::Q026::[markdown]χώρας:{
+	~%-100%nom. pl. of the noun “territory” #Incorrect. The nom. pl. of the noun “territory”  is **χῶραι** (Ch. 1).
+	~%50%gen. sing. of the noun “territory” #Correct: **χώρας** is gen. sing. of the noun “territory”  (Chapter 1).
+	~%-100%acc. sing. of the noun “brother”#Incorrect. The acc. sing. of the noun “brother” is **ἀδελφόν** (Ch. 1).
+	~%-100%nom. pl. of the noun “human being”#Incorrect. The nom. pl. of the noun “human being” is **ἄνθρωποι** (Ch. 1).
+	~%50%acc. pl. of the noun “territory” #Correct: **χώρας** is acc. pl. of the noun “territory”  (Chapter 1).
+}
+
+
+::Q027::[markdown]δώροις:{
+	~%-100%acc. sing. of the noun “human being”#Incorrect. The acc. sing. of the noun “human being” is **ἄνθρωπον** (Ch. 1).
+	~%100%dat. pl. of the noun “gift”#Correct: **δώροις** is dat. pl. of the noun “gift” (Chapter 1).
+	~%-100%dat. sing. of the noun “skill” #Incorrect. The dat. sing. of the noun “skill”  is **τέχνῃ** (Ch. 1).
+	~%-100%gen. pl. of the noun “word”#Incorrect. The gen. pl. of the noun “word” is **λόγων** (Ch. 1).
+	~%-100%acc. pl. of the noun “word”#Incorrect. The acc. pl. of the noun “word” is **λόγους** (Ch. 1).
+}
+
+
+::Q028::[markdown]τά:{
+	~%-100%fem. acc. sing. of the definite article “the”#Incorrect. The fem. acc. sing. of the definite article “the” is **τήν** (Ch. 1).
+	~%50%neut. nom. pl. of the definite article “the”#Correct: **τά** is neut. nom. pl. of the definite article “the” (Chapter 1).
+	~%50%neut. acc. pl. of the definite article “the”#Correct: **τά** is neut. acc. pl. of the definite article “the” (Chapter 1).
+	~%-100%fem. acc. pl. of the definite article “the”#Incorrect. The fem. acc. pl. of the definite article “the” is **τάς** (Ch. 1).
+	~%-100%masc. dat. sing. of the definite article “the”#Incorrect. The masc. dat. sing. of the definite article “the” is **τῷ** (Ch. 1).
+}
+
+
+::Q029::[markdown]dat. pl. of the noun “brother”:{
+	~%-100%ἀγοραῖς#Incorrect. **ἀγοραῖς** is the dat. pl. of the noun “marketplace” (Ch. 1).
+	~%100%ἀδελφοῖς#Correct: **ἀδελφοῖς** is the correct form for dat. pl. of the noun “brother” (Chapter 1).
+	~%-100%ψυχήν#Incorrect. **ψυχήν** is the acc. sing. of the noun “soul”  (Ch. 1).
+	~%-100%χώραν#Incorrect. **χώραν** is the acc. sing. of the noun “territory”  (Ch. 1).
+	~%-100%ἀδελφῷ#Incorrect. **ἀδελφῷ** is the dat. sing. of the noun “brother” (Ch. 1).
+}
+
+
+::Q030::[markdown]κελεύσομεν:{
+	~%-100%aorist (1) active infinitive of the verb “I loosen”#Incorrect. The aorist (1) active infinitive of the verb “I loosen” is **λῦσαι** (Ch. 2).
+	~%-100%present active indicative 2nd pl. of the verb “I loosen”#Incorrect. The present active indicative 2nd pl. of the verb “I loosen” is **λύετε** (Ch. 2).
+	~%-100%imperfect active indicative 1st pl. of the verb “I order”#Incorrect. The imperfect active indicative 1st pl. of the verb “I order” is **ἐκελεύομεν** (Ch. 2).
+	~%-100%aorist (1) active indicative 3rd pl. of the verb “I order”#Incorrect. The aorist (1) active indicative 3rd pl. of the verb “I order” is **ἐκέλευσαν** (Ch. 2).
+	~%100%future active indicative 1st pl. of the verb “I order”#Correct: **κελεύσομεν** is future active indicative 1st pl. of the verb “I order” (Chapter 2).
+}
+
+
+::Q031::[markdown]τά:{
+	~%50%neut. acc. pl. of the definite article “the”#Correct: **τά** is neut. acc. pl. of the definite article “the” (Chapter 1).
+	~%50%neut. nom. pl. of the definite article “the”#Correct: **τά** is neut. nom. pl. of the definite article “the” (Chapter 1).
+	~%-100%masc. dat. sing. of the definite article “the”#Incorrect. The masc. dat. sing. of the definite article “the” is **τῷ** (Ch. 1).
+	~%-100%masc. gen. pl. of the definite article “the”#Incorrect. The masc. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%-100%masc. nom. sing. of the definite article “the”#Incorrect. The masc. nom. sing. of the definite article “the” is **ὁ** (Ch. 1).
+}
+
+
+::Q032::[markdown]κελεύσεις:{
+	~%100%future active indicative 2nd sing. of the verb “I order”#Correct: **κελεύσεις** is future active indicative 2nd sing. of the verb “I order” (Chapter 2).
+	~%-100%imperfect active indicative 1st sing. of the verb “I loosen”#Incorrect. The imperfect active indicative 1st sing. of the verb “I loosen” is **ἔλυον** (Ch. 2).
+	~%-100%future active indicative 1st sing. of the verb “I educate”#Incorrect. The future active indicative 1st sing. of the verb “I educate” is **παιδεύσω** (Ch. 2).
+	~%-100%present active indicative 3rd sing. of the verb “I order”#Incorrect. The present active indicative 3rd sing. of the verb “I order” is **κελεύει** (Ch. 2).
+	~%-100%aorist (1) active indicative 2nd sing. of the verb “I order”#Incorrect. The aorist (1) active indicative 2nd sing. of the verb “I order” is **ἐκέλευσας** (Ch. 2).
+}
+
+
+::Q033::[markdown]τέχνη:{
+	~%100%nom. sing. of the noun “skill” #Correct: **τέχνη** is nom. sing. of the noun “skill”  (Chapter 1).
+	~%-100%acc. sing. of the noun “skill” #Incorrect. The acc. sing. of the noun “skill”  is **τέχνην** (Ch. 1).
+	~%-100%dat. sing. of the noun “marketplace”#Incorrect. The dat. sing. of the noun “marketplace” is **ἀγορᾷ** (Ch. 1).
+	~%-100%acc. sing. of the noun “island”#Incorrect. The acc. sing. of the noun “island” is **νῆσον** (Ch. 1).
+	~%-100%dat. pl. of the noun “territory” #Incorrect. The dat. pl. of the noun “territory”  is **χώραις** (Ch. 1).
+}
+
+
+::Q034::[markdown]δῶρον:{
+	~%-100%gen. pl. of the noun “marketplace”#Incorrect. The gen. pl. of the noun “marketplace” is **ἀγορῶν** (Ch. 1).
+	~%-100%gen. pl. of the noun “human being”#Incorrect. The gen. pl. of the noun “human being” is **ἀνθρώπων** (Ch. 1).
+	~%50%nom. sing. of the noun “gift”#Correct: **δῶρον** is nom. sing. of the noun “gift” (Chapter 1).
+	~%50%acc. sing. of the noun “gift”#Correct: **δῶρον** is acc. sing. of the noun “gift” (Chapter 1).
+	~%-100%dat. sing. of the noun “skill” #Incorrect. The dat. sing. of the noun “skill”  is **τέχνῃ** (Ch. 1).
+}
+
+
+::Q035::[markdown]λύσουσιν:{
+	~%-100%present active infinitive of the verb “I educate”#Incorrect. The present active infinitive of the verb “I educate” is **παιδεύειν** (Ch. 2).
+	~%-100%aorist (1) active indicative 2nd pl. of the verb “I order”#Incorrect. The aorist (1) active indicative 2nd pl. of the verb “I order” is **ἐκελεύσατε** (Ch. 2).
+	~%-100%future active indicative 2nd pl. of the verb “I loosen”#Incorrect. The future active indicative 2nd pl. of the verb “I loosen” is **λύσετε** (Ch. 2).
+	~%-100%aorist (1) active infinitive of the verb “I order”#Incorrect. The aorist (1) active infinitive of the verb “I order” is **κελεῦσαι** (Ch. 2).
+	~%100%future active indicative 3rd pl. of the verb “I loosen”#Correct: **λύσουσιν** is future active indicative 3rd pl. of the verb “I loosen” (Chapter 2).
+}
+
+
+::Q036::[markdown]ἀνθρώπους:{
+	~%-100%acc. pl. of the noun “brother”#Incorrect. The acc. pl. of the noun “brother” is **ἀδελφούς** (Ch. 1).
+	~%-100%acc. sing. of the noun “human being”#Incorrect. The acc. sing. of the noun “human being” is **ἄνθρωπον** (Ch. 1).
+	~%100%acc. pl. of the noun “human being”#Correct: **ἀνθρώπους** is acc. pl. of the noun “human being” (Chapter 1).
+	~%-100%gen. sing. of the noun “brother”#Incorrect. The gen. sing. of the noun “brother” is **ἀδελφοῦ** (Ch. 1).
+	~%-100%gen. sing. of the noun “human being”#Incorrect. The gen. sing. of the noun “human being” is **ἀνθρώπου** (Ch. 1).
+}
+
+
+::Q037::[markdown]ἐπαίδευε:{
+	~%-100%future active indicative 2nd pl. of the verb “I educate”#Incorrect. The future active indicative 2nd pl. of the verb “I educate” is **παιδεύσετε** (Ch. 2).
+	~%100%imperfect active indicative 3rd sing. of the verb “I educate”#Correct: **ἐπαίδευε** is imperfect active indicative 3rd sing. of the verb “I educate” (Chapter 2).
+	~%-100%imperfect active indicative 3rd sing. of the verb “I loosen”#Incorrect. The imperfect active indicative 3rd sing. of the verb “I loosen” is **ἔλυε** (Ch. 2).
+	~%-100%present active indicative 3rd sing. of the verb “I order”#Incorrect. The present active indicative 3rd sing. of the verb “I order” is **κελεύει** (Ch. 2).
+	~%-100%future active indicative 2nd sing. of the verb “I educate”#Incorrect. The future active indicative 2nd sing. of the verb “I educate” is **παιδεύσεις** (Ch. 2).
+}
+
+
+::Q038::[markdown]τήν:{
+	~%-100%neut. gen. pl. of the definite article “the”#Incorrect. The neut. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%-100%fem. gen. pl. of the definite article “the”#Incorrect. The fem. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%-100%fem. gen. sing. of the definite article “the”#Incorrect. The fem. gen. sing. of the definite article “the” is **τῆς** (Ch. 1).
+	~%-100%neut. gen. sing. of the definite article “the”#Incorrect. The neut. gen. sing. of the definite article “the” is **τοῦ** (Ch. 1).
+	~%100%fem. acc. sing. of the definite article “the”#Correct: **τήν** is fem. acc. sing. of the definite article “the” (Chapter 1).
+}
+
+
+::Q039::[markdown]τά:{
+	~%-100%fem. acc. sing. of the definite article “the”#Incorrect. The fem. acc. sing. of the definite article “the” is **τήν** (Ch. 1).
+	~%50%neut. acc. pl. of the definite article “the”#Correct: **τά** is neut. acc. pl. of the definite article “the” (Chapter 1).
+	~%-100%fem. gen. pl. of the definite article “the”#Incorrect. The fem. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%-100%neut. dat. pl. of the definite article “the”#Incorrect. The neut. dat. pl. of the definite article “the” is **τοῖς** (Ch. 1).
+	~%50%neut. nom. pl. of the definite article “the”#Correct: **τά** is neut. nom. pl. of the definite article “the” (Chapter 1).
+}
+
+
+::Q040::[markdown]κελεύσει:{
+	~%-100%aorist (1) active indicative 3rd sing. of the verb “I loosen”#Incorrect. The aorist (1) active indicative 3rd sing. of the verb “I loosen” is **ἔλυσε** (Ch. 2).
+	~%100%future active indicative 3rd sing. of the verb “I order”#Correct: **κελεύσει** is future active indicative 3rd sing. of the verb “I order” (Chapter 2).
+	~%-100%imperfect active indicative 3rd sing. of the verb “I educate”#Incorrect. The imperfect active indicative 3rd sing. of the verb “I educate” is **ἐπαίδευε** (Ch. 2).
+	~%-100%present active indicative 1st pl. of the verb “I educate”#Incorrect. The present active indicative 1st pl. of the verb “I educate” is **παιδεύομεν** (Ch. 2).
+	~%-100%aorist (1) active infinitive of the verb “I educate”#Incorrect. The aorist (1) active infinitive of the verb “I educate” is **παιδεῦσαι** (Ch. 2).
+}
+
+
+::Q041::[markdown]λόγοι:{
+	~%100%nom. pl. of the noun “word”#Correct: **λόγοι** is nom. pl. of the noun “word” (Chapter 1).
+	~%-100%dat. pl. of the noun “island”#Incorrect. The dat. pl. of the noun “island” is **νήσοις** (Ch. 1).
+	~%-100%acc. sing. of the noun “island”#Incorrect. The acc. sing. of the noun “island” is **νῆσον** (Ch. 1).
+	~%-100%acc. sing. of the noun “marketplace”#Incorrect. The acc. sing. of the noun “marketplace” is **ἀγοράν** (Ch. 1).
+	~%-100%dat. sing. of the noun “human being”#Incorrect. The dat. sing. of the noun “human being” is **ἀνθρώπῳ** (Ch. 1).
+}
+
+
+::Q042::[markdown]fem. dat. pl. of the definite article “the”:{
+	~%100%ταῖς#Correct: **ταῖς** is the correct form for fem. dat. pl. of the definite article “the” (Chapter 1).
+	~%-100%αἱ#Incorrect. **αἱ** is the fem. nom. pl. of the definite article “the” (Ch. 1).
+	~%-100%τά#Incorrect. **τά** is the neut. nom. pl. of the definite article “the” (Ch. 1).
+	~%-100%τῷ#Incorrect. **τῷ** is the masc. dat. sing. of the definite article “the” (Ch. 1).
+	~%-100%τοῦ#Incorrect. **τοῦ** is the neut. gen. sing. of the definite article “the” (Ch. 1).
+}
+
+
+::Q043::[markdown]λύει:{
+	~%-100%aorist (1) active indicative 3rd pl. of the verb “I educate”#Incorrect. The aorist (1) active indicative 3rd pl. of the verb “I educate” is **ἐπαίδευσαν** (Ch. 2).
+	~%100%present active indicative 3rd sing. of the verb “I loosen”#Correct: **λύει** is present active indicative 3rd sing. of the verb “I loosen” (Chapter 2).
+	~%-100%imperfect active indicative 2nd sing. of the verb “I order”#Incorrect. The imperfect active indicative 2nd sing. of the verb “I order” is **ἐκέλευες** (Ch. 2).
+	~%-100%present active infinitive of the verb “I loosen”#Incorrect. The present active infinitive of the verb “I loosen” is **λύειν** (Ch. 2).
+	~%-100%present active indicative 2nd pl. of the verb “I order”#Incorrect. The present active indicative 2nd pl. of the verb “I order” is **κελεύετε** (Ch. 2).
+}
+
+
+::Q044::[markdown]ἀγοράν:{
+	~%100%acc. sing. of the noun “marketplace”#Correct: **ἀγοράν** is acc. sing. of the noun “marketplace” (Chapter 1).
+	~%-100%dat. pl. of the noun “island”#Incorrect. The dat. pl. of the noun “island” is **νήσοις** (Ch. 1).
+	~%-100%nom. pl. of the noun “skill” #Incorrect. The nom. pl. of the noun “skill”  is **τέχναι** (Ch. 1).
+	~%-100%acc. pl. of the noun “soul” #Incorrect. The acc. pl. of the noun “soul”  is **ψυχάς** (Ch. 1).
+	~%-100%gen. pl. of the noun “territory” #Incorrect. The gen. pl. of the noun “territory”  is **χωρῶν** (Ch. 1).
+}
+
+
+::Q045::[markdown]χώρας:{
+	~%-100%nom. pl. of the noun “marketplace”#Incorrect. The nom. pl. of the noun “marketplace” is **ἀγοραί** (Ch. 1).
+	~%50%acc. pl. of the noun “territory” #Correct: **χώρας** is acc. pl. of the noun “territory”  (Chapter 1).
+	~%-100%gen. pl. of the noun “island”#Incorrect. The gen. pl. of the noun “island” is **νήσων** (Ch. 1).
+	~%-100%dat. pl. of the noun “marketplace”#Incorrect. The dat. pl. of the noun “marketplace” is **ἀγοραῖς** (Ch. 1).
+	~%50%gen. sing. of the noun “territory” #Correct: **χώρας** is gen. sing. of the noun “territory”  (Chapter 1).
+}
+
+
+::Q046::[markdown]κελεύεις:{
+	~%-100%aorist (1) active indicative 2nd pl. of the verb “I order”#Incorrect. The aorist (1) active indicative 2nd pl. of the verb “I order” is **ἐκελεύσατε** (Ch. 2).
+	~%-100%aorist (1) active indicative 1st sing. of the verb “I educate”#Incorrect. The aorist (1) active indicative 1st sing. of the verb “I educate” is **ἐπαίδευσα** (Ch. 2).
+	~%-100%imperfect active indicative 2nd pl. of the verb “I loosen”#Incorrect. The imperfect active indicative 2nd pl. of the verb “I loosen” is **ἐλύετε** (Ch. 2).
+	~%-100%present active indicative 2nd sing. of the verb “I loosen”#Incorrect. The present active indicative 2nd sing. of the verb “I loosen” is **λύεις** (Ch. 2).
+	~%100%present active indicative 2nd sing. of the verb “I order”#Correct: **κελεύεις** is present active indicative 2nd sing. of the verb “I order” (Chapter 2).
+}
+
+
+::Q047::[markdown]gen. pl. of the noun “human being”:{
+	~%-100%ἀγορῶν#Incorrect. **ἀγορῶν** is the gen. pl. of the noun “marketplace” (Ch. 1).
+	~%-100%χῶραι#Incorrect. **χῶραι** is the nom. pl. of the noun “territory”  (Ch. 1).
+	~%100%ἀνθρώπων#Correct: **ἀνθρώπων** is the correct form for gen. pl. of the noun “human being” (Chapter 1).
+	~%-100%λόγοις#Incorrect. **λόγοις** is the dat. pl. of the noun “word” (Ch. 1).
+	~%-100%δῶρον#Incorrect. **δῶρον** is the nom. sing. of the noun “gift” (Ch. 1).
+}
+
+
+::Q048::[markdown]κελεύω:{
+	~%100%present active indicative 1st sing. of the verb “I order”#Correct: **κελεύω** is present active indicative 1st sing. of the verb “I order” (Chapter 2).
+	~%-100%future active infinitive of the verb “I loosen”#Incorrect. The future active infinitive of the verb “I loosen” is **λύσειν** (Ch. 2).
+	~%-100%future active indicative 3rd pl. of the verb “I educate”#Incorrect. The future active indicative 3rd pl. of the verb “I educate” is **παιδεύσουσιν** (Ch. 2).
+	~%-100%future active indicative 1st pl. of the verb “I order”#Incorrect. The future active indicative 1st pl. of the verb “I order” is **κελεύσομεν** (Ch. 2).
+	~%-100%future active indicative 1st sing. of the verb “I educate”#Incorrect. The future active indicative 1st sing. of the verb “I educate” is **παιδεύσω** (Ch. 2).
+}
+
+
+::Q049::[markdown]acc. pl. of the noun “territory” :{
+	~%-100%τέχνην#Incorrect. **τέχνην** is the acc. sing. of the noun “skill”  (Ch. 1).
+	~%100%χώρας#Correct: **χώρας** is the correct form for acc. pl. of the noun “territory”  (Chapter 1).
+	~%-100%ἀδελφοῖς#Incorrect. **ἀδελφοῖς** is the dat. pl. of the noun “brother” (Ch. 1).
+	~%-100%χώραν#Incorrect. **χώραν** is the acc. sing. of the noun “territory”  (Ch. 1).
+	~%-100%ψυχῶν#Incorrect. **ψυχῶν** is the gen. pl. of the noun “soul”  (Ch. 1).
+}
+
+
+::Q050::[markdown]acc. pl. of the noun “gift”:{
+	~%-100%λόγοι#Incorrect. **λόγοι** is the nom. pl. of the noun “word” (Ch. 1).
+	~%-100%ἄνθρωποι#Incorrect. **ἄνθρωποι** is the nom. pl. of the noun “human being” (Ch. 1).
+	~%100%δῶρα#Correct: **δῶρα** is the correct form for acc. pl. of the noun “gift” (Chapter 1).
+	~%-100%ἀνθρώπου#Incorrect. **ἀνθρώπου** is the gen. sing. of the noun “human being” (Ch. 1).
+	~%-100%τέχναις#Incorrect. **τέχναις** is the dat. pl. of the noun “skill”  (Ch. 1).
+}
+
+

@@ -9,7 +9,7 @@ current_chapter = 3              # Which chapter/unit we are currently teaching
 num_questions = 50              # Total questions in the generated drill
 #random_seed = 42                # Set to null or omit for non-reproducible runs
 output_directory = "generated/vocab"
-output_filename_prefix = "vocab_drill_"
+output_filename_prefix = "vocab_drill_hq"
 
 [proportions]
 # Fraction of questions that test active knowledge (Greek → English)
