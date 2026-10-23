@@ -753,6 +753,23 @@
 // Chapter 11
 //			αὐτός
 11	adjective	αὐτός.txt
+//			Participles: γράφω
+11	participle	00-1_participle_present_act_γράφω.txt
+11	participle	01-1_participle_present_mp_γράφω.txt
+11	participle	02-1_participle_future_active_γράφω.txt
+11	participle	03-1_participle_future_middle_γράφω.txt
+11	participle	04-1_participle_future_passive_γράφω.txt
+11	participle	05-1_participle_aorist1_active_γράφω.txt
+11	participle	06-1_participle_aorist1_middle_γράφω.txt
+11	participle	09-1_participle_aorist_passive_γράφω.txt
+11	participle	10-1_participle_perfect_active_γράφω.txt
+11	participle	11-1_participle_perfect_mp_γράφω.txt
+//			Participles: κελεύω 
+//			Participles: λύω
+//			Participles: δέχομαι 
+//			Participles: κελεύω
+//			Participles: πέμπω 
+//			Participles: φυλάττω
 //
 //			03, 08, 11
 //			   17, 21 (aorist1)

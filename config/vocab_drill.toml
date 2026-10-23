@@ -5,7 +5,7 @@
 
 [general]
 data_source = "data/vocabulary/hq.txt"
-current_chapter = 3              # Which chapter/unit we are currently teaching
+current_chapter = 4              # Which chapter/unit we are currently teaching
 num_questions = 50              # Total questions in the generated drill
 #random_seed = 42                # Set to null or omit for non-reproducible runs
 output_directory = "generated/vocab"
@@ -17,7 +17,7 @@ output_filename_prefix = "vocab_drill_hq"
 active_to_passive_ratio = 0.5
 
 # Fraction of questions drawn from the current chapter (the rest are review)
-current_chapter_fraction = 0.8
+current_chapter_fraction = 0.3
 
 [question]
 num_choices = 5         # Number of options per multiple-choice question
