@@ -1,0 +1,452 @@
+$CATEGORY: Morphology/HansenQuinn/Ch4-nv-2
+
+::Q001::[markdown]ἀδίκων:{
+	~%-100%fem. nom. pl. of the adjective “good; noble”#Incorrect. The fem. nom. pl. of the adjective “good; noble” is **ἀγαθαί** (Ch. 4).
+	~%-100%masc. dat. sing. of the adjective “good; noble”#Incorrect. The masc. dat. sing. of the adjective “good; noble” is **ἀγαθῷ** (Ch. 4).
+	~%50%masc./fem. gen. pl. of the adjective “unjust”#Correct: **ἀδίκων** is masc./fem. gen. pl. of the adjective “unjust” (Chapter 4).
+	~%50%neut. gen. pl. of the adjective “unjust”#Correct: **ἀδίκων** is neut. gen. pl. of the adjective “unjust” (Chapter 4).
+	~%-100%neut. dat. sing. of the adjective “unjust”#Incorrect. The neut. dat. sing. of the adjective “unjust” is **ἀδίκῳ** (Ch. 4).
+}
+
+
+::Q002::[markdown]ἀγαθήν:{
+	~%-100%masc. dat. pl. of the adjective “good; noble”#Incorrect. The masc. dat. pl. of the adjective “good; noble” is **ἀγαθοῖς** (Ch. 4).
+	~%-100%neut. nom. pl. of the adjective “unjust”#Incorrect. The neut. nom. pl. of the adjective “unjust” is **ἄδικ** (Ch. 4).
+	~%-100%neut. acc. sing. of the adjective “good; noble”#Incorrect. The neut. acc. sing. of the adjective “good; noble” is **ἀγαθόν** (Ch. 4).
+	~%-100%masc. nom. pl. of the adjective “worthy”#Incorrect. The masc. nom. pl. of the adjective “worthy” is **ἄξιοι** (Ch. 4).
+	~%100%fem. acc. sing. of the adjective “good; noble”#Correct: **ἀγαθήν** is fem. acc. sing. of the adjective “good; noble” (Chapter 4).
+}
+
+
+::Q003::[markdown]ἀξίας:{
+	~%-100%fem. dat. pl. of the adjective “worthy”#Incorrect. The fem. dat. pl. of the adjective “worthy” is **ἀξίαις** (Ch. 4).
+	~%-100%neut. dat. pl. of the adjective “unjust”#Incorrect. The neut. dat. pl. of the adjective “unjust” is **ἀδίκοις** (Ch. 4).
+	~%50%fem. acc. pl. of the adjective “worthy”#Correct: **ἀξίας** is fem. acc. pl. of the adjective “worthy” (Chapter 4).
+	~%-100%masc. dat. pl. of the adjective “good; noble”#Incorrect. The masc. dat. pl. of the adjective “good; noble” is **ἀγαθοῖς** (Ch. 4).
+	~%50%fem. gen. sing. of the adjective “worthy”#Correct: **ἀξίας** is fem. gen. sing. of the adjective “worthy” (Chapter 4).
+}
+
+
+::Q004::[markdown]neut. dat. pl. of the adjective “good; noble”:{
+	~%100%ἀγαθοῖς#Correct: **ἀγαθοῖς** is the correct form for neut. dat. pl. of the adjective “good; noble” (Chapter 4).
+	~%-100%ἀγαθόν#Incorrect. **ἀγαθόν** is the neut. nom. sing. of the adjective “good; noble” (Ch. 4).
+	~%-100%ἀδίκων#Incorrect. **ἀδίκων** is the neut. gen. pl. of the adjective “unjust” (Ch. 4).
+	~%-100%ἀξίῳ#Incorrect. **ἀξίῳ** is the neut. dat. sing. of the adjective “worthy” (Ch. 4).
+	~%-100%ἀξίων#Incorrect. **ἀξίων** is the fem. gen. pl. of the adjective “worthy” (Ch. 4).
+}
+
+
+::Q005::[markdown]λόγῳ:{
+	~%-100%acc. pl. of the noun “Muse”#Incorrect. The acc. pl. of the noun “Muse” is **μούσας** (Ch. 4).
+	~%-100%nom. pl. of the noun “citizen”#Incorrect. The nom. pl. of the noun “citizen” is **πολῖται** (Ch. 4).
+	~%100%dat. sing. of the noun “word”#Correct: **λόγῳ** is dat. sing. of the noun “word” (Chapter 1).
+	~%-100%gen. sing. of the noun “fate; portion”#Incorrect. The gen. sing. of the noun “fate; portion” is **μοίρας** (Ch. 4).
+	~%-100%dat. pl. of the noun “Muse”#Incorrect. The dat. pl. of the noun “Muse” is **μούσαις** (Ch. 4).
+}
+
+
+::Q006::[markdown]νήσων:{
+	~%-100%acc. sing. of the noun “Muse”#Incorrect. The acc. sing. of the noun “Muse” is **μοῦσαν** (Ch. 4).
+	~%-100%acc. sing. of the noun “skill” #Incorrect. The acc. sing. of the noun “skill”  is **τέχνην** (Ch. 1).
+	~%-100%gen. pl. of the noun “Muse”#Incorrect. The gen. pl. of the noun “Muse” is **μουσῶν** (Ch. 4).
+	~%-100%gen. pl. of the noun “fate; portion”#Incorrect. The gen. pl. of the noun “fate; portion” is **μοιρῶν** (Ch. 4).
+	~%100%gen. pl. of the noun “island”#Correct: **νήσων** is gen. pl. of the noun “island” (Chapter 1).
+}
+
+
+::Q007::[markdown]ἀγαθῶν:{
+	~%-100%fem. dat. sing. of the adjective “good; noble”#Incorrect. The fem. dat. sing. of the adjective “good; noble” is **ἀγαθῇ** (Ch. 4).
+	~%33.333%masc. gen. pl. of the adjective “good; noble”#Correct: **ἀγαθῶν** is masc. gen. pl. of the adjective “good; noble” (Chapter 4).
+	~%33.333%neut. gen. pl. of the adjective “good; noble”#Correct: **ἀγαθῶν** is neut. gen. pl. of the adjective “good; noble” (Chapter 4).
+	~%-100%fem. acc. sing. of the adjective “worthy”#Incorrect. The fem. acc. sing. of the adjective “worthy” is **ἀξίαν** (Ch. 4).
+	~%33.333%fem. gen. pl. of the adjective “good; noble”#Correct: **ἀγαθῶν** is fem. gen. pl. of the adjective “good; noble” (Chapter 4).
+}
+
+
+::Q008::[markdown]ἀγαθοῖς:{
+	~%-100%neut. dat. sing. of the adjective “unjust”#Incorrect. The neut. dat. sing. of the adjective “unjust” is **ἀδίκῳ** (Ch. 4).
+	~%50%neut. dat. pl. of the adjective “good; noble”#Correct: **ἀγαθοῖς** is neut. dat. pl. of the adjective “good; noble” (Chapter 4).
+	~%50%masc. dat. pl. of the adjective “good; noble”#Correct: **ἀγαθοῖς** is masc. dat. pl. of the adjective “good; noble” (Chapter 4).
+	~%-100%neut. acc. sing. of the adjective “unjust”#Incorrect. The neut. acc. sing. of the adjective “unjust” is **ἄδικον** (Ch. 4).
+	~%-100%masc. nom. sing. of the adjective “good; noble”#Incorrect. The masc. nom. sing. of the adjective “good; noble” is **ἀγαθός** (Ch. 4).
+}
+
+
+::Q009::[markdown]ψυχήν:{
+	~%-100%nom. pl. of the noun “poet”#Incorrect. The nom. pl. of the noun “poet” is **ποιηταί** (Ch. 4).
+	~%100%acc. sing. of the noun “soul” #Correct: **ψυχήν** is acc. sing. of the noun “soul”  (Chapter 1).
+	~%-100%gen. pl. of the noun “soul” #Incorrect. The gen. pl. of the noun “soul”  is **ψυχῶν** (Ch. 1).
+	~%-100%dat. sing. of the noun “skill” #Incorrect. The dat. sing. of the noun “skill”  is **τέχνῃ** (Ch. 1).
+	~%-100%acc. pl. of the noun “skill” #Incorrect. The acc. pl. of the noun “skill”  is **τέχνας** (Ch. 1).
+}
+
+
+::Q010::[markdown]μοίρᾳ:{
+	~%-100%acc. sing. of the noun “word”#Incorrect. The acc. sing. of the noun “word” is **λόγον** (Ch. 1).
+	~%100%dat. sing. of the noun “fate; portion”#Correct: **μοίρᾳ** is dat. sing. of the noun “fate; portion” (Chapter 4).
+	~%-100%dat. pl. of the noun “fate; portion”#Incorrect. The dat. pl. of the noun “fate; portion” is **μοίραις** (Ch. 4).
+	~%-100%gen. pl. of the noun “marketplace”#Incorrect. The gen. pl. of the noun “marketplace” is **ἀγορῶν** (Ch. 1).
+	~%-100%gen. sing. of the noun “marketplace”#Incorrect. The gen. sing. of the noun “marketplace” is **ἀγορᾶς** (Ch. 1).
+}
+
+
+::Q011::[markdown]λόγος:{
+	~%-100%nom. pl. of the noun “gift”#Incorrect. The nom. pl. of the noun “gift” is **δῶρα** (Ch. 1).
+	~%-100%gen. sing. of the noun “fate; portion”#Incorrect. The gen. sing. of the noun “fate; portion” is **μοίρας** (Ch. 4).
+	~%100%nom. sing. of the noun “word”#Correct: **λόγος** is nom. sing. of the noun “word” (Chapter 1).
+	~%-100%gen. pl. of the noun “poet”#Incorrect. The gen. pl. of the noun “poet” is **ποιητῶν** (Ch. 4).
+	~%-100%gen. pl. of the noun “bridge”#Incorrect. The gen. pl. of the noun “bridge” is **γεφυρῶν** (Ch. 4).
+}
+
+
+::Q012::[markdown]νεανίας:{
+	~%-100%nom. sing. of the noun “territory” #Incorrect. The nom. sing. of the noun “territory”  is **χώρα** (Ch. 1).
+	~%-100%nom. sing. of the noun “island”#Incorrect. The nom. sing. of the noun “island” is **νῆσος** (Ch. 1).
+	~%50%acc. pl. of the noun “young man”#Correct: **νεανίας** is acc. pl. of the noun “young man” (Chapter 4).
+	~%50%nom. sing. of the noun “young man”#Correct: **νεανίας** is nom. sing. of the noun “young man” (Chapter 4).
+	~%-100%gen. sing. of the noun “territory” #Incorrect. The gen. sing. of the noun “territory”  is **χώρας** (Ch. 1).
+}
+
+
+::Q013::[markdown]neut. dat. sing. of the adjective “good; noble”:{
+	~%-100%ἀδίκου#Incorrect. **ἀδίκου** is the masc./fem. gen. sing. of the adjective “unjust” (Ch. 4).
+	~%100%ἀγαθῷ#Correct: **ἀγαθῷ** is the correct form for neut. dat. sing. of the adjective “good; noble” (Chapter 4).
+	~%-100%ἄξιον#Incorrect. **ἄξιον** is the neut. nom. sing. of the adjective “worthy” (Ch. 4).
+	~%-100%ἀγαθόν#Incorrect. **ἀγαθόν** is the masc. acc. sing. of the adjective “good; noble” (Ch. 4).
+	~%-100%ἀγαθῶν#Incorrect. **ἀγαθῶν** is the fem. gen. pl. of the adjective “good; noble” (Ch. 4).
+}
+
+
+::Q014::[markdown]ἄξιον:{
+	~%25%masc. acc. pl. of the adjective “worthy”#Correct: **ἄξιον** is masc. acc. pl. of the adjective “worthy” (Chapter 4).
+	~%25%neut. acc. sing. of the adjective “worthy”#Correct: **ἄξιον** is neut. acc. sing. of the adjective “worthy” (Chapter 4).
+	~%25%neut. nom. sing. of the adjective “worthy”#Correct: **ἄξιον** is neut. nom. sing. of the adjective “worthy” (Chapter 4).
+	~%-100%neut. acc. pl. of the adjective “good; noble”#Incorrect. The neut. acc. pl. of the adjective “good; noble” is **ἀγαθά** (Ch. 4).
+	~%25%masc. acc. sing. of the adjective “worthy”#Correct: **ἄξιον** is masc. acc. sing. of the adjective “worthy” (Chapter 4).
+}
+
+
+::Q015::[markdown]μοιρῶν:{
+	~%-100%acc. pl. of the noun “territory” #Incorrect. The acc. pl. of the noun “territory”  is **χώρας** (Ch. 1).
+	~%-100%dat. pl. of the noun “soul” #Incorrect. The dat. pl. of the noun “soul”  is **ψυχαῖς** (Ch. 1).
+	~%100%gen. pl. of the noun “fate; portion”#Correct: **μοιρῶν** is gen. pl. of the noun “fate; portion” (Chapter 4).
+	~%-100%gen. pl. of the noun “Muse”#Incorrect. The gen. pl. of the noun “Muse” is **μουσῶν** (Ch. 4).
+	~%-100%acc. pl. of the noun “fate; portion”#Incorrect. The acc. pl. of the noun “fate; portion” is **μοίρας** (Ch. 4).
+}
+
+
+::Q016::[markdown]τέχναις:{
+	~%-100%acc. sing. of the noun “bridge”#Incorrect. The acc. sing. of the noun “bridge” is **γέφυραν** (Ch. 4).
+	~%-100%nom. sing. of the noun “citizen”#Incorrect. The nom. sing. of the noun “citizen” is **πολίτης** (Ch. 4).
+	~%100%dat. pl. of the noun “skill” #Correct: **τέχναις** is dat. pl. of the noun “skill”  (Chapter 1).
+	~%-100%dat. sing. of the noun “bridge”#Incorrect. The dat. sing. of the noun “bridge” is **γεφύρᾳ** (Ch. 4).
+	~%-100%nom. pl. of the noun “sea”#Incorrect. The nom. pl. of the noun “sea” is **θάλατται** (Ch. 4).
+}
+
+
+::Q017::[markdown]nom. sing. of the noun “young man”:{
+	~%-100%νεανίαν#Incorrect. **νεανίαν** is the acc. sing. of the noun “young man” (Ch. 4).
+	~%-100%ποιητῇ#Incorrect. **ποιητῇ** is the dat. sing. of the noun “poet” (Ch. 4).
+	~%100%νεανίας#Correct: **νεανίας** is the correct form for nom. sing. of the noun “young man” (Chapter 4).
+	~%-100%θάλατταν#Incorrect. **θάλατταν** is the acc. sing. of the noun “sea” (Ch. 4).
+	~%-100%πολιταῖς#Incorrect. **πολιταῖς** is the dat. pl. of the noun “citizen” (Ch. 4).
+}
+
+
+::Q018::[markdown]ἀδελφοί:{
+	~%-100%acc. pl. of the noun “gift”#Incorrect. The acc. pl. of the noun “gift” is **δῶρα** (Ch. 1).
+	~%-100%nom. sing. of the noun “soul” #Incorrect. The nom. sing. of the noun “soul”  is **ψυχή** (Ch. 1).
+	~%-100%dat. sing. of the noun “skill” #Incorrect. The dat. sing. of the noun “skill”  is **τέχνῃ** (Ch. 1).
+	~%100%nom. pl. of the noun “brother”#Correct: **ἀδελφοί** is nom. pl. of the noun “brother” (Chapter 1).
+	~%-100%dat. sing. of the noun “sea”#Incorrect. The dat. sing. of the noun “sea” is **θαλάττῃ** (Ch. 4).
+}
+
+
+::Q019::[markdown]acc. sing. of the noun “word”:{
+	~%100%λόγον#Correct: **λόγον** is the correct form for acc. sing. of the noun “word” (Chapter 1).
+	~%-100%λόγῳ#Incorrect. **λόγῳ** is the dat. sing. of the noun “word” (Ch. 1).
+	~%-100%πολίτου#Incorrect. **πολίτου** is the gen. sing. of the noun “citizen” (Ch. 4).
+	~%-100%λόγος#Incorrect. **λόγος** is the nom. sing. of the noun “word” (Ch. 1).
+	~%-100%δῶρα#Incorrect. **δῶρα** is the acc. pl. of the noun “gift” (Ch. 1).
+}
+
+
+::Q020::[markdown]ἀγοραῖς:{
+	~%-100%acc. sing. of the noun “sea”#Incorrect. The acc. sing. of the noun “sea” is **θάλατταν** (Ch. 4).
+	~%-100%gen. pl. of the noun “marketplace”#Incorrect. The gen. pl. of the noun “marketplace” is **ἀγορῶν** (Ch. 1).
+	~%-100%dat. pl. of the noun “word”#Incorrect. The dat. pl. of the noun “word” is **λόγοις** (Ch. 1).
+	~%100%dat. pl. of the noun “marketplace”#Correct: **ἀγοραῖς** is dat. pl. of the noun “marketplace” (Chapter 1).
+	~%-100%acc. sing. of the noun “citizen”#Incorrect. The acc. sing. of the noun “citizen” is **πολίτην** (Ch. 4).
+}
+
+
+::Q021::[markdown]acc. sing. of the noun “marketplace”:{
+	~%100%ἀγοράν#Correct: **ἀγοράν** is the correct form for acc. sing. of the noun “marketplace” (Chapter 1).
+	~%-100%γέφυραι#Incorrect. **γέφυραι** is the nom. pl. of the noun “bridge” (Ch. 4).
+	~%-100%τέχνας#Incorrect. **τέχνας** is the acc. pl. of the noun “skill”  (Ch. 1).
+	~%-100%νεανίαις#Incorrect. **νεανίαις** is the dat. pl. of the noun “young man” (Ch. 4).
+	~%-100%νεανίᾳ#Incorrect. **νεανίᾳ** is the dat. sing. of the noun “young man” (Ch. 4).
+}
+
+
+::Q022::[markdown]ψυχῶν:{
+	~%100%gen. pl. of the noun “soul” #Correct: **ψυχῶν** is gen. pl. of the noun “soul”  (Chapter 1).
+	~%-100%dat. sing. of the noun “young man”#Incorrect. The dat. sing. of the noun “young man” is **νεανίᾳ** (Ch. 4).
+	~%-100%nom. sing. of the noun “young man”#Incorrect. The nom. sing. of the noun “young man” is **νεανίας** (Ch. 4).
+	~%-100%acc. sing. of the noun “bridge”#Incorrect. The acc. sing. of the noun “bridge” is **γέφυραν** (Ch. 4).
+	~%-100%dat. sing. of the noun “fate; portion”#Incorrect. The dat. sing. of the noun “fate; portion” is **μοίρᾳ** (Ch. 4).
+}
+
+
+::Q023::[markdown]ἀγαθαῖς:{
+	~%-100%masc./fem. nom. sing. of the adjective “unjust”#Incorrect. The masc./fem. nom. sing. of the adjective “unjust” is **ἄδικος** (Ch. 4).
+	~%-100%masc. dat. pl. of the adjective “worthy”#Incorrect. The masc. dat. pl. of the adjective “worthy” is **ἀξίοις** (Ch. 4).
+	~%-100%neut. nom. sing. of the adjective “good; noble”#Incorrect. The neut. nom. sing. of the adjective “good; noble” is **ἀγαθόν** (Ch. 4).
+	~%-100%fem. acc. pl. of the adjective “worthy”#Incorrect. The fem. acc. pl. of the adjective “worthy” is **ἀξίας** (Ch. 4).
+	~%100%fem. dat. pl. of the adjective “good; noble”#Correct: **ἀγαθαῖς** is fem. dat. pl. of the adjective “good; noble” (Chapter 4).
+}
+
+
+::Q024::[markdown]nom. sing. of the noun “human being”:{
+	~%-100%δῶρα#Incorrect. **δῶρα** is the acc. pl. of the noun “gift” (Ch. 1).
+	~%-100%ἀδελφούς#Incorrect. **ἀδελφούς** is the acc. pl. of the noun “brother” (Ch. 1).
+	~%100%ἄνθρωπος#Correct: **ἄνθρωπος** is the correct form for nom. sing. of the noun “human being” (Chapter 1).
+	~%-100%ψυχή#Incorrect. **ψυχή** is the nom. sing. of the noun “soul”  (Ch. 1).
+	~%-100%νεανίαις#Incorrect. **νεανίαις** is the dat. pl. of the noun “young man” (Ch. 4).
+}
+
+
+::Q025::[markdown]gen. pl. of the noun “young man”:{
+	~%-100%νήσων#Incorrect. **νήσων** is the gen. pl. of the noun “island” (Ch. 1).
+	~%-100%μοίρᾳ#Incorrect. **μοίρᾳ** is the dat. sing. of the noun “fate; portion” (Ch. 4).
+	~%-100%πολιτῶν#Incorrect. **πολιτῶν** is the gen. pl. of the noun “citizen” (Ch. 4).
+	~%100%νεανιῶν#Correct: **νεανιῶν** is the correct form for gen. pl. of the noun “young man” (Chapter 4).
+	~%-100%ἀνθρώπους#Incorrect. **ἀνθρώπους** is the acc. pl. of the noun “human being” (Ch. 1).
+}
+
+
+::Q026::[markdown]τοῖς:{
+	~%-100%neut. gen. pl. of the definite article “the”#Incorrect. The neut. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%50%neut. dat. pl. of the definite article “the”#Correct: **τοῖς** is neut. dat. pl. of the definite article “the” (Chapter 1).
+	~%50%masc. dat. pl. of the definite article “the”#Correct: **τοῖς** is masc. dat. pl. of the definite article “the” (Chapter 1).
+	~%-100%masc. gen. sing. of the definite article “the”#Incorrect. The masc. gen. sing. of the definite article “the” is **τοῦ** (Ch. 1).
+	~%-100%masc. nom. sing. of the definite article “the”#Incorrect. The masc. nom. sing. of the definite article “the” is **ὁ** (Ch. 1).
+}
+
+
+::Q027::[markdown]neut. nom. sing. of the adjective “worthy”:{
+	~%-100%ἀξίων#Incorrect. **ἀξίων** is the fem. gen. pl. of the adjective “worthy” (Ch. 4).
+	~%100%ἄξιον#Correct: **ἄξιον** is the correct form for neut. nom. sing. of the adjective “worthy” (Chapter 4).
+	~%-100%ἀξίας#Incorrect. **ἀξίας** is the fem. acc. pl. of the adjective “worthy” (Ch. 4).
+	~%-100%ἀξίου#Incorrect. **ἀξίου** is the neut. gen. sing. of the adjective “worthy” (Ch. 4).
+	~%-100%ἀγαθός#Incorrect. **ἀγαθός** is the masc. nom. sing. of the adjective “good; noble” (Ch. 4).
+}
+
+
+::Q028::[markdown]δῶρον:{
+	~%-100%acc. pl. of the noun “sea”#Incorrect. The acc. pl. of the noun “sea” is **θαλάττας** (Ch. 4).
+	~%50%acc. sing. of the noun “gift”#Correct: **δῶρον** is acc. sing. of the noun “gift” (Chapter 1).
+	~%50%nom. sing. of the noun “gift”#Correct: **δῶρον** is nom. sing. of the noun “gift” (Chapter 1).
+	~%-100%gen. sing. of the noun “bridge”#Incorrect. The gen. sing. of the noun “bridge” is **γεφύρας** (Ch. 4).
+	~%-100%dat. sing. of the noun “territory” #Incorrect. The dat. sing. of the noun “territory”  is **χώρᾳ** (Ch. 1).
+}
+
+
+::Q029::[markdown]acc. sing. of the noun “bridge”:{
+	~%-100%χῶραι#Incorrect. **χῶραι** is the nom. pl. of the noun “territory”  (Ch. 1).
+	~%100%γέφυραν#Correct: **γέφυραν** is the correct form for acc. sing. of the noun “bridge” (Chapter 4).
+	~%-100%ἄνθρωπος#Incorrect. **ἄνθρωπος** is the nom. sing. of the noun “human being” (Ch. 1).
+	~%-100%δώρων#Incorrect. **δώρων** is the gen. pl. of the noun “gift” (Ch. 1).
+	~%-100%νήσῳ#Incorrect. **νήσῳ** is the dat. sing. of the noun “island” (Ch. 1).
+}
+
+
+::Q030::[markdown]dat. sing. of the noun “brother”:{
+	~%-100%δῶρον#Incorrect. **δῶρον** is the nom. sing. of the noun “gift” (Ch. 1).
+	~%-100%νήσων#Incorrect. **νήσων** is the gen. pl. of the noun “island” (Ch. 1).
+	~%100%ἀδελφῷ#Correct: **ἀδελφῷ** is the correct form for dat. sing. of the noun “brother” (Chapter 1).
+	~%-100%νεανίαις#Incorrect. **νεανίαις** is the dat. pl. of the noun “young man” (Ch. 4).
+	~%-100%ἀγορᾷ#Incorrect. **ἀγορᾷ** is the dat. sing. of the noun “marketplace” (Ch. 1).
+}
+
+
+::Q031::[markdown]τῆς:{
+	~%-100%neut. nom. pl. of the definite article “the”#Incorrect. The neut. nom. pl. of the definite article “the” is **τά** (Ch. 1).
+	~%-100%neut. gen. sing. of the definite article “the”#Incorrect. The neut. gen. sing. of the definite article “the” is **τοῦ** (Ch. 1).
+	~%-100%masc. dat. pl. of the definite article “the”#Incorrect. The masc. dat. pl. of the definite article “the” is **τοῖς** (Ch. 1).
+	~%100%fem. gen. sing. of the definite article “the”#Correct: **τῆς** is fem. gen. sing. of the definite article “the” (Chapter 1).
+	~%-100%neut. nom. sing. of the definite article “the”#Incorrect. The neut. nom. sing. of the definite article “the” is **τό** (Ch. 1).
+}
+
+
+::Q032::[markdown]λόγων:{
+	~%-100%nom. pl. of the noun “soul” #Incorrect. The nom. pl. of the noun “soul”  is **ψυχαί** (Ch. 1).
+	~%100%gen. pl. of the noun “word”#Correct: **λόγων** is gen. pl. of the noun “word” (Chapter 1).
+	~%-100%dat. pl. of the noun “soul” #Incorrect. The dat. pl. of the noun “soul”  is **ψυχαῖς** (Ch. 1).
+	~%-100%dat. sing. of the noun “Muse”#Incorrect. The dat. sing. of the noun “Muse” is **μούσᾳ** (Ch. 4).
+	~%-100%dat. pl. of the noun “skill” #Incorrect. The dat. pl. of the noun “skill”  is **τέχναις** (Ch. 1).
+}
+
+
+::Q033::[markdown]μοῦσαι:{
+	~%100%nom. pl. of the noun “Muse”#Correct: **μοῦσαι** is nom. pl. of the noun “Muse” (Chapter 4).
+	~%-100%gen. sing. of the noun “fate; portion”#Incorrect. The gen. sing. of the noun “fate; portion” is **μοίρας** (Ch. 4).
+	~%-100%gen. pl. of the noun “soul” #Incorrect. The gen. pl. of the noun “soul”  is **ψυχῶν** (Ch. 1).
+	~%-100%nom. pl. of the noun “skill” #Incorrect. The nom. pl. of the noun “skill”  is **τέχναι** (Ch. 1).
+	~%-100%nom. pl. of the noun “young man”#Incorrect. The nom. pl. of the noun “young man” is **νεανίαι** (Ch. 4).
+}
+
+
+::Q034::[markdown]ἀγαθούς:{
+	~%-100%fem. dat. pl. of the adjective “worthy”#Incorrect. The fem. dat. pl. of the adjective “worthy” is **ἀξίαις** (Ch. 4).
+	~%-100%fem. nom. pl. of the adjective “worthy”#Incorrect. The fem. nom. pl. of the adjective “worthy” is **ἄξιαι** (Ch. 4).
+	~%100%masc. acc. pl. of the adjective “good; noble”#Correct: **ἀγαθούς** is masc. acc. pl. of the adjective “good; noble” (Chapter 4).
+	~%-100%masc. nom. pl. of the adjective “worthy”#Incorrect. The masc. nom. pl. of the adjective “worthy” is **ἄξιοι** (Ch. 4).
+	~%-100%fem. acc. sing. of the adjective “good; noble”#Incorrect. The fem. acc. sing. of the adjective “good; noble” is **ἀγαθήν** (Ch. 4).
+}
+
+
+::Q035::[markdown]ἀδίκῳ:{
+	~%-100%neut. acc. pl. of the adjective “unjust”#Incorrect. The neut. acc. pl. of the adjective “unjust” is **ἄδικα** (Ch. 4).
+	~%-100%neut. acc. pl. of the adjective “good; noble”#Incorrect. The neut. acc. pl. of the adjective “good; noble” is **ἀγαθά** (Ch. 4).
+	~%-100%masc. nom. sing. of the adjective “worthy”#Incorrect. The masc. nom. sing. of the adjective “worthy” is **ἄξιος** (Ch. 4).
+	~%50%neut. dat. sing. of the adjective “unjust”#Correct: **ἀδίκῳ** is neut. dat. sing. of the adjective “unjust” (Chapter 4).
+	~%50%masc./fem. dat. sing. of the adjective “unjust”#Correct: **ἀδίκῳ** is masc./fem. dat. sing. of the adjective “unjust” (Chapter 4).
+}
+
+
+::Q036::[markdown]θάλαττα:{
+	~%-100%dat. sing. of the noun “gift”#Incorrect. The dat. sing. of the noun “gift” is **δώρῳ** (Ch. 1).
+	~%100%nom. sing. of the noun “sea”#Correct: **θάλαττα** is nom. sing. of the noun “sea” (Chapter 4).
+	~%-100%gen. pl. of the noun “poet”#Incorrect. The gen. pl. of the noun “poet” is **ποιητῶν** (Ch. 4).
+	~%-100%nom. sing. of the noun “territory” #Incorrect. The nom. sing. of the noun “territory”  is **χώρα** (Ch. 1).
+	~%-100%dat. pl. of the noun “fate; portion”#Incorrect. The dat. pl. of the noun “fate; portion” is **μοίραις** (Ch. 4).
+}
+
+
+::Q037::[markdown]χώραν:{
+	~%100%acc. sing. of the noun “territory” #Correct: **χώραν** is acc. sing. of the noun “territory”  (Chapter 1).
+	~%-100%acc. pl. of the noun “word”#Incorrect. The acc. pl. of the noun “word” is **λόγους** (Ch. 1).
+	~%-100%dat. sing. of the noun “young man”#Incorrect. The dat. sing. of the noun “young man” is **νεανίᾳ** (Ch. 4).
+	~%-100%acc. sing. of the noun “skill” #Incorrect. The acc. sing. of the noun “skill”  is **τέχνην** (Ch. 1).
+	~%-100%acc. pl. of the noun “skill” #Incorrect. The acc. pl. of the noun “skill”  is **τέχνας** (Ch. 1).
+}
+
+
+::Q038::[markdown]ποιητῇ:{
+	~%100%dat. sing. of the noun “poet”#Correct: **ποιητῇ** is dat. sing. of the noun “poet” (Chapter 4).
+	~%-100%dat. pl. of the noun “gift”#Incorrect. The dat. pl. of the noun “gift” is **δώροις** (Ch. 1).
+	~%-100%gen. pl. of the noun “brother”#Incorrect. The gen. pl. of the noun “brother” is **ἀδελφῶν** (Ch. 1).
+	~%-100%dat. pl. of the noun “skill” #Incorrect. The dat. pl. of the noun “skill”  is **τέχναις** (Ch. 1).
+	~%-100%nom. sing. of the noun “fate; portion”#Incorrect. The nom. sing. of the noun “fate; portion” is **μοῖρα** (Ch. 4).
+}
+
+
+::Q039::[markdown]ἀδίκου:{
+	~%-100%neut. gen. pl. of the adjective “good; noble”#Incorrect. The neut. gen. pl. of the adjective “good; noble” is **ἀγαθῶν** (Ch. 4).
+	~%-100%masc./fem. acc. pl. of the adjective “unjust”#Incorrect. The masc./fem. acc. pl. of the adjective “unjust” is **ἀδίκους** (Ch. 4).
+	~%-100%fem. gen. pl. of the adjective “worthy”#Incorrect. The fem. gen. pl. of the adjective “worthy” is **ἀξίων** (Ch. 4).
+	~%50%neut. gen. sing. of the adjective “unjust”#Correct: **ἀδίκου** is neut. gen. sing. of the adjective “unjust” (Chapter 4).
+	~%50%masc./fem. gen. sing. of the adjective “unjust”#Correct: **ἀδίκου** is masc./fem. gen. sing. of the adjective “unjust” (Chapter 4).
+}
+
+
+::Q040::[markdown]θάλαττα:{
+	~%-100%gen. sing. of the noun “marketplace”#Incorrect. The gen. sing. of the noun “marketplace” is **ἀγορᾶς** (Ch. 1).
+	~%-100%acc. pl. of the noun “poet”#Incorrect. The acc. pl. of the noun “poet” is **ποιητάς** (Ch. 4).
+	~%100%nom. sing. of the noun “sea”#Correct: **θάλαττα** is nom. sing. of the noun “sea” (Chapter 4).
+	~%-100%gen. sing. of the noun “citizen”#Incorrect. The gen. sing. of the noun “citizen” is **πολίτου** (Ch. 4).
+	~%-100%acc. pl. of the noun “bridge”#Incorrect. The acc. pl. of the noun “bridge” is **γεφύρας** (Ch. 4).
+}
+
+
+::Q041::[markdown]θαλάττας:{
+	~%-100%acc. pl. of the noun “skill” #Incorrect. The acc. pl. of the noun “skill”  is **τέχνας** (Ch. 1).
+	~%100%acc. pl. of the noun “sea”#Correct: **θαλάττας** is acc. pl. of the noun “sea” (Chapter 4).
+	~%-100%dat. sing. of the noun “island”#Incorrect. The dat. sing. of the noun “island” is **νήσῳ** (Ch. 1).
+	~%-100%acc. sing. of the noun “island”#Incorrect. The acc. sing. of the noun “island” is **νῆσον** (Ch. 1).
+	~%-100%dat. sing. of the noun “Muse”#Incorrect. The dat. sing. of the noun “Muse” is **μούσᾳ** (Ch. 4).
+}
+
+
+::Q042::[markdown]τούς:{
+	~%-100%fem. nom. pl. of the definite article “the”#Incorrect. The fem. nom. pl. of the definite article “the” is **αἱ** (Ch. 1).
+	~%-100%neut. gen. pl. of the definite article “the”#Incorrect. The neut. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%100%masc. acc. pl. of the definite article “the”#Correct: **τούς** is masc. acc. pl. of the definite article “the” (Chapter 1).
+	~%-100%fem. acc. pl. of the definite article “the”#Incorrect. The fem. acc. pl. of the definite article “the” is **τάς** (Ch. 1).
+	~%-100%masc. nom. sing. of the definite article “the”#Incorrect. The masc. nom. sing. of the definite article “the” is **ὁ** (Ch. 1).
+}
+
+
+::Q043::[markdown]χώρᾳ:{
+	~%-100%acc. pl. of the noun “gift”#Incorrect. The acc. pl. of the noun “gift” is **δῶρα** (Ch. 1).
+	~%-100%nom. pl. of the noun “bridge”#Incorrect. The nom. pl. of the noun “bridge” is **γέφυραι** (Ch. 4).
+	~%100%dat. sing. of the noun “territory” #Correct: **χώρᾳ** is dat. sing. of the noun “territory”  (Chapter 1).
+	~%-100%acc. pl. of the noun “young man”#Incorrect. The acc. pl. of the noun “young man” is **νεανίας** (Ch. 4).
+	~%-100%acc. pl. of the noun “sea”#Incorrect. The acc. pl. of the noun “sea” is **θαλάττας** (Ch. 4).
+}
+
+
+::Q044::[markdown]χώρα:{
+	~%-100%nom. sing. of the noun “sea”#Incorrect. The nom. sing. of the noun “sea” is **θάλαττα** (Ch. 4).
+	~%-100%gen. pl. of the noun “human being”#Incorrect. The gen. pl. of the noun “human being” is **ἀνθρώπων** (Ch. 1).
+	~%-100%acc. sing. of the noun “young man”#Incorrect. The acc. sing. of the noun “young man” is **νεανίαν** (Ch. 4).
+	~%100%nom. sing. of the noun “territory” #Correct: **χώρα** is nom. sing. of the noun “territory”  (Chapter 1).
+	~%-100%nom. pl. of the noun “brother”#Incorrect. The nom. pl. of the noun “brother” is **ἀδελφοί** (Ch. 1).
+}
+
+
+::Q045::[markdown]τά:{
+	~%-100%masc. dat. pl. of the definite article “the”#Incorrect. The masc. dat. pl. of the definite article “the” is **τοῖς** (Ch. 1).
+	~%50%neut. nom. pl. of the definite article “the”#Correct: **τά** is neut. nom. pl. of the definite article “the” (Chapter 1).
+	~%-100%neut. gen. pl. of the definite article “the”#Incorrect. The neut. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%-100%masc. gen. pl. of the definite article “the”#Incorrect. The masc. gen. pl. of the definite article “the” is **τῶν** (Ch. 1).
+	~%50%neut. acc. pl. of the definite article “the”#Correct: **τά** is neut. acc. pl. of the definite article “the” (Chapter 1).
+}
+
+
+::Q046::[markdown]ἀξίων:{
+	~%33.333%neut. gen. pl. of the adjective “worthy”#Correct: **ἀξίων** is neut. gen. pl. of the adjective “worthy” (Chapter 4).
+	~%33.333%fem. gen. pl. of the adjective “worthy”#Correct: **ἀξίων** is fem. gen. pl. of the adjective “worthy” (Chapter 4).
+	~%33.333%masc. gen. pl. of the adjective “worthy”#Correct: **ἀξίων** is masc. gen. pl. of the adjective “worthy” (Chapter 4).
+	~%-100%masc. gen. pl. of the adjective “good; noble”#Incorrect. The masc. gen. pl. of the adjective “good; noble” is **ἀγαθῶν** (Ch. 4).
+	~%-100%masc. dat. pl. of the adjective “worthy”#Incorrect. The masc. dat. pl. of the adjective “worthy” is **ἀξίοις** (Ch. 4).
+}
+
+
+::Q047::[markdown]ἄξιον:{
+	~%25%masc. acc. sing. of the adjective “worthy”#Correct: **ἄξιον** is masc. acc. sing. of the adjective “worthy” (Chapter 4).
+	~%25%neut. nom. sing. of the adjective “worthy”#Correct: **ἄξιον** is neut. nom. sing. of the adjective “worthy” (Chapter 4).
+	~%25%neut. acc. sing. of the adjective “worthy”#Correct: **ἄξιον** is neut. acc. sing. of the adjective “worthy” (Chapter 4).
+	~%-100%masc. gen. pl. of the adjective “good; noble”#Incorrect. The masc. gen. pl. of the adjective “good; noble” is **ἀγαθῶν** (Ch. 4).
+	~%25%masc. acc. pl. of the adjective “worthy”#Correct: **ἄξιον** is masc. acc. pl. of the adjective “worthy” (Chapter 4).
+}
+
+
+::Q048::[markdown]ἀξίου:{
+	~%-100%neut. gen. pl. of the adjective “good; noble”#Incorrect. The neut. gen. pl. of the adjective “good; noble” is **ἀγαθῶν** (Ch. 4).
+	~%50%masc. gen. sing. of the adjective “worthy”#Correct: **ἀξίου** is masc. gen. sing. of the adjective “worthy” (Chapter 4).
+	~%-100%neut. nom. pl. of the adjective “good; noble”#Incorrect. The neut. nom. pl. of the adjective “good; noble” is **ἀγαθά** (Ch. 4).
+	~%-100%masc. dat. sing. of the adjective “worthy”#Incorrect. The masc. dat. sing. of the adjective “worthy” is **ἀξίῳ** (Ch. 4).
+	~%50%neut. gen. sing. of the adjective “worthy”#Correct: **ἀξίου** is neut. gen. sing. of the adjective “worthy” (Chapter 4).
+}
+
+
+::Q049::[markdown]ἄνθρωποι:{
+	~%-100%gen. pl. of the noun “bridge”#Incorrect. The gen. pl. of the noun “bridge” is **γεφυρῶν** (Ch. 4).
+	~%100%nom. pl. of the noun “human being”#Correct: **ἄνθρωποι** is nom. pl. of the noun “human being” (Chapter 1).
+	~%-100%acc. pl. of the noun “brother”#Incorrect. The acc. pl. of the noun “brother” is **ἀδελφούς** (Ch. 1).
+	~%-100%dat. pl. of the noun “word”#Incorrect. The dat. pl. of the noun “word” is **λόγοις** (Ch. 1).
+	~%-100%dat. pl. of the noun “bridge”#Incorrect. The dat. pl. of the noun “bridge” is **γεφύραις** (Ch. 4).
+}
+
+
+::Q050::[markdown]fem. acc. sing. of the adjective “good; noble”:{
+	~%-100%ἀξίοις#Incorrect. **ἀξίοις** is the neut. dat. pl. of the adjective “worthy” (Ch. 4).
+	~%100%ἀγαθήν#Correct: **ἀγαθήν** is the correct form for fem. acc. sing. of the adjective “good; noble” (Chapter 4).
+	~%-100%ἄδικ#Incorrect. **ἄδικ** is the neut. nom. pl. of the adjective “unjust” (Ch. 4).
+	~%-100%ἀγαθῷ#Incorrect. **ἀγαθῷ** is the masc. dat. sing. of the adjective “good; noble” (Ch. 4).
+	~%-100%ἀγαθῶν#Incorrect. **ἀγαθῶν** is the masc. gen. pl. of the adjective “good; noble” (Ch. 4).
+}
+
+

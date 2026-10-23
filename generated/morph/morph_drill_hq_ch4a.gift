@@ -1,0 +1,452 @@
+$CATEGORY: Morphology/HansenQuinn/Ch4a
+
+::Q001::[markdown]aorist (1) active optative 3rd pl. of the verb “I loosen”:{
+	~%-100%λύετε#Incorrect. **λύετε** is the present active indicative 2nd pl. of the verb “I loosen” (Ch. 2).
+	~%-100%ἐπέμπετε#Incorrect. **ἐπέμπετε** is the imperfect active indicative 2nd pl. of the verb “I send” (Ch. 3).
+	~%-100%-#Incorrect. **-** is the aorist (1) active optative 1st pl. of the verb “I order” (Ch. 3).
+	~%50%λύσαιεν#Correct: **λύσαιεν** is the correct form for aorist (1) active optative 3rd pl. of the verb “I loosen” (Chapter 3).
+	~%50%λύσειαν#Correct: **λύσειαν** is the correct form for aorist (1) active optative 3rd pl. of the verb “I loosen” (Chapter 3).
+}
+
+
+::Q002::[markdown]future active indicative 2nd pl. of the verb “I send”:{
+	~%100%πέμψετε#Correct: **πέμψετε** is the correct form for future active indicative 2nd pl. of the verb “I send” (Chapter 3).
+	~%-100%ἐπεπόμφης#Incorrect. **ἐπεπόμφης** is the pluperfect active indicative 2nd sing. of the verb “I send” (Ch. 3).
+	~%-100%λύσω#Incorrect. **λύσω** is the future active indicative 1st sing. of the verb “I loosen” (Ch. 2).
+	~%-100%κελεῦσαι#Incorrect. **κελεῦσαι** is the aorist (1) active infinitive of the verb “I order” (Ch. 2).
+	~%-100%ἐκεκελεύκαμεν#Incorrect. **ἐκεκελεύκαμεν** is the pluperfect active indicative 1st pl. of the verb “I order” (Ch. 3).
+}
+
+
+::Q003::[markdown]ἀγοραί:{
+	~%-100%gen. pl. of the noun “brother”#Incorrect. The gen. pl. of the noun “brother” is **ἀδελφῶν** (Ch. 1).
+	~%-100%nom. sing. of the noun “island”#Incorrect. The nom. sing. of the noun “island” is **νῆσος** (Ch. 1).
+	~%-100%dat. pl. of the noun “soul” #Incorrect. The dat. pl. of the noun “soul”  is **ψυχαῖς** (Ch. 1).
+	~%-100%gen. pl. of the noun “bridge”#Incorrect. The gen. pl. of the noun “bridge” is **γεφυρῶν** (Ch. 4).
+	~%100%nom. pl. of the noun “marketplace”#Correct: **ἀγοραί** is nom. pl. of the noun “marketplace” (Chapter 1).
+}
+
+
+::Q004::[markdown]ἀξίων:{
+	~%-100%neut. nom. sing. of the adjective “worthy”#Incorrect. The neut. nom. sing. of the adjective “worthy” is **ἄξιον** (Ch. 4).
+	~%33.333%fem. gen. pl. of the adjective “worthy”#Correct: **ἀξίων** is fem. gen. pl. of the adjective “worthy” (Chapter 4).
+	~%-100%neut. gen. pl. of the adjective “good; noble”#Incorrect. The neut. gen. pl. of the adjective “good; noble” is **ἀγαθῶν** (Ch. 4).
+	~%33.333%neut. gen. pl. of the adjective “worthy”#Correct: **ἀξίων** is neut. gen. pl. of the adjective “worthy” (Chapter 4).
+	~%33.333%masc. gen. pl. of the adjective “worthy”#Correct: **ἀξίων** is masc. gen. pl. of the adjective “worthy” (Chapter 4).
+}
+
+
+::Q005::[markdown]imperfect active indicative 3rd sing. of the verb “I send”:{
+	~%-100%πέμψει#Incorrect. **πέμψει** is the future active indicative 3rd sing. of the verb “I send” (Ch. 3).
+	~%-100%παιδεύοιμι#Incorrect. **παιδεύοιμι** is the present active optative 1st sing. of the verb “I educate” (Ch. 3).
+	~%-100%ἔλυσας#Incorrect. **ἔλυσας** is the aorist (1) active indicative 2nd sing. of the verb “I loosen” (Ch. 2).
+	~%-100%κελεῦσαι#Incorrect. **κελεῦσαι** is the aorist (1) active infinitive of the verb “I order” (Ch. 2).
+	~%100%ἔπεμπε#Correct: **ἔπεμπε** is the correct form for imperfect active indicative 3rd sing. of the verb “I send” (Chapter 3).
+}
+
+
+::Q006::[markdown]πέμψῃς:{
+	~%-100%present active subjunctive 1st sing. of the verb “I educate”#Incorrect. The present active subjunctive 1st sing. of the verb “I educate” is **παιδεύω** (Ch. 3).
+	~%-100%present active indicative 2nd sing. of the verb “I educate”#Incorrect. The present active indicative 2nd sing. of the verb “I educate” is **παιδεύεις** (Ch. 2).
+	~%-100%future active indicative 1st pl. of the verb “I educate”#Incorrect. The future active indicative 1st pl. of the verb “I educate” is **παιδεύσομεν** (Ch. 2).
+	~%100%aorist (1) active subjunctive 2nd sing. of the verb “I send”#Correct: **πέμψῃς** is aorist (1) active subjunctive 2nd sing. of the verb “I send” (Chapter 3).
+	~%-100%present active indicative 1st sing. of the verb “I send”#Incorrect. The present active indicative 1st sing. of the verb “I send” is **πέμπω** (Ch. 3).
+}
+
+
+::Q007::[markdown]ψυχήν:{
+	~%-100%acc. sing. of the noun “word”#Incorrect. The acc. sing. of the noun “word” is **λόγον** (Ch. 1).
+	~%-100%acc. sing. of the noun “gift”#Incorrect. The acc. sing. of the noun “gift” is **δῶρον** (Ch. 1).
+	~%100%acc. sing. of the noun “soul” #Correct: **ψυχήν** is acc. sing. of the noun “soul”  (Chapter 1).
+	~%-100%nom. sing. of the noun “brother”#Incorrect. The nom. sing. of the noun “brother” is **ἀδελφός** (Ch. 1).
+	~%-100%acc. pl. of the noun “sea”#Incorrect. The acc. pl. of the noun “sea” is **θαλάττας** (Ch. 4).
+}
+
+
+::Q008::[markdown]ἄδικον:{
+	~%33.333%masc./fem. acc. sing. of the adjective “unjust”#Correct: **ἄδικον** is masc./fem. acc. sing. of the adjective “unjust” (Chapter 4).
+	~%33.333%neut. nom. sing. of the adjective “unjust”#Correct: **ἄδικον** is neut. nom. sing. of the adjective “unjust” (Chapter 4).
+	~%-100%fem. dat. sing. of the adjective “worthy”#Incorrect. The fem. dat. sing. of the adjective “worthy” is **ἀξίᾳ** (Ch. 4).
+	~%33.333%neut. acc. sing. of the adjective “unjust”#Correct: **ἄδικον** is neut. acc. sing. of the adjective “unjust” (Chapter 4).
+	~%-100%masc./fem. gen. sing. of the adjective “unjust”#Incorrect. The masc./fem. gen. sing. of the adjective “unjust” is **ἀδίκου** (Ch. 4).
+}
+
+
+::Q009::[markdown]λύσει:{
+	~%-100%perfect active indicative 1st pl. of the verb “I loosen”#Incorrect. The perfect active indicative 1st pl. of the verb “I loosen” is **λελύκαμεν** (Ch. 3).
+	~%100%future active indicative 3rd sing. of the verb “I loosen”#Correct: **λύσει** is future active indicative 3rd sing. of the verb “I loosen” (Chapter 2).
+	~%-100%aorist (1) active indicative 1st pl. of the verb “I order”#Incorrect. The aorist (1) active indicative 1st pl. of the verb “I order” is **ἐκελεύσαμεν** (Ch. 2).
+	~%-100%present active indicative 1st pl. of the verb “I loosen”#Incorrect. The present active indicative 1st pl. of the verb “I loosen” is **λύομεν** (Ch. 2).
+	~%-100%aorist (1) active subjunctive 2nd pl. of the verb “I send”#Incorrect. The aorist (1) active subjunctive 2nd pl. of the verb “I send” is **πέμψητε** (Ch. 3).
+}
+
+
+::Q010::[markdown]ψυχῆς:{
+	~%-100%dat. sing. of the noun “Muse”#Incorrect. The dat. sing. of the noun “Muse” is **μούσᾳ** (Ch. 4).
+	~%-100%acc. sing. of the noun “marketplace”#Incorrect. The acc. sing. of the noun “marketplace” is **ἀγοράν** (Ch. 1).
+	~%-100%nom. sing. of the noun “Muse”#Incorrect. The nom. sing. of the noun “Muse” is **μοῦσα** (Ch. 4).
+	~%100%gen. sing. of the noun “soul” #Correct: **ψυχῆς** is gen. sing. of the noun “soul”  (Chapter 1).
+	~%-100%dat. sing. of the noun “sea”#Incorrect. The dat. sing. of the noun “sea” is **θαλάττῃ** (Ch. 4).
+}
+
+
+::Q011::[markdown]aorist (1) active subjunctive 1st sing. of the verb “I order”:{
+	~%100%κελεύσω#Correct: **κελεύσω** is the correct form for aorist (1) active subjunctive 1st sing. of the verb “I order” (Chapter 3).
+	~%-100%λύοιεν#Incorrect. **λύοιεν** is the present active optative 3rd pl. of the verb “I loosen” (Ch. 3).
+	~%-100%παιδεύομεν#Incorrect. **παιδεύομεν** is the present active indicative 1st pl. of the verb “I educate” (Ch. 2).
+	~%-100%λέλυκεν#Incorrect. **λέλυκεν** is the perfect active indicative 3rd sing. of the verb “I loosen” (Ch. 3).
+	~%-100%ἐλέλυκεν#Incorrect. **ἐλέλυκεν** is the pluperfect active indicative 3rd sing. of the verb “I loosen” (Ch. 3).
+}
+
+
+::Q012::[markdown]ἀγοράν:{
+	~%100%acc. sing. of the noun “marketplace”#Correct: **ἀγοράν** is acc. sing. of the noun “marketplace” (Chapter 1).
+	~%-100%gen. pl. of the noun “marketplace”#Incorrect. The gen. pl. of the noun “marketplace” is **ἀγορῶν** (Ch. 1).
+	~%-100%gen. sing. of the noun “Muse”#Incorrect. The gen. sing. of the noun “Muse” is **μούσας** (Ch. 4).
+	~%-100%nom. pl. of the noun “skill” #Incorrect. The nom. pl. of the noun “skill”  is **τέχναι** (Ch. 1).
+	~%-100%nom. sing. of the noun “human being”#Incorrect. The nom. sing. of the noun “human being” is **ἄνθρωπος** (Ch. 1).
+}
+
+
+::Q013::[markdown]τέχνη:{
+	~%100%nom. sing. of the noun “skill” #Correct: **τέχνη** is nom. sing. of the noun “skill”  (Chapter 1).
+	~%-100%gen. sing. of the noun “territory” #Incorrect. The gen. sing. of the noun “territory”  is **χώρας** (Ch. 1).
+	~%-100%nom. pl. of the noun “brother”#Incorrect. The nom. pl. of the noun “brother” is **ἀδελφοί** (Ch. 1).
+	~%-100%acc. pl. of the noun “citizen”#Incorrect. The acc. pl. of the noun “citizen” is **πολίτας** (Ch. 4).
+	~%-100%acc. pl. of the noun “poet”#Incorrect. The acc. pl. of the noun “poet” is **ποιητάς** (Ch. 4).
+}
+
+
+::Q014::[markdown]μοῦσαν:{
+	~%100%acc. sing. of the noun “Muse”#Correct: **μοῦσαν** is acc. sing. of the noun “Muse” (Chapter 4).
+	~%-100%nom. pl. of the noun “sea”#Incorrect. The nom. pl. of the noun “sea” is **θάλατται** (Ch. 4).
+	~%-100%gen. sing. of the noun “word”#Incorrect. The gen. sing. of the noun “word” is **λόγου** (Ch. 1).
+	~%-100%nom. pl. of the noun “poet”#Incorrect. The nom. pl. of the noun “poet” is **ποιηταί** (Ch. 4).
+	~%-100%dat. sing. of the noun “young man”#Incorrect. The dat. sing. of the noun “young man” is **νεανίᾳ** (Ch. 4).
+}
+
+
+::Q015::[markdown]λύσει:{
+	~%-100%aorist (1) active optative 2nd pl. of the verb “I send”#Incorrect. The aorist (1) active optative 2nd pl. of the verb “I send” is **πέμψαιτε** (Ch. 3).
+	~%-100%present active indicative 1st pl. of the verb “I loosen”#Incorrect. The present active indicative 1st pl. of the verb “I loosen” is **λύομεν** (Ch. 2).
+	~%100%future active indicative 3rd sing. of the verb “I loosen”#Correct: **λύσει** is future active indicative 3rd sing. of the verb “I loosen” (Chapter 2).
+	~%-100%future active indicative 3rd sing. of the verb “I educate”#Incorrect. The future active indicative 3rd sing. of the verb “I educate” is **παιδεύσει** (Ch. 2).
+	~%-100%imperfect active indicative 1st pl. of the verb “I order”#Incorrect. The imperfect active indicative 1st pl. of the verb “I order” is **ἐκελεύομεν** (Ch. 2).
+}
+
+
+::Q016::[markdown]ἀξίῳ:{
+	~%-100%masc. dat. pl. of the adjective “worthy”#Incorrect. The masc. dat. pl. of the adjective “worthy” is **ἀξίοις** (Ch. 4).
+	~%-100%fem. gen. sing. of the adjective “good; noble”#Incorrect. The fem. gen. sing. of the adjective “good; noble” is **ἀγαθῆς** (Ch. 4).
+	~%50%neut. dat. sing. of the adjective “worthy”#Correct: **ἀξίῳ** is neut. dat. sing. of the adjective “worthy” (Chapter 4).
+	~%-100%fem. nom. sing. of the adjective “good; noble”#Incorrect. The fem. nom. sing. of the adjective “good; noble” is **ἀγαθή** (Ch. 4).
+	~%50%masc. dat. sing. of the adjective “worthy”#Correct: **ἀξίῳ** is masc. dat. sing. of the adjective “worthy” (Chapter 4).
+}
+
+
+::Q017::[markdown]ἀγαθήν:{
+	~%-100%masc. gen. sing. of the adjective “good; noble”#Incorrect. The masc. gen. sing. of the adjective “good; noble” is **ἀγαθοῦ** (Ch. 4).
+	~%-100%neut. gen. pl. of the adjective “worthy”#Incorrect. The neut. gen. pl. of the adjective “worthy” is **ἀξίων** (Ch. 4).
+	~%100%fem. acc. sing. of the adjective “good; noble”#Correct: **ἀγαθήν** is fem. acc. sing. of the adjective “good; noble” (Chapter 4).
+	~%-100%masc. acc. sing. of the adjective “worthy”#Incorrect. The masc. acc. sing. of the adjective “worthy” is **ἄξιον** (Ch. 4).
+	~%-100%fem. dat. pl. of the adjective “worthy”#Incorrect. The fem. dat. pl. of the adjective “worthy” is **ἀξίαις** (Ch. 4).
+}
+
+
+::Q018::[markdown]δώροις:{
+	~%-100%dat. pl. of the noun “citizen”#Incorrect. The dat. pl. of the noun “citizen” is **πολιταῖς** (Ch. 4).
+	~%100%dat. pl. of the noun “gift”#Correct: **δώροις** is dat. pl. of the noun “gift” (Chapter 1).
+	~%-100%acc. pl. of the noun “marketplace”#Incorrect. The acc. pl. of the noun “marketplace” is **ἀγοράς** (Ch. 1).
+	~%-100%nom. sing. of the noun “brother”#Incorrect. The nom. sing. of the noun “brother” is **ἀδελφός** (Ch. 1).
+	~%-100%nom. pl. of the noun “Muse”#Incorrect. The nom. pl. of the noun “Muse” is **μοῦσαι** (Ch. 4).
+}
+
+
+::Q019::[markdown]γεφύρᾳ:{
+	~%-100%nom. sing. of the noun “marketplace”#Incorrect. The nom. sing. of the noun “marketplace” is **ἀγορά** (Ch. 1).
+	~%-100%nom. sing. of the noun “fate; portion”#Incorrect. The nom. sing. of the noun “fate; portion” is **μοῖρα** (Ch. 4).
+	~%100%dat. sing. of the noun “bridge”#Correct: **γεφύρᾳ** is dat. sing. of the noun “bridge” (Chapter 4).
+	~%-100%acc. pl. of the noun “bridge”#Incorrect. The acc. pl. of the noun “bridge” is **γεφύρας** (Ch. 4).
+	~%-100%gen. sing. of the noun “Muse”#Incorrect. The gen. sing. of the noun “Muse” is **μούσας** (Ch. 4).
+}
+
+
+::Q020::[markdown]ἐπαίδευσε:{
+	~%-100%present active infinitive of the verb “I order”#Incorrect. The present active infinitive of the verb “I order” is **κελεύειν** (Ch. 2).
+	~%100%aorist (1) active indicative 3rd sing. of the verb “I educate”#Correct: **ἐπαίδευσε** is aorist (1) active indicative 3rd sing. of the verb “I educate” (Chapter 2).
+	~%-100%future active indicative 1st sing. of the verb “I loosen”#Incorrect. The future active indicative 1st sing. of the verb “I loosen” is **λύσω** (Ch. 2).
+	~%-100%future active indicative 1st pl. of the verb “I loosen”#Incorrect. The future active indicative 1st pl. of the verb “I loosen” is **λύσομεν** (Ch. 2).
+	~%-100%present active indicative 1st sing. of the verb “I send”#Incorrect. The present active indicative 1st sing. of the verb “I send” is **πέμπω** (Ch. 3).
+}
+
+
+::Q021::[markdown]present active infinitive of the verb “I loosen”:{
+	~%100%λύειν#Correct: **λύειν** is the correct form for present active infinitive of the verb “I loosen” (Chapter 2).
+	~%-100%ἐπεπόμφης#Incorrect. **ἐπεπόμφης** is the pluperfect active indicative 2nd sing. of the verb “I send” (Ch. 3).
+	~%-100%κελεύῃς#Incorrect. **κελεύῃς** is the present active subjunctive 2nd sing. of the verb “I order” (Ch. 3).
+	~%-100%κελεύσαις#Incorrect. **κελεύσαις** is the aorist (1) active optative 2nd sing. of the verb “I order” (Ch. 3).
+	~%-100%λύωσιν#Incorrect. **λύωσιν** is the present active subjunctive 3rd pl. of the verb “I loosen” (Ch. 3).
+}
+
+
+::Q022::[markdown]ἔπεμψεν:{
+	~%-100%aorist (1) active indicative 1st sing. of the verb “I send”#Incorrect. The aorist (1) active indicative 1st sing. of the verb “I send” is **ἔπεμψα** (Ch. 3).
+	~%-100%present active infinitive of the verb “I loosen”#Incorrect. The present active infinitive of the verb “I loosen” is **λύειν** (Ch. 2).
+	~%-100%future active indicative 1st pl. of the verb “I order”#Incorrect. The future active indicative 1st pl. of the verb “I order” is **κελεύσομεν** (Ch. 2).
+	~%-100%present active optative 3rd pl. of the verb “I send”#Incorrect. The present active optative 3rd pl. of the verb “I send” is **πέμποιεν** (Ch. 3).
+	~%100%aorist (1) active indicative 3rd sing. of the verb “I send”#Correct: **ἔπεμψεν** is aorist (1) active indicative 3rd sing. of the verb “I send” (Chapter 3).
+}
+
+
+::Q023::[markdown]fem. dat. sing. of the adjective “worthy”:{
+	~%-100%ἀδίκῳ#Incorrect. **ἀδίκῳ** is the masc./fem. dat. sing. of the adjective “unjust” (Ch. 4).
+	~%-100%ἀγαθῶν#Incorrect. **ἀγαθῶν** is the fem. gen. pl. of the adjective “good; noble” (Ch. 4).
+	~%-100%ἀξίας#Incorrect. **ἀξίας** is the fem. acc. pl. of the adjective “worthy” (Ch. 4).
+	~%-100%ἀγαθῷ#Incorrect. **ἀγαθῷ** is the masc. dat. sing. of the adjective “good; noble” (Ch. 4).
+	~%100%ἀξίᾳ#Correct: **ἀξίᾳ** is the correct form for fem. dat. sing. of the adjective “worthy” (Chapter 4).
+}
+
+
+::Q024::[markdown]aorist (1) active infinitive of the verb “I send”:{
+	~%-100%παιδεύοιμι#Incorrect. **παιδεύοιμι** is the present active optative 1st sing. of the verb “I educate” (Ch. 3).
+	~%-100%πέμψαιμεν#Incorrect. **πέμψαιμεν** is the aorist (1) active optative 1st pl. of the verb “I send” (Ch. 3).
+	~%-100%ἐπαίδευον#Incorrect. **ἐπαίδευον** is the imperfect active indicative 1st sing. of the verb “I educate” (Ch. 2).
+	~%-100%πέμποιμεν#Incorrect. **πέμποιμεν** is the present active optative 1st pl. of the verb “I send” (Ch. 3).
+	~%100%πέμψαι#Correct: **πέμψαι** is the correct form for aorist (1) active infinitive of the verb “I send” (Chapter 3).
+}
+
+
+::Q025::[markdown]λύσαις:{
+	~%-100%pluperfect active indicative 3rd sing. of the verb “I send”#Incorrect. The pluperfect active indicative 3rd sing. of the verb “I send” is **ἐπεπόμφειν** (Ch. 3).
+	~%-100%present active infinitive of the verb “I educate”#Incorrect. The present active infinitive of the verb “I educate” is **παιδεύειν** (Ch. 2).
+	~%100%aorist (1) active optative 2nd sing. of the verb “I loosen”#Correct: **λύσαις** is aorist (1) active optative 2nd sing. of the verb “I loosen” (Chapter 3).
+	~%-100%aorist (1) active optative 3rd pl. of the verb “I order”#Incorrect. The aorist (1) active optative 3rd pl. of the verb “I order” is **κελεύσειαν** (Ch. 3).
+	~%-100%aorist (1) active subjunctive 3rd pl. of the verb “I send”#Incorrect. The aorist (1) active subjunctive 3rd pl. of the verb “I send” is **πέμψωσιν** (Ch. 3).
+}
+
+
+::Q026::[markdown]ποιητοῦ:{
+	~%100%gen. sing. of the noun “poet”#Correct: **ποιητοῦ** is gen. sing. of the noun “poet” (Chapter 4).
+	~%-100%acc. sing. of the noun “word”#Incorrect. The acc. sing. of the noun “word” is **λόγον** (Ch. 1).
+	~%-100%nom. sing. of the noun “marketplace”#Incorrect. The nom. sing. of the noun “marketplace” is **ἀγορά** (Ch. 1).
+	~%-100%dat. sing. of the noun “skill” #Incorrect. The dat. sing. of the noun “skill”  is **τέχνῃ** (Ch. 1).
+	~%-100%gen. sing. of the noun “word”#Incorrect. The gen. sing. of the noun “word” is **λόγου** (Ch. 1).
+}
+
+
+::Q027::[markdown]neut. dat. pl. of the definite article “the”:{
+	~%-100%τήν#Incorrect. **τήν** is the fem. acc. sing. of the definite article “the” (Ch. 1).
+	~%-100%τοῦ#Incorrect. **τοῦ** is the neut. gen. sing. of the definite article “the” (Ch. 1).
+	~%-100%οἱ#Incorrect. **οἱ** is the masc. nom. pl. of the definite article “the” (Ch. 1).
+	~%100%τοῖς#Correct: **τοῖς** is the correct form for neut. dat. pl. of the definite article “the” (Chapter 1).
+	~%-100%τῶν#Incorrect. **τῶν** is the fem. gen. pl. of the definite article “the” (Ch. 1).
+}
+
+
+::Q028::[markdown]ἐπαίδευον:{
+	~%50%imperfect active indicative 3rd pl. of the verb “I educate”#Correct: **ἐπαίδευον** is imperfect active indicative 3rd pl. of the verb “I educate” (Chapter 2).
+	~%-100%aorist (1) active subjunctive 3rd pl. of the verb “I loosen”#Incorrect. The aorist (1) active subjunctive 3rd pl. of the verb “I loosen” is **λύσωσιν** (Ch. 3).
+	~%50%imperfect active indicative 1st sing. of the verb “I educate”#Correct: **ἐπαίδευον** is imperfect active indicative 1st sing. of the verb “I educate” (Chapter 2).
+	~%-100%perfect active indicative 3rd sing. of the verb “I order”#Incorrect. The perfect active indicative 3rd sing. of the verb “I order” is **κεκέλευκεν** (Ch. 3).
+	~%-100%imperfect active indicative 1st pl. of the verb “I order”#Incorrect. The imperfect active indicative 1st pl. of the verb “I order” is **ἐκελεύομεν** (Ch. 2).
+}
+
+
+::Q029::[markdown]fem. dat. sing. of the adjective “good; noble”:{
+	~%-100%ἄξιοι#Incorrect. **ἄξιοι** is the masc. nom. pl. of the adjective “worthy” (Ch. 4).
+	~%-100%ἄξιον#Incorrect. **ἄξιον** is the masc. acc. sing. of the adjective “worthy” (Ch. 4).
+	~%100%ἀγαθῇ#Correct: **ἀγαθῇ** is the correct form for fem. dat. sing. of the adjective “good; noble” (Chapter 4).
+	~%-100%ἀδίκου#Incorrect. **ἀδίκου** is the neut. gen. sing. of the adjective “unjust” (Ch. 4).
+	~%-100%ἄδικοι#Incorrect. **ἄδικοι** is the masc./fem. nom. pl. of the adjective “unjust” (Ch. 4).
+}
+
+
+::Q030::[markdown]aorist (1) active subjunctive 1st pl. of the verb “I send”:{
+	~%-100%ἔλυσε#Incorrect. **ἔλυσε** is the aorist (1) active indicative 3rd sing. of the verb “I loosen” (Ch. 2).
+	~%100%πέμψωμεν#Correct: **πέμψωμεν** is the correct form for aorist (1) active subjunctive 1st pl. of the verb “I send” (Chapter 3).
+	~%-100%ἐπέμπομεν#Incorrect. **ἐπέμπομεν** is the imperfect active indicative 1st pl. of the verb “I send” (Ch. 3).
+	~%-100%ἔπεμψεν#Incorrect. **ἔπεμψεν** is the aorist (1) active indicative 3rd sing. of the verb “I send” (Ch. 3).
+	~%-100%-#Incorrect. **-** is the aorist (1) active optative 1st sing. of the verb “I send” (Ch. 3).
+}
+
+
+::Q031::[markdown]ἐπεπαιδεύκετε:{
+	~%-100%aorist (1) active indicative 2nd sing. of the verb “I send”#Incorrect. The aorist (1) active indicative 2nd sing. of the verb “I send” is **ἔπεμψας** (Ch. 3).
+	~%-100%future active indicative 3rd sing. of the verb “I send”#Incorrect. The future active indicative 3rd sing. of the verb “I send” is **πέμψει** (Ch. 3).
+	~%-100%present active subjunctive 3rd pl. of the verb “I send”#Incorrect. The present active subjunctive 3rd pl. of the verb “I send” is **πέμπωσιν** (Ch. 3).
+	~%100%pluperfect active indicative 2nd pl. of the verb “I educate”#Correct: **ἐπεπαιδεύκετε** is pluperfect active indicative 2nd pl. of the verb “I educate” (Chapter 3).
+	~%-100%aorist (1) active optative 1st pl. of the verb “I loosen”#Incorrect. The aorist (1) active optative 1st pl. of the verb “I loosen” is **λύσαιμεν** (Ch. 3).
+}
+
+
+::Q032::[markdown]λύσαι:{
+	~%100%aorist (1) active optative 3rd sing. of the verb “I loosen”#Correct: **λύσαι** is aorist (1) active optative 3rd sing. of the verb “I loosen” (Chapter 3).
+	~%-100%aorist (1) active infinitive of the verb “I order”#Incorrect. The aorist (1) active infinitive of the verb “I order” is **κελεῦσαι** (Ch. 2).
+	~%-100%aorist (1) active indicative 1st sing. of the verb “I educate”#Incorrect. The aorist (1) active indicative 1st sing. of the verb “I educate” is **ἐπαίδευσα** (Ch. 2).
+	~%-100%aorist (1) active optative 2nd sing. of the verb “I loosen”#Incorrect. The aorist (1) active optative 2nd sing. of the verb “I loosen” is **λύσειας** (Ch. 3).
+	~%-100%aorist (1) active subjunctive 1st pl. of the verb “I order”#Incorrect. The aorist (1) active subjunctive 1st pl. of the verb “I order” is **κελεύσωμεν** (Ch. 3).
+}
+
+
+::Q033::[markdown]λύομεν:{
+	~%100%present active indicative 1st pl. of the verb “I loosen”#Correct: **λύομεν** is present active indicative 1st pl. of the verb “I loosen” (Chapter 2).
+	~%-100%present active indicative 2nd sing. of the verb “I loosen”#Incorrect. The present active indicative 2nd sing. of the verb “I loosen” is **λύεις** (Ch. 2).
+	~%-100%aorist (1) active indicative 2nd sing. of the verb “I send”#Incorrect. The aorist (1) active indicative 2nd sing. of the verb “I send” is **ἔπεμψας** (Ch. 3).
+	~%-100%aorist (1) active indicative 3rd sing. of the verb “I educate”#Incorrect. The aorist (1) active indicative 3rd sing. of the verb “I educate” is **ἐπαίδευσε** (Ch. 2).
+	~%-100%pluperfect active indicative 2nd pl. of the verb “I educate”#Incorrect. The pluperfect active indicative 2nd pl. of the verb “I educate” is **ἐπεπαιδεύκετε** (Ch. 3).
+}
+
+
+::Q034::[markdown]ἐπεπαιδεύκης:{
+	~%-100%present active indicative 2nd sing. of the verb “I educate”#Incorrect. The present active indicative 2nd sing. of the verb “I educate” is **παιδεύεις** (Ch. 2).
+	~%-100%perfect active indicative 1st sing. of the verb “I loosen”#Incorrect. The perfect active indicative 1st sing. of the verb “I loosen” is **λέλυκα** (Ch. 3).
+	~%-100%pluperfect active indicative 1st pl. of the verb “I educate”#Incorrect. The pluperfect active indicative 1st pl. of the verb “I educate” is **ἐπεπαιδεύκεμεν** (Ch. 3).
+	~%100%pluperfect active indicative 2nd sing. of the verb “I educate”#Correct: **ἐπεπαιδεύκης** is pluperfect active indicative 2nd sing. of the verb “I educate” (Chapter 3).
+	~%-100%aorist (1) active optative 1st pl. of the verb “I educate”#Incorrect. The aorist (1) active optative 1st pl. of the verb “I educate” is **παιδεύσαιμεν** (Ch. 3).
+}
+
+
+::Q035::[markdown]πέμψειν:{
+	~%-100%aorist (1) active indicative 3rd pl. of the verb “I loosen”#Incorrect. The aorist (1) active indicative 3rd pl. of the verb “I loosen” is **ἔλυσαν** (Ch. 2).
+	~%-100%present active optative 3rd sing. of the verb “I loosen”#Incorrect. The present active optative 3rd sing. of the verb “I loosen” is **λύοι** (Ch. 3).
+	~%100%future active infinitive of the verb “I send”#Correct: **πέμψειν** is future active infinitive of the verb “I send” (Chapter 3).
+	~%-100%present active indicative 3rd pl. of the verb “I order”#Incorrect. The present active indicative 3rd pl. of the verb “I order” is **κελεύουσιν** (Ch. 2).
+	~%-100%pluperfect active indicative 2nd pl. of the verb “I loosen”#Incorrect. The pluperfect active indicative 2nd pl. of the verb “I loosen” is **ἐλελύκετε** (Ch. 3).
+}
+
+
+::Q036::[markdown]λύσειας:{
+	~%-100%aorist (1) active infinitive of the verb “I educate”#Incorrect. The aorist (1) active infinitive of the verb “I educate” is **παιδεῦσαι** (Ch. 2).
+	~%-100%future active indicative 2nd sing. of the verb “I educate”#Incorrect. The future active indicative 2nd sing. of the verb “I educate” is **παιδεύσεις** (Ch. 2).
+	~%-100%present active indicative 3rd pl. of the verb “I order”#Incorrect. The present active indicative 3rd pl. of the verb “I order” is **κελεύουσιν** (Ch. 2).
+	~%-100%imperfect active indicative 3rd sing. of the verb “I educate”#Incorrect. The imperfect active indicative 3rd sing. of the verb “I educate” is **ἐπαίδευε** (Ch. 2).
+	~%100%aorist (1) active optative 2nd sing. of the verb “I loosen”#Correct: **λύσειας** is aorist (1) active optative 2nd sing. of the verb “I loosen” (Chapter 3).
+}
+
+
+::Q037::[markdown]πολίτου:{
+	~%-100%gen. pl. of the noun “soul” #Incorrect. The gen. pl. of the noun “soul”  is **ψυχῶν** (Ch. 1).
+	~%-100%dat. sing. of the noun “sea”#Incorrect. The dat. sing. of the noun “sea” is **θαλάττῃ** (Ch. 4).
+	~%-100%nom. sing. of the noun “gift”#Incorrect. The nom. sing. of the noun “gift” is **δῶρον** (Ch. 1).
+	~%100%gen. sing. of the noun “citizen”#Correct: **πολίτου** is gen. sing. of the noun “citizen” (Chapter 4).
+	~%-100%nom. pl. of the noun “sea”#Incorrect. The nom. pl. of the noun “sea” is **θάλατται** (Ch. 4).
+}
+
+
+::Q038::[markdown]aorist (1) active optative 3rd pl. of the verb “I send”:{
+	~%50%πέμψαιεν#Correct: **πέμψαιεν** is the correct form for aorist (1) active optative 3rd pl. of the verb “I send” (Chapter 3).
+	~%-100%ἔπεμψεν#Incorrect. **ἔπεμψεν** is the aorist (1) active indicative 3rd sing. of the verb “I send” (Ch. 3).
+	~%-100%κελεύῃ#Incorrect. **κελεύῃ** is the present active subjunctive 3rd sing. of the verb “I order” (Ch. 3).
+	~%50%πέμψειαν#Correct: **πέμψειαν** is the correct form for aorist (1) active optative 3rd pl. of the verb “I send” (Chapter 3).
+	~%-100%πέμψω#Incorrect. **πέμψω** is the future active indicative 1st sing. of the verb “I send” (Ch. 3).
+}
+
+
+::Q039::[markdown]imperfect active indicative 2nd pl. of the verb “I educate”:{
+	~%-100%-#Incorrect. **-** is the aorist (1) active optative 1st pl. of the verb “I loosen” (Ch. 3).
+	~%-100%πέμποις#Incorrect. **πέμποις** is the present active optative 2nd sing. of the verb “I send” (Ch. 3).
+	~%-100%παιδεύσαι#Incorrect. **παιδεύσαι** is the aorist (1) active optative 3rd sing. of the verb “I educate” (Ch. 3).
+	~%-100%κελεύσῃς#Incorrect. **κελεύσῃς** is the aorist (1) active subjunctive 2nd sing. of the verb “I order” (Ch. 3).
+	~%100%ἐπαιδεύετε#Correct: **ἐπαιδεύετε** is the correct form for imperfect active indicative 2nd pl. of the verb “I educate” (Chapter 2).
+}
+
+
+::Q040::[markdown]ἐκεκελεύκεσαν:{
+	~%-100%present active optative 3rd sing. of the verb “I send”#Incorrect. The present active optative 3rd sing. of the verb “I send” is **πέμποι** (Ch. 3).
+	~%-100%present active infinitive of the verb “I order”#Incorrect. The present active infinitive of the verb “I order” is **κελεύειν** (Ch. 2).
+	~%100%pluperfect active indicative 3rd pl. of the verb “I order”#Correct: **ἐκεκελεύκεσαν** is pluperfect active indicative 3rd pl. of the verb “I order” (Chapter 3).
+	~%-100%present active subjunctive 3rd pl. of the verb “I loosen”#Incorrect. The present active subjunctive 3rd pl. of the verb “I loosen” is **λύωσιν** (Ch. 3).
+	~%-100%present active indicative 2nd pl. of the verb “I educate”#Incorrect. The present active indicative 2nd pl. of the verb “I educate” is **παιδεύετε** (Ch. 2).
+}
+
+
+::Q041::[markdown]ἀδελφοῖς:{
+	~%100%dat. pl. of the noun “brother”#Correct: **ἀδελφοῖς** is dat. pl. of the noun “brother” (Chapter 1).
+	~%-100%dat. pl. of the noun “island”#Incorrect. The dat. pl. of the noun “island” is **νήσοις** (Ch. 1).
+	~%-100%nom. sing. of the noun “poet”#Incorrect. The nom. sing. of the noun “poet” is **ποιητής** (Ch. 4).
+	~%-100%gen. sing. of the noun “bridge”#Incorrect. The gen. sing. of the noun “bridge” is **γεφύρας** (Ch. 4).
+	~%-100%nom. sing. of the noun “brother”#Incorrect. The nom. sing. of the noun “brother” is **ἀδελφός** (Ch. 1).
+}
+
+
+::Q042::[markdown]πέμψειν:{
+	~%100%future active infinitive of the verb “I send”#Correct: **πέμψειν** is future active infinitive of the verb “I send” (Chapter 3).
+	~%-100%perfect active indicative 1st pl. of the verb “I loosen”#Incorrect. The perfect active indicative 1st pl. of the verb “I loosen” is **λελύκαμεν** (Ch. 3).
+	~%-100%present active optative 2nd sing. of the verb “I educate”#Incorrect. The present active optative 2nd sing. of the verb “I educate” is **παιδεύοις** (Ch. 3).
+	~%-100%present active optative 1st pl. of the verb “I order”#Incorrect. The present active optative 1st pl. of the verb “I order” is **κελεύοιμεν** (Ch. 3).
+	~%-100%imperfect active indicative 2nd pl. of the verb “I order”#Incorrect. The imperfect active indicative 2nd pl. of the verb “I order” is **ἐκελεύετε** (Ch. 2).
+}
+
+
+::Q043::[markdown]ἄδικον:{
+	~%-100%masc. nom. pl. of the adjective “good; noble”#Incorrect. The masc. nom. pl. of the adjective “good; noble” is **ἀγαθοί** (Ch. 4).
+	~%33.333%neut. nom. sing. of the adjective “unjust”#Correct: **ἄδικον** is neut. nom. sing. of the adjective “unjust” (Chapter 4).
+	~%-100%fem. nom. sing. of the adjective “good; noble”#Incorrect. The fem. nom. sing. of the adjective “good; noble” is **ἀγαθή** (Ch. 4).
+	~%33.333%neut. acc. sing. of the adjective “unjust”#Correct: **ἄδικον** is neut. acc. sing. of the adjective “unjust” (Chapter 4).
+	~%33.333%masc./fem. acc. sing. of the adjective “unjust”#Correct: **ἄδικον** is masc./fem. acc. sing. of the adjective “unjust” (Chapter 4).
+}
+
+
+::Q044::[markdown]gen. sing. of the noun “young man”:{
+	~%-100%ποιηταῖς#Incorrect. **ποιηταῖς** is the dat. pl. of the noun “poet” (Ch. 4).
+	~%100%νεανίου#Correct: **νεανίου** is the correct form for gen. sing. of the noun “young man” (Chapter 4).
+	~%-100%δώρων#Incorrect. **δώρων** is the gen. pl. of the noun “gift” (Ch. 1).
+	~%-100%νεανίαις#Incorrect. **νεανίαις** is the dat. pl. of the noun “young man” (Ch. 4).
+	~%-100%θαλάτταις#Incorrect. **θαλάτταις** is the dat. pl. of the noun “sea” (Ch. 4).
+}
+
+
+::Q045::[markdown]fem. gen. sing. of the definite article “the”:{
+	~%-100%ὁ#Incorrect. **ὁ** is the masc. nom. sing. of the definite article “the” (Ch. 1).
+	~%-100%τῇ#Incorrect. **τῇ** is the fem. dat. sing. of the definite article “the” (Ch. 1).
+	~%100%τῆς#Correct: **τῆς** is the correct form for fem. gen. sing. of the definite article “the” (Chapter 1).
+	~%-100%τόν#Incorrect. **τόν** is the masc. acc. sing. of the definite article “the” (Ch. 1).
+	~%-100%τῶν#Incorrect. **τῶν** is the neut. gen. pl. of the definite article “the” (Ch. 1).
+}
+
+
+::Q046::[markdown]aorist (1) active subjunctive 2nd sing. of the verb “I order”:{
+	~%100%κελεύσῃς#Correct: **κελεύσῃς** is the correct form for aorist (1) active subjunctive 2nd sing. of the verb “I order” (Chapter 3).
+	~%-100%ἐκελεύσατε#Incorrect. **ἐκελεύσατε** is the aorist (1) active indicative 2nd pl. of the verb “I order” (Ch. 2).
+	~%-100%κελεύσομεν#Incorrect. **κελεύσομεν** is the future active indicative 1st pl. of the verb “I order” (Ch. 2).
+	~%-100%πέμποιεν#Incorrect. **πέμποιεν** is the present active optative 3rd pl. of the verb “I send” (Ch. 3).
+	~%-100%ἐπέμψατε#Incorrect. **ἐπέμψατε** is the aorist (1) active indicative 2nd pl. of the verb “I send” (Ch. 3).
+}
+
+
+::Q047::[markdown]aorist (1) active optative 1st pl. of the verb “I order”:{
+	~%50%-#Correct: **-** is the correct form for aorist (1) active optative 1st pl. of the verb “I order” (Chapter 3).
+	~%50%κελεύσαιμεν#Correct: **κελεύσαιμεν** is the correct form for aorist (1) active optative 1st pl. of the verb “I order” (Chapter 3).
+	~%-100%πέμψῃ#Incorrect. **πέμψῃ** is the aorist (1) active subjunctive 3rd sing. of the verb “I send” (Ch. 3).
+	~%-100%ἐκέλευε#Incorrect. **ἐκέλευε** is the imperfect active indicative 3rd sing. of the verb “I order” (Ch. 2).
+	~%-100%λέλυκεν#Incorrect. **λέλυκεν** is the perfect active indicative 3rd sing. of the verb “I loosen” (Ch. 3).
+}
+
+
+::Q048::[markdown]neut. nom. pl. of the adjective “unjust”:{
+	~%-100%ἄξιον#Incorrect. **ἄξιον** is the masc. acc. sing. of the adjective “worthy” (Ch. 4).
+	~%-100%ἀδίκους#Incorrect. **ἀδίκους** is the masc./fem. acc. pl. of the adjective “unjust” (Ch. 4).
+	~%100%ἄδικ#Correct: **ἄδικ** is the correct form for neut. nom. pl. of the adjective “unjust” (Chapter 4).
+	~%-100%ἄδικος#Incorrect. **ἄδικος** is the masc./fem. nom. sing. of the adjective “unjust” (Ch. 4).
+	~%-100%ἄδικοι#Incorrect. **ἄδικοι** is the masc./fem. nom. pl. of the adjective “unjust” (Ch. 4).
+}
+
+
+::Q049::[markdown]δώρῳ:{
+	~%100%dat. sing. of the noun “gift”#Correct: **δώρῳ** is dat. sing. of the noun “gift” (Chapter 1).
+	~%-100%acc. pl. of the noun “brother”#Incorrect. The acc. pl. of the noun “brother” is **ἀδελφούς** (Ch. 1).
+	~%-100%dat. pl. of the noun “gift”#Incorrect. The dat. pl. of the noun “gift” is **δώροις** (Ch. 1).
+	~%-100%nom. sing. of the noun “skill” #Incorrect. The nom. sing. of the noun “skill”  is **τέχνη** (Ch. 1).
+	~%-100%gen. sing. of the noun “territory” #Incorrect. The gen. sing. of the noun “territory”  is **χώρας** (Ch. 1).
+}
+
+
+::Q050::[markdown]neut. nom. pl. of the adjective “unjust”:{
+	~%-100%ἀδίκοις#Incorrect. **ἀδίκοις** is the neut. dat. pl. of the adjective “unjust” (Ch. 4).
+	~%100%ἄδικ#Correct: **ἄδικ** is the correct form for neut. nom. pl. of the adjective “unjust” (Chapter 4).
+	~%-100%ἀγαθοῦ#Incorrect. **ἀγαθοῦ** is the masc. gen. sing. of the adjective “good; noble” (Ch. 4).
+	~%-100%ἀξίᾳ#Incorrect. **ἀξίᾳ** is the fem. dat. sing. of the adjective “worthy” (Ch. 4).
+	~%-100%ἀξίοις#Incorrect. **ἀξίοις** is the masc. dat. pl. of the adjective “worthy” (Ch. 4).
+}
+
+
