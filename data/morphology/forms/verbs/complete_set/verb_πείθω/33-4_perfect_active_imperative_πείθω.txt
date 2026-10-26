@@ -1,4 +1,11 @@
 template#template_verb_4_perfect_active_imperative.txt
 lemma#the verb “I persuade”
 
+πέπεικε
+πεπεικέτω
 
+πεπείκετον
+πεπεικέτων
+
+πεπείκετε
+πεπεικόντων

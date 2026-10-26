@@ -1,4 +1,11 @@
 template#template_verb_3_aorist2_middle_imperative.txt
 lemma#the verb “I persuade”
 
+πεῖσαι
+πεισάσθω
 
+πείσασθον
+πεισάσθων
+
+πείσασθε
+πεισάσθων

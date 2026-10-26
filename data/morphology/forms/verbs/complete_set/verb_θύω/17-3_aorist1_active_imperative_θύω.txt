@@ -1,4 +1,11 @@
 template#template_verb_3_aorist1_active_imperative.txt
 lemma#the verb “I sacrifice”
 
+θῦσον
+θυσάτω
 
+θύσατον
+θυσάτων
+
+θύσατε
+θυσάντων

@@ -2,3 +2,11 @@ template#template_verb_4_perfect_active_imperative.txt
 lemma#the verb “I sacrifice”
 
 
+τέθυκε
+τεθυκέτω
+
+τεθύκετον
+τεθυκέτων
+
+τεθύκετε
+τεθυκόντων
