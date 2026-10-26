@@ -816,7 +816,7 @@
 11	participles	09-1_participle_aorist_passive_φυλάττω.txt
 11	participles	10-1_participle_perfect_active_φυλάττω.txt
 //
-//			03, 08, 11
+//			03, 08
 //			   17, 21 (aorist1)
 //			   25, 29 (aorist2)
 //			33, 38, 43
@@ -828,10 +828,39 @@
 //			perfect active imperative
 //			perfect middle/passive imperative
 //			aorist passive imperative
-//
-//			θύω πείθω παιδεύω τάττω φυλάττω ἄρχω γράφω λείπω κελεύω πέμπω	
-//			τιμάω ποιέω δηλόω ἀγγέλλω μένω
+
+//			θύω
+11	verb	03-1_present_active_imperative_θύω.txt
+11	verb	08-1_present_mp_imperative_θύω.txt
+11	verb	17-3_aorist1_active_imperative_θύω.txt
+11	verb	21-3_aorist1_middle_imperative_θύω.txt
+11	verb	33-4_perfect_active_imperative_θύω.txt
+11	verb	38-5_perfect_mp_imperative_θύω.txt
+11	verb	43-6_aorist_passive_imperative_θύω.txt
+//			πείθω
+11	verb	03-1_present_active_imperative_πείθω.txt
+11	verb	08-1_present_mp_imperative_πείθω.txt
+11	verb	25-3_aorist2_active_imperative_πείθω.txt
+11	verb	29-3_aorist2_middle_imperative_πείθω.txt
+11	verb	33-4_perfect_active_imperative_πείθω.txt
+11	verb	38-5_perfect_mp_imperative_πείθω.txt
+11	verb	43-6_aorist_passive_imperative_πείθω.txt
+//			παιδεύω
+//			τάττω
+//			φυλάττω
+//			ἄρχω
+//			γράφω λείπω κελεύω πέμπω	
+//			λείπω
+//			κελεύω πέμπω	
+//			πέμπω	
+//			τιμάω
+//			ποιέω
+//			δηλόω
+//			ἀγγέλλω
+//			μένω
 //			δέχομαι
+//			διδάσκω
+//			λύω 
 
 // Chapter 12
 //			-μι verbs: present, imperfect, future
