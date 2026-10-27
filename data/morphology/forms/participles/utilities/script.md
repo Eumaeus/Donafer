@@ -6,7 +6,7 @@ echo "template#template_verb_\3_\4_\5_\6.txt\\nlemma#the verb “\$1”\\n\\n" >
 
 // Verb Query
  
-Please give me the present active imperative forms of the ancient Greek verb θύω, 2nd and 3rd person, with the dual, in this order: 2nd-singular, 3rd-singular, 2nd-dual, 3rd-dual, 2nd-plural, 3rd-plural, just the forms without labels, in that order, with a hyphen "-" between each form. Thank you!
+Please give me the present active imperative forms of the ancient Greek verb παιδεύω, 2nd and 3rd person, with the dual, in this order: 2nd-singular, 3rd-singular, 2nd-dual, 3rd-dual, 2nd-plural, 3rd-plural, just the forms without labels, in that order, with a hyphen "-" between each form. Thank you!
 
 // Participle Query
 

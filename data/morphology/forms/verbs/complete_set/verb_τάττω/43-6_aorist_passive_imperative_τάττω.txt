@@ -1,4 +1,11 @@
 template#template_verb_6_aorist_passive_imperative.txt
 lemma#the verb “I arrange”
 
+τάχθητι
+ταχθήτω
 
+τάχθητον
+ταχθήτων
+
+τάχθητε
+ταχθέντων
