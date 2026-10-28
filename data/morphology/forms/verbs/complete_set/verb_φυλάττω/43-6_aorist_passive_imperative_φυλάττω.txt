@@ -1,4 +1,11 @@
 template#template_verb_6_aorist_passive_imperative.txt
 lemma#the verb “I guard”
 
+φυλάχθητι
+φυλαχθήτω
 
+φυλάχθητον
+φυλαχθήτων
+
+φυλάχθητε
+φυλαχθέντων

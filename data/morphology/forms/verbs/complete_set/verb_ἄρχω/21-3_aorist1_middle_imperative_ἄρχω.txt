@@ -1,4 +1,11 @@
 template#template_verb_3_aorist1_middle_imperative.txt
 lemma#the verb “I lead; rule”
 
+ἄρξαι
+ἀρξάσθω
 
+ἄρξασθον
+ἀρξάσθων
+
+ἄρξασθε
+ἀρξάσθων

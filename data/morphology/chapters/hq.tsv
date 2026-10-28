@@ -862,10 +862,24 @@
 11	verb	38-5_perfect_mp_imperative_τάττω.txt
 11	verb	43-6_aorist_passive_imperative_τάττω.txt
 //			φυλάττω
+11	verb	03-1_present_active_imperative_φυλάττω.txt
+11	verb	08-1_present_mp_imperative_φυλάττω.txt
+11	verb	17-3_aorist1_active_imperative_φυλάττω.txt
+11	verb	21-3_aorist1_middle_imperative_φυλάττω.txt
+11	verb	33-4_perfect_active_imperative_φυλάττω.txt
+11	verb	38-5_perfect_mp_imperative_φυλάττω.txt
+11	verb	43-6_aorist_passive_imperative_φυλάττω.txt
 //			ἄρχω
-//			γράφω λείπω κελεύω πέμπω	
+11	verb	03-1_present_active_imperative_ἄρχω.txt
+11	verb	08-1_present_mp_imperative_ἄρχω.txt
+11	verb	17-3_aorist1_active_imperative_ἄρχω.txt
+11	verb	21-3_aorist1_middle_imperative_ἄρχω.txt
+11	verb	33-4_perfect_active_imperative_ἄρχω.txt
+11	verb	38-5_perfect_mp_imperative_ἄρχω.txt
+11	verb	43-6_aorist_passive_imperative_ἄρχω.txt
+//			γράφω
 //			λείπω
-//			κελεύω πέμπω	
+//			κελεύω
 //			πέμπω	
 //			τιμάω
 //			ποιέω

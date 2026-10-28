@@ -1,4 +1,11 @@
 template#template_verb_1_present_active_imperative.txt
 lemma#the verb “I lead; rule”
 
+ἄρχε
+ἀρχέτω
 
+ἄρχετον
+ἀρχέτων
+
+ἄρχετε
+ἀρχόντων
