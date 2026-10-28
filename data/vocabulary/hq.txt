@@ -357,6 +357,44 @@
 11#noun#φονεύς, φονέως, ὁ# murderer
 
 // Unit 12
+other#ἀλλήλων# one another
+other#ἀνα-# up, up to (prefix)
+noun#γραφευς, γραφέως, ὁ# writer; painter
+noun#γραφική, γραφικῆς, ἡ# writing; painting
+other#δέκα# ten
+noun#δημιουργός, δημιουργοῦ, ὁ# skilled workman
+verb#1 δίδωμι;2 δώσω;3 ἔδωκα;4 δέδωκα;5 δέδομαι;6 ἐδόθην# give
+verb#1 ἀποδίδωμι;3 ἀποδώσω;3 ἁπέδωκα;4 ἀποδέδωκα;4 ἀποδέδομαι;6 ἀπεδόωην#give pack; pay; permit; sell
+other#ἐννέα# nine
+noun#ἔπος, ἔπους, τό# word; epic poetry
+noun#ἑρμηνεύς, ἑρμενέως, ὁ# interpreter
+noun#ζωγράφος, ζωγράφου, ὁ# painter
+other#ἤ#than
+verb#1 ἵστημι;2 στήσω;3 ἔστησα;3 ἔστην;4 ἕστηκα;5 ἕσταμαι;6 ἐστάθην# make stand; stand
+verb#1 ἀφίστημι;2 ἀποστήσω;3 ἀπέστησα;3 ἀπέστην;4 ἀφέστηκα;5 ἀφέσταμαι;6 ἀπεστάθην# cause to revolt; revolt
+other#κατα-# down; against
+verb#1 καθίστημι;2 καταστήσω;3 κατέστησα;3 κατέστην;4 καθέστηκα;5 καθέσταμαι;6 κατεστάθην# appoint; establish; put into a state; be established; be appointed; enter into a state
+verb#1 καταλύω;2 καταλύσω;3 κατέλυσα;4 καταλέλυκα;5 καταλέλυμαι;6 κατελύθην# destroy; dissolve
+other#μᾶλλον# more; rather
+other#μή# that (with fear clauses); lest (with fear clauses)
+other#μηδέ# and not; not even
+adj#μόνος, μόνη, μόνον# alone
+other#μόνον# only
+other#οὐδέ# and not; not even
+other#πόθεν# from where?
+other#ποί# to where?
+other#ποῦ# where?; at what place?
+other#που# I suppose; somewhere
+prep#πρός + gen.# in the eyes of; in the name of
+prep#πρός + dat.# near; in addition to
+prep#πρός + acc.# toward
+other#προσ-# to; against; besides
+other#συν-# with; together
+verb#1 τίθημι;2 θήσω;3 ἔθηκα;4 τέθηκα;5 τέθειμαι;6 ἐτέθην# put
+verb#1 ἀνατίθημι;2 ἀναθήσω;3 ἀνέθηκα;4 ἀνατέθηκα;5 ἀνατέθειμαι;6 ἀνετέθην# set up; dedicate
+verb#1 φιλέω;2 φιλήσω;3 ἐφίλησα;4 πεφίληκα;5 πεφίλημαι;6 ἐφιλήθην# love
+verb#1 φοβέομαι;2 φοβήσομαι;5 πεφόβημαι;6 ἐφοβήθην# fear; be afraid
+
 
 // Unit 13
 
