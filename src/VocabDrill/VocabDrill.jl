@@ -7,7 +7,7 @@ include("QuizBuilder.jl")
 
 using .DataParser: parse_vocabulary_file, VocabItem, RawVocabEntry
 using .ItemSelector: select_quiz_items, SelectionResult
-using .QuestionBuilder: Question, build_question, to_gift
+using .QuestionBuilder: Question, build_question, to_gift, ordinal_label, principal_parts_for_lemma
 using .QuizBuilder: DrillConfig, load_config, build_vocab_drill, write_gift_file
 
 export 
@@ -15,6 +15,7 @@ export
     VocabItem, parse_vocabulary_file,
     select_quiz_items, SelectionResult,
     Question, build_question, to_gift,
+    ordinal_label, principal_parts_for_lemma,
 
     # High-level quiz builder
     DrillConfig, load_config, build_vocab_drill, write_gift_file

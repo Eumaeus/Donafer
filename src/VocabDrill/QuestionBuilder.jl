@@ -5,7 +5,7 @@ module QuestionBuilder
 using ..DataParser
 using Random
 
-export Question, build_question, to_gift
+export Question, build_question, to_gift, ordinal_label, principal_parts_for_lemma
 
 struct Question
     stem::String
@@ -22,6 +22,37 @@ function clean_greek_form(display::String)
     return replace(display, r"^\d+\s+" => "")
 end
 
+"""
+    ordinal_label(n) -> String
+
+Return a short English ordinal for principal-part numbers (1st…6th).
+"""
+function ordinal_label(n::Int)::String
+    n == 1 && return "1st"
+    n == 2 && return "2nd"
+    n == 3 && return "3rd"
+    return "$(n)th"
+end
+
+"""
+    principal_parts_for_lemma(lemma, pool) -> Dict{Int, Vector{String}}
+
+Map each principal-part number present for `lemma` to its distinct Greek forms.
+Verbs with incomplete lists simply omit missing numbers.
+"""
+function principal_parts_for_lemma(lemma::String, pool::Vector{VocabItem})::Dict{Int, Vector{String}}
+    pps = Dict{Int, Vector{String}}()
+    for item in pool
+        item.is_verb_principal_part || continue
+        item.lemma == lemma || continue
+        item.principal_part_number === nothing && continue
+        form = clean_greek_form(item.greek_display)
+        forms = get!(pps, item.principal_part_number, String[])
+        form in forms || push!(forms, form)
+    end
+    return pps
+end
+
 function build_question(
     item::VocabItem,
     pool::Vector{VocabItem};
@@ -30,7 +61,11 @@ function build_question(
     rng = Random.default_rng()
 )::Question
 
-    if direction == :greek_to_english
+    if direction == :pp_number_to_form
+        return build_pp_number_to_form(item, pool; num_choices=num_choices, rng=rng)
+    elseif direction == :pp_form_to_number
+        return build_pp_form_to_number(item, pool; num_choices=num_choices, rng=rng)
+    elseif direction == :greek_to_english
         stem = clean_greek_form(item.greek_display)
         full_correct_answers = find_all_matching_english(item.greek_display, pool)
 
@@ -86,6 +121,120 @@ function build_question(
 
     return Question(stem, actual_correct_answers, actual_distractors,
                     feedback_correct, feedback_wrong, item.chapter, item.category)
+end
+
+# --- Principal-part identification ---
+
+function build_pp_number_to_form(
+    item::VocabItem,
+    pool::Vector{VocabItem};
+    num_choices::Int,
+    rng,
+)::Question
+    lemma = item.lemma === nothing ? clean_greek_form(item.greek_display) : item.lemma
+    pp_num = item.principal_part_number
+    pp_num === nothing && error("pp_number_to_form requires a principal-part item")
+
+    pps = principal_parts_for_lemma(lemma, pool)
+    correct_forms = get(pps, pp_num, String[clean_greek_form(item.greek_display)])
+    isempty(correct_forms) && (correct_forms = String[clean_greek_form(item.greek_display)])
+
+    stem = "Pick the $(ordinal_label(pp_num)) Principal Part of $(lemma)."
+
+    needed = max(num_choices - 1, 0)
+    distractor_answers = select_pp_form_distractors(lemma, pp_num, correct_forms, pool, needed, rng)
+
+    guaranteed = rand(rng, correct_forms)
+    all_options = unique([guaranteed; distractor_answers])
+    actual_correct = [ans for ans in all_options if ans in correct_forms]
+    actual_distractors = [ans for ans in all_options if !(ans in actual_correct)]
+
+    feedback_correct = Dict{String, String}(
+        ans => "Correct: **$(ans)** is the $(ordinal_label(pp_num)) Principal Part of **$(lemma)** (Chapter $(item.chapter))."
+        for ans in actual_correct
+    )
+
+    feedback_wrong = Dict{String, String}()
+    for dist in actual_distractors
+        matching = filter(x -> x.is_verb_principal_part &&
+                               clean_greek_form(x.greek_display) == dist, pool)
+        feedback_wrong[dist] = !isempty(matching) ? build_wrong_feedback(matching[1]) : "Incorrect."
+    end
+
+    return Question(stem, actual_correct, actual_distractors,
+                    feedback_correct, feedback_wrong, item.chapter, item.category)
+end
+
+function build_pp_form_to_number(
+    item::VocabItem,
+    pool::Vector{VocabItem};
+    num_choices::Int,
+    rng,
+)::Question
+    lemma = item.lemma === nothing ? clean_greek_form(item.greek_display) : item.lemma
+    pp_num = item.principal_part_number
+    pp_num === nothing && error("pp_form_to_number requires a principal-part item")
+    form = clean_greek_form(item.greek_display)
+    correct_label = ordinal_label(pp_num)
+
+    stem = "Which Principal Part of $(lemma) is ‘$(form)’?"
+
+    # Answer bank is the six traditional labels; incomplete verbs still use 1st–6th.
+    all_labels = [ordinal_label(n) for n in 1:6]
+    wrong_labels = [lab for lab in all_labels if lab != correct_label]
+    needed = min(max(num_choices - 1, 0), length(wrong_labels))
+    distractors = needed == 0 ? String[] : shuffle(rng, wrong_labels)[1:needed]
+
+    feedback_correct = Dict{String, String}(
+        correct_label => "Correct: **$(form)** is the $(correct_label) Principal Part of **$(lemma)** (Chapter $(item.chapter))."
+    )
+    feedback_wrong = Dict{String, String}(
+        lab => "Incorrect. **$(form)** is the $(correct_label) Principal Part of **$(lemma)**, not the $(lab)."
+        for lab in distractors
+    )
+
+    return Question(stem, String[correct_label], distractors,
+                    feedback_correct, feedback_wrong, item.chapter, item.category)
+end
+
+function select_pp_form_distractors(
+    lemma::String,
+    pp_num::Int,
+    correct_forms::Vector{String},
+    pool::Vector{VocabItem},
+    needed::Int,
+    rng,
+)::Vector{String}
+    needed <= 0 && return String[]
+
+    same_pp = String[]
+    other = String[]
+    for x in pool
+        x.is_verb_principal_part || continue
+        x.lemma == lemma && continue
+        form = clean_greek_form(x.greek_display)
+        form in correct_forms && continue
+        if x.principal_part_number == pp_num
+            form in same_pp || push!(same_pp, form)
+        else
+            form in other || push!(other, form)
+        end
+    end
+
+    chosen = String[]
+    if !isempty(same_pp)
+        n = min(needed, length(same_pp))
+        append!(chosen, rand(rng, same_pp, n))
+        chosen = unique(chosen)
+    end
+    remaining = needed - length(chosen)
+    if remaining > 0 && !isempty(other)
+        candidates = [f for f in other if !(f in chosen)]
+        n = min(remaining, length(candidates))
+        n > 0 && append!(chosen, rand(rng, candidates, n))
+        chosen = unique(chosen)
+    end
+    return chosen
 end
 
 # Find the VocabItem that actually corresponds to this displayed correct option.
