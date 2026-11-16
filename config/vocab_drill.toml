@@ -40,6 +40,13 @@ pp_number_to_form_fraction = 0.5
 num_choices = 8
 prefer_same_category_distractors = true
 
+# For “Pick the Nth Principal Part of X” distractors (after other PPs of X):
+# keep other-verb forms whose normalized edit-distance similarity to the
+# correct form is at least this value (1 - levenshtein / max_len).
+# Example: ἔπαθον vs ἔπιθον ≈ 0.83. Lower = more lenient; raise toward 0.6+
+# for stricter look-alikes. Thin pools still fall back to any chapter-scoped forms.
+pp_form_similarity_threshold = 0.45
+
 [moodle]
 category_prefix = "Vocabulary/HansenQuinn"
 # Example resulting category: Vocabulary/HansenQuinn/3-3

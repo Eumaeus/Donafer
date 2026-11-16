@@ -46,6 +46,9 @@ Base.@kwdef struct DrillConfig
     # [question]
     num_choices::Int = 5
     prefer_same_category_distractors::Bool = true   # (currently informational)
+    # Normalized edit-distance similarity floor for PP form distractors
+    # (1 - levenshtein / max_len). Used after same-verb PPs are exhausted.
+    pp_form_similarity_threshold::Float64 = 0.45
 
     # [moodle]
     category_prefix::String = "Vocabulary/HansenQuinn"
@@ -104,6 +107,7 @@ function load_config(path::String = "config/vocab_drill.toml")::DrillConfig
 
         num_choices                  = get(question, "num_choices", 5),
         prefer_same_category_distractors = get(question, "prefer_same_category_distractors", true),
+        pp_form_similarity_threshold = get(question, "pp_form_similarity_threshold", 0.45),
 
         category_prefix              = get(moodle, "category_prefix", "Vocabulary/HansenQuinn"),
 
@@ -201,7 +205,9 @@ function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
             question_pool;
             direction = direction,
             num_choices = cfg.num_choices,
-            rng = rng
+            rng = rng,
+            pp_form_similarity_threshold = cfg.pp_form_similarity_threshold,
+            max_chapter = cfg.current_chapter,
         )
         push!(questions, q)
     end

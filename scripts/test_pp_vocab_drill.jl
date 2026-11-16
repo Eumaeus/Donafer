@@ -125,7 +125,8 @@ end
     @testset "PP number → form (incomplete verb)" begin
         # Ask for 5th of θάπτω (exists); must not invent a 4th
         item = first(filter(i -> i.lemma == "θάπτω" && i.principal_part_number == 5, pool))
-        q = build_question(item, pool; direction=:pp_number_to_form, num_choices=8, rng=rng)
+        q = build_question(item, pool; direction=:pp_number_to_form, num_choices=8, rng=rng,
+                           max_chapter=4)
 
         @test occursin("5th Principal Part of θάπτω", q.stem)
         @test "τέθαμμαι" in q.correct_answers
@@ -134,6 +135,78 @@ end
         @test !("" in q.correct_answers)
         @test length(q.correct_answers) + length(q.distractors) <= 8
         @test length(q.correct_answers) + length(q.distractors) >= 2
+        # Same-verb other PPs should fill first (θάπτω has 1,2,3,6 — no 4th)
+        same_verb = Set(["θάπτω", "θάψω", "ἔθαψα", "ἐτάφην"])
+        @test !isempty(intersect(Set(q.distractors), same_verb))
+        # Chapter cap: βλάπτω is ch5 — should not appear when max_chapter=4
+        @test !any(d -> startswith(d, "βλ") || startswith(d, "ἐβλ") || startswith(d, "βέβλ"),
+                   q.distractors)
+    end
+
+    @testset "form_similarity (normalized edit distance)" begin
+        @test form_similarity("ἔπαθον", "ἔπιθον") > 0.8
+        @test form_similarity("ἔπαθον", "ἔπαθον") == 1.0
+        @test form_similarity("λύω", "πέμπω") < 0.45
+        @test form_similarity("", "") == 1.0
+    end
+
+    @testset "PP distractors: same-verb first, then similar forms" begin
+        # πάσχω / πείθω look-alike 3rd PPs (user example)
+        sim_pool = VocabItem[]
+        function add!(ch, lemma, english, parts)
+            field = join(["$n $f" for (n, f) in parts], ";")
+            for (n, form) in parts
+                push!(sim_pool, VocabItem(ch, "verb", "$n $form", english, true, n, lemma, field))
+            end
+        end
+        add!(11, "πάσχω", "suffer",
+             [1 => "πάσχω", 2 => "πείσομαι", 3 => "ἔπαθον", 4 => "πέπονθα"])
+        add!(5, "πείθω", "persuade",
+             [1 => "πείθω", 2 => "πείσω", 3 => "ἔπιθον", 4 => "πέπεικα",
+              5 => "πέπεισμαι", 6 => "ἑπείσθην"])
+        # Dissimilar filler from another verb in-range
+        add!(2, "λύω", "free",
+             [1 => "λύω", 2 => "λύσω", 3 => "ἔλυσα", 4 => "λέλυκα",
+              5 => "λέλυμαι", 6 => "ἐλύθην"])
+        # Out-of-chapter look-alike should be excluded by max_chapter
+        add!(20, "futureverb", "future",
+             [1 => "futureverb", 3 => "ἔπαθονx"])  # won't match anyway
+
+        correct = ["ἔπαθον"]
+        dists = select_pp_form_distractors(
+            "πάσχω", 3, correct, sim_pool, 7, MersenneTwister(1);
+            similarity_threshold=0.45, max_chapter=11,
+        )
+
+        # Tier 1: other PPs of πάσχω should be present when asking for enough slots
+        @test "πάσχω" in dists
+        @test "πείσομαι" in dists
+        @test "πέπονθα" in dists
+        # Tier 2: look-alike ἔπιθον preferred among other-verb forms
+        @test "ἔπιθον" in dists
+        @test form_similarity("ἔπαθον", "ἔπιθον") >= 0.45
+
+        # With only 3 distractor slots, same-verb should crowd out others
+        few = select_pp_form_distractors(
+            "πάσχω", 3, correct, sim_pool, 3, MersenneTwister(2);
+            similarity_threshold=0.45, max_chapter=11,
+        )
+        @test length(few) == 3
+        @test all(d -> d in ("πάσχω", "πείσομαι", "πέπονθα"), few)
+        @test "ἔπιθον" ∉ few
+    end
+
+    @testset "PP distractors: thin pool still fills / may undersize" begin
+        tiny = VocabItem[
+            VocabItem(1, "verb", "1 ααα", "a", true, 1, "ααα", "1 ααα;2 βββ"),
+            VocabItem(1, "verb", "2 βββ", "a", true, 2, "ααα", "1 ααα;2 βββ"),
+        ]
+        dists = select_pp_form_distractors(
+            "ααα", 1, ["ααα"], tiny, 7, MersenneTwister(3);
+            similarity_threshold=0.45, max_chapter=1,
+        )
+        # Only one other same-verb form; no other verbs → undersized is OK
+        @test dists == ["βββ"] || Set(dists) == Set(["βββ"])
     end
 
     @testset "PP number → form multi-correct for dual 6th" begin
@@ -229,6 +302,7 @@ end
         @test isempty(cfg.include_categories)
         @test cfg.pp_id_fraction == 0.0
         @test cfg.num_choices >= 5
+        @test cfg.pp_form_similarity_threshold == 0.45
     end
 end
 

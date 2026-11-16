@@ -5,7 +5,8 @@ module QuestionBuilder
 using ..DataParser
 using Random
 
-export Question, build_question, to_gift, ordinal_label, principal_parts_for_lemma
+export Question, build_question, to_gift, ordinal_label, principal_parts_for_lemma,
+       form_similarity, select_pp_form_distractors
 
 struct Question
     stem::String
@@ -58,11 +59,18 @@ function build_question(
     pool::Vector{VocabItem};
     direction::Symbol = :greek_to_english,
     num_choices::Int = 5,
-    rng = Random.default_rng()
+    rng = Random.default_rng(),
+    pp_form_similarity_threshold::Float64 = 0.45,
+    max_chapter::Union{Int, Nothing} = nothing,
 )::Question
 
     if direction == :pp_number_to_form
-        return build_pp_number_to_form(item, pool; num_choices=num_choices, rng=rng)
+        return build_pp_number_to_form(
+            item, pool;
+            num_choices=num_choices, rng=rng,
+            similarity_threshold=pp_form_similarity_threshold,
+            max_chapter=max_chapter,
+        )
     elseif direction == :pp_form_to_number
         return build_pp_form_to_number(item, pool; num_choices=num_choices, rng=rng)
     elseif direction == :greek_to_english
@@ -130,6 +138,8 @@ function build_pp_number_to_form(
     pool::Vector{VocabItem};
     num_choices::Int,
     rng,
+    similarity_threshold::Float64 = 0.45,
+    max_chapter::Union{Int, Nothing} = nothing,
 )::Question
     lemma = item.lemma === nothing ? clean_greek_form(item.greek_display) : item.lemma
     pp_num = item.principal_part_number
@@ -142,7 +152,11 @@ function build_pp_number_to_form(
     stem = "Pick the $(ordinal_label(pp_num)) Principal Part of $(lemma)."
 
     needed = max(num_choices - 1, 0)
-    distractor_answers = select_pp_form_distractors(lemma, pp_num, correct_forms, pool, needed, rng)
+    distractor_answers = select_pp_form_distractors(
+        lemma, pp_num, correct_forms, pool, needed, rng;
+        similarity_threshold=similarity_threshold,
+        max_chapter=max_chapter,
+    )
 
     guaranteed = rand(rng, correct_forms)
     all_options = unique([guaranteed; distractor_answers])
@@ -197,43 +211,148 @@ function build_pp_form_to_number(
                     feedback_correct, feedback_wrong, item.chapter, item.category)
 end
 
+"""
+    form_similarity(a, b) -> Float64
+
+Normalized Unicode-aware similarity in `[0, 1]`:
+`1 - levenshtein(a, b) / max(length(a), length(b))`.
+Used to prefer look-alike Greek forms as PP distractors
+(e.g. ἔπαθον ≈ ἔπιθον).
+"""
+function form_similarity(a::AbstractString, b::AbstractString)::Float64
+    a == b && return 1.0
+    denom = max(length(a), length(b))
+    denom == 0 && return 1.0
+    return 1.0 - levenshtein_distance(a, b) / denom
+end
+
+function levenshtein_distance(a::AbstractString, b::AbstractString)::Int
+    s = collect(a)
+    t = collect(b)
+    m = length(s)
+    n = length(t)
+    m == 0 && return n
+    n == 0 && return m
+
+    prev = collect(0:n)
+    curr = Vector{Int}(undef, n + 1)
+    for i in 1:m
+        curr[1] = i
+        for j in 1:n
+            cost = s[i] == t[j] ? 0 : 1
+            curr[j + 1] = min(curr[j] + 1,          # insertion
+                              prev[j + 1] + 1,      # deletion
+                              prev[j] + cost)       # substitution
+        end
+        prev, curr = curr, prev
+    end
+    return prev[n + 1]
+end
+
+function best_form_similarity(candidate::AbstractString, correct_forms::Vector{String})::Float64
+    isempty(correct_forms) && return 0.0
+    return maximum(form_similarity(candidate, c) for c in correct_forms)
+end
+
+"""
+    select_pp_form_distractors(...) -> Vector{String}
+
+Distractor priority for “Pick the Nth Principal Part of X”:
+
+1. Other principal parts of the **same verb**
+2. Forms from **other verbs** in chapters `≤ max_chapter` (when set)
+   whose normalized edit-distance similarity to a correct form is
+   `≥ similarity_threshold` (prefer higher similarity; same PP# as a tie-break)
+3. Any remaining chapter-scoped verb forms (prefer same PP#, then any)
+
+When the pool is thin, later tiers fill whatever slots remain; the quiz
+may have fewer than `num_choices` options if even the fallback pool is short.
+"""
 function select_pp_form_distractors(
     lemma::String,
     pp_num::Int,
     correct_forms::Vector{String},
     pool::Vector{VocabItem},
     needed::Int,
-    rng,
+    rng;
+    similarity_threshold::Float64 = 0.45,
+    max_chapter::Union{Int, Nothing} = nothing,
 )::Vector{String}
     needed <= 0 && return String[]
 
-    same_pp = String[]
-    other = String[]
-    for x in pool
-        x.is_verb_principal_part || continue
-        x.lemma == lemma && continue
-        form = clean_greek_form(x.greek_display)
-        form in correct_forms && continue
-        if x.principal_part_number == pp_num
-            form in same_pp || push!(same_pp, form)
-        else
-            form in other || push!(other, form)
+    # --- Tier 1: other PPs of the same verb ---
+    same_verb_forms = String[]
+    pps = principal_parts_for_lemma(lemma, pool)
+    for (n, forms) in pps
+        n == pp_num && continue
+        for form in forms
+            form in correct_forms && continue
+            form in same_verb_forms || push!(same_verb_forms, form)
         end
     end
 
     chosen = String[]
-    if !isempty(same_pp)
-        n = min(needed, length(same_pp))
-        append!(chosen, rand(rng, same_pp, n))
-        chosen = unique(chosen)
-    end
+    _take_shuffled!(chosen, same_verb_forms, needed, rng)
     remaining = needed - length(chosen)
-    if remaining > 0 && !isempty(other)
-        candidates = [f for f in other if !(f in chosen)]
-        n = min(remaining, length(candidates))
-        n > 0 && append!(chosen, rand(rng, candidates, n))
-        chosen = unique(chosen)
+    remaining <= 0 && return chosen
+
+    # Collect other-verb candidates within the chapter window
+    # (form => (best_similarity, same_pp?))
+    other_meta = Dict{String, Tuple{Float64, Bool}}()
+    for x in pool
+        x.is_verb_principal_part || continue
+        x.lemma == lemma && continue
+        max_chapter !== nothing && x.chapter > max_chapter && continue
+        form = clean_greek_form(x.greek_display)
+        form in correct_forms && continue
+        form in chosen && continue
+        sim = best_form_similarity(form, correct_forms)
+        same_pp = x.principal_part_number == pp_num
+        if haskey(other_meta, form)
+            old_sim, old_same = other_meta[form]
+            other_meta[form] = (max(old_sim, sim), old_same || same_pp)
+        else
+            other_meta[form] = (sim, same_pp)
+        end
     end
+
+    # --- Tier 2: similar forms from other verbs ---
+    similar = [(f, sim, same_pp) for (f, (sim, same_pp)) in other_meta
+               if sim >= similarity_threshold]
+    # Higher similarity first; prefer same PP#; shuffle within ties via rng key
+    sort!(similar, by = x -> (-x[2], x[3] ? 0 : 1, rand(rng)))
+    for (form, _, _) in similar
+        remaining <= 0 && break
+        form in chosen && continue
+        push!(chosen, form)
+        remaining -= 1
+    end
+    remaining <= 0 && return chosen
+
+    # --- Tier 3: fill from remaining chapter-scoped forms ---
+    fallback_same_pp = String[]
+    fallback_other = String[]
+    for (form, (_, same_pp)) in other_meta
+        form in chosen && continue
+        if same_pp
+            push!(fallback_same_pp, form)
+        else
+            push!(fallback_other, form)
+        end
+    end
+    _take_shuffled!(chosen, fallback_same_pp, remaining, rng)
+    remaining = needed - length(chosen)
+    remaining > 0 && _take_shuffled!(chosen, fallback_other, remaining, rng)
+
+    return chosen
+end
+
+function _take_shuffled!(chosen::Vector{String}, candidates::Vector{String}, n::Int, rng)
+    n <= 0 && return chosen
+    avail = [c for c in candidates if !(c in chosen)]
+    isempty(avail) && return chosen
+    shuffle!(rng, avail)
+    append!(chosen, avail[1:min(n, length(avail))])
     return chosen
 end
 
