@@ -6,7 +6,7 @@
 [general]
 data_source = "data/vocabulary/hq.txt"
 current_chapter = 4              # Which chapter/unit we are currently teaching
-num_questions = 100              # Total questions in the generated drill
+num_questions = 50              # Total questions in the generated drill
 #random_seed = 42                # Set to null or omit for non-reproducible runs
 output_directory = "generated/vocab"
 output_filename_prefix = "vocab_drill_hq"
@@ -19,26 +19,39 @@ include_categories = []
 [proportions]
 # Fraction of questions that test active knowledge (Greek → English)
 # vs passive knowledge (English → Greek). 0.5 = 50/50
-active_to_passive_ratio = 0.5
+active_to_passive_ratio = 0.3
 
 # Fraction of questions drawn from the current chapter (the rest are review)
 current_chapter_fraction = 0.3
 
-# Fraction of questions that are principal-part identification
+# Fraction of lemma-based questions that are principal-part identification
 # (vs Greek ↔ English). Only applies to verb items that have numbered PPs.
 # 0.0 keeps the classic Greek ↔ English drill.
-pp_id_fraction = 0.5
+pp_id_fraction = 0.3
 
 # Within PP-ID questions: fraction that ask for the form given the number
 # ("Pick the 4th Principal Part of λύω") vs number given the form
 # ("Which Principal Part of λύω is ‘λέλυκα’?").
-pp_number_to_form_fraction = 0.7
+pp_number_to_form_fraction = 0.5
+
+# Lemma-independent “what each principal part *is*” family (both directions).
+# Effective count = min(pp_meaning_max_count, floor(num_questions * pp_meaning_fraction)).
+# Leave fraction at 0.0 so classic drills are not flooded; raise (e.g. 0.1) to enable.
+pp_meaning_fraction = 0.2
+# Hard cap on PP-meaning questions in any one quiz.
+pp_meaning_max_count = 6
+# Within PP-meaning items: “The Nth PP is the:” vs “Which PP is the ‘…’?”.
+pp_meaning_number_to_gloss_fraction = 0.5
 
 [question]
-# Shared choice count for all vocabulary question types (Greek↔English and PP ID).
-# Prefer ≥8 when the distractor pool allows; PP number→label questions cap at 6.
+# Shared choice count for all vocabulary question types
+# (Greek↔English, PP-ID, and PP-meaning). Prefer ≥8 when the distractor
+# pool allows; PP number/gloss banks naturally cap at 6 options.
 num_choices = 8
 prefer_same_category_distractors = true
+# Normalized edit-distance similarity floor for PP form distractors
+# (1 - levenshtein / max_len). Used after same-verb PPs are exhausted.
+pp_form_similarity_threshold = 0.45
 
 [moodle]
 category_prefix = "Vocabulary/HansenQuinn"

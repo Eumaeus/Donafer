@@ -3,10 +3,18 @@
 """
 test_pp_vocab_drill.jl
 
-Tests for Phase 1 principal-parts vocab drills:
+Tests for principal-parts vocab drills:
+
+Phase 1:
   - incomplete PP lists (verbs with fewer than six parts)
   - category filter (verb-only selection)
   - PP-ID question types in both directions
+
+Phase 2:
+  - fixed gloss bank for what each PP *is*
+  - both directions (number↔gloss)
+  - config cap / fraction for the meta family
+  - lemma independence
 
 Run from the project root:
     julia --project=. scripts/test_pp_vocab_drill.jl
@@ -297,12 +305,142 @@ end
         end
     end
 
-    @testset "config defaults preserve classic drill knobs" begin
+    @testset "config load + code defaults for PP knobs" begin
+        # Struct defaults stay classic-off; the committed TOML may be tuned
+        # for active PP drills (user-editable working config).
+        code_defaults = DrillConfig()
+        @test code_defaults.pp_id_fraction == 0.0
+        @test code_defaults.pp_meaning_fraction == 0.0
+        @test code_defaults.pp_meaning_max_count == 6
+        @test pp_meaning_question_count(code_defaults) == 0
+
         cfg = load_config("config/vocab_drill.toml")
         @test isempty(cfg.include_categories)
-        @test cfg.pp_id_fraction == 0.0
         @test cfg.num_choices >= 5
         @test cfg.pp_form_similarity_threshold == 0.45
+        @test cfg.pp_meaning_max_count >= 0
+        @test 0.0 <= cfg.pp_meaning_fraction <= 1.0
+        @test 0.0 <= cfg.pp_id_fraction <= 1.0
+        expected = if cfg.pp_meaning_fraction <= 0 || cfg.pp_meaning_max_count <= 0
+            0
+        else
+            min(cfg.pp_meaning_max_count,
+                Int(floor(cfg.num_questions * cfg.pp_meaning_fraction)),
+                cfg.num_questions)
+        end
+        @test pp_meaning_question_count(cfg) == expected
+    end
+
+    @testset "PRINCIPAL_PART_GLOSSES fixed bank" begin
+        @test length(PRINCIPAL_PART_GLOSSES) == 6
+        @test principal_part_gloss(1) == "Present, Active, Indicative, 1st person, Singular"
+        @test principal_part_gloss(2) == "Future, Active, Indicative, 1st person, Singular"
+        @test principal_part_gloss(3) == "Aorist, Active, Indicative, 1st person, Singular"
+        @test principal_part_gloss(4) == "Perfect, Active, Indicative, 1st person, Singular"
+        @test principal_part_gloss(5) == "Perfect, Middle/Passive, Indicative, 1st person, Singular"
+        @test principal_part_gloss(6) == "Aorist, Passive, Indicative, 1st person, Singular"
+        @test Set(collect(PRINCIPAL_PART_GLOSSES)) == Set(principal_part_gloss(n) for n in 1:6)
+    end
+
+    @testset "PP meaning number → gloss" begin
+        q = build_pp_meaning_question(1; direction=:pp_meaning_number_to_gloss,
+                                      num_choices=8, rng=MersenneTwister(11), chapter=4)
+        @test occursin("**1st Principal Part**", q.stem)
+        @test q.correct_answers == ["Present, Active, Indicative, 1st person, Singular"]
+        @test "Present, Active, Indicative, 1st person, Singular" ∉ q.distractors
+        @test all(d -> d in PRINCIPAL_PART_GLOSSES, q.distractors)
+        # Six-gloss bank caps at 6 options even when num_choices is 8
+        @test length(q.distractors) == 5
+        @test length(q.correct_answers) + length(q.distractors) == 6
+        @test q.category == "pp_meaning"
+        @test q.chapter == 4
+    end
+
+    @testset "PP meaning gloss → number" begin
+        q = build_pp_meaning_question(6; direction=:pp_meaning_gloss_to_number,
+                                      num_choices=8, rng=MersenneTwister(12), chapter=4)
+        @test occursin("Aorist, Passive, Indicative, 1st person, Singular", q.stem)
+        @test startswith(q.stem, "Which Principal Part is the")
+        @test q.correct_answers == ["6th"]
+        @test "6th" ∉ q.distractors
+        @test all(d -> d in ("1st", "2nd", "3rd", "4th", "5th"), q.distractors)
+        @test length(q.distractors) == 5
+        @test q.category == "pp_meaning"
+    end
+
+    @testset "PP meaning respects num_choices < 6" begin
+        q = build_pp_meaning_question(3; direction=:pp_meaning_number_to_gloss,
+                                      num_choices=4, rng=MersenneTwister(13))
+        @test q.correct_answers == ["Aorist, Active, Indicative, 1st person, Singular"]
+        @test length(q.distractors) == 3
+    end
+
+    @testset "PP meaning count from fraction + max" begin
+        cfg = DrillConfig(num_questions=50, pp_meaning_fraction=0.0, pp_meaning_max_count=6)
+        @test pp_meaning_question_count(cfg) == 0
+
+        cfg = DrillConfig(num_questions=50, pp_meaning_fraction=0.1, pp_meaning_max_count=6)
+        @test pp_meaning_question_count(cfg) == 5  # min(6, floor(5.0))
+
+        cfg = DrillConfig(num_questions=100, pp_meaning_fraction=0.2, pp_meaning_max_count=6)
+        @test pp_meaning_question_count(cfg) == 6  # hard cap
+
+        cfg = DrillConfig(num_questions=10, pp_meaning_fraction=0.5, pp_meaning_max_count=0)
+        @test pp_meaning_question_count(cfg) == 0
+
+        cfg = DrillConfig(num_questions=3, pp_meaning_fraction=1.0, pp_meaning_max_count=6)
+        @test pp_meaning_question_count(cfg) == 3  # cannot exceed quiz size
+    end
+
+    @testset "PP meaning is lemma-independent (no VocabItem needed)" begin
+        # Building meta questions does not consult the lemma pool at all.
+        empty_pool = VocabItem[]
+        q = build_pp_meaning_question(2; direction=:pp_meaning_number_to_gloss,
+                                      num_choices=8, rng=MersenneTwister(14))
+        gift = to_gift(q; qid="M1")
+        @test occursin("Future, Active, Indicative, 1st person, Singular", gift)
+        @test occursin("~%100%", gift) || occursin("~%", gift)
+        @test isempty(empty_pool)  # pool unused by design
+    end
+
+    @testset "selector trims when requesting fewer than current-chapter size" begin
+        selected = select_quiz_items(
+            pool;
+            current_chapter = 4,
+            num_questions = 3,
+            include_categories = ["verb"],
+            seed = 9
+        )
+        @test length(selected.items) == 3
+        @test all(i -> i.category == "verb", selected.items)
+    end
+
+    @testset "end-to-end drill injects PP-meaning under cap" begin
+        path = "data/vocabulary/hq.txt"
+        if isfile(path)
+            out = build_vocab_drill(
+                "config/vocab_drill.toml";
+                current_chapter = 4,
+                num_questions = 40,
+                include_categories = ["verb"],
+                pp_id_fraction = 0.5,
+                pp_meaning_fraction = 0.15,
+                pp_meaning_max_count = 6,
+            )
+            @test isfile(out)
+            text = read(out, String)
+            @test occursin("Principal Part** is the:", text) ||
+                  occursin("Which Principal Part is the", text)
+            # Cap: at most 6 meaning stems (fraction 0.15 of 40 → 6)
+            n_num = count("Principal Part** is the:", text)
+            n_gloss = count("Which Principal Part is the ‘", text)
+            @test n_num + n_gloss <= 6
+            @test n_num + n_gloss >= 1
+            # Phase 1 PP-ID still present when pp_id_fraction > 0
+            @test occursin("Pick the", text) || occursin("Which Principal Part of", text)
+        else
+            @warn "Skipping end-to-end PP-meaning check; hq.txt missing"
+        end
     end
 end
 

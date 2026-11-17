@@ -53,8 +53,8 @@ function select_quiz_items(
                " (categories=$(include_categories))")
     end
 
-    n = num_questions
-    frac = clamp(current_chapter_fraction, 0.0, 1.0)
+    n = max(num_questions, 0)
+    frac = clamp(current_chapter_fraction, 0.0, 1.0)  # retained for API / future weighting
 
     selected = copy(current_items)
 
@@ -66,6 +66,10 @@ function select_quiz_items(
             additional = rand(rng, combined_pool, remaining)
             append!(selected, additional)
         end
+    elseif remaining < 0
+        # Downsample so callers can reserve slots (e.g. PP-meaning meta questions).
+        shuffle!(rng, selected)
+        selected = selected[1:n]
     end
 
     shuffle!(rng, selected)
