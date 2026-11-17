@@ -21,22 +21,36 @@ end
 
 """
     select_quiz_items(...)
+
+Select quiz items for the current chapter (plus review fill).
+
+Optional `include_categories`: when non-empty, only items whose
+`category` is in the list are eligible (e.g. `["verb"]`).
 """
 function select_quiz_items(
     all_items::Vector{DataParser.VocabItem};
     current_chapter::Int,
     num_questions::Int,
     current_chapter_fraction::Float64 = 0.6,
+    include_categories::Vector{String} = String[],
     seed::Union{Int, Nothing} = nothing
 )::SelectionResult
 
     rng = seed === nothing ? Random.default_rng() : MersenneTwister(seed)
 
-    current_items = filter(i -> i.chapter == current_chapter, all_items)
-    review_items  = filter(i -> i.chapter < current_chapter, all_items)
+    pool = if isempty(include_categories)
+        all_items
+    else
+        filter(i -> i.category in include_categories, all_items)
+    end
+
+    current_items = filter(i -> i.chapter == current_chapter, pool)
+    review_items  = filter(i -> i.chapter < current_chapter, pool)
 
     if isempty(current_items)
-        @warn "No vocabulary items found for current chapter $current_chapter"
+        @warn "No vocabulary items found for current chapter $current_chapter" *
+              (isempty(include_categories) ? "" :
+               " (categories=$(include_categories))")
     end
 
     n = num_questions

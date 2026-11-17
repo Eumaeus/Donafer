@@ -107,3 +107,20 @@ This project evolved over time. I would be happy for any refactoring, small or l
 Since the code and data as they stand is working pretty well, we could branch the repository for new work. I am a little competent at basic branching, pull-requests, and merging. But I suspecdt I do not do this at a granular level that is considered ideal in the world of software development. I would happily accept guidance here.
 
 Likewise, for any of the more sophisticated features of Git. My experience with Git extends over many years, but has been limited to the basics: commit, push, pull, branch, merge.
+
+---
+
+This looks great… thank you!
+
+For questions like "Pick the 2nd Principal Part of ἐθέλω", it would be ideal if the distracters mostly included *other* principal parts of the same verb. With 8 choices, for example, it will not be possible for all distractors to be forms of the same verb.
+
+In the ideal world, when distractors are forms of a different verb, we would preferentially select forms that meet some "approximate match" threshold. So we ask "What is the 3rd Principal Part of πάσχω" (correct answer: ἔπαθον), a good distractor would be "ἔπιθον" (the 3rd PP of πείθω). Assuming, of course, that both πάσχω and πείθω are present in the selected chapters.
+
+I have generated a few drills with different parameters in `config/vocab_drill.toml`, and it looks like it is working really well.
+
+---
+
+Excellent. This is generating good quizzes, just as I had hoped! I think we can move forward!
+
+---
+
