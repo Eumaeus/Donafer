@@ -305,15 +305,30 @@ end
         end
     end
 
-    @testset "config defaults preserve classic drill knobs" begin
+    @testset "config load + code defaults for PP knobs" begin
+        # Struct defaults stay classic-off; the committed TOML may be tuned
+        # for active PP drills (user-editable working config).
+        code_defaults = DrillConfig()
+        @test code_defaults.pp_id_fraction == 0.0
+        @test code_defaults.pp_meaning_fraction == 0.0
+        @test code_defaults.pp_meaning_max_count == 6
+        @test pp_meaning_question_count(code_defaults) == 0
+
         cfg = load_config("config/vocab_drill.toml")
         @test isempty(cfg.include_categories)
-        @test cfg.pp_id_fraction == 0.0
-        @test cfg.pp_meaning_fraction == 0.0
-        @test cfg.pp_meaning_max_count == 6
         @test cfg.num_choices >= 5
         @test cfg.pp_form_similarity_threshold == 0.45
-        @test pp_meaning_question_count(cfg) == 0
+        @test cfg.pp_meaning_max_count >= 0
+        @test 0.0 <= cfg.pp_meaning_fraction <= 1.0
+        @test 0.0 <= cfg.pp_id_fraction <= 1.0
+        expected = if cfg.pp_meaning_fraction <= 0 || cfg.pp_meaning_max_count <= 0
+            0
+        else
+            min(cfg.pp_meaning_max_count,
+                Int(floor(cfg.num_questions * cfg.pp_meaning_fraction)),
+                cfg.num_questions)
+        end
+        @test pp_meaning_question_count(cfg) == expected
     end
 
     @testset "PRINCIPAL_PART_GLOSSES fixed bank" begin
