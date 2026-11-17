@@ -16,6 +16,12 @@ Phase 2:
   - config cap / fraction for the meta family
   - lemma independence
 
+Phase 3:
+  - fixed paradigm bank (form labels ↔ PP numbers)
+  - both directions (PP↔paradigm)
+  - config cap / fraction for the forms family
+  - lemma independence; classic-off code defaults
+
 Run from the project root:
     julia --project=. scripts/test_pp_vocab_drill.jl
 """
@@ -313,6 +319,9 @@ end
         @test code_defaults.pp_meaning_fraction == 0.0
         @test code_defaults.pp_meaning_max_count == 6
         @test pp_meaning_question_count(code_defaults) == 0
+        @test code_defaults.pp_forms_fraction == 0.0
+        @test code_defaults.pp_forms_max_count == 6
+        @test pp_forms_question_count(code_defaults) == 0
 
         cfg = load_config("config/vocab_drill.toml")
         @test isempty(cfg.include_categories)
@@ -321,6 +330,8 @@ end
         @test cfg.pp_meaning_max_count >= 0
         @test 0.0 <= cfg.pp_meaning_fraction <= 1.0
         @test 0.0 <= cfg.pp_id_fraction <= 1.0
+        @test cfg.pp_forms_max_count >= 0
+        @test 0.0 <= cfg.pp_forms_fraction <= 1.0
         expected = if cfg.pp_meaning_fraction <= 0 || cfg.pp_meaning_max_count <= 0
             0
         else
@@ -329,6 +340,14 @@ end
                 cfg.num_questions)
         end
         @test pp_meaning_question_count(cfg) == expected
+        expected_forms = if cfg.pp_forms_fraction <= 0 || cfg.pp_forms_max_count <= 0
+            0
+        else
+            min(cfg.pp_forms_max_count,
+                Int(floor(cfg.num_questions * cfg.pp_forms_fraction)),
+                cfg.num_questions)
+        end
+        @test pp_forms_question_count(cfg) == expected_forms
     end
 
     @testset "PRINCIPAL_PART_GLOSSES fixed bank" begin
@@ -426,6 +445,7 @@ end
                 pp_id_fraction = 0.5,
                 pp_meaning_fraction = 0.15,
                 pp_meaning_max_count = 6,
+                pp_forms_fraction = 0.0,
             )
             @test isfile(out)
             text = read(out, String)
@@ -440,6 +460,124 @@ end
             @test occursin("Pick the", text) || occursin("Which Principal Part of", text)
         else
             @warn "Skipping end-to-end PP-meaning check; hq.txt missing"
+        end
+    end
+
+    @testset "PRINCIPAL_PART_PARADIGMS fixed bank" begin
+        @test length(PRINCIPAL_PART_PARADIGMS) == 6
+        @test length(ALL_PARADIGM_LABELS) == 10
+        @test paradigms_for_pp(1) == ("Present (active, middle, passive)",
+                                      "Imperfect (active, middle, passive)")
+        @test paradigms_for_pp(2) == ("Future (active, middle)",)
+        @test paradigms_for_pp(3) == ("Aorist (active, middle)",)
+        @test paradigms_for_pp(4) == ("Perfect (active)", "Pluperfect (active)")
+        @test paradigms_for_pp(5) == ("Perfect (middle/passive)",
+                                      "Pluperfect (middle/passive)")
+        @test paradigms_for_pp(6) == ("Aorist (passive)", "Future (passive)")
+        @test pp_for_paradigm("Future (active, middle)") == 2
+        @test pp_for_paradigm("Aorist (active, middle)") == 3
+        @test pp_for_paradigm("Perfect (middle/passive)") == 5
+        @test pp_for_paradigm("Future (passive)") == 6
+        # Every label maps back to exactly one PP
+        for lab in ALL_PARADIGM_LABELS
+            @test lab in paradigms_for_pp(pp_for_paradigm(lab))
+        end
+    end
+
+    @testset "PP forms PP → paradigm" begin
+        q = build_pp_forms_question(2; direction=:pp_forms_pp_to_paradigm,
+                                    num_choices=8, rng=MersenneTwister(21), chapter=4,
+                                    paradigm_label="Future (active, middle)")
+        @test occursin("**2nd Principal Part**", q.stem)
+        @test startswith(q.stem, "Which of these forms is based on")
+        @test q.correct_answers == ["Future (active, middle)"]
+        @test "Future (active, middle)" ∉ q.distractors
+        @test all(d -> d in ALL_PARADIGM_LABELS, q.distractors)
+        # Same-PP labels must not appear as distractors
+        @test isempty(intersect(Set(q.distractors), Set(paradigms_for_pp(2))))
+        @test length(q.distractors) == 7  # 10 labels − 1 same-PP = 9 wrong; take 7
+        @test length(q.correct_answers) + length(q.distractors) == 8
+        @test q.category == "pp_forms"
+        @test q.chapter == 4
+    end
+
+    @testset "PP forms paradigm → PP" begin
+        q = build_pp_forms_question(3; direction=:pp_forms_paradigm_to_pp,
+                                    num_choices=8, rng=MersenneTwister(22), chapter=4,
+                                    paradigm_label="Aorist (active, middle)")
+        @test occursin("**Aorist (active, middle)**", q.stem)
+        @test occursin("based on which Principal Part?", q.stem)
+        @test q.correct_answers == ["3rd"]
+        @test "3rd" ∉ q.distractors
+        @test all(d -> d in ("1st", "2nd", "4th", "5th", "6th"), q.distractors)
+        @test length(q.distractors) == 5
+        @test q.category == "pp_forms"
+    end
+
+    @testset "PP forms respects num_choices < bank size" begin
+        q = build_pp_forms_question(1; direction=:pp_forms_pp_to_paradigm,
+                                    num_choices=4, rng=MersenneTwister(23),
+                                    paradigm_label="Present (active, middle, passive)")
+        @test q.correct_answers == ["Present (active, middle, passive)"]
+        @test length(q.distractors) == 3
+        @test "Imperfect (active, middle, passive)" ∉ q.distractors  # same PP
+    end
+
+    @testset "PP forms count from fraction + max" begin
+        cfg = DrillConfig(num_questions=50, pp_forms_fraction=0.0, pp_forms_max_count=6)
+        @test pp_forms_question_count(cfg) == 0
+
+        cfg = DrillConfig(num_questions=50, pp_forms_fraction=0.1, pp_forms_max_count=6)
+        @test pp_forms_question_count(cfg) == 5  # min(6, floor(5.0))
+
+        cfg = DrillConfig(num_questions=100, pp_forms_fraction=0.2, pp_forms_max_count=6)
+        @test pp_forms_question_count(cfg) == 6  # hard cap
+
+        cfg = DrillConfig(num_questions=10, pp_forms_fraction=0.5, pp_forms_max_count=0)
+        @test pp_forms_question_count(cfg) == 0
+
+        cfg = DrillConfig(num_questions=3, pp_forms_fraction=1.0, pp_forms_max_count=6)
+        @test pp_forms_question_count(cfg) == 3  # cannot exceed quiz size
+    end
+
+    @testset "PP forms is lemma-independent (no VocabItem needed)" begin
+        empty_pool = VocabItem[]
+        q = build_pp_forms_question(6; direction=:pp_forms_paradigm_to_pp,
+                                    num_choices=8, rng=MersenneTwister(24),
+                                    paradigm_label="Aorist (passive)")
+        gift = to_gift(q; qid="F1")
+        @test occursin("Aorist (passive)", gift)
+        @test occursin("~%100%", gift) || occursin("~%", gift)
+        @test isempty(empty_pool)
+    end
+
+    @testset "end-to-end drill injects PP-forms under cap" begin
+        path = "data/vocabulary/hq.txt"
+        if isfile(path)
+            out = build_vocab_drill(
+                "config/vocab_drill.toml";
+                current_chapter = 4,
+                num_questions = 40,
+                include_categories = ["verb"],
+                pp_id_fraction = 0.4,
+                pp_meaning_fraction = 0.0,
+                pp_forms_fraction = 0.15,
+                pp_forms_max_count = 6,
+            )
+            @test isfile(out)
+            text = read(out, String)
+            @test occursin("forms is based on the", text) ||
+                  occursin("forms are based on which Principal Part?", text)
+            n_pp_to = count("forms is based on the", text)
+            n_to_pp = count("forms are based on which Principal Part?", text)
+            @test n_pp_to + n_to_pp <= 6
+            @test n_pp_to + n_to_pp >= 1
+            # Phase 1 PP-ID still present when pp_id_fraction > 0
+            @test occursin("Pick the", text) || occursin("Which Principal Part of", text)
+            # Filename tag includes f when forms are injected
+            @test occursin("_ppf", out) || occursin("ppf", basename(out))
+        else
+            @warn "Skipping end-to-end PP-forms check; hq.txt missing"
         end
     end
 end

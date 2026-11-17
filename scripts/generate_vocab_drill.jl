@@ -12,6 +12,7 @@ Usage examples:
     julia --project=. scripts/generate_vocab_drill.jl --config config/custom.toml -c 3
     julia --project=. scripts/generate_vocab_drill.jl --categories verb --pp-id 0.6 -c 4
     julia --project=. scripts/generate_vocab_drill.jl --categories verb --pp-id 0.5 --pp-meaning 0.1 -c 4 -q 50
+    julia --project=. scripts/generate_vocab_drill.jl --categories verb --pp-forms 0.15 --pp-forms-max 6 -c 4 -q 50
 """
 
 # The below are unnecessary if launching with `julia --project=. …`
@@ -54,6 +55,14 @@ function parse_commandline()
             help = "Hard cap on PP-meaning questions per quiz"
             arg_type = Int
             default = nothing
+        "--pp-forms"
+            help = "Fraction of the quiz reserved for lemma-independent “forms from PP” questions (0–1)"
+            arg_type = Float64
+            default = nothing
+        "--pp-forms-max"
+            help = "Hard cap on PP-forms questions per quiz"
+            arg_type = Int
+            default = nothing
         "--config"
             help = "Path to configuration TOML file"
             default = "config/vocab_drill.toml"
@@ -86,6 +95,12 @@ function main()
     if args["pp-meaning-max"] !== nothing
         println("   PP-mean max : $(args["pp-meaning-max"])  ← override")
     end
+    if args["pp-forms"] !== nothing
+        println("   PP-forms    : $(args["pp-forms"])  ← override")
+    end
+    if args["pp-forms-max"] !== nothing
+        println("   PP-forms max: $(args["pp-forms-max"])  ← override")
+    end
 
     # Call with overrides if provided
     output_file = build_vocab_drill(
@@ -96,6 +111,8 @@ function main()
         pp_id_fraction  = args["pp-id"],
         pp_meaning_fraction = args["pp-meaning"],
         pp_meaning_max_count = args["pp-meaning-max"],
+        pp_forms_fraction = args["pp-forms"],
+        pp_forms_max_count = args["pp-forms-max"],
     )
     println("\n✅ Done!")
     println("   Output file : $output_file")

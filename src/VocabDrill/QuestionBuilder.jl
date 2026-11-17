@@ -7,7 +7,9 @@ using Random
 
 export Question, build_question, to_gift, ordinal_label, principal_parts_for_lemma,
        form_similarity, select_pp_form_distractors,
-       PRINCIPAL_PART_GLOSSES, principal_part_gloss, build_pp_meaning_question
+       PRINCIPAL_PART_GLOSSES, principal_part_gloss, build_pp_meaning_question,
+       PRINCIPAL_PART_PARADIGMS, ALL_PARADIGM_LABELS, paradigms_for_pp,
+       pp_for_paradigm, build_pp_forms_question
 
 struct Question
     stem::String
@@ -58,6 +60,47 @@ function principal_part_gloss(n::Int)::String
     (1 <= n <= length(PRINCIPAL_PART_GLOSSES)) ||
         error("principal_part_gloss expects 1–6, got $n")
     return PRINCIPAL_PART_GLOSSES[n]
+end
+
+"""
+Fixed pedagogical bank: which paradigms / form-types are generated from each
+principal part (lemma-independent). Labels mirror the Phase 3 paradigm table.
+"""
+const PRINCIPAL_PART_PARADIGMS = (
+    ("Present (active, middle, passive)", "Imperfect (active, middle, passive)"),  # 1st
+    ("Future (active, middle)",),                                                   # 2nd
+    ("Aorist (active, middle)",),                                                   # 3rd
+    ("Perfect (active)", "Pluperfect (active)"),                                    # 4th
+    ("Perfect (middle/passive)", "Pluperfect (middle/passive)"),                    # 5th
+    ("Aorist (passive)", "Future (passive)"),                                       # 6th
+)
+
+"""
+Flat list of every paradigm label in the Phase 3 bank (stable order by PP).
+"""
+const ALL_PARADIGM_LABELS = Tuple(vcat((collect(t) for t in PRINCIPAL_PART_PARADIGMS)...))
+
+"""
+    paradigms_for_pp(n) -> Tuple
+
+Return the paradigm / form-type labels based on principal part `n` (1–6).
+"""
+function paradigms_for_pp(n::Int)
+    (1 <= n <= length(PRINCIPAL_PART_PARADIGMS)) ||
+        error("paradigms_for_pp expects 1–6, got $n")
+    return PRINCIPAL_PART_PARADIGMS[n]
+end
+
+"""
+    pp_for_paradigm(label) -> Int
+
+Return the principal-part number (1–6) that generates `label`.
+"""
+function pp_for_paradigm(label::AbstractString)::Int
+    for (n, paradigms) in enumerate(PRINCIPAL_PART_PARADIGMS)
+        label in paradigms && return n
+    end
+    error("Unknown paradigm label: $label")
 end
 
 """
@@ -319,6 +362,103 @@ function build_pp_meaning_gloss_to_number(
 
     return Question(stem, String[correct_label], distractors,
                     feedback_correct, feedback_wrong, chapter, "pp_meaning")
+end
+
+# --- Which forms come from which PP (lemma-independent meta) ---
+
+"""
+    build_pp_forms_question(pp_num; direction, num_choices, rng, chapter, paradigm_label)
+
+Build a lemma-independent question about which paradigms are based on
+principal part `pp_num`.
+
+Directions:
+- `:pp_forms_pp_to_paradigm` — “Which of these forms is based on the Nth PP?”
+- `:pp_forms_paradigm_to_pp` — “The … forms are based on which Principal Part?”
+
+When `paradigm_label` is omitted, a label belonging to `pp_num` is chosen at
+random (needed when a PP generates more than one paradigm). Shared
+`num_choices` applies; the paradigm bank is larger than six, so 8 choices
+are usually available.
+"""
+function build_pp_forms_question(
+    pp_num::Int;
+    direction::Symbol = :pp_forms_pp_to_paradigm,
+    num_choices::Int = 8,
+    rng = Random.default_rng(),
+    chapter::Int = 0,
+    paradigm_label::Union{Nothing, String} = nothing,
+)::Question
+    (1 <= pp_num <= 6) || error("build_pp_forms_question expects pp_num 1–6, got $pp_num")
+
+    label = if paradigm_label === nothing
+        rand(rng, collect(paradigms_for_pp(pp_num)))
+    else
+        belongs = paradigm_label in paradigms_for_pp(pp_num)
+        belongs || error("paradigm_label \"$paradigm_label\" is not based on PP $pp_num")
+        paradigm_label
+    end
+
+    if direction == :pp_forms_pp_to_paradigm
+        return build_pp_forms_pp_to_paradigm(pp_num, label; num_choices=num_choices, rng=rng, chapter=chapter)
+    elseif direction == :pp_forms_paradigm_to_pp
+        return build_pp_forms_paradigm_to_pp(pp_num, label; num_choices=num_choices, rng=rng, chapter=chapter)
+    else
+        error("Unknown PP-forms direction: $direction")
+    end
+end
+
+function build_pp_forms_pp_to_paradigm(
+    pp_num::Int,
+    correct_label::String;
+    num_choices::Int,
+    rng,
+    chapter::Int,
+)::Question
+    stem = "Which of these forms is based on the **$(ordinal_label(pp_num)) Principal Part**?"
+
+    same_pp = Set(paradigms_for_pp(pp_num))
+    wrong = [lab for lab in ALL_PARADIGM_LABELS if !(lab in same_pp)]
+    needed = min(max(num_choices - 1, 0), length(wrong))
+    distractors = needed == 0 ? String[] : shuffle(rng, wrong)[1:needed]
+
+    feedback_correct = Dict{String, String}(
+        correct_label => "Correct: **$(correct_label)** forms are based on the $(ordinal_label(pp_num)) Principal Part."
+    )
+    feedback_wrong = Dict{String, String}(
+        lab => "Incorrect. **$(lab)** forms are based on the $(ordinal_label(pp_for_paradigm(lab))) Principal Part, not the $(ordinal_label(pp_num))."
+        for lab in distractors
+    )
+
+    return Question(stem, String[correct_label], distractors,
+                    feedback_correct, feedback_wrong, chapter, "pp_forms")
+end
+
+function build_pp_forms_paradigm_to_pp(
+    pp_num::Int,
+    label::String;
+    num_choices::Int,
+    rng,
+    chapter::Int,
+)::Question
+    correct_label = ordinal_label(pp_num)
+    stem = "The **$(label)** forms are based on which Principal Part?"
+
+    all_labels = [ordinal_label(n) for n in 1:6]
+    wrong_labels = [lab for lab in all_labels if lab != correct_label]
+    needed = min(max(num_choices - 1, 0), length(wrong_labels))
+    distractors = needed == 0 ? String[] : shuffle(rng, wrong_labels)[1:needed]
+
+    feedback_correct = Dict{String, String}(
+        correct_label => "Correct: **$(label)** forms are based on the **$(correct_label) Principal Part**."
+    )
+    feedback_wrong = Dict{String, String}(
+        lab => "Incorrect. **$(label)** forms are based on the **$(correct_label) Principal Part**, not the $(lab)."
+        for lab in distractors
+    )
+
+    return Question(stem, String[correct_label], distractors,
+                    feedback_correct, feedback_wrong, chapter, "pp_forms")
 end
 
 """
