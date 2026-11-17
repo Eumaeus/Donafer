@@ -27,25 +27,18 @@ current_chapter_fraction = 0.3
 # Fraction of questions that are principal-part identification
 # (vs Greek ↔ English). Only applies to verb items that have numbered PPs.
 # 0.0 keeps the classic Greek ↔ English drill.
-pp_id_fraction = 0.0
+pp_id_fraction = 0.5
 
 # Within PP-ID questions: fraction that ask for the form given the number
 # ("Pick the 4th Principal Part of λύω") vs number given the form
 # ("Which Principal Part of λύω is ‘λέλυκα’?").
-pp_number_to_form_fraction = 0.5
+pp_number_to_form_fraction = 0.7
 
 [question]
 # Shared choice count for all vocabulary question types (Greek↔English and PP ID).
 # Prefer ≥8 when the distractor pool allows; PP number→label questions cap at 6.
 num_choices = 8
 prefer_same_category_distractors = true
-
-# For “Pick the Nth Principal Part of X” distractors (after other PPs of X):
-# keep other-verb forms whose normalized edit-distance similarity to the
-# correct form is at least this value (1 - levenshtein / max_len).
-# Example: ἔπαθον vs ἔπιθον ≈ 0.83. Lower = more lenient; raise toward 0.6+
-# for stricter look-alikes. Thin pools still fall back to any chapter-scoped forms.
-pp_form_similarity_threshold = 0.45
 
 [moodle]
 category_prefix = "Vocabulary/HansenQuinn"

@@ -121,3 +121,6 @@ I have generated a few drills with different parameters in `config/vocab_drill.t
 ---
 
 Excellent. This is generating good quizzes, just as I had hoped! I think we can move forward!
+
+---
+
