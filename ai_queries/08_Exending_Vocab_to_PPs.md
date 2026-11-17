@@ -124,3 +124,4 @@ Excellent. This is generating good quizzes, just as I had hoped! I think we can 
 
 ---
 
+When you say "knob", does that mean "setting to adjust the frequency of something"? Just trying to keep my technical vocabulary up to date!
