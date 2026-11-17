@@ -125,3 +125,7 @@ Excellent. This is generating good quizzes, just as I had hoped! I think we can 
 ---
 
 When you say "knob", does that mean "setting to adjust the frequency of something"? Just trying to keep my technical vocabulary up to date!
+
+---
+
+Okay, thank you very much! That looks really good. I've generated a few new drills for my students with the current state of the code. Everything is checked in, so we're ready to move on.
