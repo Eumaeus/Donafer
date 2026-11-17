@@ -8,8 +8,10 @@ include("QuizBuilder.jl")
 using .DataParser: parse_vocabulary_file, VocabItem, RawVocabEntry
 using .ItemSelector: select_quiz_items, SelectionResult
 using .QuestionBuilder: Question, build_question, to_gift, ordinal_label,
-                        principal_parts_for_lemma, form_similarity, select_pp_form_distractors
-using .QuizBuilder: DrillConfig, load_config, build_vocab_drill, write_gift_file
+                        principal_parts_for_lemma, form_similarity, select_pp_form_distractors,
+                        PRINCIPAL_PART_GLOSSES, principal_part_gloss, build_pp_meaning_question
+using .QuizBuilder: DrillConfig, load_config, build_vocab_drill, write_gift_file,
+                    pp_meaning_question_count
 
 export 
     # Core types & low-level functions
@@ -18,8 +20,10 @@ export
     Question, build_question, to_gift,
     ordinal_label, principal_parts_for_lemma,
     form_similarity, select_pp_form_distractors,
+    PRINCIPAL_PART_GLOSSES, principal_part_gloss, build_pp_meaning_question,
 
     # High-level quiz builder
-    DrillConfig, load_config, build_vocab_drill, write_gift_file
+    DrillConfig, load_config, build_vocab_drill, write_gift_file,
+    pp_meaning_question_count
 
 end # module VocabDrill

@@ -6,7 +6,8 @@ using ..DataParser
 using Random
 
 export Question, build_question, to_gift, ordinal_label, principal_parts_for_lemma,
-       form_similarity, select_pp_form_distractors
+       form_similarity, select_pp_form_distractors,
+       PRINCIPAL_PART_GLOSSES, principal_part_gloss, build_pp_meaning_question
 
 struct Question
     stem::String
@@ -33,6 +34,30 @@ function ordinal_label(n::Int)::String
     n == 2 && return "2nd"
     n == 3 && return "3rd"
     return "$(n)th"
+end
+
+"""
+Fixed answer bank for “what each principal part *is*” drills.
+Wording matches the pedagogical glosses in `ai_queries/08_Exending_Vocab_to_PPs.md`.
+"""
+const PRINCIPAL_PART_GLOSSES = (
+    "Present, Active, Indicative, 1st person, Singular",
+    "Future, Active, Indicative, 1st person, Singular",
+    "Aorist, Active, Indicative, 1st person, Singular",
+    "Perfect, Active, Indicative, 1st person, Singular",
+    "Perfect, Middle/Passive, Indicative, 1st person, Singular",
+    "Aorist, Passive, Indicative, 1st person, Singular",
+)
+
+"""
+    principal_part_gloss(n) -> String
+
+Return the traditional morphological gloss for principal part `n` (1–6).
+"""
+function principal_part_gloss(n::Int)::String
+    (1 <= n <= length(PRINCIPAL_PART_GLOSSES)) ||
+        error("principal_part_gloss expects 1–6, got $n")
+    return PRINCIPAL_PART_GLOSSES[n]
 end
 
 """
@@ -209,6 +234,91 @@ function build_pp_form_to_number(
 
     return Question(stem, String[correct_label], distractors,
                     feedback_correct, feedback_wrong, item.chapter, item.category)
+end
+
+# --- What each principal part *is* (lemma-independent meta) ---
+
+"""
+    build_pp_meaning_question(pp_num; direction, num_choices, rng, chapter)
+
+Build a lemma-independent question about what principal part `pp_num` represents.
+
+Directions:
+- `:pp_meaning_number_to_gloss` — “The **1st Principal Part** is the:” → gloss
+- `:pp_meaning_gloss_to_number` — “Which Principal Part is the ‘…’?” → 1st…6th
+
+The answer bank is the six traditional glosses (or the six ordinals). Shared
+`num_choices` applies, but these items naturally cap at 6 options.
+"""
+function build_pp_meaning_question(
+    pp_num::Int;
+    direction::Symbol = :pp_meaning_number_to_gloss,
+    num_choices::Int = 8,
+    rng = Random.default_rng(),
+    chapter::Int = 0,
+)::Question
+    (1 <= pp_num <= 6) || error("build_pp_meaning_question expects pp_num 1–6, got $pp_num")
+
+    if direction == :pp_meaning_number_to_gloss
+        return build_pp_meaning_number_to_gloss(pp_num; num_choices=num_choices, rng=rng, chapter=chapter)
+    elseif direction == :pp_meaning_gloss_to_number
+        return build_pp_meaning_gloss_to_number(pp_num; num_choices=num_choices, rng=rng, chapter=chapter)
+    else
+        error("Unknown PP-meaning direction: $direction")
+    end
+end
+
+function build_pp_meaning_number_to_gloss(
+    pp_num::Int;
+    num_choices::Int,
+    rng,
+    chapter::Int,
+)::Question
+    correct = principal_part_gloss(pp_num)
+    stem = "The **$(ordinal_label(pp_num)) Principal Part** is the:"
+
+    all_glosses = collect(PRINCIPAL_PART_GLOSSES)
+    wrong = [g for g in all_glosses if g != correct]
+    needed = min(max(num_choices - 1, 0), length(wrong))
+    distractors = needed == 0 ? String[] : shuffle(rng, wrong)[1:needed]
+
+    feedback_correct = Dict{String, String}(
+        correct => "Correct: the $(ordinal_label(pp_num)) Principal Part is **$(correct)**."
+    )
+    feedback_wrong = Dict{String, String}(
+        g => "Incorrect. The $(ordinal_label(pp_num)) Principal Part is **$(correct)**, not “$(g)”."
+        for g in distractors
+    )
+
+    return Question(stem, String[correct], distractors,
+                    feedback_correct, feedback_wrong, chapter, "pp_meaning")
+end
+
+function build_pp_meaning_gloss_to_number(
+    pp_num::Int;
+    num_choices::Int,
+    rng,
+    chapter::Int,
+)::Question
+    gloss = principal_part_gloss(pp_num)
+    correct_label = ordinal_label(pp_num)
+    stem = "Which Principal Part is the ‘$(gloss)’?"
+
+    all_labels = [ordinal_label(n) for n in 1:6]
+    wrong_labels = [lab for lab in all_labels if lab != correct_label]
+    needed = min(max(num_choices - 1, 0), length(wrong_labels))
+    distractors = needed == 0 ? String[] : shuffle(rng, wrong_labels)[1:needed]
+
+    feedback_correct = Dict{String, String}(
+        correct_label => "Correct: ‘$(gloss)’ is the **$(correct_label) Principal Part**."
+    )
+    feedback_wrong = Dict{String, String}(
+        lab => "Incorrect. ‘$(gloss)’ is the **$(correct_label) Principal Part**, not the $(lab)."
+        for lab in distractors
+    )
+
+    return Question(stem, String[correct_label], distractors,
+                    feedback_correct, feedback_wrong, chapter, "pp_meaning")
 end
 
 """

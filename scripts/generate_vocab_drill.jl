@@ -11,6 +11,7 @@ Usage examples:
     julia --project=. scripts/generate_vocab_drill.jl -c 5 -q 120
     julia --project=. scripts/generate_vocab_drill.jl --config config/custom.toml -c 3
     julia --project=. scripts/generate_vocab_drill.jl --categories verb --pp-id 0.6 -c 4
+    julia --project=. scripts/generate_vocab_drill.jl --categories verb --pp-id 0.5 --pp-meaning 0.1 -c 4 -q 50
 """
 
 # The below are unnecessary if launching with `julia --project=. …`
@@ -42,8 +43,16 @@ function parse_commandline()
             arg_type = String
             default = nothing
         "--pp-id"
-            help = "Fraction of questions that are principal-part identification (0–1)"
+            help = "Fraction of lemma questions that are principal-part identification (0–1)"
             arg_type = Float64
+            default = nothing
+        "--pp-meaning"
+            help = "Fraction of the quiz reserved for lemma-independent “what each PP is” questions (0–1)"
+            arg_type = Float64
+            default = nothing
+        "--pp-meaning-max"
+            help = "Hard cap on PP-meaning questions per quiz"
+            arg_type = Int
             default = nothing
         "--config"
             help = "Path to configuration TOML file"
@@ -71,6 +80,12 @@ function main()
     if args["pp-id"] !== nothing
         println("   PP-ID frac  : $(args["pp-id"])  ← override")
     end
+    if args["pp-meaning"] !== nothing
+        println("   PP-meaning  : $(args["pp-meaning"])  ← override")
+    end
+    if args["pp-meaning-max"] !== nothing
+        println("   PP-mean max : $(args["pp-meaning-max"])  ← override")
+    end
 
     # Call with overrides if provided
     output_file = build_vocab_drill(
@@ -78,7 +93,9 @@ function main()
         current_chapter = args["chapter"],
         num_questions   = args["questions"],
         include_categories = args["categories"],
-        pp_id_fraction  = args["pp-id"]
+        pp_id_fraction  = args["pp-id"],
+        pp_meaning_fraction = args["pp-meaning"],
+        pp_meaning_max_count = args["pp-meaning-max"],
     )
     println("\n✅ Done!")
     println("   Output file : $output_file")
