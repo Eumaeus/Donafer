@@ -37,7 +37,7 @@ pp_number_to_form_fraction = 0.5
 # Lemma-independent “what each principal part *is*” family (both directions).
 # Effective count = min(pp_meaning_max_count, floor(num_questions * pp_meaning_fraction)).
 # Leave fraction at 0.0 so classic drills are not flooded; raise (e.g. 0.1) to enable.
-pp_meaning_fraction = 0.2
+pp_meaning_fraction = 0.3
 # Hard cap on PP-meaning questions in any one quiz.
 pp_meaning_max_count = 6
 # Within PP-meaning items: “The Nth PP is the:” vs “Which PP is the ‘…’?”.
@@ -47,7 +47,7 @@ pp_meaning_number_to_gloss_fraction = 0.5
 # (both directions). Same budget style as PP-meaning.
 # Effective count = min(pp_forms_max_count, floor(num_questions * pp_forms_fraction)).
 # Leave fraction at 0.0 so classic drills are not flooded; raise (e.g. 0.1) to enable.
-pp_forms_fraction = 0.0
+pp_forms_fraction = 0.3
 # Hard cap on PP-forms questions in any one quiz.
 pp_forms_max_count = 6
 # Within PP-forms items: “Which forms are based on the Nth PP?” vs
