@@ -22,6 +22,12 @@ Phase 3:
   - config cap / fraction for the forms family
   - lemma independence; classic-off code defaults
 
+Phase 4:
+  - numbered English field (split Greek / numbered-English)
+  - legacy one-gloss English still parses
+  - PP form ↔ tense-appropriate English question types
+  - pp_gloss_fraction classic-off by default
+
 Run from the project root:
     julia --project=. scripts/test_pp_vocab_drill.jl
 """
@@ -578,6 +584,135 @@ end
             @test occursin("_ppf", out) || occursin("ppf", basename(out))
         else
             @warn "Skipping end-to-end PP-forms check; hq.txt missing"
+        end
+    end
+
+    @testset "numbered English field detection + parse" begin
+        @test is_numbered_english_field("1 I unbind;1 I free;2 I will unbind")
+        @test !is_numbered_english_field("unbind; free")
+        @test !is_numbered_english_field("command")
+
+        num = parse_english_field("1 I unbind;1 I free;2 I will unbind;4 I have unbound")
+        @test num.mode == :numbered
+        @test num.by_pp[1] == ["I unbind", "I free"]
+        @test num.by_pp[2] == ["I will unbind"]
+        @test num.by_pp[4] == ["I have unbound"]
+        @test !haskey(num.by_pp, 3)
+
+        leg = parse_english_field("unbind; free")
+        @test leg.mode == :legacy
+        @test leg.glosses == ["unbind", "free"]
+    end
+
+    @testset "expand_entry pairs PP forms with numbered glosses only" begin
+        greek = "1 λύω;2 λύσω;3 ἔλυσα;4 λέλυκα;5 λέλυμαι;6 ἐλύθην"
+        eng = "1 I unbind;1 I free;2 I will unbind;2 I will free;3 I unbound;3 I freed;4 I have unbound;4 I have freed;5 I have been unbound;5 I have been freed;6 I was unbound;6 I was freed"
+        items = VocabDrill.DataParser.expand_entry(2, "verb", greek, eng)
+        @test all(i -> i.has_pp_specific_english, items)
+        pp4 = filter(i -> i.principal_part_number == 4, items)
+        @test Set(i.english for i in pp4) == Set(["I have unbound", "I have freed"])
+        @test all(i -> occursin("λέλυκα", i.greek_display), pp4)
+        # Legacy still works
+        legacy_items = VocabDrill.DataParser.expand_entry(2, "verb", greek, "unbind; free")
+        @test all(i -> !i.has_pp_specific_english, legacy_items)
+        @test Set(i.english for i in legacy_items) == Set(["unbind", "free"])
+        @test count(i -> i.principal_part_number == 1, legacy_items) == 2
+    end
+
+    @testset "PP form → English (tense-appropriate)" begin
+        gloss_pool = VocabItem[]
+        function add_gloss!(ch, lemma, greek_field, pairs)
+            for (n, form, eng) in pairs
+                push!(gloss_pool, VocabItem(
+                    ch, "verb", "$n $form", eng, true, n, lemma, greek_field, true
+                ))
+            end
+        end
+        luo = "1 λύω;2 λύσω;3 ἔλυσα;4 λέλυκα;5 λέλυμαι;6 ἐλύθην"
+        add_gloss!(2, "λύω", luo, [
+            (1, "λύω", "I unbind"), (1, "λύω", "I free"),
+            (2, "λύσω", "I will unbind"), (2, "λύσω", "I will free"),
+            (4, "λέλυκα", "I have unbound"), (4, "λέλυκα", "I have freed"),
+            (6, "ἐλύθην", "I was unbound"), (6, "ἐλύθην", "I was freed"),
+        ])
+        pempo = "1 πέμπω;2 πέμψω;3 ἔπεμψα"
+        add_gloss!(2, "πέμπω", pempo, [
+            (1, "πέμπω", "I send"), (2, "πέμψω", "I will send"), (3, "ἔπεμψα", "I sent"),
+        ])
+
+        item = first(filter(i -> i.lemma == "λύω" && i.principal_part_number == 4, gloss_pool))
+        q = build_question(item, gloss_pool; direction=:pp_form_to_english,
+                           num_choices=8, rng=MersenneTwister(41))
+        @test occursin("λέλυκα", q.stem)
+        @test occursin("4th Principal Part of λύω", q.stem)
+        @test any(a -> a in ("I have unbound", "I have freed"), q.correct_answers)
+        @test !("I unbind" in q.correct_answers)
+        @test !("I send" in q.correct_answers) || "I send" in q.distractors
+        @test length(q.correct_answers) + length(q.distractors) <= 8
+    end
+
+    @testset "PP English → form" begin
+        gloss_pool = VocabItem[]
+        luo = "1 λύω;2 λύσω;4 λέλυκα"
+        for (n, form, eng) in [(1, "λύω", "I unbind"), (2, "λύσω", "I will unbind"),
+                               (4, "λέλυκα", "I have unbound")]
+            push!(gloss_pool, VocabItem(2, "verb", "$n $form", eng, true, n, "λύω", luo, true))
+        end
+        push!(gloss_pool, VocabItem(2, "verb", "1 πέμπω", "I send", true, 1, "πέμπω",
+                                    "1 πέμπω", true))
+
+        item = first(filter(i -> i.english == "I have unbound", gloss_pool))
+        q = build_question(item, gloss_pool; direction=:pp_english_to_form,
+                           num_choices=4, rng=MersenneTwister(42))
+        @test occursin("I have unbound", q.stem)
+        @test "λέλυκα" in q.correct_answers
+        @test "λύω" in q.distractors || "λύσω" in q.distractors || "πέμπω" in q.distractors
+    end
+
+    @testset "config defaults keep pp_gloss classic-off" begin
+        code_defaults = DrillConfig()
+        @test code_defaults.pp_gloss_fraction == 0.0
+        @test code_defaults.pp_form_to_english_fraction == 0.5
+
+        cfg = load_config("config/vocab_drill.toml")
+        @test 0.0 <= cfg.pp_gloss_fraction <= 1.0
+        @test 0.0 <= cfg.pp_form_to_english_fraction <= 1.0
+    end
+
+    @testset "hq.txt numbered English + PP-gloss drill" begin
+        path = "data/vocabulary/hq.txt"
+        if isfile(path)
+            items = parse_vocabulary_file(path)
+            verbs = filter(i -> i.category == "verb", items)
+            @test !isempty(verbs)
+            pp_specific = filter(i -> i.has_pp_specific_english, verbs)
+            @test !isempty(pp_specific)
+
+            luo = filter(i -> i.lemma == "λύω" && i.principal_part_number == 4, verbs)
+            @test !isempty(luo)
+            @test all(i -> i.has_pp_specific_english, luo)
+            @test Set(i.english for i in luo) == Set(["I have unbound", "I have freed"])
+
+            # Legacy-compatible: ἀποδέχομαι (no numbered PPs) still present if parsed
+            # (line has no numbered Greek PPs beyond bare lemma — may expand as non-PP)
+
+            out = build_vocab_drill(
+                "config/vocab_drill.toml";
+                current_chapter = 4,
+                num_questions = 40,
+                include_categories = ["verb"],
+                pp_id_fraction = 0.2,
+                pp_meaning_fraction = 0.0,
+                pp_forms_fraction = 0.0,
+                pp_gloss_fraction = 0.6,
+            )
+            @test isfile(out)
+            text = read(out, String)
+            @test occursin("Principal Part of", text) || occursin("Which form means", text)
+            @test occursin("_ppg", basename(out)) || occursin("ppg", basename(out)) ||
+                  occursin("_pp", basename(out))
+        else
+            @warn "Skipping hq.txt PP-gloss checks; file not found"
         end
     end
 end

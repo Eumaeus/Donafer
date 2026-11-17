@@ -2,7 +2,7 @@
 //
 // The pattern is:
 //
-//				category # Greek # English
+//				chapter#category#Greek#English
 //
 // In the Greek field, different forms are separated by ";".
 //
@@ -37,6 +37,25 @@
 //
 //			1 βλάπτω;2 βλάψω;3 ἔβλαψα;4 βέβλαφα;
 //			5 βέβλαμμαι;6 ἐβλάβην;6 ἐβλάφθην
+//
+// Phase 4 — per–principal-part English (preferred for verbs):
+//
+//   Split Greek / numbered-English fields (NOT the combined
+//   “1 λύω, I unbind” style). Greek stays as above; English uses
+//   the same N-prefix so each gloss belongs to one PP. Multiple
+//   glosses per PP number are allowed:
+//
+//     2#verb#1 λύω;2 λύσω;3 ἔλυσα;4 λέλυκα;5 λέλυμαι;6 ἐλύθην#1 I unbind;1 I free;2 I will unbind;2 I will free;3 I unbound;3 I freed;4 I have unbound;4 I have freed;5 I have been unbound;5 I have been freed;6 I was unbound;6 I was freed
+//
+// Legacy one-gloss / multi-gloss English without leading “N ”
+// (e.g. “unbind; free”) is still accepted by the parser and
+// applies the same English to every PP of that verb.
+//
+// Migration status: nearly all HQ verbs use numbered English.
+// Verbs without numbered Greek PPs (e.g. ἀποδέχομαι) keep legacy
+// English. Regenerate with:
+//   julia --project=. scripts/migrate_pp_english.jl
+//
 
 // Unit 1
 1#noun#ἀγορά, ἀγορᾶς, ἡ#market place
@@ -80,10 +99,10 @@
 2#other#νῦν#now
 2#noun#ξένος, ξένου, ὁ#guest-friend; host; stranger; foreigner
 2#other#οὐ; οὐκ; οὐχ (adv.)#no; not
-2#verb#1 κελεύω;2 κελεύσω;3 ἐκέλευσα;4 κεκέλευκα;5 κεκέλευσμαι;6 ἐκελεύσθην#command
-2#verb#1 λύω;2 λύσω;3 ἔλυσα;4 λέλυκα;5 λέλυμαι;6 ἔλύθην#unbind; free
-2#verb#1 παιδεύω;2 παιδεύσω;3 ἐπαίδευσα;4 πεπαίδευκα;5 πεπαίδευμαι;6 ἐπαιδεύθην#educate; teach
-2#verb#1 πέμπω;2 πέμψω;3 ἔπεμψα;4 πέπομφα;5 πέπεμμαι;6 ἐπέμφθην#send
+2#verb#1 κελεύω;2 κελεύσω;3 ἐκέλευσα;4 κεκέλευκα;5 κεκέλευσμαι;6 ἐκελεύσθην#1 I command;2 I will command;3 I commanded;4 I have commanded;5 I have been commanded;6 I was commanded
+2#verb#1 λύω;2 λύσω;3 ἔλυσα;4 λέλυκα;5 λέλυμαι;6 ἔλύθην#1 I unbind;1 I free;2 I will unbind;2 I will free;3 I unbound;3 I freed;4 I have unbound;4 I have freed;5 I have been unbound;5 I have been freed;6 I was unbound;6 I was freed
+2#verb#1 παιδεύω;2 παιδεύσω;3 ἐπαίδευσα;4 πεπαίδευκα;5 πεπαίδευμαι;6 ἐπαιδεύθην#1 I educate;1 I teach;2 I will educate;2 I will teach;3 I educated;3 I taught;4 I have educated;4 I have taught;5 I have been educated;5 I have been taught;6 I was educated;6 I was taught
+2#verb#1 πέμπω;2 πέμψω;3 ἔπεμψα;4 πέπομφα;5 πέπεμμαι;6 ἐπέμφθην#1 I send;2 I will send;3 I sent;4 I have sent;5 I have been sent;6 I was sent
 2#prep#παρά + gen#from beside
 2#prep#παρά + dat#at the side of; at the house of
 2#prep#παρά + acc#to the side of; beside; contrary to
@@ -101,7 +120,7 @@
 3#prep#ἀντί + gen#instead of
 3#noun#ἀρετή, ἀρετῆς, ἡ#excellence; virtue
 3#noun#βουλή, βουλῆς, ἡ#will; council
-3#verb#1 γράφω;2 γράψω;3 ἔγραψα;4 γέγραφα;5 γέγραμμαι;6 ἐγράφην#write; draw
+3#verb#1 γράφω;2 γράψω;3 ἔγραψα;4 γέγραφα;5 γέγραμμαι;6 ἐγράφην#1 I write;1 I draw;2 I will write;2 I will draw;3 I wrote;3 I drew;4 I have written;4 I have drawn;5 I have been written;5 I have been drawn;6 I was written;6 I was drawn
 3#other#δή#in fact; of course; indeed
 3#noun#δημοκρατία, δημοκρατίας, ἡ#democracy
 3#prep#διά + gen#through
@@ -110,17 +129,17 @@
 3#noun#ἐκκλησίᾱ, ἐκκλησίᾱς, ἡ#assembly
 3#other#ἐπεί#after; when; since
 3#other#ἐπειδή#after; when; since
-3#verb#1 θύω;2 θύσω;3 ἔθῡσα;4 τέθυκα;5 τέθυμαι;6 ἐτύθην#I sacrifice
+3#verb#1 θύω;2 θύσω;3 ἔθῡσα;4 τέθυκα;5 τέθυμαι;6 ἐτύθην#1 I sacrifice;2 I will sacrifice;3 I sacrificed;4 I have sacrificed;5 I have been sacrificed;6 I was sacrificed
 3#noun#θυσίᾱ, θύσίᾱς, ἡ#a sacrifice
 3#other#μή#not
 3#noun#νίκη, νίκης, ἡ#victory
 3#prep#ἵνα, ὡς, ὅπως#in order that
 3#noun#ὀφθαλμός, ὀφθαλμοῦ, ὁ#eye
-3#verb#1 παύω;2 παύσω;3 ἔπαυσα;4 πέπαυκα;5 πέπαυμαι;6 ἐπαύθην#stop; make stop
+3#verb#1 παύω;2 παύσω;3 ἔπαυσα;4 πέπαυκα;5 πέπαυμαι;6 ἐπαύθην#1 I stop;1 I make (someone) stop;2 I will stop;2 I will make (someone) stop;3 I stopped;3 I made (someone) stop;4 I have stopped;4 I have made to stop;5 I have been stopped;5 I have been made to stop;6 I was stopped;6 I was made to stop
 3#prep#περί + gen#concerning; about
 3#prep#περί + acc.#around; concerning
 3#prep#περί + dat#around
-3#verb#1 φυλάττω;2 φυλάξω;3 ἐφύλαξα;4 πεφύλαχα;5 πεφύλαγμαι;6 ἐφυλάχθην#guard
+3#verb#1 φυλάττω;2 φυλάξω;3 ἐφύλαξα;4 πεφύλαχα;5 πεφύλαγμαι;6 ἐφυλάχθην#1 I guard;2 I will guard;3 I guarded;4 I have guarded;5 I have been guarded;6 I was guarded
 
 // Unit 4
 4#noun#ἀγαθός, ἀγαθή, ἀγαθόν# good
@@ -129,16 +148,16 @@
 4#adj#ἀνάξιος, ἀνάξιον# unworthy of ( + gen); undeserving
 4#noun#ἀρχή, ἀρχῆς, ἡ# beginning; rule; empire
 4#noun#γέφυρα, γεφύρας, ἡ# bridge
-4#verb#1 διδάσκω;2 διδάξω;3 ἐδίδαξα;4 δεδίδαχα;5 δεδίδαγμαι;6 ἐδιδάχθην# teach
+4#verb#1 διδάσκω;2 διδάξω;3 ἐδίδαξα;4 δεδίδαχα;5 δεδίδαγμαι;6 ἐδιδάχθην#1 I teach;2 I will teach;3 I taught;4 I have taught;5 I have been taught;6 I was taught
 4#noun#δίκη, δίκης, ἡ# justice; lawsuit
 4#adj#ἄδικος, ἄδικον# unjust
 4#adj#δίκαιος, δικαίᾱ, δίκαιον# just
-4#verb#1 ἐθέλω;2 ἐθελήσω;3 ἠθέλησα;4 ἠθέληκα# to be willing; wish
+4#verb#1 ἐθέλω;2 ἐθελήσω;3 ἠθέλησα;4 ἠθέληκα#1 I am willing;1 I wish;2 I will be willing;2 I will wish;3 I was willing;3 I wished;4 I have been willing;4 I have wished
 4#other#εἰ# if
 4#other#ἐάν# if
 4#noun#ἡμέρα, ἡμέρας, ἡ# day
 4#noun#θάλαττα, θαλάττης, ἡ# sea
-4#verb#1 θάπτω;2 θάψω;3 ἔθαψα;5 τέθαμμαι;6 ἐτάφην# bury
+4#verb#1 θάπτω;2 θάψω;3 ἔθαψα;5 τέθαμμαι;6 ἐτάφην#1 I bury;2 I will bury;3 I buried;5 I have been buried;6 I was buried
 4#other#καίτοι# and further; and yet
 4#adj#κακός, κακή, κακόν# bad; wicked
 4#adj#καλός, καλή, καλόν# beautiful; noble
@@ -154,15 +173,15 @@
 4#noun#πολίτης, πολίτου, ὁ# citizen
 4#noun#στρτιώτης, στρατιώτου, ὁ# soldier
 4#prep#σύv + dative# with
-4#verb#1 τάττω;2 τάξω;3 ἔταξα;4 τέταχα;5 τέταγμαι;6 ἐτάχθην# draw up (in battle); arrange, order
+4#verb#1 τάττω;2 τάξω;3 ἔταξα;4 τέταχα;5 τέταγμαι;6 ἐτάχθην#1 I draw up (in battle);1 I arrange;1 I order;2 I will draw up (in battle);2 I will arrange;2 I will order;3 I drew up (in battle);3 I arranged;3 I ordered;4 I have drawn up (in battle);4 I have arranged;4 I have ordered;5 I have been drawn up (in battle);5 I have been arranged;5 I have been ordered;6 I was drawn up (in battle);6 I was arranged;6 I was ordered
 4#adj#φίλος, φίλη, φίλοv# dear; beloved
 
 // Unit 5
 5#adj#ἀθάνατος, ἀθάνατον# undying; immortal
 5#noun#ἀργύριον, ἀργυρίου, τό# small coin; money
 5#noun#ἄργυρος, ἄργυρου, ὁ# silver
-5#verb#1 ἄρχω;2 ἄρξω;3 ἦρξα;4 ἦρχα;5 ἦργμαι;6 ἤρχθην# rule; command (+ gen)
-5#verb#1 βλάπτω;2 βλάψω;3 ἔβλαψα;4 βέβλαφα;5 βέβλαμμαι;6 ἐβλάβην;6 ἐβλάφθην# hurt; harm
+5#verb#1 ἄρχω;2 ἄρξω;3 ἦρξα;4 ἦρχα;5 ἦργμαι;6 ἤρχθην#1 I rule;1 I command;2 I will rule;2 I will command;3 I ruled;3 I commanded;4 I have ruled;4 I have commanded;5 I have been ruled;5 I have been commanded;6 I was ruled;6 I was commanded
+5#verb#1 βλάπτω;2 βλάψω;3 ἔβλαψα;4 βέβλαφα;5 βέβλαμμαι;6 ἐβλάβην;6 ἐβλάφθην#1 I hurt;1 I harm;2 I will hurt;2 I will harm;3 I hurt;3 I harmed;4 I have hurt;4 I have harmed;5 I have been hurt;5 I have been harmed;6 I was hurt;6 I was harmed
 5#noun#γῆ, γῆς, ἡ# earth; land
 5#noun#διδάσκαλος, διδασκάλου, ὁ# teacher
 5#noun#δόξα, δόξης, ἡ# expectation; belief; reputation; glory
@@ -176,9 +195,9 @@
 5#adj#μακρός, μακρά, μακρόν# large; long
 5#adj#μικρός, μικρά, μικρόν# small; little
 5#noun#πεδίον, πεδίου, τό# plain
-5#verb#1 πείθω;2 πείσω;3 ἔπεισα;4 πέπεικα;5 πέπεισμαι;6 ἑπείσθην# persuade; (middle) obey
+5#verb#1 πείθω;2 πείσω;3 ἔπεισα;4 πέπεικα;5 πέπεισμαι;6 ἑπείσθην#1 I persuade;2 I will persuade;3 I persuaded;4 I have persuaded;5 I have been persuaded;6 I was persuaded
 5#adj#πολέμιος, πολεμίᾱ, πολέμιον# hostile
-5#verb#1 πράττω;2 πράξω;3 ἔπραξα;4 πέπρᾱχα;4 πέπρᾱγα;5 πέπρᾱγμαι;6 ἐπράχθην# do; fare
+5#verb#1 πράττω;2 πράξω;3 ἔπραξα;4 πέπρᾱχα;4 πέπρᾱγα;5 πέπρᾱγμαι;6 ἐπράχθην#1 I do;1 I fare;2 I will do;2 I will fare;3 I did;3 I fared;4 I have done;4 I have fared;5 I have been done;6 I was done
 5#adj#πρῶτος, πρώτη, πρῶτον# first
 5#prep#ὑπὸ + gen# by (personal agent); under
 5#prep#ὑπὸ + dat# under; under the power of
@@ -193,18 +212,18 @@
 6#noun#γέρων, γέροντος, ὁ# old man
 6#noun#γνώμη, γνώμης, ἡ# mind; purpose; opinion; judgement
 6#adj#δεινός, δεινή, δεινόν# fearsome; clever
-6#verb#1 δουλεύω;2 δουλεύσω;3 ἐδούλευσα;4 δεδούλευκα# be a slave (+ dat)
+6#verb#1 δουλεύω;2 δουλεύσω;3 ἐδούλευσα;4 δεδούλευκα#1 I am a slave;2 I will be a slave;3 I was a slave;4 I have been a slave
 6#noun#δοῦλος, δούλου, ὁ# slave
 6#noun#ἐλευθερία, ἐλευθερίας, ἡ# freedom
 6#adj#ἐλεύθερος, ἐλευθέρᾱ, ἐλεύθερον# free (+ gen)
 6#noun#Ἕλλην, Ἕλληνος, ὁ# Greek (person)
 6#noun#ἐλπίς, ἐλπίδος, ἡ# hope
 6#prep#κατά + gen# down from; against
-6#verb#1 κωλύω;2 κωλύσω;3 ἐκώλῡσα;4 κεκώλῡκα;5 κεκώλῡμαι;6 ἐκωλύθην# hinder; prevent
+6#verb#1 κωλύω;2 κωλύσω;3 ἐκώλῡσα;4 κεκώλῡκα;5 κεκώλῡμαι;6 ἐκωλύθην#1 I hinder;1 I prevent;2 I will hinder;2 I will prevent;3 I hindered;3 I prevented;4 I have hindered;4 I have prevented;5 I have been hindered;5 I have been prevented;6 I was hindered;6 I was prevented
 6#noun#νύξ, νυκτός, ἡ# night
 6#other#ὅς; ἥ; ὅν# who; which
 6#adj#παλαιός, παλαιά, παλαιόν# old; ancient
-6#verb#1 πολῑτεύω;2 πολῑτεύσω;3 ἐπολίτευσα;4 πεπολίτευκα;5 πεπολίτευμαι;6 ἐπολῑτεύθην# live as a citizen; conduct the government; (passive) be governed
+6#verb#1 πολῑτεύω;2 πολῑτεύσω;3 ἐπολίτευσα;4 πεπολίτευκα;5 πεπολίτευμαι;6 ἐπολῑτεύθην#1 I live as a citizen;1 I conduct the government;2 I will live as a citizen;2 I will conduct the government;3 I lived as a citizen;3 I conducted the government;4 I have lived as a citizen;4 I have conducted the government;5 I have been governed;6 I was governed
 6#noun#πρᾶγμα, πρᾶγματος, τό# affair; deed; action
 6#noun#σοφία, σοφίας, ἡ# wisdom
 6#adj#σοφός, σοφή, σοφόν# wise; clever
@@ -217,7 +236,7 @@
 6#other#χάριν# for the sake of
 6#noun#χάρις, χάριτος, ἡ# grace; favor; gratitude
 6#noun#χορευτής, χορευτοῦ, ὁ# choral dancer
-6#verb#1 χορεύω;2 χορεύσω;3 ἐχόρευσα;4 κεχόρευκα;5 κεχόρευμαι;6 ἐχορεύθην# dance; take part in a dance
+6#verb#1 χορεύω;2 χορεύσω;3 ἐχόρευσα;4 κεχόρευκα;5 κεχόρευμαι;6 ἐχορεύθην#1 I dance;1 I take part in a dance;2 I will dance;2 I will take part in a dance;3 I danced;3 I took part in a dance;4 I have danced;4 I have taken part in a dance;5 I have been danced;6 I was danced
 6#noun#χορός, χοροῦ, ὁ# dance; chorus
 
 // Unit 7
@@ -232,27 +251,27 @@
 7#other#ἐκεῖ# there; in that place
 7#adj#ἐκεῖνος, ἐκείνη, ἐκεῖνο# that; those
 7#noun#ἡγεμών, ἡγεμόνος, ὁ# leader
-7#verb#1 κλέπτω;2 κλέψω;3 ἔκλεψα;4 κέκλοφα;5 κέκλεμμαι;6 ἐκλάπην# steal
+7#verb#1 κλέπτω;2 κλέψω;3 ἔκλεψα;4 κέκλοφα;5 κέκλεμμαι;6 ἐκλάπην#1 I steal;2 I will steal;3 I stole;4 I have stolen;5 I have been stolen;6 I was stolen
 7#noun#κλέπτης, κλέπτου, ὁ# thief; rogue
 7#noun#κλοπή, κλοπῆς, ἡ# theft
-7#verb#1 λείπω;2 λείψω;3 ἔλιπον;4 λέλοιπα;5 λέλειμμαι;6 ἐλείφθην# leave; leave behind
+7#verb#1 λείπω;2 λείψω;3 ἔλιπον;4 λέλοιπα;5 λέλειμμαι;6 ἐλείφθην#1 I leave;1 I leave behind;2 I will leave;2 I will leave behind;3 I left;3 I left behind;4 I have left;4 I have left behind;5 I have been left;5 I have been left behind;6 I was left;6 I was left behind
 7#other#οὖν# therefore; then; accordingly
 7#noun#ποίημα, ποίηματος, τό# poem
 7#noun#ῥήτωρ, ῥήτορος, ὁ# orator
 7#noun#ῤητορική, ῤητορικῆς, ἠ# rhetoric
-7#verb#1 σῴζω;2 σώσω;3 ἔσωσα;4 σέσωκα;5 σέσωσμαι;5 σέσωμαι;6 ἐσώθην# save
+7#verb#1 σῴζω;2 σώσω;3 ἔσωσα;4 σέσωκα;5 σέσωσμαι;5 σέσωμαι;6 ἐσώθην#1 I save;2 I will save;3 I saved;4 I have saved;5 I have been saved;6 I was saved
 7#noun#σωτήρ, σωτῆρος, ὀ (voc. σῶτερ)# saviour
 7#noun#τιμή, τιμῆς, ἡ# honour; respect
 
 // Unit 8
-8#verb#1 ἄγω;2 ἄξω;3 ἤγαγον;4 ἦχα;5 ἦγμαι;6 ἤχθην# lead
+8#verb#1 ἄγω;2 ἄξω;3 ἤγαγον;4 ἦχα;5 ἦγμαι;6 ἤχθην#1 I lead;2 I will lead;3 I led;4 I have led;5 I have been led;6 I was led
 8#adj#Ἀθηναῖος, Ἀθηναίᾱ, Ἀθηναῖον# Athenian
 8#other#ἅμα# at once; at the same time; (+ dat.) at the same time with
 8#other#ἅτε; οἷα# in as much as; because
 8#other#ἔπειτα# then; next; afterwards
 8#other#ἅτε#(with participle, the speaker believes this)
 8#other#οἷα#(with participle, the speaker believes this)
-8#verb#1 ἥκω;2 ἥξω# have come; be present
+8#verb#1 ἥκω;2 ἥξω#1 I have come;1 I am present;2 I will have come;2 I will be present
 8#other#καίπερ# although; even
 8#other#μήτε… μήτε; οὔτε… οὔτε# neither… nor
 8#noun#οἶνος, οἴνου, ὁ# wine
@@ -267,13 +286,13 @@
 
 // Unit 9
 9#noun#ἀγών, ἀγῶνος, ὁ# contest; struggle
-9#verb#1 ἀδικέω;2 ἀδικήσω;3 ἠδίκησα;4 ἠδίκηκα;5 ἠδίκημαι;6 ἠδικήθην# do wrong; to wrong
+9#verb#1 ἀδικέω;2 ἀδικήσω;3 ἠδίκησα;4 ἠδίκηκα;5 ἠδίκημαι;6 ἠδικήθην#1 I do wrong;1 I wrong;2 I will do wrong;2 I will wrong;3 I did wrong;3 I wronged;4 I have done wrong;4 I have wronged;5 I have been wronged;6 I was wronged
 9#adj#ἄλογος, ἄλογον# unreasonable; unreasoning; irrational
 9#noun#βάρβαρος, βαρβάρου, ὁ# non-Greek; foreign
 9#noun#βίος, βίου, ὁ# life; means of living
 9#noun#δαίμων, δαίμονος, ὁ or ἡ# god; goddess; divine being
 9#adj#ἐχθρός, ἐχθρά, ἐχθρόν# hated; hostile; enemy
-9#verb#1 νικάω;2 νικήσω;3 ἐνίκησα;4 νενίκηκα;5 νενίκημαι;6 ἐνικήθην# win; conquer
+9#verb#1 νικάω;2 νικήσω;3 ἐνίκησα;4 νενίκηκα;5 νενίκημαι;6 ἐνικήθην#1 I win;1 I conquer;2 I will win;2 I will conquer;3 I won;3 I conquered;4 I have won;4 I have conquered;5 I have been conquered;6 I was conquered
 9#adj#ὅδε, ἥδε, τόδε# this (here)
 9#noun#ὄνομα, ὀνόματος, τό# name
 9#adj#οὗτος αὕτη τοῦτο# this; that
@@ -281,25 +300,25 @@
 9#noun#πεῖρα πείρας, ἡ# trial; attempt; experience
 9#adj#ἔμπειρος, ἔμπειρον# experienced in (+ gen.); acquainted with (+ gen.)
 9#noun#ἐμπειρία, ἐμπειρίας, ἡ# experience; practice
-9#verb#1 ποιέω;2 ποιήσω;3 ἐποίησα;4 πεποίηκα;5 πεποίημαι;6 ἐποιήθην# make; do
+9#verb#1 ποιέω;2 ποιήσω;3 ἐποίησα;4 πεποίηκα;5 πεποίημαι;6 ἐποιήθην#1 I make;1 I do;2 I will make;2 I will do;3 I made;3 I did;4 I have made;4 I have done;5 I have been made;5 I have been done;6 I was made;6 I was done
 9#noun#σιγή, σιγῆς, ἡ# silence
-9#verb#1 τιμάω;2 τιμήσω;3 ἐτίμησα;4 τετίμηκα;5 τετίμημαι;6 ἐτιμήθην# to honor
+9#verb#1 τιμάω;2 τιμήσω;3 ἐτίμησα;4 τετίμηκα;5 τετίμημαι;6 ἐτιμήθην#1 I honor;2 I will honor;3 I honored;4 I have honored;5 I have been honored;6 I was honored
 9#noun#τρόπος, τρόπου, ὁ# way; manner; character
 9#noun#ὕδωρ, ὕδατος, τό# water
 9#prep#ὑπέρ + gen# over; above; on behalf of
 9#prep#ὑπέρ + acc# (of motion or measure) over; (of motion or measure) beyond*y
 
 // Unit 10
-10#verb#1 ἀγγέλλλω;2 ἁγγελῶ;3 ἤγγειλα;4 ἤγγελκα;5 ἤγγελμαι;6 ἠγγέλθην# announce
+10#verb#1 ἀγγέλλλω;2 ἁγγελῶ;3 ἤγγειλα;4 ἤγγελκα;5 ἤγγελμαι;6 ἠγγέλθην#1 I announce;2 I will announce;3 I announced;4 I have announced;5 I have been announced;6 I was announced
 10#adj#ἀλεθής, ἀληθές# true; real
 10#noun#ἀλήθεια, ἀληθείας, ἡ# truth; reality
 10#noun#ἀνήρ, ἀνδρός, ὁ# man
-10#verb#1 ἀξιόω;2 ἀξιώσω;3 ἠξίωσα;4 ἠξίωκα;5 ἠξίωμαι;6 ἠξιώθην# think worthy of; think it right; expect
+10#verb#1 ἀξιόω;2 ἀξιώσω;3 ἠξίωσα;4 ἠξίωκα;5 ἠξίωμαι;6 ἠξιώθην#1 I think worthy of;1 I think it right;1 I expect;2 I will think worthy of;2 I will think it right;2 I will expect;3 I thought worthy of;3 I thought it right;3 I expected;4 I have thought worthy of;4 I have thought it right;4 I have expected;5 I have been thought worthy of;5 I have been expected;6 I was thought worthy of;6 I was expected
 10#other#ἀπο-# away from
 10#noun#βασιλεύς, βασιλέως, ὁ# king
 10#noun#γένος, γένους, τό# race; kind
 10#adj#εὐγενής, εὑγενές# well-born; noble
-10#verb#1 δηλόω;2 δηλώσω;3 ἐδήλωσα;4 δεδήλωκα;5 δεδήλωμαι;6 ἑδηλώθην# make clear; show
+10#verb#1 δηλόω;2 δηλώσω;3 ἐδήλωσα;4 δεδήλωκα;5 δεδήλωμαι;6 ἑδηλώθην#1 I make clear;1 I show;2 I will make clear;2 I will show;3 I made clear;3 I showed;4 I have made clear;4 I have shown;5 I have been made clear;5 I have been shown;6 I was made clear;6 I was shown
 10#noun#Δημοσθένης, Δημοσθένους, ὁ# Demothenes (ῥήτωρ)
 10#other#ἑκ-# out of; thoroughly
 10#other#ἑξ-# out of; thoroughly
@@ -307,8 +326,8 @@
 10#noun#θυγάτηρ, θυγατρός, ἡ# daughter
 10#noun#ἱερεύς, ἱερέως, ὁ# priest
 10#noun#ἱππεύς, ἱππέως, ὁ# horseman
-10#verb#1 καλέω;2 καλήσω;3 ἑκάλησα;4 κέκληκα;5 κέκλημαι;6 ἑκλήθην# call
-10#verb#1 μένω;2 μενῶ;3 ἕμεινα;4 μεμένηκα# remain; stay
+10#verb#1 καλέω;2 καλήσω;3 ἑκάλησα;4 κέκληκα;5 κέκλημαι;6 ἑκλήθην#1 I call;2 I will call;3 I called;4 I have called;5 I have been called;6 I was called
+10#verb#1 μένω;2 μενῶ;3 ἕμεινα;4 μεμένηκα#1 I remain;1 I stay;2 I will remain;2 I will stay;3 I remained;3 I stayed;4 I have remained;4 I have stayed
 10#noun#μήτηρ, μητρός, ἡ# mother
 10#noun#νόμος, νόμου, ὁ# custom; law
 10#noun#πάθος, πάθους, τό#experience; suffering
@@ -318,7 +337,7 @@
 10#noun#Σωκράτης, Σωκράτους, ὁ# Sokrates
 10#adj#σώφρων, σῶφρον# prudent; temperate
 10#noun#τέλος, τέλους, τό# end; power
-10#verb#1 τελευτάω;2 τελευτήσω;3 ἑτελεύτησα;4 τετελεύτηκα;5 τετελεύτημαι;6 ἑτελευτήθην# finish; die
+10#verb#1 τελευτάω;2 τελευτήσω;3 ἑτελεύτησα;4 τετελεύτηκα;5 τετελεύτημαι;6 ἑτελευτήθην#1 I finish;1 I die;2 I will finish;2 I will die;3 I finished;3 I died;4 I have finished;4 I have died;5 I have been finished;6 I was finished
 10#noun#φύσις, φύσεως, ἡ# nature
 10#other#ὥστε# so as; so that
 
@@ -326,13 +345,13 @@
 11#other#ἀεί# always
 11#adj#αἴτιος αἰτία αἴτιον# responsible (for) + gen.; guilty (of) + gen.
 11#noun#αἰτία, αἰτίας, ἡ# responsibility; guilt; cause
-11#verb#1 ἀκούω;2 ἀκούσομαι;3 ἤκουσα;4 ἀκήκοα;6 ἠκούσθην# hear (+ acc. of thing); hear (+ gen. of person); be spoken of
+11#verb#1 ἀκούω;2 ἀκούσομαι;3 ἤκουσα;4 ἀκήκοα;6 ἠκούσθην#1 I hear;2 I will hear;3 I heard;4 I have heard;6 I was heard
 11#adj#αὐτός, αὐτή, αὐτό# same; -self; him, her, it
 11#adj#ἄφρων, ἄφρον# senseless; foolish
-11#verb#1 βάλλω;2 βαλῶ;3 ἔβαλον;4 βέβληκα;5 βέβλημαι;6 ἐβλήθην# throw; hit (with thrown object)
-11#verb#1 βούλομαι;2 βουλήσομαι;5 βεβούλημαι;6 ἐβουλήθην#want
+11#verb#1 βάλλω;2 βαλῶ;3 ἔβαλον;4 βέβληκα;5 βέβλημαι;6 ἐβλήθην#1 I throw;1 I hit;2 I will throw;2 I will hit;3 I threw;3 I hit;4 I have thrown;4 I have hit;5 I have been thrown;5 I have been hit;6 I was thrown;6 I was hit
+11#verb#1 βούλομαι;2 βουλήσομαι;5 βεβούλημαι;6 ἐβουλήθην#1 I want;2 I will want;5 I have wanted;6 I wanted
 11#noun#γυνή, γυναικός, ἡ# woman; wife
-11#verb#1 δέχομαι;2 δέξομαι;3 ἐδεξάμην;5 δέδεγμαι# receive; welcome
+11#verb#1 δέχομαι;2 δέξομαι;3 ἐδεξάμην;5 δέδεγμαι#1 I receive;1 I welcome;2 I will receive;2 I will welcome;3 I received;3 I welcomed;5 I have received;5 I have welcomed
 11#verb#1 ἀποδέχομαι# receive favorably; accept
 11#other#εἰσ-# into; in; on
 11#other#ἐνταῦθα# here; there; then
@@ -342,11 +361,11 @@
 11#noun#καιρός, καιροῦ, ὁ# right moment
 11#noun#κάλλος, κάλλους, τό#beauty
 11#noun#κῆρυξ, κήρυκος, ὁ# herald
-11#verb#1 λαμβάνω;2 λήψομαι;3 ἔλαβον;4 εἴληφα;5 εἴλημμαι;6 ἐλήφθην# take
+11#verb#1 λαμβάνω;2 λήψομαι;3 ἔλαβον;4 εἴληφα;5 εἴλημμαι;6 ἐλήφθην#1 I take;2 I will take;3 I took;4 I have taken;5 I have been taken;6 I was taken
 11#other#ὀκτώ# eight
 11#other#ὅτε# when; whenever
 11#other#ὅταν# when; whenever
-11#verb#1 πάσχω;2 πείσομαι;3 ἔπαθον;4 πέπονθα# suffer; have done to one
+11#verb#1 πάσχω;2 πείσομαι;3 ἔπαθον;4 πέπονθα#1 I suffer;2 I will suffer;3 I suffered;4 I have suffered
 11#other#πῶς# how?
 11#other#πως# in any way; in some way
 11#other#τότε# then

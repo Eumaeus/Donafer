@@ -54,9 +54,15 @@ pp_forms_max_count = 6
 # “The … forms are based on which Principal Part?”.
 pp_forms_pp_to_paradigm_fraction = 0.5
 
+# Fraction of lemma questions that match a PP form ↔ tense-appropriate English
+# (requires numbered English in hq.txt). 0.0 keeps classic drills quiet.
+pp_gloss_fraction = 0.0
+# Within PP-gloss items: form→English vs English→form.
+pp_form_to_english_fraction = 0.5
+
 [question]
 # Shared choice count for all vocabulary question types
-# (Greek↔English, PP-ID, PP-meaning, and PP-forms). Prefer ≥8 when the
+# (Greek↔English, PP-ID, PP-meaning, PP-forms, and PP-gloss). Prefer ≥8 when the
 # distractor pool allows; PP number/gloss banks naturally cap at 6 options.
 num_choices = 8
 prefer_same_category_distractors = true

@@ -9,7 +9,8 @@ export Question, build_question, to_gift, ordinal_label, principal_parts_for_lem
        form_similarity, select_pp_form_distractors,
        PRINCIPAL_PART_GLOSSES, principal_part_gloss, build_pp_meaning_question,
        PRINCIPAL_PART_PARADIGMS, ALL_PARADIGM_LABELS, paradigms_for_pp,
-       pp_for_paradigm, build_pp_forms_question
+       pp_for_paradigm, build_pp_forms_question,
+       english_glosses_for_pp, select_pp_english_distractors
 
 struct Question
     stem::String
@@ -141,12 +142,18 @@ function build_question(
         )
     elseif direction == :pp_form_to_number
         return build_pp_form_to_number(item, pool; num_choices=num_choices, rng=rng)
+    elseif direction == :pp_form_to_english
+        return build_pp_form_to_english(item, pool; num_choices=num_choices, rng=rng)
+    elseif direction == :pp_english_to_form
+        return build_pp_english_to_form(item, pool; num_choices=num_choices, rng=rng)
     elseif direction == :greek_to_english
         stem = clean_greek_form(item.greek_display)
+        # For PP-specific English, only glosses paired with this form/PP count.
         full_correct_answers = find_all_matching_english(item.greek_display, pool)
+        isempty(full_correct_answers) && (full_correct_answers = String[item.english])
 
         distractor_items = select_distractors(item, pool, num_choices - 1, rng)
-        distractor_answers = unique([d.english for d in distractor_items])
+        distractor_answers = unique([d.english for d in distractor_items if !isempty(d.english)])
 
         guaranteed = rand(rng, full_correct_answers)
         all_options = unique([guaranteed; distractor_answers])
@@ -170,6 +177,8 @@ function build_question(
         stem = item.english
         full_correct_answers_raw = find_all_matching_greek(item.english, pool)
         full_correct_answers = [clean_greek_form(g) for g in full_correct_answers_raw]
+        isempty(full_correct_answers) &&
+            (full_correct_answers = String[clean_greek_form(item.greek_display)])
 
         distractor_items = select_distractors(item, pool, num_choices - 1, rng)
         distractor_answers_raw = unique([d.greek_display for d in distractor_items])
@@ -276,6 +285,161 @@ function build_pp_form_to_number(
     )
 
     return Question(stem, String[correct_label], distractors,
+                    feedback_correct, feedback_wrong, item.chapter, item.category)
+end
+
+# --- Per–principal-part English (Phase 4) ---
+
+"""
+    english_glosses_for_pp(lemma, pp_num, pool) -> Vector{String}
+
+Distinct PP-specific English glosses for `lemma` at principal part `pp_num`.
+"""
+function english_glosses_for_pp(
+    lemma::String,
+    pp_num::Int,
+    pool::Vector{VocabItem},
+)::Vector{String}
+    glosses = String[]
+    for item in pool
+        item.has_pp_specific_english || continue
+        item.lemma == lemma || continue
+        item.principal_part_number == pp_num || continue
+        isempty(item.english) && continue
+        item.english in glosses || push!(glosses, item.english)
+    end
+    return glosses
+end
+
+"""
+Prefer other PP-specific glosses of the same verb, then other verbs' PP glosses.
+"""
+function select_pp_english_distractors(
+    lemma::String,
+    pp_num::Int,
+    correct::Vector{String},
+    pool::Vector{VocabItem},
+    needed::Int,
+    rng,
+)::Vector{String}
+    needed <= 0 && return String[]
+    same_verb = String[]
+    other = String[]
+    for x in pool
+        x.has_pp_specific_english || continue
+        isempty(x.english) && continue
+        x.english in correct && continue
+        if x.lemma == lemma
+            # Prefer glosses from *other* PPs of the same verb
+            x.principal_part_number == pp_num && continue
+            x.english in same_verb || push!(same_verb, x.english)
+        else
+            x.english in other || push!(other, x.english)
+        end
+    end
+    chosen = String[]
+    _take_shuffled!(chosen, same_verb, needed, rng)
+    remaining = needed - length(chosen)
+    remaining > 0 && _take_shuffled!(chosen, other, remaining, rng)
+    return chosen
+end
+
+"""
+Greek PP form → tense-appropriate English.
+Stem names the form (and lemma/PP when known).
+"""
+function build_pp_form_to_english(
+    item::VocabItem,
+    pool::Vector{VocabItem};
+    num_choices::Int,
+    rng,
+)::Question
+    lemma = item.lemma === nothing ? clean_greek_form(item.greek_display) : item.lemma
+    pp_num = item.principal_part_number
+    pp_num === nothing && error("pp_form_to_english requires a principal-part item")
+    form = clean_greek_form(item.greek_display)
+
+    correct = english_glosses_for_pp(lemma, pp_num, pool)
+    if isempty(correct)
+        isempty(item.english) && error("pp_form_to_english needs PP-specific English for $lemma #$pp_num")
+        correct = String[item.english]
+    end
+
+    stem = "What does **$(form)** (the $(ordinal_label(pp_num)) Principal Part of $(lemma)) mean?"
+
+    needed = max(num_choices - 1, 0)
+    distractors = select_pp_english_distractors(lemma, pp_num, correct, pool, needed, rng)
+
+    guaranteed = rand(rng, correct)
+    all_options = unique([guaranteed; distractors])
+    actual_correct = [ans for ans in all_options if ans in correct]
+    actual_distractors = [ans for ans in all_options if !(ans in actual_correct)]
+
+    feedback_correct = Dict{String, String}(
+        ans => "Correct: **$(form)** ( $(ordinal_label(pp_num)) PP of **$(lemma)** ) means “$(ans)” (Chapter $(item.chapter))."
+        for ans in actual_correct
+    )
+    feedback_wrong = Dict{String, String}()
+    for dist in actual_distractors
+        matching = filter(x -> x.english == dist && x.has_pp_specific_english, pool)
+        feedback_wrong[dist] = !isempty(matching) ? build_wrong_feedback(matching[1]) : "Incorrect."
+    end
+
+    return Question(stem, actual_correct, actual_distractors,
+                    feedback_correct, feedback_wrong, item.chapter, item.category)
+end
+
+"""
+Tense-appropriate English → Greek PP form.
+"""
+function build_pp_english_to_form(
+    item::VocabItem,
+    pool::Vector{VocabItem};
+    num_choices::Int,
+    rng,
+)::Question
+    lemma = item.lemma === nothing ? clean_greek_form(item.greek_display) : item.lemma
+    pp_num = item.principal_part_number
+    pp_num === nothing && error("pp_english_to_form requires a principal-part item")
+    form = clean_greek_form(item.greek_display)
+    eng = item.english
+    isempty(eng) && error("pp_english_to_form needs a non-empty English gloss")
+
+    # All Greek forms that carry this exact PP-specific gloss (usually one lemma/PP).
+    correct_raw = unique([
+        clean_greek_form(x.greek_display)
+        for x in pool
+        if x.has_pp_specific_english && x.english == eng
+    ])
+    isempty(correct_raw) && (correct_raw = String[form])
+
+    stem = "Which form means “$(eng)”?"
+
+    needed = max(num_choices - 1, 0)
+    # Prefer other PPs of the same verb, then similar forms, then any PP forms.
+    distractors = select_pp_form_distractors(
+        lemma, pp_num, correct_raw, pool, needed, rng;
+        similarity_threshold=0.0,  # fill freely after same-verb tier
+        max_chapter=nothing,
+    )
+
+    guaranteed = rand(rng, correct_raw)
+    all_options = unique([guaranteed; distractors])
+    actual_correct = [ans for ans in all_options if ans in correct_raw]
+    actual_distractors = [ans for ans in all_options if !(ans in actual_correct)]
+
+    feedback_correct = Dict{String, String}(
+        ans => "Correct: “$(eng)” is **$(ans)** ( $(ordinal_label(pp_num)) PP of **$(lemma)**, Chapter $(item.chapter))."
+        for ans in actual_correct
+    )
+    feedback_wrong = Dict{String, String}()
+    for dist in actual_distractors
+        matching = filter(x -> x.is_verb_principal_part &&
+                               clean_greek_form(x.greek_display) == dist, pool)
+        feedback_wrong[dist] = !isempty(matching) ? build_wrong_feedback(matching[1]) : "Incorrect."
+    end
+
+    return Question(stem, actual_correct, actual_distractors,
                     feedback_correct, feedback_wrong, item.chapter, item.category)
 end
 
