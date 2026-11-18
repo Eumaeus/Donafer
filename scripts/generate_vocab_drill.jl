@@ -14,6 +14,7 @@ Usage examples:
     julia --project=. scripts/generate_vocab_drill.jl --categories verb --pp-id 0.5 --pp-meaning 0.1 -c 4 -q 50
     julia --project=. scripts/generate_vocab_drill.jl --categories verb --pp-forms 0.15 --pp-forms-max 6 -c 4 -q 50
     julia --project=. scripts/generate_vocab_drill.jl --categories verb --pp-gloss 0.5 --pp-id 0.3 -c 4 -q 50
+    julia --project=. scripts/generate_vocab_drill.jl --categories prep --prep-case 0.9 --prep-case-max 20 -c 5 -q 40
 """
 
 # The below are unnecessary if launching with `julia --project=. …`
@@ -68,6 +69,14 @@ function parse_commandline()
             help = "Fraction of lemma questions that match PP form ↔ tense-appropriate English (0–1; needs numbered English data)"
             arg_type = Float64
             default = nothing
+        "--prep-case"
+            help = "Fraction of eligible prep items that are prep+case ↔ meaning drills (0–1; needs case-tagged prep data)"
+            arg_type = Float64
+            default = nothing
+        "--prep-case-max"
+            help = "Hard cap on prep+case sense questions per quiz"
+            arg_type = Int
+            default = nothing
         "--config"
             help = "Path to configuration TOML file"
             default = "config/vocab_drill.toml"
@@ -109,6 +118,12 @@ function main()
     if args["pp-gloss"] !== nothing
         println("   PP-gloss    : $(args["pp-gloss"])  ← override")
     end
+    if args["prep-case"] !== nothing
+        println("   Prep-case   : $(args["prep-case"])  ← override")
+    end
+    if args["prep-case-max"] !== nothing
+        println("   Prep-case max: $(args["prep-case-max"])  ← override")
+    end
 
     # Call with overrides if provided
     output_file = build_vocab_drill(
@@ -122,6 +137,8 @@ function main()
         pp_forms_fraction = args["pp-forms"],
         pp_forms_max_count = args["pp-forms-max"],
         pp_gloss_fraction = args["pp-gloss"],
+        prep_case_fraction = args["prep-case"],
+        prep_case_max_count = args["prep-case-max"],
     )
     println("\n✅ Done!")
     println("   Output file : $output_file")

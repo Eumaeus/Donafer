@@ -28,6 +28,12 @@ Phase 4:
   - PP form ↔ tense-appropriate English question types
   - pp_gloss_fraction classic-off by default
 
+Phase 5:
+  - prep Greek `+ gen|dat|acc` parsing (legacy lines keep working)
+  - optional case-tagged English (`gen gloss; dat gloss`)
+  - prep+case ↔ meaning question types; same-prep other-case distractors first
+  - prep_case_fraction / prep_case_max_count classic-off by default
+
 Run from the project root:
     julia --project=. scripts/test_pp_vocab_drill.jl
 """
@@ -330,7 +336,9 @@ end
         @test pp_forms_question_count(code_defaults) == 0
 
         cfg = load_config("config/vocab_drill.toml")
-        @test isempty(cfg.include_categories)
+        # Live TOML may filter categories (e.g. ["verb"]); do not require empty.
+        allowed_cats = Set(["noun", "verb", "prep", "adj", "other"])
+        @test all(c -> c in allowed_cats, cfg.include_categories)
         @test cfg.num_choices >= 5
         @test cfg.pp_form_similarity_threshold == 0.45
         @test cfg.pp_meaning_max_count >= 0
@@ -713,6 +721,161 @@ end
                   occursin("_pp", basename(out))
         else
             @warn "Skipping hq.txt PP-gloss checks; file not found"
+        end
+    end
+
+    @testset "normalize_case_token + prep Greek parse" begin
+        @test normalize_case_token("gen") == "gen"
+        @test normalize_case_token("gen.") == "gen"
+        @test normalize_case_token("genitive") == "gen"
+        @test normalize_case_token("dative") == "dat"
+        @test normalize_case_token("acc.") == "acc"
+        @test normalize_case_token("foo") === nothing
+        @test case_label("gen") == "genitive"
+
+        p = parse_prep_greek_field("παρά + gen")
+        @test p.lemma == "παρά"
+        @test p.case == "gen"
+        @test occursin("παρά", p.display)
+
+        ek = parse_prep_greek_field("ἐκ + gen; ἐξ + gen")
+        @test ek.lemma == "ἐκ"
+        @test ek.case == "gen"
+        @test length(ek.forms) == 2
+
+        bare = parse_prep_greek_field("παρά")
+        @test bare.lemma == "παρά"
+        @test bare.case === nothing
+    end
+
+    @testset "legacy prep lines keep working; case tags set" begin
+        items = VocabDrill.DataParser.expand_entry(2, "prep", "παρά + gen", "from beside")
+        @test length(items) == 1
+        @test items[1].prep_case == "gen"
+        @test items[1].lemma == "παρά"
+        @test items[1].english == "from beside"
+
+        ek = VocabDrill.DataParser.expand_entry(1, "prep", "ἐκ + gen; ἐξ + gen", "from; out of")
+        @test all(i -> i.prep_case == "gen", ek)
+        @test Set(i.english for i in ek) == Set(["from", "out of"])
+
+        # Case-tagged English (preferred consolidated form)
+        tagged = VocabDrill.DataParser.expand_entry(
+            2, "prep", "παρά",
+            "gen from beside; dat at the side of; dat at the house of; acc beside"
+        )
+        @test Set(i.prep_case for i in tagged) == Set(["gen", "dat", "acc"])
+        @test any(i -> i.prep_case == "dat" && i.english == "at the house of", tagged)
+        @test any(i -> i.greek_display == "παρά + gen", tagged)
+        @test is_case_tagged_english_field("gen from beside; dat at the side of")
+        @test !is_case_tagged_english_field("from beside")
+    end
+
+    @testset "prep+case → meaning prefers same-prep distractors" begin
+        pool = VocabItem[]
+        function add_prep!(ch, lemma, case, glosses)
+            for g in glosses
+                push!(pool, VocabItem(
+                    ch, "prep", "$lemma + $case", g, false, nothing, lemma,
+                    "$lemma + $case", false, case
+                ))
+            end
+        end
+        add_prep!(2, "παρά", "gen", ["from beside"])
+        add_prep!(2, "παρά", "dat", ["at the side of", "at the house of"])
+        add_prep!(2, "παρά", "acc", ["to the side of", "beside", "contrary to"])
+        add_prep!(1, "εἰς", "acc", ["into", "to"])
+        add_prep!(3, "διά", "gen", ["through"])
+        add_prep!(3, "διά", "acc", ["on account of"])
+
+        item = first(filter(i -> i.lemma == "παρά" && i.prep_case == "gen", pool))
+        q = build_question(item, pool; direction=:prep_case_to_meaning,
+                           num_choices=6, rng=MersenneTwister(11))
+        @test occursin("παρά + gen", q.stem)
+        @test "from beside" in q.correct_answers
+        same_prep_glosses = Set(["at the side of", "at the house of", "to the side of",
+                                 "beside", "contrary to"])
+        @test !isempty(intersect(Set(q.distractors), same_prep_glosses))
+        @test length(q.correct_answers) + length(q.distractors) <= 6
+    end
+
+    @testset "meaning → prep+case prefers same-prep other cases" begin
+        pool = VocabItem[]
+        for (case, gloss) in [("gen", "from beside"), ("dat", "at the side of"),
+                              ("acc", "beside")]
+            push!(pool, VocabItem(2, "prep", "παρά + $case", gloss, false, nothing, "παρά",
+                                  "παρά + $case", false, case))
+        end
+        push!(pool, VocabItem(3, "prep", "διά + gen", "through", false, nothing, "διά",
+                              "διά + gen", false, "gen"))
+        push!(pool, VocabItem(1, "prep", "εἰς + acc", "into", false, nothing, "εἰς",
+                              "εἰς + acc", false, "acc"))
+
+        item = first(filter(i -> i.english == "from beside", pool))
+        q = build_question(item, pool; direction=:prep_meaning_to_case,
+                           num_choices=4, rng=MersenneTwister(12))
+        @test occursin("from beside", q.stem)
+        @test "παρά + gen" in q.correct_answers
+        @test ("παρά + dat" in q.distractors) || ("παρά + acc" in q.distractors)
+    end
+
+    @testset "config defaults keep prep_case classic-off" begin
+        code_defaults = DrillConfig()
+        @test code_defaults.prep_case_fraction == 0.0
+        @test code_defaults.prep_case_max_count == 12
+        @test code_defaults.prep_case_to_meaning_fraction == 0.5
+        @test prep_case_question_count(code_defaults) == 0
+
+        cfg = load_config("config/vocab_drill.toml")
+        # Do not brittle-assert live tuned TOML teaching values; only ranges / presence.
+        @test 0.0 <= cfg.prep_case_fraction <= 1.0
+        @test cfg.prep_case_max_count >= 0
+        @test 0.0 <= cfg.prep_case_to_meaning_fraction <= 1.0
+    end
+
+    @testset "hq.txt prep migration + prep-case drill" begin
+        path = "data/vocabulary/hq.txt"
+        if isfile(path)
+            items = parse_vocabulary_file(path)
+            preps = filter(i -> i.category == "prep", items)
+            @test !isempty(preps)
+            tagged = filter(i -> i.prep_case !== nothing, preps)
+            @test !isempty(tagged)
+            # All migrated HQ prep senses should carry a case tag
+            @test all(i -> i.prep_case !== nothing, preps)
+            lemmas = unique(i.lemma for i in tagged)
+            @test "παρά" in lemmas
+            @test "κατά" in lemmas
+            @test "ἄνευ" in lemmas
+            @test "σύν" in lemmas
+            # ἵνα / ὡς / ὅπως should no longer be prep
+            @test !any(i -> i.lemma !== nothing && occursin("ἵνα", i.lemma), preps)
+
+            para = filter(i -> i.lemma == "παρά", tagged)
+            @test Set(i.prep_case for i in para) == Set(["gen", "dat", "acc"])
+
+            out = build_vocab_drill(
+                "config/vocab_drill.toml";
+                current_chapter = 5,
+                num_questions = 30,
+                include_categories = ["prep"],
+                pp_id_fraction = 0.0,
+                pp_meaning_fraction = 0.0,
+                pp_forms_fraction = 0.0,
+                pp_gloss_fraction = 0.0,
+                prep_case_fraction = 1.0,
+                prep_case_max_count = 20,
+            )
+            @test isfile(out)
+            text = read(out, String)
+            @test occursin("What does **", text) || occursin("Which preposition + case means", text)
+            @test occursin("_pc", basename(out)) || occursin("pc", basename(out))
+            n_to_mean = count("What does **", text)
+            n_to_case = count("Which preposition + case means", text)
+            @test n_to_mean + n_to_case >= 1
+            @test n_to_mean + n_to_case <= 20
+        else
+            @warn "Skipping hq.txt prep-case checks; file not found"
         end
     end
 end

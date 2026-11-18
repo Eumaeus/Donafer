@@ -10,7 +10,10 @@ export Question, build_question, to_gift, ordinal_label, principal_parts_for_lem
        PRINCIPAL_PART_GLOSSES, principal_part_gloss, build_pp_meaning_question,
        PRINCIPAL_PART_PARADIGMS, ALL_PARADIGM_LABELS, paradigms_for_pp,
        pp_for_paradigm, build_pp_forms_question,
-       english_glosses_for_pp, select_pp_english_distractors
+       english_glosses_for_pp, select_pp_english_distractors,
+       prep_case_display, english_glosses_for_prep_case,
+       select_prep_case_english_distractors, select_prep_case_form_distractors,
+       build_prep_case_question
 
 struct Question
     stem::String
@@ -146,6 +149,11 @@ function build_question(
         return build_pp_form_to_english(item, pool; num_choices=num_choices, rng=rng)
     elseif direction == :pp_english_to_form
         return build_pp_english_to_form(item, pool; num_choices=num_choices, rng=rng)
+    elseif direction == :prep_case_to_meaning || direction == :prep_meaning_to_case
+        return build_prep_case_question(
+            item, pool;
+            direction=direction, num_choices=num_choices, rng=rng,
+        )
     elseif direction == :greek_to_english
         stem = clean_greek_form(item.greek_display)
         # For PP-specific English, only glosses paired with this form/PP count.
@@ -441,6 +449,221 @@ function build_pp_english_to_form(
 
     return Question(stem, actual_correct, actual_distractors,
                     feedback_correct, feedback_wrong, item.chapter, item.category)
+end
+
+# --- Preposition + case senses (Phase 5) ---
+
+"""
+    prep_case_display(item) -> String
+
+Canonical “lemma + case” label for stems and answer choices
+(e.g. `παρά + gen`). Falls back to `greek_display` when case is unknown.
+"""
+function prep_case_display(item::VocabItem)::String
+    if item.lemma !== nothing && item.prep_case !== nothing
+        return "$(item.lemma) + $(item.prep_case)"
+    end
+    return item.greek_display
+end
+
+"""
+Distinct English glosses for one preposition lemma at one case.
+"""
+function english_glosses_for_prep_case(
+    lemma::String,
+    case::String,
+    pool::Vector{VocabItem},
+)::Vector{String}
+    glosses = String[]
+    for item in pool
+        item.category == "prep" || continue
+        item.lemma == lemma || continue
+        item.prep_case == case || continue
+        isempty(item.english) && continue
+        item.english in glosses || push!(glosses, item.english)
+    end
+    return glosses
+end
+
+"""
+Prefer other case-sense glosses of the **same** preposition, then other preps.
+"""
+function select_prep_case_english_distractors(
+    lemma::String,
+    case::String,
+    correct::Vector{String},
+    pool::Vector{VocabItem},
+    needed::Int,
+    rng,
+)::Vector{String}
+    needed <= 0 && return String[]
+    same_prep = String[]
+    other = String[]
+    for x in pool
+        x.category == "prep" || continue
+        isempty(x.english) && continue
+        x.english in correct && continue
+        if x.lemma == lemma
+            x.prep_case == case && continue
+            x.english in same_prep || push!(same_prep, x.english)
+        else
+            x.english in other || push!(other, x.english)
+        end
+    end
+    chosen = String[]
+    _take_shuffled!(chosen, same_prep, needed, rng)
+    remaining = needed - length(chosen)
+    remaining > 0 && _take_shuffled!(chosen, other, remaining, rng)
+    return chosen
+end
+
+"""
+Prefer other case labels of the **same** preposition (`παρά + dat`), then
+other prepositions’ case labels.
+"""
+function select_prep_case_form_distractors(
+    lemma::String,
+    case::String,
+    correct::Vector{String},
+    pool::Vector{VocabItem},
+    needed::Int,
+    rng,
+)::Vector{String}
+    needed <= 0 && return String[]
+    same_prep = String[]
+    other = String[]
+    for x in pool
+        x.category == "prep" || continue
+        x.prep_case === nothing && continue
+        label = prep_case_display(x)
+        label in correct && continue
+        if x.lemma == lemma
+            x.prep_case == case && continue
+            label in same_prep || push!(same_prep, label)
+        else
+            label in other || push!(other, label)
+        end
+    end
+    chosen = String[]
+    _take_shuffled!(chosen, same_prep, needed, rng)
+    remaining = needed - length(chosen)
+    remaining > 0 && _take_shuffled!(chosen, other, remaining, rng)
+    return chosen
+end
+
+"""
+    build_prep_case_question(item, pool; direction, num_choices, rng)
+
+Directions:
+- `:prep_case_to_meaning` — prep + case → English
+- `:prep_meaning_to_case` — English → prep + case
+"""
+function build_prep_case_question(
+    item::VocabItem,
+    pool::Vector{VocabItem};
+    direction::Symbol = :prep_case_to_meaning,
+    num_choices::Int = 8,
+    rng = Random.default_rng(),
+)::Question
+    item.category == "prep" || error("build_prep_case_question expects a prep item")
+    item.prep_case === nothing && error("build_prep_case_question needs a tagged prep_case")
+    lemma = item.lemma === nothing ? extract_prep_lemma_fallback(item) : item.lemma
+    case = item.prep_case
+
+    if direction == :prep_case_to_meaning
+        return build_prep_case_to_meaning(item, lemma, case, pool; num_choices=num_choices, rng=rng)
+    elseif direction == :prep_meaning_to_case
+        return build_prep_meaning_to_case(item, lemma, case, pool; num_choices=num_choices, rng=rng)
+    else
+        error("Unknown prep-case direction: $direction")
+    end
+end
+
+function extract_prep_lemma_fallback(item::VocabItem)::String
+    m = match(r"^(.*?)\s*\+", item.greek_display)
+    m !== nothing && return String(strip(m.captures[1]))
+    return item.greek_display
+end
+
+function build_prep_case_to_meaning(
+    item::VocabItem,
+    lemma::String,
+    case::String,
+    pool::Vector{VocabItem};
+    num_choices::Int,
+    rng,
+)::Question
+    label = prep_case_display(item)
+    correct = english_glosses_for_prep_case(lemma, case, pool)
+    if isempty(correct)
+        isempty(item.english) && error("prep_case_to_meaning needs English for $label")
+        correct = String[item.english]
+    end
+
+    stem = "What does **$(label)** mean?"
+
+    needed = max(num_choices - 1, 0)
+    distractors = select_prep_case_english_distractors(lemma, case, correct, pool, needed, rng)
+
+    guaranteed = rand(rng, correct)
+    all_options = unique([guaranteed; distractors])
+    actual_correct = [ans for ans in all_options if ans in correct]
+    actual_distractors = [ans for ans in all_options if !(ans in actual_correct)]
+
+    feedback_correct = Dict{String, String}(
+        ans => "Correct: **$(label)** means “$(ans)” (Chapter $(item.chapter))."
+        for ans in actual_correct
+    )
+    feedback_wrong = Dict{String, String}()
+    for dist in actual_distractors
+        matching = filter(x -> x.category == "prep" && x.english == dist, pool)
+        feedback_wrong[dist] = !isempty(matching) ? build_wrong_feedback(matching[1]) : "Incorrect."
+    end
+
+    return Question(stem, actual_correct, actual_distractors,
+                    feedback_correct, feedback_wrong, item.chapter, "prep_case")
+end
+
+function build_prep_meaning_to_case(
+    item::VocabItem,
+    lemma::String,
+    case::String,
+    pool::Vector{VocabItem};
+    num_choices::Int,
+    rng,
+)::Question
+    eng = item.english
+    isempty(eng) && error("prep_meaning_to_case needs a non-empty English gloss")
+
+    correct = unique([
+        prep_case_display(x)
+        for x in pool
+        if x.category == "prep" && x.prep_case !== nothing && x.english == eng
+    ])
+    isempty(correct) && (correct = String[prep_case_display(item)])
+
+    stem = "Which preposition + case means “$(eng)”?"
+
+    needed = max(num_choices - 1, 0)
+    distractors = select_prep_case_form_distractors(lemma, case, correct, pool, needed, rng)
+
+    guaranteed = rand(rng, correct)
+    all_options = unique([guaranteed; distractors])
+    actual_correct = [ans for ans in all_options if ans in correct]
+    actual_distractors = [ans for ans in all_options if !(ans in actual_correct)]
+
+    feedback_correct = Dict{String, String}(
+        ans => "Correct: “$(eng)” is **$(ans)** (Chapter $(item.chapter))."
+        for ans in actual_correct
+    )
+    feedback_wrong = Dict{String, String}()
+    for dist in actual_distractors
+        matching = filter(x -> x.category == "prep" && prep_case_display(x) == dist, pool)
+        feedback_wrong[dist] = !isempty(matching) ? build_wrong_feedback(matching[1]) : "Incorrect."
+    end
+
+    return Question(stem, actual_correct, actual_distractors,
+                    feedback_correct, feedback_wrong, item.chapter, "prep_case")
 end
 
 # --- What each principal part *is* (lemma-independent meta) ---
@@ -827,6 +1050,8 @@ function build_feedback(item::VocabItem, direction::Symbol)
     if item.is_verb_principal_part
         clean_form = clean_greek_form(item.greek_display)
         return "Correct: **$(clean_form)** is Principal Part $(item.principal_part_number) of **$(item.lemma)** “$(item.english)” (Chapter $(item.chapter))."
+    elseif item.category == "prep" && item.prep_case !== nothing
+        return "Correct: **$(prep_case_display(item))** → “$(item.english)” (Chapter $(item.chapter))."
     else
         return "Correct: **$(item.greek_display)** → “$(item.english)” (Chapter $(item.chapter))."
     end
@@ -836,6 +1061,8 @@ function build_wrong_feedback(wrong::VocabItem)
     if wrong.is_verb_principal_part
         clean_form = clean_greek_form(wrong.greek_display)
         return "Incorrect. **$(clean_form)** is Principal Part $(wrong.principal_part_number) of **$(wrong.lemma)** “$(wrong.english)” (Chapter $(wrong.chapter))."
+    elseif wrong.category == "prep" && wrong.prep_case !== nothing
+        return "Incorrect. **$(prep_case_display(wrong))** means “$(wrong.english)” (Chapter $(wrong.chapter))."
     else
         return "Incorrect. **$(wrong.greek_display)** means “$(wrong.english)” (Chapter $(wrong.chapter))."
     end

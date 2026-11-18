@@ -1,0 +1,351 @@
+$CATEGORY: Vocabulary/HansenQuinn/5/prep
+
+::Q001::[markdown]Which preposition + case means “toward (of time)”?:{
+	~%-100%ἐν + dat#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+	~%100%ὑπὸ + acc#Correct: “toward (of time)” is **ὑπὸ + acc** (Chapter 5).
+	~%-100%ἄνευ + gen#Incorrect. **ἄνευ + gen** means “without” (Chapter 7).
+	~%-100%ἀντί + gen#Incorrect. **ἀντί + gen** means “instead of” (Chapter 3).
+	~%-100%κατά + acc#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%-100%ὑπὸ + dat#Incorrect. **ὑπὸ + dat** means “under” (Chapter 5).
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%-100%ὑπὸ + gen#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+}
+
+
+::Q002::[markdown]What does **περί + acc** mean?:{
+	~%-100%in front of#Incorrect. **πρό + gen** means “in front of” (Chapter 2).
+	~%-100%to the side of#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+	~%-100%to#Incorrect. **εἰς + acc** means “to” (Chapter 1).
+	~%-100%under the power of#Incorrect. **ὑπὸ + dat** means “under the power of” (Chapter 5).
+	~%-100%beyond (of motion or measure)#Incorrect. **ὑπέρ + acc** means “beyond (of motion or measure)” (Chapter 9).
+	~%100%concerning#Correct: **περί + acc** means “concerning” (Chapter 3).
+	~%-100%about#Incorrect. **περί + gen** means “about” (Chapter 3).
+	~%-100%according to#Incorrect. **κατά + acc** means “according to” (Chapter 6).
+}
+
+
+::Q003::[markdown]Which preposition + case means “under the power of”?:{
+	~%-100%περί + gen#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%100%ὑπὸ + dat#Correct: “under the power of” is **ὑπὸ + dat** (Chapter 5).
+	~%-100%ὑπὸ + gen#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%-100%ὑπὸ + acc#Incorrect. **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%-100%μετά + acc#Incorrect. **μετά + acc** means “after” (Chapter 4).
+	~%-100%περί + dat#Incorrect. **περί + dat** means “around” (Chapter 3).
+	~%-100%περί + acc#Incorrect. **περί + acc** means “around” (Chapter 3).
+	~%-100%ἐν + dat#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+}
+
+
+::Q004::[markdown]Which preposition + case means “beside”?:{
+	~%-100%παρά + dat#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%διά + gen#Incorrect. **διά + gen** means “through” (Chapter 3).
+	~%100%παρά + acc#Correct: “beside” is **παρά + acc** (Chapter 2).
+	~%-100%περί + acc#Incorrect. **περί + acc** means “around” (Chapter 3).
+	~%-100%περί + dat#Incorrect. **περί + dat** means “around” (Chapter 3).
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%-100%διά + acc#Incorrect. **διά + acc** means “on account of” (Chapter 3).
+	~%-100%παρά + gen#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+}
+
+
+::Q005::[markdown]Which preposition + case means “to the side of”?:{
+	~%-100%ἀντί + gen#Incorrect. **ἀντί + gen** means “instead of” (Chapter 3).
+	~%-100%ἐν + dat#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+	~%100%παρά + acc#Correct: “to the side of” is **παρά + acc** (Chapter 2).
+	~%-100%κατά + acc#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%-100%παρά + gen#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+	~%-100%παρά + dat#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%ὑπὸ + gen#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%-100%διά + acc#Incorrect. **διά + acc** means “on account of” (Chapter 3).
+}
+
+
+::Q006::[markdown]What does **εἰς + acc** mean?:{
+	~%-100%down from#Incorrect. **κατά + gen** means “down from” (Chapter 6).
+	~%-100%in#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+	~%100%to#Correct: **εἰς + acc** means “to” (Chapter 1).
+	~%-100%through#Incorrect. **διά + gen** means “through” (Chapter 3).
+	~%-100%around#Incorrect. **περί + acc** means “around” (Chapter 3).
+	~%-100%beyond (of motion or measure)#Incorrect. **ὑπέρ + acc** means “beyond (of motion or measure)” (Chapter 9).
+	~%-100%to the side of#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+	~%-100%from#Incorrect. **ἐκ + gen** means “from” (Chapter 1).
+}
+
+
+::Q007::[markdown]What does **παρά + acc** mean?:{
+	~%-100%against#Incorrect. **κατά + gen** means “against” (Chapter 6).
+	~%-100%at the side of#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%for (purpose)#Incorrect. **εἰς + acc** means “for (purpose)” (Chapter 1).
+	~%-100%through#Incorrect. **διά + gen** means “through” (Chapter 3).
+	~%-100%at the house of#Incorrect. **παρά + dat** means “at the house of” (Chapter 2).
+	~%-100%from beside#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+	~%-100%instead of#Incorrect. **ἀντί + gen** means “instead of” (Chapter 3).
+	~%100%to the side of#Correct: **παρά + acc** means “to the side of” (Chapter 2).
+}
+
+
+::Q008::[markdown]What does **μετά + acc** mean?:{
+	~%-100%with#Incorrect. **μετά + gen** means “with” (Chapter 4).
+	~%-100%by (personal agent)#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%-100%out of#Incorrect. **ἐκ + gen** means “out of” (Chapter 1).
+	~%-100%into#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%-100%on account of#Incorrect. **διά + acc** means “on account of” (Chapter 3).
+	~%-100%to#Incorrect. **εἰς + acc** means “to” (Chapter 1).
+	~%-100%in#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+	~%100%after#Correct: **μετά + acc** means “after” (Chapter 4).
+}
+
+
+::Q009::[markdown]What does **περί + dat** mean?:{
+	~%-100%contrary to#Incorrect. **παρά + acc** means “contrary to” (Chapter 2).
+	~%-100%by (personal agent)#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%-100%down#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%-100%toward (of time)#Incorrect. **ὑπὸ + acc** means “toward (of time)” (Chapter 5).
+	~%100%around#Correct: **περί + dat** means “around” (Chapter 3).
+	~%-100%about#Incorrect. **περί + gen** means “about” (Chapter 3).
+	~%-100%concerning#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%-100%away from#Incorrect. **ἀπό + gen** means “away from” (Chapter 2).
+}
+
+
+::Q010::[markdown]Which preposition + case means “from beside”?:{
+	~%100%παρά + gen#Correct: “from beside” is **παρά + gen** (Chapter 2).
+	~%-100%ὑπὸ + gen#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%-100%παρά + acc#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+	~%-100%ὑπέρ + gen#Incorrect. **ὑπέρ + gen** means “over” (Chapter 9).
+	~%-100%περί + dat#Incorrect. **περί + dat** means “around” (Chapter 3).
+	~%-100%παρά + dat#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%ὑπὸ + dat#Incorrect. **ὑπὸ + dat** means “under” (Chapter 5).
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+}
+
+
+::Q011::[markdown]What does **περί + gen** mean?:{
+	~%-100%from#Incorrect. **ἐκ + gen** means “from” (Chapter 1).
+	~%-100%according to#Incorrect. **κατά + acc** means “according to” (Chapter 6).
+	~%-100%in front of#Incorrect. **πρό + gen** means “in front of” (Chapter 2).
+	~%100%about#Correct: **περί + gen** means “about” (Chapter 3).
+	~%-100%to#Incorrect. **εἰς + acc** means “to” (Chapter 1).
+	~%-100%on account of#Incorrect. **διά + acc** means “on account of” (Chapter 3).
+	~%-100%around#Incorrect. **περί + acc** means “around” (Chapter 3).
+	~%-100%under the power of#Incorrect. **ὑπὸ + dat** means “under the power of” (Chapter 5).
+}
+
+
+::Q012::[markdown]What does **ὑπὸ + acc** mean?:{
+	~%-100%through#Incorrect. **διά + gen** means “through” (Chapter 3).
+	~%-100%down#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%-100%without#Incorrect. **ἄνευ + gen** means “without” (Chapter 7).
+	~%100%under (with motion)#Correct: **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%-100%by (personal agent)#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%-100%under#Incorrect. **ὑπὸ + gen** means “under” (Chapter 5).
+	~%-100%beside#Incorrect. **παρά + acc** means “beside” (Chapter 2).
+	~%-100%under the power of#Incorrect. **ὑπὸ + dat** means “under the power of” (Chapter 5).
+}
+
+
+::Q013::[markdown]Which preposition + case means “under the power of”?:{
+	~%-100%ἐν + dat#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+	~%-100%ὑπὸ + gen#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%-100%παρά + gen#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+	~%-100%ὑπὸ + acc#Incorrect. **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%-100%σύν + dat#Incorrect. **σύν + dat** means “with” (Chapter 4).
+	~%100%ὑπὸ + dat#Correct: “under the power of” is **ὑπὸ + dat** (Chapter 5).
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%-100%παρά + acc#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+}
+
+
+::Q014::[markdown]Which preposition + case means “about”?:{
+	~%100%περί + gen#Correct: “about” is **περί + gen** (Chapter 3).
+	~%-100%μετά + gen#Incorrect. **μετά + gen** means “with” (Chapter 4).
+	~%-100%παρά + dat#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%περί + dat#Incorrect. **περί + dat** means “around” (Chapter 3).
+	~%-100%ἀντί + gen#Incorrect. **ἀντί + gen** means “instead of” (Chapter 3).
+	~%-100%πρό + gen#Incorrect. **πρό + gen** means “before” (Chapter 2).
+	~%-100%κατά + acc#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%-100%περί + acc#Incorrect. **περί + acc** means “around” (Chapter 3).
+}
+
+
+::Q015::[markdown]What does **εἰς + acc** mean?:{
+	~%-100%in#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+	~%100%into#Correct: **εἰς + acc** means “into” (Chapter 1).
+	~%-100%above#Incorrect. **ὑπέρ + gen** means “above” (Chapter 9).
+	~%-100%under (with motion)#Incorrect. **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%-100%at the side of#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%from beside#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+	~%-100%concerning#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%-100%in front of#Incorrect. **πρό + gen** means “in front of” (Chapter 2).
+}
+
+
+::Q016::[markdown]What does **ὑπὸ + dat** mean?:{
+	~%-100%above#Incorrect. **ὑπέρ + gen** means “above” (Chapter 9).
+	~%-100%with#Incorrect. **μετά + gen** means “with” (Chapter 4).
+	~%-100%under (with motion)#Incorrect. **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%-100%to#Incorrect. **εἰς + acc** means “to” (Chapter 1).
+	~%-100%concerning#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%-100%by (personal agent)#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%100%under#Correct: **ὑπὸ + dat** means “under” (Chapter 5).
+	~%-100%toward (of time)#Incorrect. **ὑπὸ + acc** means “toward (of time)” (Chapter 5).
+}
+
+
+::Q017::[markdown]What does **παρά + dat** mean?:{
+	~%-100%down#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%-100%beside#Incorrect. **παρά + acc** means “beside” (Chapter 2).
+	~%-100%about#Incorrect. **περί + gen** means “about” (Chapter 3).
+	~%-100%from beside#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+	~%-100%beyond (of motion or measure)#Incorrect. **ὑπέρ + acc** means “beyond (of motion or measure)” (Chapter 9).
+	~%-100%to the side of#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+	~%-100%contrary to#Incorrect. **παρά + acc** means “contrary to” (Chapter 2).
+	~%100%at the house of#Correct: **παρά + dat** means “at the house of” (Chapter 2).
+}
+
+
+::Q018::[markdown]Which preposition + case means “by (personal agent)”?:{
+	~%-100%ὑπέρ + acc#Incorrect. **ὑπέρ + acc** means “over (of motion or measure)” (Chapter 9).
+	~%-100%παρά + acc#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+	~%-100%ὑπὸ + dat#Incorrect. **ὑπὸ + dat** means “under” (Chapter 5).
+	~%-100%ἐν + dat#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+	~%-100%ὑπὸ + acc#Incorrect. **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%-100%ἀπό + gen#Incorrect. **ἀπό + gen** means “from” (Chapter 2).
+	~%100%ὑπὸ + gen#Correct: “by (personal agent)” is **ὑπὸ + gen** (Chapter 5).
+	~%-100%μετά + gen#Incorrect. **μετά + gen** means “with” (Chapter 4).
+}
+
+
+::Q019::[markdown]What does **διά + gen** mean?:{
+	~%-100%beside#Incorrect. **παρά + acc** means “beside” (Chapter 2).
+	~%100%through#Correct: **διά + gen** means “through” (Chapter 3).
+	~%-100%on account of#Incorrect. **διά + acc** means “on account of” (Chapter 3).
+	~%-100%under the power of#Incorrect. **ὑπὸ + dat** means “under the power of” (Chapter 5).
+	~%-100%over (of motion or measure)#Incorrect. **ὑπέρ + acc** means “over (of motion or measure)” (Chapter 9).
+	~%-100%before#Incorrect. **πρό + gen** means “before” (Chapter 2).
+	~%-100%concerning#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%-100%without#Incorrect. **ἄνευ + gen** means “without” (Chapter 7).
+}
+
+
+::Q020::[markdown]Which preposition + case means “around”?:{
+	~%-100%ἐν + dat#Incorrect. **ἐν + dat** means “in” (Chapter 1).
+	~%-100%ὑπέρ + acc#Incorrect. **ὑπέρ + acc** means “over (of motion or measure)” (Chapter 9).
+	~%-100%ὑπὸ + gen#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%-100%περί + gen#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%100%περί + acc#Correct: “around” is **περί + acc** (Chapter 3).
+	~%-100%διά + acc#Incorrect. **διά + acc** means “on account of” (Chapter 3).
+	~%-100%πρό + gen#Incorrect. **πρό + gen** means “before” (Chapter 2).
+	~%-100%ἄνευ + gen#Incorrect. **ἄνευ + gen** means “without” (Chapter 7).
+}
+
+
+::Q021::[markdown]about:{
+	~%-100%διά + acc#Incorrect. **διά + acc** means “on account of” (Chapter 3).
+	~%-100%ἄνευ + gen#Incorrect. **ἄνευ + gen** means “without” (Chapter 7).
+	~%-100%ἀντί + gen#Incorrect. **ἀντί + gen** means “instead of” (Chapter 3).
+	~%-100%κατά + acc#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%-100%ἀπό + gen#Incorrect. **ἀπό + gen** means “from” (Chapter 2).
+	~%-100%διά + gen#Incorrect. **διά + gen** means “through” (Chapter 3).
+	~%100%περί + gen#Correct: **περί + gen** → “about” (Chapter 3).
+}
+
+
+::Q022::[markdown]around:{
+	~%-100%σύν + dat#Incorrect. **σύν + dat** means “with” (Chapter 4).
+	~%-100%ὑπὸ + gen#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%100%περί + dat#Correct: **περί + dat** → “around” (Chapter 3).
+	~%-100%ἄνευ + gen#Incorrect. **ἄνευ + gen** means “without” (Chapter 7).
+	~%-100%παρά + dat#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%πρό + gen#Incorrect. **πρό + gen** means “before” (Chapter 2).
+	~%-100%κατά + acc#Incorrect. **κατά + acc** means “down” (Chapter 6).
+}
+
+
+::Q023::[markdown]ὑπὸ + gen:{
+	~%-100%for (purpose)#Incorrect. **εἰς + acc** means “for (purpose)” (Chapter 1).
+	~%-100%above#Incorrect. **ὑπέρ + gen** means “above” (Chapter 9).
+	~%-100%down#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%-100%on account of#Incorrect. **διά + acc** means “on account of” (Chapter 3).
+	~%-100%with#Incorrect. **μετά + gen** means “with” (Chapter 4).
+	~%-100%away from#Incorrect. **ἀπό + gen** means “away from” (Chapter 2).
+	~%100%by (personal agent)#Correct: **ὑπὸ + gen** → “by (personal agent)” (Chapter 5).
+	~%-100%from beside#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+}
+
+
+::Q024::[markdown]through:{
+	~%-100%παρά + acc#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+	~%-100%ὑπέρ + acc#Incorrect. **ὑπέρ + acc** means “over (of motion or measure)” (Chapter 9).
+	~%-100%περί + acc#Incorrect. **περί + acc** means “around” (Chapter 3).
+	~%-100%παρά + dat#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%ἄνευ + gen#Incorrect. **ἄνευ + gen** means “without” (Chapter 7).
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%100%διά + gen#Correct: **διά + gen** → “through” (Chapter 3).
+	~%-100%κατά + acc#Incorrect. **κατά + acc** means “down” (Chapter 6).
+}
+
+
+::Q025::[markdown]under:{
+	~%-100%ὑπέρ + gen#Incorrect. **ὑπέρ + gen** means “over” (Chapter 9).
+	~%100%ὑπὸ + dat#Correct: **ὑπὸ + dat** → “under” (Chapter 5).
+	~%-100%ἀπό + gen#Incorrect. **ἀπό + gen** means “from” (Chapter 2).
+	~%-100%παρά + acc#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+	~%-100%μετά + gen#Incorrect. **μετά + gen** means “with” (Chapter 4).
+}
+
+
+::Q026::[markdown]through:{
+	~%-100%κατά + acc#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%100%διά + gen#Correct: **διά + gen** → “through” (Chapter 3).
+	~%-100%ὑπέρ + acc#Incorrect. **ὑπέρ + acc** means “over (of motion or measure)” (Chapter 9).
+	~%-100%παρά + acc#Incorrect. **παρά + acc** means “to the side of” (Chapter 2).
+	~%-100%ὑπὸ + acc#Incorrect. **ὑπὸ + acc** means “under (with motion)” (Chapter 5).
+	~%-100%παρά + dat#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+}
+
+
+::Q027::[markdown]under (with motion):{
+	~%-100%μετά + gen#Incorrect. **μετά + gen** means “with” (Chapter 4).
+	~%-100%περί + dat#Incorrect. **περί + dat** means “around” (Chapter 3).
+	~%-100%περί + acc#Incorrect. **περί + acc** means “around” (Chapter 3).
+	~%-100%ἐκ + gen; ἐξ + gen#Incorrect. **ἐκ + gen** means “from” (Chapter 1).
+	~%100%ὑπὸ + acc#Correct: **ὑπὸ + acc** → “under (with motion)” (Chapter 5).
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%-100%ὑπὸ + gen#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+}
+
+
+::Q028::[markdown]under (with motion):{
+	~%100%ὑπὸ + acc#Correct: **ὑπὸ + acc** → “under (with motion)” (Chapter 5).
+	~%-100%παρά + gen#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%-100%περί + gen#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%-100%ἄνευ + gen#Incorrect. **ἄνευ + gen** means “without” (Chapter 7).
+	~%-100%πρό + gen#Incorrect. **πρό + gen** means “before” (Chapter 2).
+	~%-100%περί + acc#Incorrect. **περί + acc** means “around” (Chapter 3).
+}
+
+
+::Q029::[markdown]at the side of:{
+	~%-100%περί + acc#Incorrect. **περί + acc** means “around” (Chapter 3).
+	~%-100%ὑπὸ + gen#Incorrect. **ὑπὸ + gen** means “by (personal agent)” (Chapter 5).
+	~%-100%κατά + acc#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%-100%περί + gen#Incorrect. **περί + gen** means “concerning” (Chapter 3).
+	~%100%παρά + dat#Correct: **παρά + dat** → “at the side of” (Chapter 2).
+	~%-100%παρά + gen#Incorrect. **παρά + gen** means “from beside” (Chapter 2).
+	~%-100%κατά + gen#Incorrect. **κατά + gen** means “down from” (Chapter 6).
+}
+
+
+::Q030::[markdown]away from:{
+	~%-100%σύν + dat#Incorrect. **σύν + dat** means “with” (Chapter 4).
+	~%100%ἀπό + gen#Correct: **ἀπό + gen** → “away from” (Chapter 2).
+	~%-100%διά + gen#Incorrect. **διά + gen** means “through” (Chapter 3).
+	~%-100%παρά + dat#Incorrect. **παρά + dat** means “at the side of” (Chapter 2).
+	~%-100%εἰς + acc#Incorrect. **εἰς + acc** means “into” (Chapter 1).
+	~%-100%κατά + acc#Incorrect. **κατά + acc** means “down” (Chapter 6).
+	~%-100%ἄνευ + gen#Incorrect. **ἄνευ + gen** means “without” (Chapter 7).
+}
+
+

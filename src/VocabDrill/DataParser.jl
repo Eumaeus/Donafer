@@ -3,7 +3,9 @@
 module DataParser
 
 export parse_vocabulary_file, VocabItem, RawVocabEntry,
-       is_numbered_english_field, parse_english_field
+       is_numbered_english_field, parse_english_field,
+       is_case_tagged_english_field, normalize_case_token,
+       parse_prep_greek_field, case_label
 
 using TOML
 
@@ -17,22 +19,29 @@ When `has_pp_specific_english` is true, `english` is a tense-appropriate gloss
 for `principal_part_number` (numbered-English field in hq.txt). Legacy one-gloss
 verb lines keep `has_pp_specific_english = false` and share the same English
 across all principal parts.
+
+For prepositions, `prep_case` is `"gen"`, `"dat"`, or `"acc"` when the sense is
+tagged by case (Phase 5). `lemma` holds the preposition headword.
 """
 struct VocabItem
     chapter::Int
     category::String                    # "noun", "verb", "prep", "adj", "other"
-    greek_display::String               # What the student sees (e.g. "1 κελεύω" or "ἀγορά, ἀγορᾶς, ἡ")
+    greek_display::String               # What the student sees (e.g. "1 κελεύω" or "παρά + gen")
     english::String                     # One specific meaning
     is_verb_principal_part::Bool
     principal_part_number::Union{Int, Nothing}
-    lemma::Union{String, Nothing}       # Base form for feedback (e.g. "κελεύω")
+    lemma::Union{String, Nothing}       # Base form for feedback (e.g. "κελεύω" / "παρά")
     full_greek_field::String            # Original Greek field from the data file (for rich feedback)
     has_pp_specific_english::Bool       # true when English came from numbered PP glosses
+    prep_case::Union{String, Nothing}   # "gen"/"dat"/"acc" for case-tagged prepositions
 end
 
-# Backward-compatible constructor (legacy / tests without the flag).
+# Backward-compatible constructors (legacy / tests without newer fields).
 VocabItem(ch, cat, greek, eng, is_pp, pp_num, lemma, full_greek) =
-    VocabItem(ch, cat, greek, eng, is_pp, pp_num, lemma, full_greek, false)
+    VocabItem(ch, cat, greek, eng, is_pp, pp_num, lemma, full_greek, false, nothing)
+
+VocabItem(ch, cat, greek, eng, is_pp, pp_num, lemma, full_greek, has_pp) =
+    VocabItem(ch, cat, greek, eng, is_pp, pp_num, lemma, full_greek, has_pp, nothing)
 
 """
     RawVocabEntry
@@ -46,6 +55,39 @@ struct RawVocabEntry
     english_field::String
 end
 
+const CASE_TOKEN_RE = r"^(gen(?:itive)?|dat(?:ive)?|acc(?:usative)?)\.?$"i
+const PREP_PLUS_CASE_RE = r"^(.*?)\s*\+\s*(gen(?:itive)?|dat(?:ive)?|acc(?:usative)?)\.?\s*$"i
+const CASE_TAGGED_GLOSS_RE = r"^(gen(?:itive)?|dat(?:ive)?|acc(?:usative)?)\.?\s+(.+)$"i
+const ENGLISH_PAREN_CASE_RE = r"\(\s*\+\s*(gen(?:itive)?|dat(?:ive)?|acc(?:usative)?)\.?\s*\)"i
+
+"""
+    normalize_case_token(token) -> Union{String, Nothing}
+
+Map gen/genitive/dat/dative/acc/accusative (optional trailing period) to
+`"gen"`, `"dat"`, or `"acc"`. Returns `nothing` when unrecognized.
+"""
+function normalize_case_token(token::AbstractString)::Union{String, Nothing}
+    t = lowercase(strip(token))
+    t = replace(t, r"\.+$" => "")
+    t in ("gen", "genitive") && return "gen"
+    t in ("dat", "dative") && return "dat"
+    t in ("acc", "accusative") && return "acc"
+    return nothing
+end
+
+"""
+    case_label(case) -> String
+
+Short pedagogical label for stems/feedback (`genitive`, `dative`, `accusative`).
+"""
+function case_label(case::AbstractString)::String
+    c = normalize_case_token(case)
+    c === nothing && return String(case)
+    c == "gen" && return "genitive"
+    c == "dat" && return "dative"
+    return "accusative"
+end
+
 """
     is_numbered_english_field(english_field) -> Bool
 
@@ -57,6 +99,21 @@ Legacy fields (`unbind; free`) return false.
 function is_numbered_english_field(english_field::AbstractString)::Bool
     for seg in split(english_field, ';')
         m = match(r"^\s*([1-6])\s+\S", seg)
+        m !== nothing && return true
+    end
+    return false
+end
+
+"""
+    is_case_tagged_english_field(english_field) -> Bool
+
+True when the English field uses Phase 5 case-tagged glosses
+(`gen from beside; dat at the side of; acc beside`). Detection: at least one
+semicolon-separated segment starts with gen/dat/acc (optional period) plus a gloss.
+"""
+function is_case_tagged_english_field(english_field::AbstractString)::Bool
+    for seg in split(english_field, ';')
+        m = match(CASE_TAGGED_GLOSS_RE, strip(seg))
         m !== nothing && return true
     end
     return false
@@ -102,6 +159,75 @@ function parse_english_field(english_field::AbstractString)
 end
 
 """
+Parse case-tagged English (`gen gloss; dat gloss; …`) into case → glosses.
+Segments without a recognized case tag are ignored.
+"""
+function parse_case_tagged_english(english_field::AbstractString)::Dict{String, Vector{String}}
+    by_case = Dict{String, Vector{String}}()
+    for seg in split(english_field, ';')
+        s = strip(seg)
+        isempty(s) && continue
+        m = match(CASE_TAGGED_GLOSS_RE, s)
+        m === nothing && continue
+        c = normalize_case_token(m.captures[1])
+        c === nothing && continue
+        gloss = String(strip(m.captures[2]))
+        isempty(gloss) && continue
+        push!(get!(by_case, c, String[]), gloss)
+    end
+    return by_case
+end
+
+"""
+    parse_prep_greek_field(greek_field) -> NamedTuple
+
+Parse a preposition Greek field.
+
+Supports:
+- Legacy one-line-per-sense: `παρά + gen`, `ἐκ + gen; ἐξ + gen`
+- Lemma-only (for case-tagged English): `παρά`
+
+Returns `(lemma, case, display, forms)` where `case` may be `nothing` when
+no `+ case` marker is present.
+"""
+function parse_prep_greek_field(greek_field::AbstractString)
+    segments = [String(strip(p)) for p in split(greek_field, ';') if !isempty(strip(p))]
+    isempty(segments) && return (lemma = nothing, case = nothing,
+                                 display = String(strip(greek_field)), forms = String[])
+
+    cases = String[]
+    forms = String[]
+    for seg in segments
+        m = match(PREP_PLUS_CASE_RE, seg)
+        if m !== nothing
+            form = String(strip(m.captures[1]))
+            c = normalize_case_token(m.captures[2])
+            push!(forms, form)
+            c !== nothing && push!(cases, c)
+        else
+            push!(forms, String(seg))
+        end
+    end
+
+    lemma = isempty(forms) ? nothing : extract_lemma(forms[1])
+    case = isempty(cases) ? nothing : first(cases)
+    # Prefer a stable display: keep the original field (preserves ἐκ; ἐξ pairs).
+    display = String(strip(greek_field))
+    return (lemma = lemma, case = case, display = display, forms = forms)
+end
+
+function _case_from_english_parens(english_field::AbstractString)::Union{String, Nothing}
+    m = match(ENGLISH_PAREN_CASE_RE, english_field)
+    m === nothing && return nothing
+    return normalize_case_token(m.captures[1])
+end
+
+function _strip_english_paren_case(gloss::AbstractString)::String
+    s = replace(String(gloss), ENGLISH_PAREN_CASE_RE => "")
+    return String(strip(replace(s, r"\s{2,}" => " ")))
+end
+
+"""
     parse_vocabulary_file(path::String) -> Vector{VocabItem}
 
 Reads the Hansen & Quinn vocabulary file and returns a flat list of `VocabItem`s.
@@ -143,8 +269,9 @@ end
 """
     expand_entry(...) -> Vector{VocabItem}
 
-Handles splitting of principal parts (verbs) and multiple English translations.
-Supports both legacy shared glosses and Phase 4 numbered per-PP glosses.
+Handles splitting of principal parts (verbs), preposition case senses, and
+multiple English translations. Supports both legacy shared glosses and Phase 4
+numbered per-PP glosses.
 """
 function expand_entry(
     chapter::Int,
@@ -153,6 +280,11 @@ function expand_entry(
     english_field::AbstractString
 )
     result = VocabItem[]
+
+    if category == "prep"
+        return expand_prep_entry(chapter, greek_field, english_field)
+    end
+
     eng = parse_english_field(english_field)
 
     if category == "verb"
@@ -183,13 +315,13 @@ function expand_entry(
                         # as a meaningful stem (see ItemSelector / choose_direction).
                         push!(result, VocabItem(
                             chapter, String(category), "$pp_num $form", "",
-                            true, pp_num, lemma, String(greek_field), false
+                            true, pp_num, lemma, String(greek_field), false, nothing
                         ))
                     else
                         for g in glosses
                             push!(result, VocabItem(
                                 chapter, String(category), "$pp_num $form", g,
-                                true, pp_num, lemma, String(greek_field), true
+                                true, pp_num, lemma, String(greek_field), true, nothing
                             ))
                         end
                     end
@@ -197,7 +329,7 @@ function expand_entry(
                     for g in eng.glosses
                         push!(result, VocabItem(
                             chapter, String(category), "$pp_num $form", g,
-                            true, pp_num, lemma, String(greek_field), false
+                            true, pp_num, lemma, String(greek_field), false, nothing
                         ))
                     end
                 end
@@ -210,13 +342,13 @@ function expand_entry(
                 for g in glosses
                     push!(result, VocabItem(
                         chapter, String(category), String(segment), g,
-                        false, nothing, lemma, String(greek_field), false
+                        false, nothing, lemma, String(greek_field), false, nothing
                     ))
                 end
             end
         end
     else
-        # Non-verb: whole Greek field is one form (always legacy-style English)
+        # Non-verb / non-prep: whole Greek field is one form (always legacy-style English)
         glosses = eng.mode == :numbered ?
             vcat(values(eng.by_pp)...) :
             eng.glosses
@@ -230,11 +362,78 @@ function expand_entry(
                 nothing,
                 nothing,
                 String(greek_field),
-                false
+                false,
+                nothing
             ))
         end
     end
 
+    return result
+end
+
+"""
+Expand a `prep` line into VocabItems tagged by case when possible.
+
+Formats:
+1. **Legacy** (one line per case sense): `παρά + gen#from beside`
+   Case is read from the Greek `+ gen|dat|acc` marker. Alternate forms of the
+   same case stay on one line (`ἐκ + gen; ἐξ + gen`).
+2. **Preferred Phase 5** (case-tagged English): `παρά#gen from beside; dat …; acc …`
+   Greek field is the lemma (no `+ case`); each English segment is tagged.
+3. Bare lemma with case only in English parens (legacy ἄνευ-style): case is
+   recovered from `(+ gen.)` when present.
+"""
+function expand_prep_entry(
+    chapter::Int,
+    greek_field::AbstractString,
+    english_field::AbstractString,
+)::Vector{VocabItem}
+    result = VocabItem[]
+    greek = String(strip(greek_field))
+    english = String(strip(english_field))
+
+    if is_case_tagged_english_field(english)
+        lemma = extract_lemma(greek)
+        by_case = parse_case_tagged_english(english)
+        for (case, glosses) in by_case
+            display = "$lemma + $case"
+            for g in glosses
+                push!(result, VocabItem(
+                    chapter, "prep", display, g,
+                    false, nothing, lemma, greek, false, case
+                ))
+            end
+        end
+        return result
+    end
+
+    parsed = parse_prep_greek_field(greek)
+    lemma = parsed.lemma
+    case = parsed.case
+    if case === nothing
+        case = _case_from_english_parens(english)
+    end
+
+    # Build a clean display: if we recovered case for a bare lemma, show "+ case".
+    display = if case !== nothing && parsed.case === nothing && lemma !== nothing
+        "$lemma + $case"
+    else
+        parsed.display
+    end
+
+    glosses = [String(strip(e)) for e in split(english, ';') if !isempty(strip(e))]
+    if case !== nothing
+        glosses = [_strip_english_paren_case(g) for g in glosses]
+        glosses = [g for g in glosses if !isempty(g)]
+    end
+    isempty(glosses) && (glosses = String[""])
+
+    for g in glosses
+        push!(result, VocabItem(
+            chapter, "prep", display, g,
+            false, nothing, lemma, greek, false, case
+        ))
+    end
     return result
 end
 
