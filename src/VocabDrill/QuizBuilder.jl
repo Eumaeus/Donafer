@@ -57,6 +57,12 @@ Base.@kwdef struct DrillConfig
     pp_forms_max_count::Int = 6
     # Within PP-forms items: PP→paradigm vs paradigm→PP.
     pp_forms_pp_to_paradigm_fraction::Float64 = 0.5
+    # Lemma-based per-PP English (form ↔ tense-appropriate gloss).
+    # Only applies to verb items with numbered English in the data file.
+    # Fraction 0.0 disables (default; classic drills stay quiet).
+    pp_gloss_fraction::Float64 = 0.0
+    # Within PP-gloss items: form→English vs English→form.
+    pp_form_to_english_fraction::Float64 = 0.5
 
     # [question]
     num_choices::Int = 5
@@ -127,6 +133,8 @@ function load_config(path::String = "config/vocab_drill.toml")::DrillConfig
         pp_forms_max_count           = Int(get(proportions, "pp_forms_max_count", 6)),
         pp_forms_pp_to_paradigm_fraction =
             get(proportions, "pp_forms_pp_to_paradigm_fraction", 0.5),
+        pp_gloss_fraction            = get(proportions, "pp_gloss_fraction", 0.0),
+        pp_form_to_english_fraction  = get(proportions, "pp_form_to_english_fraction", 0.5),
 
         num_choices                  = get(question, "num_choices", 5),
         prefer_same_category_distractors = get(question, "prefer_same_category_distractors", true),
@@ -206,7 +214,8 @@ function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
                            pp_meaning_fraction::Union{Float64, Nothing} = nothing,
                            pp_meaning_max_count::Union{Int, Nothing} = nothing,
                            pp_forms_fraction::Union{Float64, Nothing} = nothing,
-                           pp_forms_max_count::Union{Int, Nothing} = nothing)::String
+                           pp_forms_max_count::Union{Int, Nothing} = nothing,
+                           pp_gloss_fraction::Union{Float64, Nothing} = nothing)::String
 
     cfg = load_config(config_path)
 
@@ -234,6 +243,9 @@ function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
     end
     if pp_forms_max_count !== nothing
         overrides[:pp_forms_max_count] = pp_forms_max_count
+    end
+    if pp_gloss_fraction !== nothing
+        overrides[:pp_gloss_fraction] = pp_gloss_fraction
     end
     cfg = _with_overrides(cfg; overrides...)
 
@@ -323,10 +335,12 @@ function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
     mkpath(cfg.output_directory)
     suffix = isempty(cfg.include_categories) ? "" :
              "_" * join(cfg.include_categories, "-")
-    pp_tag = (cfg.pp_id_fraction > 0 || meaning_count > 0 || forms_count > 0) ? "_pp" : ""
+    pp_tag = (cfg.pp_id_fraction > 0 || meaning_count > 0 || forms_count > 0 ||
+              cfg.pp_gloss_fraction > 0) ? "_pp" : ""
     meaning_tag = meaning_count > 0 ? "m" : ""
     forms_tag = forms_count > 0 ? "f" : ""
-    filename = "$(cfg.output_filename_prefix)_ch$(cfg.current_chapter)$(suffix)$(pp_tag)$(meaning_tag)$(forms_tag).gift"
+    gloss_tag = cfg.pp_gloss_fraction > 0 ? "g" : ""
+    filename = "$(cfg.output_filename_prefix)_ch$(cfg.current_chapter)$(suffix)$(pp_tag)$(meaning_tag)$(forms_tag)$(gloss_tag).gift"
     output_path = joinpath(cfg.output_directory, filename)
 
     cat_suffix = isempty(cfg.include_categories) ? string(cfg.current_chapter) :
@@ -398,16 +412,30 @@ end
 
 """
 Choose question direction for one selected item.
-Falls back to Greek↔English when PP-ID is requested but the item is not a PP verb.
+Falls back to Greek↔English when PP-ID / PP-gloss is requested but the item
+cannot support that family. Items with empty English skip Eng↔Greek stems.
 """
 function choose_direction(item::VocabItem, cfg::DrillConfig, rng)::Symbol
     can_pp = item.is_verb_principal_part &&
              item.principal_part_number !== nothing &&
              item.lemma !== nothing
+    can_pp_gloss = can_pp && item.has_pp_specific_english && !isempty(item.english)
+
+    # PP-gloss (form ↔ tense-appropriate English) — opt-in via fraction.
+    if can_pp_gloss && cfg.pp_gloss_fraction > 0 && rand(rng) < cfg.pp_gloss_fraction
+        return rand(rng) < cfg.pp_form_to_english_fraction ?
+               :pp_form_to_english : :pp_english_to_form
+    end
 
     if can_pp && cfg.pp_id_fraction > 0 && rand(rng) < cfg.pp_id_fraction
         return rand(rng) < cfg.pp_number_to_form_fraction ?
                :pp_number_to_form : :pp_form_to_number
+    end
+
+    # Classic Greek↔English: avoid empty-English stems (unmigrated PP forms
+    # kept only for PP-ID after a partial numbered migration).
+    if isempty(item.english)
+        return can_pp ? :pp_number_to_form : :greek_to_english
     end
 
     return rand(rng) < cfg.active_to_passive_ratio ?

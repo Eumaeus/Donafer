@@ -22,6 +22,10 @@ The directory <data/> includes the raw data for vocabulary and morphology. Curre
 
 The morphology data is intended to be independent of any specific textbook. Forms are captured in individual files, and aligned to chapters in a textbook by means of one or more `.tsv` files in <data/morphology/chapters>.
 
+### Vocabulary verbs (principal-part English)
+
+Verb lines in `data/vocabulary/hq.txt` preferably use **split Greek / numbered-English** fields so each principal part can carry tense-appropriate glosses (multiple glosses per PP allowed). Legacy shared English (`unbind; free`) still parses. Field rules are documented in the header comments of `hq.txt`. Config knobs live in `config/vocab_drill.toml` (`pp_gloss_fraction`, default `0.0`).
+
 ## References
 
 - [Moodle `.gift`  documentation](https://docs.moodle.org/502/en/GIFT_format)
