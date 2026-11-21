@@ -16,7 +16,7 @@ using .QuestionBuilder: Question, build_question, to_gift,
                         build_pp_meaning_question, build_pp_forms_question
 
 export DrillConfig, load_config, build_vocab_drill, write_gift_file,
-       pp_meaning_question_count, pp_forms_question_count
+       pp_meaning_question_count, pp_forms_question_count, prep_case_question_count
 
 # ============================================================
 # Configuration
@@ -63,6 +63,13 @@ Base.@kwdef struct DrillConfig
     pp_gloss_fraction::Float64 = 0.0
     # Within PP-gloss items: form→English vs English→form.
     pp_form_to_english_fraction::Float64 = 0.5
+    # Lemma-based preposition + case sense drills (prep+case ↔ meaning).
+    # Only applies to prep items with a tagged case. Fraction 0.0 disables
+    # (default). Effective count is also capped by prep_case_max_count.
+    prep_case_fraction::Float64 = 0.0
+    prep_case_max_count::Int = 12
+    # Within prep-case items: prep+case → meaning vs meaning → prep+case.
+    prep_case_to_meaning_fraction::Float64 = 0.5
 
     # [question]
     num_choices::Int = 5
@@ -135,6 +142,10 @@ function load_config(path::String = "config/vocab_drill.toml")::DrillConfig
             get(proportions, "pp_forms_pp_to_paradigm_fraction", 0.5),
         pp_gloss_fraction            = get(proportions, "pp_gloss_fraction", 0.0),
         pp_form_to_english_fraction  = get(proportions, "pp_form_to_english_fraction", 0.5),
+        prep_case_fraction           = get(proportions, "prep_case_fraction", 0.0),
+        prep_case_max_count          = Int(get(proportions, "prep_case_max_count", 12)),
+        prep_case_to_meaning_fraction =
+            get(proportions, "prep_case_to_meaning_fraction", 0.5),
 
         num_choices                  = get(question, "num_choices", 5),
         prefer_same_category_distractors = get(question, "prefer_same_category_distractors", true),
@@ -187,6 +198,21 @@ function pp_forms_question_count(cfg::DrillConfig)::Int
 end
 
 """
+    prep_case_question_count(cfg) -> Int
+
+Soft budget / hard cap for prep+case sense questions among lemma items.
+`min(prep_case_max_count, floor(num_questions * prep_case_fraction))`,
+or 0 when the fraction is ≤ 0. Actual count also depends on how many
+case-tagged prep items are selected.
+"""
+function prep_case_question_count(cfg::DrillConfig)::Int
+    cfg.prep_case_fraction <= 0 && return 0
+    cfg.prep_case_max_count <= 0 && return 0
+    target = Int(floor(cfg.num_questions * cfg.prep_case_fraction))
+    return clamp(target, 0, min(cfg.prep_case_max_count, cfg.num_questions))
+end
+
+"""
 Clamp independent meta-family budgets so meaning + forms never exceed the quiz size.
 Meaning is reserved first; forms take whatever remains under the total.
 """
@@ -215,7 +241,9 @@ function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
                            pp_meaning_max_count::Union{Int, Nothing} = nothing,
                            pp_forms_fraction::Union{Float64, Nothing} = nothing,
                            pp_forms_max_count::Union{Int, Nothing} = nothing,
-                           pp_gloss_fraction::Union{Float64, Nothing} = nothing)::String
+                           pp_gloss_fraction::Union{Float64, Nothing} = nothing,
+                           prep_case_fraction::Union{Float64, Nothing} = nothing,
+                           prep_case_max_count::Union{Int, Nothing} = nothing)::String
 
     cfg = load_config(config_path)
 
@@ -247,10 +275,17 @@ function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
     if pp_gloss_fraction !== nothing
         overrides[:pp_gloss_fraction] = pp_gloss_fraction
     end
+    if prep_case_fraction !== nothing
+        overrides[:prep_case_fraction] = prep_case_fraction
+    end
+    if prep_case_max_count !== nothing
+        overrides[:prep_case_max_count] = prep_case_max_count
+    end
     cfg = _with_overrides(cfg; overrides...)
 
     meaning_count, forms_count = _meta_question_budgets(cfg)
     lemma_question_count = max(cfg.num_questions - meaning_count - forms_count, 0)
+    prep_case_budget = prep_case_question_count(cfg)
 
     if cfg.verbose
         println("Loading configuration from: $config_path")
@@ -262,6 +297,8 @@ function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
                 "(fraction=$(cfg.pp_meaning_fraction), max=$(cfg.pp_meaning_max_count))")
         println("PP-forms count: $forms_count " *
                 "(fraction=$(cfg.pp_forms_fraction), max=$(cfg.pp_forms_max_count))")
+        println("Prep-case budget: $prep_case_budget " *
+                "(fraction=$(cfg.prep_case_fraction), max=$(cfg.prep_case_max_count))")
         println("Choices per question: $(cfg.num_choices)")
     end
 
@@ -298,8 +335,13 @@ function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
     rng = cfg.random_seed === nothing ? Random.default_rng() : MersenneTwister(cfg.random_seed)
 
     questions = Question[]
+    prep_case_used = 0
     for item in selection.items
-        direction = choose_direction(item, cfg, rng)
+        remaining_prep = max(prep_case_budget - prep_case_used, 0)
+        direction = choose_direction(item, cfg, rng; prep_case_slots_remaining = remaining_prep)
+        if direction == :prep_case_to_meaning || direction == :prep_meaning_to_case
+            prep_case_used += 1
+        end
 
         q = build_question(
             item,
@@ -326,9 +368,11 @@ function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
                                  (startswith(q.stem, "Which Principal Part of")), questions)
         pp_mean_count = count(q -> q.category == "pp_meaning", questions)
         pp_forms_n = count(q -> q.category == "pp_forms", questions)
+        prep_case_n = count(q -> q.category == "prep_case", questions)
         println("Built $(length(questions)) questions " *
                 "($multi_correct_count multi-correct, $pp_id_count PP-ID, " *
-                "$pp_mean_count PP-meaning, $pp_forms_n PP-forms)")
+                "$pp_mean_count PP-meaning, $pp_forms_n PP-forms, " *
+                "$prep_case_n prep-case)")
     end
 
     # 4. Write GIFT file (filename includes chapter)
@@ -340,7 +384,8 @@ function build_vocab_drill(config_path::String = "config/vocab_drill.toml";
     meaning_tag = meaning_count > 0 ? "m" : ""
     forms_tag = forms_count > 0 ? "f" : ""
     gloss_tag = cfg.pp_gloss_fraction > 0 ? "g" : ""
-    filename = "$(cfg.output_filename_prefix)_ch$(cfg.current_chapter)$(suffix)$(pp_tag)$(meaning_tag)$(forms_tag)$(gloss_tag).gift"
+    prep_tag = prep_case_used > 0 ? "_pc" : ""
+    filename = "$(cfg.output_filename_prefix)_ch$(cfg.current_chapter)$(suffix)$(pp_tag)$(meaning_tag)$(forms_tag)$(gloss_tag)$(prep_tag).gift"
     output_path = joinpath(cfg.output_directory, filename)
 
     cat_suffix = isempty(cfg.include_categories) ? string(cfg.current_chapter) :
@@ -412,14 +457,28 @@ end
 
 """
 Choose question direction for one selected item.
-Falls back to Greek↔English when PP-ID / PP-gloss is requested but the item
-cannot support that family. Items with empty English skip Eng↔Greek stems.
+Falls back to Greek↔English when PP-ID / PP-gloss / prep-case is requested but
+the item cannot support that family. Items with empty English skip Eng↔Greek stems.
+
+`prep_case_slots_remaining` enforces `prep_case_max_count` across the quiz.
 """
-function choose_direction(item::VocabItem, cfg::DrillConfig, rng)::Symbol
+function choose_direction(item::VocabItem, cfg::DrillConfig, rng;
+                          prep_case_slots_remaining::Int = typemax(Int))::Symbol
     can_pp = item.is_verb_principal_part &&
              item.principal_part_number !== nothing &&
              item.lemma !== nothing
     can_pp_gloss = can_pp && item.has_pp_specific_english && !isempty(item.english)
+    can_prep_case = item.category == "prep" &&
+                    item.prep_case !== nothing &&
+                    item.lemma !== nothing &&
+                    !isempty(item.english)
+
+    # Prep + case sense (prep+case ↔ meaning) — opt-in via fraction + max cap.
+    if can_prep_case && prep_case_slots_remaining > 0 &&
+       cfg.prep_case_fraction > 0 && rand(rng) < cfg.prep_case_fraction
+        return rand(rng) < cfg.prep_case_to_meaning_fraction ?
+               :prep_case_to_meaning : :prep_meaning_to_case
+    end
 
     # PP-gloss (form ↔ tense-appropriate English) — opt-in via fraction.
     if can_pp_gloss && cfg.pp_gloss_fraction > 0 && rand(rng) < cfg.pp_gloss_fraction

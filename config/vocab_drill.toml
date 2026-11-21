@@ -14,7 +14,7 @@ output_filename_prefix = "vocab_drill_hq"
 [selection]
 # Restrict to these categories. Empty = all categories (noun, verb, prep, adj, other).
 # Example for principal-parts drills: include_categories = ["verb"]
-include_categories = ["verb"]
+include_categories = ["prep"]
 
 [proportions]
 # Fraction of questions that test active knowledge (Greek → English)
@@ -60,9 +60,18 @@ pp_gloss_fraction = 0.0
 # Within PP-gloss items: form→English vs English→form.
 pp_form_to_english_fraction = 0.5
 
+# Preposition + case sense drills (prep+case ↔ meaning). Only applies to prep
+# items with a tagged case in hq.txt. Leave fraction at 0.0 so classic drills
+# stay quiet; raise (e.g. 0.8) with include_categories = ["prep"] for focused practice.
+# Soft budget = min(prep_case_max_count, floor(num_questions * prep_case_fraction)).
+prep_case_fraction = 0.0
+prep_case_max_count = 12
+# Within prep-case items: prep+case → meaning vs meaning → prep+case.
+prep_case_to_meaning_fraction = 0.5
+
 [question]
 # Shared choice count for all vocabulary question types
-# (Greek↔English, PP-ID, PP-meaning, PP-forms, and PP-gloss). Prefer ≥8 when the
+# (Greek↔English, PP-ID, PP-meaning, PP-forms, PP-gloss, and prep-case). Prefer ≥8 when the
 # distractor pool allows; PP number/gloss banks naturally cap at 6 options.
 num_choices = 8
 prefer_same_category_distractors = true

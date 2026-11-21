@@ -56,6 +56,27 @@
 // English. Regenerate with:
 //   julia --project=. scripts/migrate_pp_english.jl
 //
+// Phase 5 — preposition + case senses:
+//
+//   Preferred legacy (one line per case sense; parser extracts case):
+//
+//     2#prep#παρά + gen#from beside
+//     2#prep#παρά + dat#at the side of; at the house of
+//     2#prep#παρά + acc#to the side of; beside; contrary to
+//
+//   Case tokens: gen|dat|acc (also genitive|dative|accusative; optional
+//   trailing period). Alternate Greek forms of the same case stay on one
+//   line, separated by ";":
+//
+//     1#prep#ἐκ + gen; ἐξ + gen#from; out of
+//
+//   Optional consolidated form (case-tagged English, lemma-only Greek):
+//
+//     2#prep#παρά#gen from beside; dat at the side of; acc beside
+//
+//   Both formats set lemma + prep_case on VocabItems for case-sense drills.
+//   Config: prep_case_fraction / prep_case_max_count (default off).
+//
 
 // Unit 1
 1#noun#ἀγορά, ἀγορᾶς, ἡ#market place
@@ -133,11 +154,11 @@
 3#noun#θυσίᾱ, θύσίᾱς, ἡ#a sacrifice
 3#other#μή#not
 3#noun#νίκη, νίκης, ἡ#victory
-3#prep#ἵνα, ὡς, ὅπως#in order that
+3#other#ἵνα, ὡς, ὅπως#in order that
 3#noun#ὀφθαλμός, ὀφθαλμοῦ, ὁ#eye
 3#verb#1 παύω;2 παύσω;3 ἔπαυσα;4 πέπαυκα;5 πέπαυμαι;6 ἐπαύθην#1 I stop;1 I make (someone) stop;2 I will stop;2 I will make (someone) stop;3 I stopped;3 I made (someone) stop;4 I have stopped;4 I have made to stop;5 I have been stopped;5 I have been made to stop;6 I was stopped;6 I was made to stop
 3#prep#περί + gen#concerning; about
-3#prep#περί + acc.#around; concerning
+3#prep#περί + acc#around; concerning
 3#prep#περί + dat#around
 3#verb#1 φυλάττω;2 φυλάξω;3 ἐφύλαξα;4 πεφύλαχα;5 πεφύλαγμαι;6 ἐφυλάχθην#1 I guard;2 I will guard;3 I guarded;4 I have guarded;5 I have been guarded;6 I was guarded
 
@@ -161,8 +182,8 @@
 4#other#καίτοι# and further; and yet
 4#adj#κακός, κακή, κακόν# bad; wicked
 4#adj#καλός, καλή, καλόν# beautiful; noble
-4#prep#μετά + gen.# with
-4#prep#μετά + acc.# after
+4#prep#μετά + gen#with
+4#prep#μετά + acc#after
 4#noun#μοῖρα, μοίρᾱς, ἡ# fate
 4#noun#μοῦσα, μούσης, ἡ# muse
 4#noun#νεανίας, νεανίου, ὁ# young man
@@ -172,7 +193,7 @@
 4#noun#ποιητής, ποιητοῦ, ὁ# poet; author
 4#noun#πολίτης, πολίτου, ὁ# citizen
 4#noun#στρτιώτης, στρατιώτου, ὁ# soldier
-4#prep#σύv + dative# with
+4#prep#σύν + dat#with
 4#verb#1 τάττω;2 τάξω;3 ἔταξα;4 τέταχα;5 τέταγμαι;6 ἐτάχθην#1 I draw up (in battle);1 I arrange;1 I order;2 I will draw up (in battle);2 I will arrange;2 I will order;3 I drew up (in battle);3 I arranged;3 I ordered;4 I have drawn up (in battle);4 I have arranged;4 I have ordered;5 I have been drawn up (in battle);5 I have been arranged;5 I have been ordered;6 I was drawn up (in battle);6 I was arranged;6 I was ordered
 4#adj#φίλος, φίλη, φίλοv# dear; beloved
 
@@ -199,9 +220,9 @@
 5#adj#πολέμιος, πολεμίᾱ, πολέμιον# hostile
 5#verb#1 πράττω;2 πράξω;3 ἔπραξα;4 πέπρᾱχα;4 πέπρᾱγα;5 πέπρᾱγμαι;6 ἐπράχθην#1 I do;1 I fare;2 I will do;2 I will fare;3 I did;3 I fared;4 I have done;4 I have fared;5 I have been done;6 I was done
 5#adj#πρῶτος, πρώτη, πρῶτον# first
-5#prep#ὑπὸ + gen# by (personal agent); under
-5#prep#ὑπὸ + dat# under; under the power of
-5#prep#ὑπὸ + acc# under (with motion); toward (of time)
+5#prep#ὑπὸ + gen#by (personal agent); under
+5#prep#ὑπὸ + dat#under; under the power of
+5#prep#ὑπὸ + acc#under (with motion); toward (of time)
 5#adj#φοβερός, φοβερά, φοβερόν# fearful; scared
 5#noun#φόβος, φόβου, ὁ# fear
 
@@ -218,7 +239,8 @@
 6#adj#ἐλεύθερος, ἐλευθέρᾱ, ἐλεύθερον# free (+ gen)
 6#noun#Ἕλλην, Ἕλληνος, ὁ# Greek (person)
 6#noun#ἐλπίς, ἐλπίδος, ἡ# hope
-6#prep#κατά + gen# down from; against
+6#prep#κατά + gen#down from; against
+6#prep#κατά + acc#down; according to
 6#verb#1 κωλύω;2 κωλύσω;3 ἐκώλῡσα;4 κεκώλῡκα;5 κεκώλῡμαι;6 ἐκωλύθην#1 I hinder;1 I prevent;2 I will hinder;2 I will prevent;3 I hindered;3 I prevented;4 I have hindered;4 I have prevented;5 I have been hindered;5 I have been prevented;6 I was hindered;6 I was prevented
 6#noun#νύξ, νυκτός, ἡ# night
 6#other#ὅς; ἥ; ὅν# who; which
@@ -242,7 +264,7 @@
 // Unit 7
 7#adj#αἰσχρός, αἰσχρά, αἰσχρόν# ugly; shameful
 7#adj#ἄλλος, ἄλλη, ἄλλον# other; another
-7#prep#ἄνευ# without; except (+ gen.)
+7#prep#ἄνευ + gen#without; except
 7#noun#γράμμα, γράμματος, τό# letter (of alphabet); (pl.) documents
 7#noun#γραφή, γραφῆς, ἠ# indictment
 7#adj#δῆλος, δήλη, δῆλον# clear; visible; obvious
@@ -305,8 +327,8 @@
 9#verb#1 τιμάω;2 τιμήσω;3 ἐτίμησα;4 τετίμηκα;5 τετίμημαι;6 ἐτιμήθην#1 I honor;2 I will honor;3 I honored;4 I have honored;5 I have been honored;6 I was honored
 9#noun#τρόπος, τρόπου, ὁ# way; manner; character
 9#noun#ὕδωρ, ὕδατος, τό# water
-9#prep#ὑπέρ + gen# over; above; on behalf of
-9#prep#ὑπέρ + acc# (of motion or measure) over; (of motion or measure) beyond*y
+9#prep#ὑπέρ + gen#over; above; on behalf of
+9#prep#ὑπέρ + acc#over (of motion or measure); beyond (of motion or measure)
 
 // Unit 10
 10#verb#1 ἀγγέλλλω;2 ἁγγελῶ;3 ἤγγειλα;4 ἤγγελκα;5 ἤγγελμαι;6 ἠγγέλθην#1 I announce;2 I will announce;3 I announced;4 I have announced;5 I have been announced;6 I was announced

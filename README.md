@@ -26,6 +26,10 @@ The morphology data is intended to be independent of any specific textbook. Form
 
 Verb lines in `data/vocabulary/hq.txt` preferably use **split Greek / numbered-English** fields so each principal part can carry tense-appropriate glosses (multiple glosses per PP allowed). Legacy shared English (`unbind; free`) still parses. Field rules are documented in the header comments of `hq.txt`. Config knobs live in `config/vocab_drill.toml` (`pp_gloss_fraction`, default `0.0`).
 
+### Vocabulary prepositions (case senses)
+
+Prep lines preferably keep one sense per case as `lemma + gen|dat|acc#glosses` (alternate forms of the same case may share a line with `;`). An optional consolidated form uses lemma-only Greek with case-tagged English (`παρά#gen …; dat …; acc …`). Both are documented in the `hq.txt` header. Case-sense drills are toggled with `prep_case_fraction` / `prep_case_max_count` (default off) in `config/vocab_drill.toml`.
+
 ## References
 
 - [Moodle `.gift`  documentation](https://docs.moodle.org/502/en/GIFT_format)
