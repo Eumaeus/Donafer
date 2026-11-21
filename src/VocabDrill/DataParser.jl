@@ -242,14 +242,14 @@ function parse_vocabulary_file(path::String)::Vector{VocabItem}
     for line in lines
         line = strip(line)
         isempty(line) && continue
-        startswith(line, "//") && continue
 
-        # Detect new unit/chapter
+        # Detect new unit/chapter before skipping comments (Unit markers are // lines).
         if occursin(r"// Unit\s+(\d+)", line)
             m = match(r"// Unit\s+(\d+)", line)
             current_chapter = parse(Int, m.captures[1])
             continue
         end
+        startswith(line, "//") && continue
 
         # Parse normal entry: chapter#category#Greek#English
         parts = split(line, '#'; limit=4)
