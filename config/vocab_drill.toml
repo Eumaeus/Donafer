@@ -14,7 +14,7 @@ output_filename_prefix = "vocab_drill_hq"
 [selection]
 # Restrict to these categories. Empty = all categories (noun, verb, prep, adj, other).
 # Example for principal-parts drills: include_categories = ["verb"]
-include_categories = ["verb"]
+include_categories = ["prep"]
 
 [proportions]
 # Fraction of questions that test active knowledge (Greek → English)

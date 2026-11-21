@@ -1,570 +1,573 @@
 $CATEGORY: Vocabulary/HansenQuinn/4/verb
 
-::Q001::[markdown]I have wished:{
-	~%-100%λήψομαι#Incorrect. **λήψομαι** is Principal Part 2 of **λαμβάνω** “I will take” (Chapter 11).
-	~%100%ἠθέληκα#Correct: **ἠθέληκα** is Principal Part 4 of **ἐθέλω** “I have wished” (Chapter 4).
-	~%-100%δουλεύσω#Incorrect. **δουλεύσω** is Principal Part 2 of **δουλεύω** “I will be a slave” (Chapter 6).
-	~%-100%ἠξίωσα#Incorrect. **ἠξίωσα** is Principal Part 3 of **ἀξιόω** “I thought worthy of” (Chapter 10).
-	~%-100%ἄρξω#Incorrect. **ἄρξω** is Principal Part 2 of **ἄρχω** “I will rule” (Chapter 5).
-	~%-100%παιδεύσω#Incorrect. **παιδεύσω** is Principal Part 2 of **παιδεύω** “I will educate” (Chapter 2).
-	~%-100%κεχόρευκα#Incorrect. **κεχόρευκα** is Principal Part 4 of **χορεύω** “I have danced” (Chapter 6).
+::Q001::[markdown]Which of these forms is based on the **5th Principal Part**?:{
+	~%-100%Pluperfect (active)#Incorrect. **Pluperfect (active)** forms are based on the 4th Principal Part, not the 5th.
+	~%-100%Present (active, middle, passive)#Incorrect. **Present (active, middle, passive)** forms are based on the 1st Principal Part, not the 5th.
+	~%-100%Future (passive)#Incorrect. **Future (passive)** forms are based on the 6th Principal Part, not the 5th.
+	~%-100%Future (active, middle)#Incorrect. **Future (active, middle)** forms are based on the 2nd Principal Part, not the 5th.
+	~%-100%Aorist (passive)#Incorrect. **Aorist (passive)** forms are based on the 6th Principal Part, not the 5th.
+	~%100%Pluperfect (middle/passive)#Correct: **Pluperfect (middle/passive)** forms are based on the 5th Principal Part.
+	~%-100%Aorist (active, middle)#Incorrect. **Aorist (active, middle)** forms are based on the 3rd Principal Part, not the 5th.
+	~%-100%Imperfect (active, middle, passive)#Incorrect. **Imperfect (active, middle, passive)** forms are based on the 1st Principal Part, not the 5th.
+}
+
+
+::Q002::[markdown]Pick the 1st Principal Part of διδάσκω.:{
+	~%-100%φυλάττω#Incorrect. **φυλάττω** is Principal Part 1 of **φυλάττω** “I guard” (Chapter 3).
+	~%-100%ἐδίδαξα#Incorrect. **ἐδίδαξα** is Principal Part 3 of **διδάσκω** “I taught” (Chapter 4).
+	~%-100%ἐδιδάχθην#Incorrect. **ἐδιδάχθην** is Principal Part 6 of **διδάσκω** “I was taught” (Chapter 4).
+	~%-100%πέμπω#Incorrect. **πέμπω** is Principal Part 1 of **πέμπω** “I send” (Chapter 2).
 	~%-100%δεδίδαγμαι#Incorrect. **δεδίδαγμαι** is Principal Part 5 of **διδάσκω** “I have been taught” (Chapter 4).
-}
-
-
-::Q002::[markdown]Which Principal Part of τάττω is ‘ἐτάχθην’?:{
-	~%-100%2nd#Incorrect. **ἐτάχθην** is the 6th Principal Part of **τάττω**, not the 2nd.
-	~%-100%4th#Incorrect. **ἐτάχθην** is the 6th Principal Part of **τάττω**, not the 4th.
-	~%-100%5th#Incorrect. **ἐτάχθην** is the 6th Principal Part of **τάττω**, not the 5th.
-	~%100%6th#Correct: **ἐτάχθην** is the 6th Principal Part of **τάττω** (Chapter 4).
-	~%-100%3rd#Incorrect. **ἐτάχθην** is the 6th Principal Part of **τάττω**, not the 3rd.
-	~%-100%1st#Incorrect. **ἐτάχθην** is the 6th Principal Part of **τάττω**, not the 1st.
-}
-
-
-::Q003::[markdown]Which Principal Part of τάττω is ‘ἐτάχθην’?:{
-	~%100%6th#Correct: **ἐτάχθην** is the 6th Principal Part of **τάττω** (Chapter 4).
-	~%-100%4th#Incorrect. **ἐτάχθην** is the 6th Principal Part of **τάττω**, not the 4th.
-	~%-100%3rd#Incorrect. **ἐτάχθην** is the 6th Principal Part of **τάττω**, not the 3rd.
-	~%-100%2nd#Incorrect. **ἐτάχθην** is the 6th Principal Part of **τάττω**, not the 2nd.
-	~%-100%5th#Incorrect. **ἐτάχθην** is the 6th Principal Part of **τάττω**, not the 5th.
-	~%-100%1st#Incorrect. **ἐτάχθην** is the 6th Principal Part of **τάττω**, not the 1st.
-}
-
-
-::Q004::[markdown]Which of these forms is based on the **1st Principal Part**?:{
-	~%-100%Pluperfect (middle/passive)#Incorrect. **Pluperfect (middle/passive)** forms are based on the 5th Principal Part, not the 1st.
-	~%-100%Pluperfect (active)#Incorrect. **Pluperfect (active)** forms are based on the 4th Principal Part, not the 1st.
-	~%-100%Perfect (middle/passive)#Incorrect. **Perfect (middle/passive)** forms are based on the 5th Principal Part, not the 1st.
-	~%-100%Future (passive)#Incorrect. **Future (passive)** forms are based on the 6th Principal Part, not the 1st.
-	~%-100%Future (active, middle)#Incorrect. **Future (active, middle)** forms are based on the 2nd Principal Part, not the 1st.
-	~%-100%Aorist (active, middle)#Incorrect. **Aorist (active, middle)** forms are based on the 3rd Principal Part, not the 1st.
-	~%-100%Perfect (active)#Incorrect. **Perfect (active)** forms are based on the 4th Principal Part, not the 1st.
-	~%100%Present (active, middle, passive)#Correct: **Present (active, middle, passive)** forms are based on the 1st Principal Part.
-}
-
-
-::Q005::[markdown]I bury:{
-	~%100%θάπτω#Correct: **θάπτω** is Principal Part 1 of **θάπτω** “I bury” (Chapter 4).
-	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
-	~%-100%κεχόρευκα#Incorrect. **κεχόρευκα** is Principal Part 4 of **χορεύω** “I have danced” (Chapter 6).
-	~%-100%λέλυκα#Incorrect. **λέλυκα** is Principal Part 4 of **λύω** “I have unbound” (Chapter 2).
-	~%-100%ἥκω#Incorrect. **ἥκω** is Principal Part 1 of **ἥκω** “I have come” (Chapter 8).
-	~%-100%ἐδήλωσα#Incorrect. **ἐδήλωσα** is Principal Part 3 of **δηλόω** “I made clear” (Chapter 10).
-	~%-100%ἠξιώθην#Incorrect. **ἠξιώθην** is Principal Part 6 of **ἀξιόω** “I was thought worthy of” (Chapter 10).
-	~%-100%ἐνίκησα#Incorrect. **ἐνίκησα** is Principal Part 3 of **νικάω** “I won” (Chapter 9).
-}
-
-
-::Q006::[markdown]Which Principal Part of ἐθέλω is ‘ἠθέληκα’?:{
-	~%-100%1st#Incorrect. **ἠθέληκα** is the 4th Principal Part of **ἐθέλω**, not the 1st.
-	~%-100%5th#Incorrect. **ἠθέληκα** is the 4th Principal Part of **ἐθέλω**, not the 5th.
-	~%100%4th#Correct: **ἠθέληκα** is the 4th Principal Part of **ἐθέλω** (Chapter 4).
-	~%-100%2nd#Incorrect. **ἠθέληκα** is the 4th Principal Part of **ἐθέλω**, not the 2nd.
-	~%-100%3rd#Incorrect. **ἠθέληκα** is the 4th Principal Part of **ἐθέλω**, not the 3rd.
-	~%-100%6th#Incorrect. **ἠθέληκα** is the 4th Principal Part of **ἐθέλω**, not the 6th.
-}
-
-
-::Q007::[markdown]The **1st Principal Part** is the::{
-	~%-100%Aorist, Active, Indicative, 1st person, Singular#Incorrect. The 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**, not “Aorist, Active, Indicative, 1st person, Singular”.
-	~%-100%Aorist, Passive, Indicative, 1st person, Singular#Incorrect. The 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**, not “Aorist, Passive, Indicative, 1st person, Singular”.
-	~%-100%Future, Active, Indicative, 1st person, Singular#Incorrect. The 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**, not “Future, Active, Indicative, 1st person, Singular”.
-	~%100%Present, Active, Indicative, 1st person, Singular#Correct: the 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**.
-	~%-100%Perfect, Middle/Passive, Indicative, 1st person, Singular#Incorrect. The 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**, not “Perfect, Middle/Passive, Indicative, 1st person, Singular”.
-	~%-100%Perfect, Active, Indicative, 1st person, Singular#Incorrect. The 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**, not “Perfect, Active, Indicative, 1st person, Singular”.
-}
-
-
-::Q008::[markdown]Pick the 2nd Principal Part of τάττω.:{
-	~%100%τάξω#Correct: **τάξω** is the 2nd Principal Part of **τάττω** (Chapter 4).
-	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
-	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
-	~%-100%θάψω#Incorrect. **θάψω** is Principal Part 2 of **θάπτω** “I will bury” (Chapter 4).
-	~%-100%τέταγμαι#Incorrect. **τέταγμαι** is Principal Part 5 of **τάττω** “I have been drawn up (in battle)” (Chapter 4).
-	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
-	~%-100%ἔταξα#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
 	~%-100%διδάξω#Incorrect. **διδάξω** is Principal Part 2 of **διδάσκω** “I will teach” (Chapter 4).
+	~%-100%δεδίδαχα#Incorrect. **δεδίδαχα** is Principal Part 4 of **διδάσκω** “I have taught” (Chapter 4).
+	~%100%διδάσκω#Correct: **διδάσκω** is the 1st Principal Part of **διδάσκω** (Chapter 4).
 }
 
 
-::Q009::[markdown]Which Principal Part is the ‘Perfect, Active, Indicative, 1st person, Singular’?:{
-	~%-100%1st#Incorrect. ‘Perfect, Active, Indicative, 1st person, Singular’ is the **4th Principal Part**, not the 1st.
-	~%-100%6th#Incorrect. ‘Perfect, Active, Indicative, 1st person, Singular’ is the **4th Principal Part**, not the 6th.
-	~%-100%3rd#Incorrect. ‘Perfect, Active, Indicative, 1st person, Singular’ is the **4th Principal Part**, not the 3rd.
-	~%-100%2nd#Incorrect. ‘Perfect, Active, Indicative, 1st person, Singular’ is the **4th Principal Part**, not the 2nd.
-	~%-100%5th#Incorrect. ‘Perfect, Active, Indicative, 1st person, Singular’ is the **4th Principal Part**, not the 5th.
-	~%100%4th#Correct: ‘Perfect, Active, Indicative, 1st person, Singular’ is the **4th Principal Part**.
+::Q003::[markdown]Which of these forms is based on the **2nd Principal Part**?:{
+	~%-100%Pluperfect (middle/passive)#Incorrect. **Pluperfect (middle/passive)** forms are based on the 5th Principal Part, not the 2nd.
+	~%-100%Pluperfect (active)#Incorrect. **Pluperfect (active)** forms are based on the 4th Principal Part, not the 2nd.
+	~%-100%Aorist (active, middle)#Incorrect. **Aorist (active, middle)** forms are based on the 3rd Principal Part, not the 2nd.
+	~%100%Future (active, middle)#Correct: **Future (active, middle)** forms are based on the 2nd Principal Part.
+	~%-100%Imperfect (active, middle, passive)#Incorrect. **Imperfect (active, middle, passive)** forms are based on the 1st Principal Part, not the 2nd.
+	~%-100%Future (passive)#Incorrect. **Future (passive)** forms are based on the 6th Principal Part, not the 2nd.
+	~%-100%Perfect (middle/passive)#Incorrect. **Perfect (middle/passive)** forms are based on the 5th Principal Part, not the 2nd.
+	~%-100%Perfect (active)#Incorrect. **Perfect (active)** forms are based on the 4th Principal Part, not the 2nd.
 }
 
 
-::Q010::[markdown]Which Principal Part is the ‘Aorist, Passive, Indicative, 1st person, Singular’?:{
-	~%-100%5th#Incorrect. ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**, not the 5th.
-	~%100%6th#Correct: ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**.
-	~%-100%2nd#Incorrect. ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**, not the 2nd.
-	~%-100%3rd#Incorrect. ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**, not the 3rd.
-	~%-100%1st#Incorrect. ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**, not the 1st.
-	~%-100%4th#Incorrect. ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**, not the 4th.
-}
-
-
-::Q011::[markdown]I was buried:{
-	~%100%ἐτάφην#Correct: **ἐτάφην** is Principal Part 6 of **θάπτω** “I was buried” (Chapter 4).
-	~%-100%ἐθελήσω#Incorrect. **ἐθελήσω** is Principal Part 2 of **ἐθέλω** “I will be willing” (Chapter 4).
-	~%-100%ἠξίωκα#Incorrect. **ἠξίωκα** is Principal Part 4 of **ἀξιόω** “I have thought worthy of” (Chapter 10).
-	~%-100%μεμένηκα#Incorrect. **μεμένηκα** is Principal Part 4 of **μένω** “I have remained” (Chapter 10).
-	~%-100%ἐβλάβην#Incorrect. **ἐβλάβην** is Principal Part 6 of **βλάπτω** “I was hurt” (Chapter 5).
+::Q004::[markdown]I have drawn up (in battle):{
+	~%-100%ἀκούω#Incorrect. **ἀκούω** is Principal Part 1 of **ἀκούω** “I hear” (Chapter 11).
+	~%-100%ἠγγέλθην#Incorrect. **ἠγγέλθην** is Principal Part 6 of **ἀγγέλλλω** “I was announced” (Chapter 10).
+	~%-100%ἐδούλευσα#Incorrect. **ἐδούλευσα** is Principal Part 3 of **δουλεύω** “I was a slave” (Chapter 6).
+	~%-100%πράττω#Incorrect. **πράττω** is Principal Part 1 of **πράττω** “I do” (Chapter 5).
+	~%-100%ἦρχα#Incorrect. **ἦρχα** is Principal Part 4 of **ἄρχω** “I have ruled” (Chapter 5).
 	~%-100%εἴληφα#Incorrect. **εἴληφα** is Principal Part 4 of **λαμβάνω** “I have taken” (Chapter 11).
-	~%-100%ἐπαίδευσα#Incorrect. **ἐπαίδευσα** is Principal Part 3 of **παιδεύω** “I educated” (Chapter 2).
-	~%-100%ἐδήλωσα#Incorrect. **ἐδήλωσα** is Principal Part 3 of **δηλόω** “I made clear” (Chapter 10).
+	~%-100%μενῶ#Incorrect. **μενῶ** is Principal Part 2 of **μένω** “I will remain” (Chapter 10).
+	~%100%τέταχα#Correct: **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
 }
 
 
-::Q012::[markdown]I taught:{
-	~%-100%βαλῶ#Incorrect. **βαλῶ** is Principal Part 2 of **βάλλω** “I will throw” (Chapter 11).
-	~%-100%ἑπείσθην#Incorrect. **ἑπείσθην** is Principal Part 6 of **πείθω** “I was persuaded” (Chapter 5).
-	~%-100%σῴζω#Incorrect. **σῴζω** is Principal Part 1 of **σῴζω** “I save” (Chapter 7).
-	~%100%ἐπαίδευσα#Correct: **ἐπαίδευσα** is Principal Part 3 of **παιδεύω** “I taught” (Chapter 2).
-	~%-100%ἐβλήθην#Incorrect. **ἐβλήθην** is Principal Part 6 of **βάλλω** “I was thrown” (Chapter 11).
-	~%-100%ἠκούσθην#Incorrect. **ἠκούσθην** is Principal Part 6 of **ἀκούω** “I was heard” (Chapter 11).
-	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
-	~%-100%ἐλήφθην#Incorrect. **ἐλήφθην** is Principal Part 6 of **λαμβάνω** “I was taken” (Chapter 11).
+::Q005::[markdown]I wish:{
+	~%-100%ἀδικέω#Incorrect. **ἀδικέω** is Principal Part 1 of **ἀδικέω** “I do wrong” (Chapter 9).
+	~%-100%δέχομαι#Incorrect. **δέχομαι** is Principal Part 1 of **δέχομαι** “I receive” (Chapter 11).
+	~%-100%δηλώσω#Incorrect. **δηλώσω** is Principal Part 2 of **δηλόω** “I will make clear” (Chapter 10).
+	~%-100%ἔταξα#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
+	~%-100%ἦχα#Incorrect. **ἦχα** is Principal Part 4 of **ἄγω** “I have led” (Chapter 8).
+	~%-100%ἕμεινα#Incorrect. **ἕμεινα** is Principal Part 3 of **μένω** “I remained” (Chapter 10).
+	~%-100%ἐκώλῡσα#Incorrect. **ἐκώλῡσα** is Principal Part 3 of **κωλύω** “I hindered” (Chapter 6).
+	~%100%ἐθέλω#Correct: **ἐθέλω** is Principal Part 1 of **ἐθέλω** “I wish” (Chapter 4).
 }
 
 
-::Q013::[markdown]Which Principal Part of τάττω is ‘τέταχα’?:{
-	~%-100%6th#Incorrect. **τέταχα** is the 4th Principal Part of **τάττω**, not the 6th.
+::Q006::[markdown]Pick the 6th Principal Part of θάπτω.:{
+	~%-100%ἐτύθην#Incorrect. **ἐτύθην** is Principal Part 6 of **θύω** “I was sacrificed” (Chapter 3).
+	~%100%ἐτάφην#Correct: **ἐτάφην** is the 6th Principal Part of **θάπτω** (Chapter 4).
+	~%-100%ἔθαψα#Incorrect. **ἔθαψα** is Principal Part 3 of **θάπτω** “I buried” (Chapter 4).
+	~%-100%θάπτω#Incorrect. **θάπτω** is Principal Part 1 of **θάπτω** “I bury” (Chapter 4).
+	~%-100%θάψω#Incorrect. **θάψω** is Principal Part 2 of **θάπτω** “I will bury” (Chapter 4).
+	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
+	~%-100%τέθαμμαι#Incorrect. **τέθαμμαι** is Principal Part 5 of **θάπτω** “I have been buried” (Chapter 4).
+	~%-100%ἐγράφην#Incorrect. **ἐγράφην** is Principal Part 6 of **γράφω** “I was written” (Chapter 3).
+}
+
+
+::Q007::[markdown]ἠθέλησα:{
+	~%-100%I have been hurt#Incorrect. **βέβλαμμαι** is Principal Part 5 of **βλάπτω** “I have been hurt” (Chapter 5).
+	~%-100%I write#Incorrect. **γράφω** is Principal Part 1 of **γράφω** “I write” (Chapter 3).
+	~%100%I was willing#Correct: **ἠθέλησα** is Principal Part 3 of **ἐθέλω** “I was willing” (Chapter 4).
+	~%-100%I have made clear#Incorrect. **δεδήλωκα** is Principal Part 4 of **δηλόω** “I have made clear” (Chapter 10).
+	~%-100%I was made#Incorrect. **ἐποιήθην** is Principal Part 6 of **ποιέω** “I was made” (Chapter 9).
+	~%-100%I have been arranged#Incorrect. **τέταγμαι** is Principal Part 5 of **τάττω** “I have been arranged” (Chapter 4).
+	~%-100%I have taken part in a dance#Incorrect. **κεχόρευκα** is Principal Part 4 of **χορεύω** “I have taken part in a dance” (Chapter 6).
+	~%-100%I will make clear#Incorrect. **δηλώσω** is Principal Part 2 of **δηλόω** “I will make clear” (Chapter 10).
+}
+
+
+::Q008::[markdown]I draw up (in battle):{
+	~%-100%βέβληκα#Incorrect. **βέβληκα** is Principal Part 4 of **βάλλω** “I have thrown” (Chapter 11).
+	~%-100%ἔλύθην#Incorrect. **ἔλύθην** is Principal Part 6 of **λύω** “I was unbound” (Chapter 2).
+	~%-100%ἐτίμησα#Incorrect. **ἐτίμησα** is Principal Part 3 of **τιμάω** “I honored” (Chapter 9).
+	~%100%τάττω#Correct: **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
+	~%-100%ἠδίκημαι#Incorrect. **ἠδίκημαι** is Principal Part 5 of **ἀδικέω** “I have been wronged” (Chapter 9).
+	~%-100%ἔπαυσα#Incorrect. **ἔπαυσα** is Principal Part 3 of **παύω** “I stopped” (Chapter 3).
+	~%-100%ἠδίκηκα#Incorrect. **ἠδίκηκα** is Principal Part 4 of **ἀδικέω** “I have done wrong” (Chapter 9).
+	~%-100%χορεύω#Incorrect. **χορεύω** is Principal Part 1 of **χορεύω** “I dance” (Chapter 6).
+}
+
+
+::Q009::[markdown]I have taught:{
+	~%-100%ἔπεισα#Incorrect. **ἔπεισα** is Principal Part 3 of **πείθω** “I persuaded” (Chapter 5).
+	~%-100%βέβλαμμαι#Incorrect. **βέβλαμμαι** is Principal Part 5 of **βλάπτω** “I have been hurt” (Chapter 5).
+	~%-100%ἑτελεύτησα#Incorrect. **ἑτελεύτησα** is Principal Part 3 of **τελευτάω** “I finished” (Chapter 10).
+	~%-100%πεφύλαχα#Incorrect. **πεφύλαχα** is Principal Part 4 of **φυλάττω** “I have guarded” (Chapter 3).
+	~%-100%παύσω#Incorrect. **παύσω** is Principal Part 2 of **παύω** “I will stop” (Chapter 3).
+	~%100%δεδίδαχα#Correct: **δεδίδαχα** is Principal Part 4 of **διδάσκω** “I have taught” (Chapter 4).
+	~%-100%δεδήλωμαι#Incorrect. **δεδήλωμαι** is Principal Part 5 of **δηλόω** “I have been made clear” (Chapter 10).
+	~%-100%δεδήλωκα#Incorrect. **δεδήλωκα** is Principal Part 4 of **δηλόω** “I have made clear” (Chapter 10).
+}
+
+
+::Q010::[markdown]Which Principal Part of τάττω is ‘τέταχα’?:{
 	~%100%4th#Correct: **τέταχα** is the 4th Principal Part of **τάττω** (Chapter 4).
+	~%-100%6th#Incorrect. **τέταχα** is the 4th Principal Part of **τάττω**, not the 6th.
+	~%-100%1st#Incorrect. **τέταχα** is the 4th Principal Part of **τάττω**, not the 1st.
+	~%-100%2nd#Incorrect. **τέταχα** is the 4th Principal Part of **τάττω**, not the 2nd.
 	~%-100%5th#Incorrect. **τέταχα** is the 4th Principal Part of **τάττω**, not the 5th.
 	~%-100%3rd#Incorrect. **τέταχα** is the 4th Principal Part of **τάττω**, not the 3rd.
-	~%-100%2nd#Incorrect. **τέταχα** is the 4th Principal Part of **τάττω**, not the 2nd.
-	~%-100%1st#Incorrect. **τέταχα** is the 4th Principal Part of **τάττω**, not the 1st.
 }
 
 
-::Q014::[markdown]Which Principal Part is the ‘Future, Active, Indicative, 1st person, Singular’?:{
-	~%100%2nd#Correct: ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**.
-	~%-100%5th#Incorrect. ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**, not the 5th.
-	~%-100%1st#Incorrect. ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**, not the 1st.
-	~%-100%6th#Incorrect. ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**, not the 6th.
-	~%-100%3rd#Incorrect. ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**, not the 3rd.
-	~%-100%4th#Incorrect. ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**, not the 4th.
-}
-
-
-::Q015::[markdown]Which Principal Part of θάπτω is ‘θάψω’?:{
-	~%100%2nd#Correct: **θάψω** is the 2nd Principal Part of **θάπτω** (Chapter 4).
-	~%-100%1st#Incorrect. **θάψω** is the 2nd Principal Part of **θάπτω**, not the 1st.
-	~%-100%6th#Incorrect. **θάψω** is the 2nd Principal Part of **θάπτω**, not the 6th.
-	~%-100%4th#Incorrect. **θάψω** is the 2nd Principal Part of **θάπτω**, not the 4th.
-	~%-100%5th#Incorrect. **θάψω** is the 2nd Principal Part of **θάπτω**, not the 5th.
-	~%-100%3rd#Incorrect. **θάψω** is the 2nd Principal Part of **θάπτω**, not the 3rd.
-}
-
-
-::Q016::[markdown]I teach:{
-	~%-100%βέβληκα#Incorrect. **βέβληκα** is Principal Part 4 of **βάλλω** “I have thrown” (Chapter 11).
-	~%-100%ἔπαθον#Incorrect. **ἔπαθον** is Principal Part 3 of **πάσχω** “I suffered” (Chapter 11).
-	~%-100%κεκώλῡμαι#Incorrect. **κεκώλῡμαι** is Principal Part 5 of **κωλύω** “I have been hindered” (Chapter 6).
-	~%-100%ἐνίκησα#Incorrect. **ἐνίκησα** is Principal Part 3 of **νικάω** “I won” (Chapter 9).
-	~%-100%ἔβλαψα#Incorrect. **ἔβλαψα** is Principal Part 3 of **βλάπτω** “I hurt” (Chapter 5).
-	~%100%παιδεύω#Correct: **παιδεύω** is Principal Part 1 of **παιδεύω** “I teach” (Chapter 2).
-	~%-100%ἐθέλω#Incorrect. **ἐθέλω** is Principal Part 1 of **ἐθέλω** “I am willing” (Chapter 4).
-	~%-100%δεδίδαχα#Incorrect. **δεδίδαχα** is Principal Part 4 of **διδάσκω** “I have taught” (Chapter 4).
-}
-
-
-::Q017::[markdown]I have taught:{
-	~%-100%ἠξιώθην#Incorrect. **ἠξιώθην** is Principal Part 6 of **ἀξιόω** “I was thought worthy of” (Chapter 10).
-	~%-100%δουλεύσω#Incorrect. **δουλεύσω** is Principal Part 2 of **δουλεύω** “I will be a slave” (Chapter 6).
-	~%-100%ἐχορεύθην#Incorrect. **ἐχορεύθην** is Principal Part 6 of **χορεύω** “I was danced” (Chapter 6).
-	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
-	~%-100%εἴλημμαι#Incorrect. **εἴλημμαι** is Principal Part 5 of **λαμβάνω** “I have been taken” (Chapter 11).
-	~%-100%χορεύσω#Incorrect. **χορεύσω** is Principal Part 2 of **χορεύω** “I will dance” (Chapter 6).
-	~%100%δεδίδαχα#Correct: **δεδίδαχα** is Principal Part 4 of **διδάσκω** “I have taught” (Chapter 4).
-	~%-100%σῴζω#Incorrect. **σῴζω** is Principal Part 1 of **σῴζω** “I save” (Chapter 7).
-}
-
-
-::Q018::[markdown]Which Principal Part is the ‘Aorist, Active, Indicative, 1st person, Singular’?:{
-	~%-100%5th#Incorrect. ‘Aorist, Active, Indicative, 1st person, Singular’ is the **3rd Principal Part**, not the 5th.
-	~%-100%4th#Incorrect. ‘Aorist, Active, Indicative, 1st person, Singular’ is the **3rd Principal Part**, not the 4th.
-	~%-100%1st#Incorrect. ‘Aorist, Active, Indicative, 1st person, Singular’ is the **3rd Principal Part**, not the 1st.
-	~%100%3rd#Correct: ‘Aorist, Active, Indicative, 1st person, Singular’ is the **3rd Principal Part**.
-	~%-100%6th#Incorrect. ‘Aorist, Active, Indicative, 1st person, Singular’ is the **3rd Principal Part**, not the 6th.
-	~%-100%2nd#Incorrect. ‘Aorist, Active, Indicative, 1st person, Singular’ is the **3rd Principal Part**, not the 2nd.
-}
-
-
-::Q019::[markdown]I have been buried:{
-	~%-100%ἐβλάβην#Incorrect. **ἐβλάβην** is Principal Part 6 of **βλάπτω** “I was hurt” (Chapter 5).
-	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
-	~%100%τέθαμμαι#Correct: **τέθαμμαι** is Principal Part 5 of **θάπτω** “I have been buried” (Chapter 4).
-	~%-100%βέβλαφα#Incorrect. **βέβλαφα** is Principal Part 4 of **βλάπτω** “I have hurt” (Chapter 5).
-	~%-100%δέξομαι#Incorrect. **δέξομαι** is Principal Part 2 of **δέχομαι** “I will receive” (Chapter 11).
-	~%-100%φυλάττω#Incorrect. **φυλάττω** is Principal Part 1 of **φυλάττω** “I guard” (Chapter 3).
-	~%-100%σέσωκα#Incorrect. **σέσωκα** is Principal Part 4 of **σῴζω** “I have saved” (Chapter 7).
-}
-
-
-::Q020::[markdown]Pick the 3rd Principal Part of ἐθέλω.:{
-	~%-100%ἔγραψα#Incorrect. **ἔγραψα** is Principal Part 3 of **γράφω** “I wrote” (Chapter 3).
-	~%-100%ἠθέληκα#Incorrect. **ἠθέληκα** is Principal Part 4 of **ἐθέλω** “I have been willing” (Chapter 4).
-	~%-100%ἐκέλευσα#Incorrect. **ἐκέλευσα** is Principal Part 3 of **κελεύω** “I commanded” (Chapter 2).
-	~%-100%ἐθελήσω#Incorrect. **ἐθελήσω** is Principal Part 2 of **ἐθέλω** “I will be willing” (Chapter 4).
-	~%-100%ἔθαψα#Incorrect. **ἔθαψα** is Principal Part 3 of **θάπτω** “I buried” (Chapter 4).
-	~%-100%ἔθῡσα#Incorrect. **ἔθῡσα** is Principal Part 3 of **θύω** “I sacrificed” (Chapter 3).
-	~%100%ἠθέλησα#Correct: **ἠθέλησα** is the 3rd Principal Part of **ἐθέλω** (Chapter 4).
-	~%-100%ἐθέλω#Incorrect. **ἐθέλω** is Principal Part 1 of **ἐθέλω** “I am willing” (Chapter 4).
-}
-
-
-::Q021::[markdown]Pick the 5th Principal Part of τάττω.:{
-	~%100%τέταγμαι#Correct: **τέταγμαι** is the 5th Principal Part of **τάττω** (Chapter 4).
+::Q011::[markdown]Pick the 1st Principal Part of τάττω.:{
+	~%100%τάττω#Correct: **τάττω** is the 1st Principal Part of **τάττω** (Chapter 4).
+	~%-100%θάπτω#Incorrect. **θάπτω** is Principal Part 1 of **θάπτω** “I bury” (Chapter 4).
 	~%-100%ἔταξα#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
-	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
-	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
+	~%-100%φυλάττω#Incorrect. **φυλάττω** is Principal Part 1 of **φυλάττω** “I guard” (Chapter 3).
+	~%-100%τέταγμαι#Incorrect. **τέταγμαι** is Principal Part 5 of **τάττω** “I have been drawn up (in battle)” (Chapter 4).
 	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
+	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
 	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
-	~%-100%τέθαμμαι#Incorrect. **τέθαμμαι** is Principal Part 5 of **θάπτω** “I have been buried” (Chapter 4).
-	~%-100%τέθυμαι#Incorrect. **τέθυμαι** is Principal Part 5 of **θύω** “I have been sacrificed” (Chapter 3).
 }
 
 
-::Q022::[markdown]The **5th Principal Part** is the::{
+::Q012::[markdown]The **Future (passive)** forms are based on which Principal Part?:{
+	~%-100%2nd#Incorrect. **Future (passive)** forms are based on the **6th Principal Part**, not the 2nd.
+	~%-100%1st#Incorrect. **Future (passive)** forms are based on the **6th Principal Part**, not the 1st.
+	~%-100%5th#Incorrect. **Future (passive)** forms are based on the **6th Principal Part**, not the 5th.
+	~%-100%4th#Incorrect. **Future (passive)** forms are based on the **6th Principal Part**, not the 4th.
+	~%-100%3rd#Incorrect. **Future (passive)** forms are based on the **6th Principal Part**, not the 3rd.
+	~%100%6th#Correct: **Future (passive)** forms are based on the **6th Principal Part**.
+}
+
+
+::Q013::[markdown]ἐτάχθην:{
+	~%100%I was ordered#Correct: **ἐτάχθην** is Principal Part 6 of **τάττω** “I was ordered” (Chapter 4).
+	~%-100%I will write#Incorrect. **γράψω** is Principal Part 2 of **γράφω** “I will write” (Chapter 3).
+	~%-100%I left#Incorrect. **ἔλιπον** is Principal Part 3 of **λείπω** “I left” (Chapter 7).
+	~%-100%I think worthy of#Incorrect. **ἀξιόω** is Principal Part 1 of **ἀξιόω** “I think worthy of” (Chapter 10).
+	~%-100%I ordered#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I ordered” (Chapter 4).
+	~%-100%I was ruled#Incorrect. **ἤρχθην** is Principal Part 6 of **ἄρχω** “I was ruled” (Chapter 5).
+	~%-100%I will expect#Incorrect. **ἀξιώσω** is Principal Part 2 of **ἀξιόω** “I will expect” (Chapter 10).
+	~%-100%I have been hindered#Incorrect. **κεκώλῡμαι** is Principal Part 5 of **κωλύω** “I have been hindered” (Chapter 6).
+}
+
+
+::Q014::[markdown]I ordered:{
+	~%-100%ἤγγειλα#Incorrect. **ἤγγειλα** is Principal Part 3 of **ἀγγέλλλω** “I announced” (Chapter 10).
+	~%-100%πείσομαι#Incorrect. **πείσομαι** is Principal Part 2 of **πάσχω** “I will suffer” (Chapter 11).
+	~%100%ἔταξα#Correct: **ἔταξα** is Principal Part 3 of **τάττω** “I ordered” (Chapter 4).
+	~%-100%εἴλημμαι#Incorrect. **εἴλημμαι** is Principal Part 5 of **λαμβάνω** “I have been taken” (Chapter 11).
+	~%-100%ἐποίησα#Incorrect. **ἐποίησα** is Principal Part 3 of **ποιέω** “I made” (Chapter 9).
+	~%-100%ἔβλαψα#Incorrect. **ἔβλαψα** is Principal Part 3 of **βλάπτω** “I hurt” (Chapter 5).
+	~%-100%πέπεικα#Incorrect. **πέπεικα** is Principal Part 4 of **πείθω** “I have persuaded” (Chapter 5).
+}
+
+
+::Q015::[markdown]Pick the 6th Principal Part of τάττω.:{
+	~%-100%ἐτάφην#Incorrect. **ἐτάφην** is Principal Part 6 of **θάπτω** “I was buried” (Chapter 4).
+	~%-100%ἔταξα#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
+	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
+	~%-100%ἐτύθην#Incorrect. **ἐτύθην** is Principal Part 6 of **θύω** “I was sacrificed” (Chapter 3).
+	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
+	~%100%ἐτάχθην#Correct: **ἐτάχθην** is the 6th Principal Part of **τάττω** (Chapter 4).
+	~%-100%τέταγμαι#Incorrect. **τέταγμαι** is Principal Part 5 of **τάττω** “I have been drawn up (in battle)” (Chapter 4).
+	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
+}
+
+
+::Q016::[markdown]The **5th Principal Part** is the::{
+	~%-100%Perfect, Active, Indicative, 1st person, Singular#Incorrect. The 5th Principal Part is **Perfect, Middle/Passive, Indicative, 1st person, Singular**, not “Perfect, Active, Indicative, 1st person, Singular”.
 	~%-100%Present, Active, Indicative, 1st person, Singular#Incorrect. The 5th Principal Part is **Perfect, Middle/Passive, Indicative, 1st person, Singular**, not “Present, Active, Indicative, 1st person, Singular”.
 	~%-100%Aorist, Active, Indicative, 1st person, Singular#Incorrect. The 5th Principal Part is **Perfect, Middle/Passive, Indicative, 1st person, Singular**, not “Aorist, Active, Indicative, 1st person, Singular”.
-	~%-100%Perfect, Active, Indicative, 1st person, Singular#Incorrect. The 5th Principal Part is **Perfect, Middle/Passive, Indicative, 1st person, Singular**, not “Perfect, Active, Indicative, 1st person, Singular”.
 	~%100%Perfect, Middle/Passive, Indicative, 1st person, Singular#Correct: the 5th Principal Part is **Perfect, Middle/Passive, Indicative, 1st person, Singular**.
 	~%-100%Future, Active, Indicative, 1st person, Singular#Incorrect. The 5th Principal Part is **Perfect, Middle/Passive, Indicative, 1st person, Singular**, not “Future, Active, Indicative, 1st person, Singular”.
 	~%-100%Aorist, Passive, Indicative, 1st person, Singular#Incorrect. The 5th Principal Part is **Perfect, Middle/Passive, Indicative, 1st person, Singular**, not “Aorist, Passive, Indicative, 1st person, Singular”.
 }
 
 
-::Q023::[markdown]ἔταξα:{
-	~%-100%I will bury#Incorrect. **θάψω** is Principal Part 2 of **θάπτω** “I will bury” (Chapter 4).
-	~%-100%I thought worthy of#Incorrect. **ἠξίωσα** is Principal Part 3 of **ἀξιόω** “I thought worthy of” (Chapter 10).
-	~%-100%I was thought worthy of#Incorrect. **ἠξιώθην** is Principal Part 6 of **ἀξιόω** “I was thought worthy of” (Chapter 10).
-	~%-100%I was freed#Incorrect. **ἔλύθην** is Principal Part 6 of **λύω** “I was freed” (Chapter 2).
-	~%-100%I have been drawn#Incorrect. **γέγραμμαι** is Principal Part 5 of **γράφω** “I have been drawn” (Chapter 3).
-	~%-100%I have been thrown#Incorrect. **βέβλημαι** is Principal Part 5 of **βάλλω** “I have been thrown” (Chapter 11).
-	~%-100%I have come#Incorrect. **ἥκω** is Principal Part 1 of **ἥκω** “I have come” (Chapter 8).
-	~%100%I drew up (in battle)#Correct: **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
-}
-
-
-::Q024::[markdown]I will order:{
-	~%-100%κεκέλευσμαι#Incorrect. **κεκέλευσμαι** is Principal Part 5 of **κελεύω** “I have been commanded” (Chapter 2).
-	~%-100%κωλύσω#Incorrect. **κωλύσω** is Principal Part 2 of **κωλύω** “I will hinder” (Chapter 6).
-	~%100%τάξω#Correct: **τάξω** is Principal Part 2 of **τάττω** “I will order” (Chapter 4).
-	~%-100%πεπαίδευκα#Incorrect. **πεπαίδευκα** is Principal Part 4 of **παιδεύω** “I have educated” (Chapter 2).
-	~%-100%δέδεγμαι#Incorrect. **δέδεγμαι** is Principal Part 5 of **δέχομαι** “I have received” (Chapter 11).
-	~%-100%γέγραφα#Incorrect. **γέγραφα** is Principal Part 4 of **γράφω** “I have written” (Chapter 3).
-	~%-100%ἦρξα#Incorrect. **ἦρξα** is Principal Part 3 of **ἄρχω** “I ruled” (Chapter 5).
-	~%-100%λέλειμμαι#Incorrect. **λέλειμμαι** is Principal Part 5 of **λείπω** “I have been left” (Chapter 7).
-}
-
-
-::Q025::[markdown]I have been arranged:{
-	~%-100%ἐγράφην#Incorrect. **ἐγράφην** is Principal Part 6 of **γράφω** “I was written” (Chapter 3).
-	~%-100%ἐπαίδευσα#Incorrect. **ἐπαίδευσα** is Principal Part 3 of **παιδεύω** “I educated” (Chapter 2).
-	~%100%τέταγμαι#Correct: **τέταγμαι** is Principal Part 5 of **τάττω** “I have been arranged” (Chapter 4).
-	~%-100%παύσω#Incorrect. **παύσω** is Principal Part 2 of **παύω** “I will stop” (Chapter 3).
-	~%-100%γράφω#Incorrect. **γράφω** is Principal Part 1 of **γράφω** “I write” (Chapter 3).
-	~%-100%τελευτάω#Incorrect. **τελευτάω** is Principal Part 1 of **τελευτάω** “I finish” (Chapter 10).
-	~%-100%πέπομφα#Incorrect. **πέπομφα** is Principal Part 4 of **πέμπω** “I have sent” (Chapter 2).
+::Q017::[markdown]I have been buried:{
+	~%-100%βέβλημαι#Incorrect. **βέβλημαι** is Principal Part 5 of **βάλλω** “I have been thrown” (Chapter 11).
 	~%-100%ἔγραψα#Incorrect. **ἔγραψα** is Principal Part 3 of **γράφω** “I wrote” (Chapter 3).
-}
-
-
-::Q026::[markdown]Pick the 5th Principal Part of διδάσκω.:{
-	~%100%δεδίδαγμαι#Correct: **δεδίδαγμαι** is the 5th Principal Part of **διδάσκω** (Chapter 4).
-	~%-100%διδάσκω#Incorrect. **διδάσκω** is Principal Part 1 of **διδάσκω** “I teach” (Chapter 4).
-	~%-100%ἐδίδαξα#Incorrect. **ἐδίδαξα** is Principal Part 3 of **διδάσκω** “I taught” (Chapter 4).
-	~%-100%ἐδιδάχθην#Incorrect. **ἐδιδάχθην** is Principal Part 6 of **διδάσκω** “I was taught” (Chapter 4).
-	~%-100%πεπαίδευμαι#Incorrect. **πεπαίδευμαι** is Principal Part 5 of **παιδεύω** “I have been educated” (Chapter 2).
-	~%-100%διδάξω#Incorrect. **διδάξω** is Principal Part 2 of **διδάσκω** “I will teach” (Chapter 4).
-	~%-100%πεφύλαγμαι#Incorrect. **πεφύλαγμαι** is Principal Part 5 of **φυλάττω** “I have been guarded” (Chapter 3).
-	~%-100%δεδίδαχα#Incorrect. **δεδίδαχα** is Principal Part 4 of **διδάσκω** “I have taught” (Chapter 4).
-}
-
-
-::Q027::[markdown]Pick the 4th Principal Part of τάττω.:{
-	~%-100%τέταγμαι#Incorrect. **τέταγμαι** is Principal Part 5 of **τάττω** “I have been drawn up (in battle)” (Chapter 4).
-	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
-	~%100%τέταχα#Correct: **τέταχα** is the 4th Principal Part of **τάττω** (Chapter 4).
-	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
-	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
-	~%-100%ἔταξα#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
-	~%-100%τέθυκα#Incorrect. **τέθυκα** is Principal Part 4 of **θύω** “I have sacrificed” (Chapter 3).
-	~%-100%τέθαμμαι#Incorrect. **τέθαμμαι** is Principal Part 5 of **θάπτω** “I have been buried” (Chapter 4).
-}
-
-
-::Q028::[markdown]I will be willing:{
-	~%-100%ἐδιδάχθην#Incorrect. **ἐδιδάχθην** is Principal Part 6 of **διδάσκω** “I was taught” (Chapter 4).
-	~%100%ἐθελήσω#Correct: **ἐθελήσω** is Principal Part 2 of **ἐθέλω** “I will be willing” (Chapter 4).
-	~%-100%μένω#Incorrect. **μένω** is Principal Part 1 of **μένω** “I remain” (Chapter 10).
-	~%-100%δηλώσω#Incorrect. **δηλώσω** is Principal Part 2 of **δηλόω** “I will make clear” (Chapter 10).
-	~%-100%δέξομαι#Incorrect. **δέξομαι** is Principal Part 2 of **δέχομαι** “I will receive” (Chapter 11).
-	~%-100%πεποίημαι#Incorrect. **πεποίημαι** is Principal Part 5 of **ποιέω** “I have been made” (Chapter 9).
-	~%-100%ἠδίκηκα#Incorrect. **ἠδίκηκα** is Principal Part 4 of **ἀδικέω** “I have done wrong” (Chapter 9).
-	~%-100%ἄρξω#Incorrect. **ἄρξω** is Principal Part 2 of **ἄρχω** “I will rule” (Chapter 5).
-}
-
-
-::Q029::[markdown]I will arrange:{
-	~%-100%δεδήλωμαι#Incorrect. **δεδήλωμαι** is Principal Part 5 of **δηλόω** “I have been made clear” (Chapter 10).
-	~%-100%κλέπτω#Incorrect. **κλέπτω** is Principal Part 1 of **κλέπτω** “I steal” (Chapter 7).
-	~%-100%ἐδεξάμην#Incorrect. **ἐδεξάμην** is Principal Part 3 of **δέχομαι** “I received” (Chapter 11).
-	~%-100%βαλῶ#Incorrect. **βαλῶ** is Principal Part 2 of **βάλλω** “I will throw” (Chapter 11).
-	~%-100%τετελεύτηκα#Incorrect. **τετελεύτηκα** is Principal Part 4 of **τελευτάω** “I have finished” (Chapter 10).
-	~%-100%ἠξίωκα#Incorrect. **ἠξίωκα** is Principal Part 4 of **ἀξιόω** “I have thought worthy of” (Chapter 10).
-	~%-100%ἀκούσομαι#Incorrect. **ἀκούσομαι** is Principal Part 2 of **ἀκούω** “I will hear” (Chapter 11).
-	~%100%τάξω#Correct: **τάξω** is Principal Part 2 of **τάττω** “I will arrange” (Chapter 4).
-}
-
-
-::Q030::[markdown]The **Aorist (active, middle)** forms are based on which Principal Part?:{
-	~%-100%6th#Incorrect. **Aorist (active, middle)** forms are based on the **3rd Principal Part**, not the 6th.
-	~%-100%5th#Incorrect. **Aorist (active, middle)** forms are based on the **3rd Principal Part**, not the 5th.
-	~%100%3rd#Correct: **Aorist (active, middle)** forms are based on the **3rd Principal Part**.
-	~%-100%1st#Incorrect. **Aorist (active, middle)** forms are based on the **3rd Principal Part**, not the 1st.
-	~%-100%2nd#Incorrect. **Aorist (active, middle)** forms are based on the **3rd Principal Part**, not the 2nd.
-	~%-100%4th#Incorrect. **Aorist (active, middle)** forms are based on the **3rd Principal Part**, not the 4th.
-}
-
-
-::Q031::[markdown]I will wish:{
-	~%-100%ἐδούλευσα#Incorrect. **ἐδούλευσα** is Principal Part 3 of **δουλεύω** “I was a slave” (Chapter 6).
-	~%-100%ἦχα#Incorrect. **ἦχα** is Principal Part 4 of **ἄγω** “I have led” (Chapter 8).
-	~%-100%νικάω#Incorrect. **νικάω** is Principal Part 1 of **νικάω** “I win” (Chapter 9).
-	~%-100%ἔγραψα#Incorrect. **ἔγραψα** is Principal Part 3 of **γράφω** “I wrote” (Chapter 3).
-	~%-100%ἀδικήσω#Incorrect. **ἀδικήσω** is Principal Part 2 of **ἀδικέω** “I will do wrong” (Chapter 9).
-	~%100%ἐθελήσω#Correct: **ἐθελήσω** is Principal Part 2 of **ἐθέλω** “I will wish” (Chapter 4).
-	~%-100%ἠδίκηκα#Incorrect. **ἠδίκηκα** is Principal Part 4 of **ἀδικέω** “I have done wrong” (Chapter 9).
-	~%-100%ἐτιμήθην#Incorrect. **ἐτιμήθην** is Principal Part 6 of **τιμάω** “I was honored” (Chapter 9).
-}
-
-
-::Q032::[markdown]The **Future (active, middle)** forms are based on which Principal Part?:{
-	~%-100%4th#Incorrect. **Future (active, middle)** forms are based on the **2nd Principal Part**, not the 4th.
-	~%-100%1st#Incorrect. **Future (active, middle)** forms are based on the **2nd Principal Part**, not the 1st.
-	~%-100%6th#Incorrect. **Future (active, middle)** forms are based on the **2nd Principal Part**, not the 6th.
-	~%100%2nd#Correct: **Future (active, middle)** forms are based on the **2nd Principal Part**.
-	~%-100%5th#Incorrect. **Future (active, middle)** forms are based on the **2nd Principal Part**, not the 5th.
-	~%-100%3rd#Incorrect. **Future (active, middle)** forms are based on the **2nd Principal Part**, not the 3rd.
-}
-
-
-::Q033::[markdown]I was arranged:{
-	~%-100%κωλύσω#Incorrect. **κωλύσω** is Principal Part 2 of **κωλύω** “I will hinder” (Chapter 6).
-	~%-100%τέθαμμαι#Incorrect. **τέθαμμαι** is Principal Part 5 of **θάπτω** “I have been buried” (Chapter 4).
-	~%-100%ἔλυσα#Incorrect. **ἔλυσα** is Principal Part 3 of **λύω** “I unbound” (Chapter 2).
-	~%-100%ἐπαύθην#Incorrect. **ἐπαύθην** is Principal Part 6 of **παύω** “I was stopped” (Chapter 3).
-	~%100%ἐτάχθην#Correct: **ἐτάχθην** is Principal Part 6 of **τάττω** “I was arranged” (Chapter 4).
-	~%-100%πράττω#Incorrect. **πράττω** is Principal Part 1 of **πράττω** “I do” (Chapter 5).
+	~%-100%πέμπω#Incorrect. **πέμπω** is Principal Part 1 of **πέμπω** “I send” (Chapter 2).
+	~%100%τέθαμμαι#Correct: **τέθαμμαι** is Principal Part 5 of **θάπτω** “I have been buried” (Chapter 4).
+	~%-100%ἠδίκησα#Incorrect. **ἠδίκησα** is Principal Part 3 of **ἀδικέω** “I did wrong” (Chapter 9).
 	~%-100%κέκλεμμαι#Incorrect. **κέκλεμμαι** is Principal Part 5 of **κλέπτω** “I have been stolen” (Chapter 7).
-	~%-100%ἀξιώσω#Incorrect. **ἀξιώσω** is Principal Part 2 of **ἀξιόω** “I will think worthy of” (Chapter 10).
+	~%-100%καλέω#Incorrect. **καλέω** is Principal Part 1 of **καλέω** “I call” (Chapter 10).
 }
 
 
-::Q034::[markdown]I have drawn up (in battle):{
-	~%-100%ἤγγελκα#Incorrect. **ἤγγελκα** is Principal Part 4 of **ἀγγέλλλω** “I have announced” (Chapter 10).
-	~%-100%ἐλείφθην#Incorrect. **ἐλείφθην** is Principal Part 6 of **λείπω** “I was left” (Chapter 7).
-	~%100%τέταχα#Correct: **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
-	~%-100%πεπολίτευκα#Incorrect. **πεπολίτευκα** is Principal Part 4 of **πολῑτεύω** “I have lived as a citizen” (Chapter 6).
-	~%-100%ἀκούσομαι#Incorrect. **ἀκούσομαι** is Principal Part 2 of **ἀκούω** “I will hear” (Chapter 11).
-	~%-100%χορεύσω#Incorrect. **χορεύσω** is Principal Part 2 of **χορεύω** “I will dance” (Chapter 6).
-	~%-100%λείπω#Incorrect. **λείπω** is Principal Part 1 of **λείπω** “I leave” (Chapter 7).
-	~%-100%ἐδεξάμην#Incorrect. **ἐδεξάμην** is Principal Part 3 of **δέχομαι** “I received” (Chapter 11).
+::Q018::[markdown]I arranged:{
+	~%-100%ἠδικήθην#Incorrect. **ἠδικήθην** is Principal Part 6 of **ἀδικέω** “I was wronged” (Chapter 9).
+	~%-100%ἀποδέχομαι#Incorrect. **ἀποδέχομαι** is Principal Part 1 of **ἀποδέχομαι** “receive favorably” (Chapter 11).
+	~%-100%φυλάξω#Incorrect. **φυλάξω** is Principal Part 2 of **φυλάττω** “I will guard” (Chapter 3).
+	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
+	~%100%ἔταξα#Correct: **ἔταξα** is Principal Part 3 of **τάττω** “I arranged” (Chapter 4).
+	~%-100%πράττω#Incorrect. **πράττω** is Principal Part 1 of **πράττω** “I do” (Chapter 5).
+	~%-100%γέγραμμαι#Incorrect. **γέγραμμαι** is Principal Part 5 of **γράφω** “I have been written” (Chapter 3).
 }
 
 
-::Q035::[markdown]Pick the 5th Principal Part of τάττω.:{
-	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
-	~%-100%ἔταξα#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
-	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
-	~%-100%τέθυμαι#Incorrect. **τέθυμαι** is Principal Part 5 of **θύω** “I have been sacrificed” (Chapter 3).
+::Q019::[markdown]ἐθελήσω:{
+	~%100%I will wish#Correct: **ἐθελήσω** is Principal Part 2 of **ἐθέλω** “I will wish” (Chapter 4).
+	~%-100%I was announced#Incorrect. **ἠγγέλθην** is Principal Part 6 of **ἀγγέλλλω** “I was announced” (Chapter 10).
+	~%-100%I have been left#Incorrect. **λέλειμμαι** is Principal Part 5 of **λείπω** “I have been left” (Chapter 7).
+	~%-100%I bury#Incorrect. **θάπτω** is Principal Part 1 of **θάπτω** “I bury” (Chapter 4).
+	~%-100%I hurt#Incorrect. **βλάπτω** is Principal Part 1 of **βλάπτω** “I hurt” (Chapter 5).
+	~%-100%I finished#Incorrect. **ἑτελεύτησα** is Principal Part 3 of **τελευτάω** “I finished” (Chapter 10).
+	~%-100%I have been a slave#Incorrect. **δεδούλευκα** is Principal Part 4 of **δουλεύω** “I have been a slave” (Chapter 6).
+	~%-100%I win#Incorrect. **νικάω** is Principal Part 1 of **νικάω** “I win” (Chapter 9).
+}
+
+
+::Q020::[markdown]ἐδίδαξα:{
+	~%-100%I leave behind#Incorrect. **λείπω** is Principal Part 1 of **λείπω** “I leave behind” (Chapter 7).
+	~%-100%I will think worthy of#Incorrect. **ἀξιώσω** is Principal Part 2 of **ἀξιόω** “I will think worthy of” (Chapter 10).
+	~%-100%I called#Incorrect. **ἑκάλησα** is Principal Part 3 of **καλέω** “I called” (Chapter 10).
+	~%-100%I will order#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will order” (Chapter 4).
+	~%-100%I have commanded#Incorrect. **κεκέλευκα** is Principal Part 4 of **κελεύω** “I have commanded” (Chapter 2).
+	~%-100%receive favorably#Incorrect. **ἀποδέχομαι** is Principal Part 1 of **ἀποδέχομαι** “receive favorably” (Chapter 11).
+	~%100%I taught#Correct: **ἐδίδαξα** is Principal Part 3 of **διδάσκω** “I taught” (Chapter 4).
+	~%-100%I will do#Incorrect. **πράξω** is Principal Part 2 of **πράττω** “I will do” (Chapter 5).
+}
+
+
+::Q021::[markdown]I have been willing:{
 	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
-	~%-100%τέθαμμαι#Incorrect. **τέθαμμαι** is Principal Part 5 of **θάπτω** “I have been buried” (Chapter 4).
-	~%100%τέταγμαι#Correct: **τέταγμαι** is the 5th Principal Part of **τάττω** (Chapter 4).
+	~%-100%ἠξιώθην#Incorrect. **ἠξιώθην** is Principal Part 6 of **ἀξιόω** “I was thought worthy of” (Chapter 10).
+	~%100%ἠθέληκα#Correct: **ἠθέληκα** is Principal Part 4 of **ἐθέλω** “I have been willing” (Chapter 4).
+	~%-100%ἐπράχθην#Incorrect. **ἐπράχθην** is Principal Part 6 of **πράττω** “I was done” (Chapter 5).
+	~%-100%ἔπραξα#Incorrect. **ἔπραξα** is Principal Part 3 of **πράττω** “I did” (Chapter 5).
+	~%-100%ἐπαίδευσα#Incorrect. **ἐπαίδευσα** is Principal Part 3 of **παιδεύω** “I educated” (Chapter 2).
+	~%-100%χορεύω#Incorrect. **χορεύω** is Principal Part 1 of **χορεύω** “I dance” (Chapter 6).
+	~%-100%λέλυκα#Incorrect. **λέλυκα** is Principal Part 4 of **λύω** “I have unbound” (Chapter 2).
+}
+
+
+::Q022::[markdown]I was willing:{
+	~%100%ἠθέλησα#Correct: **ἠθέλησα** is Principal Part 3 of **ἐθέλω** “I was willing” (Chapter 4).
+	~%-100%λέλειμμαι#Incorrect. **λέλειμμαι** is Principal Part 5 of **λείπω** “I have been left” (Chapter 7).
+	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
+	~%-100%λύω#Incorrect. **λύω** is Principal Part 1 of **λύω** “I unbind” (Chapter 2).
+	~%-100%ἄξω#Incorrect. **ἄξω** is Principal Part 2 of **ἄγω** “I will lead” (Chapter 8).
+	~%-100%παιδεύω#Incorrect. **παιδεύω** is Principal Part 1 of **παιδεύω** “I educate” (Chapter 2).
+	~%-100%ἀξιώσω#Incorrect. **ἀξιώσω** is Principal Part 2 of **ἀξιόω** “I will think worthy of” (Chapter 10).
+	~%-100%βλάψω#Incorrect. **βλάψω** is Principal Part 2 of **βλάπτω** “I will hurt” (Chapter 5).
+}
+
+
+::Q023::[markdown]I will arrange:{
+	~%-100%λύσω#Incorrect. **λύσω** is Principal Part 2 of **λύω** “I will unbind” (Chapter 2).
+	~%-100%ἐπαίδευσα#Incorrect. **ἐπαίδευσα** is Principal Part 3 of **παιδεύω** “I educated” (Chapter 2).
+	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
+	~%-100%ἀδικήσω#Incorrect. **ἀδικήσω** is Principal Part 2 of **ἀδικέω** “I will do wrong” (Chapter 9).
+	~%-100%ἔγραψα#Incorrect. **ἔγραψα** is Principal Part 3 of **γράφω** “I wrote” (Chapter 3).
+	~%100%τάξω#Correct: **τάξω** is Principal Part 2 of **τάττω** “I will arrange” (Chapter 4).
+	~%-100%ἐδήλωσα#Incorrect. **ἐδήλωσα** is Principal Part 3 of **δηλόω** “I made clear” (Chapter 10).
 	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
 }
 
 
-::Q036::[markdown]The **Perfect (active)** forms are based on which Principal Part?:{
-	~%-100%6th#Incorrect. **Perfect (active)** forms are based on the **4th Principal Part**, not the 6th.
+::Q024::[markdown]The **Perfect (active)** forms are based on which Principal Part?:{
 	~%-100%3rd#Incorrect. **Perfect (active)** forms are based on the **4th Principal Part**, not the 3rd.
-	~%-100%2nd#Incorrect. **Perfect (active)** forms are based on the **4th Principal Part**, not the 2nd.
+	~%-100%6th#Incorrect. **Perfect (active)** forms are based on the **4th Principal Part**, not the 6th.
 	~%-100%1st#Incorrect. **Perfect (active)** forms are based on the **4th Principal Part**, not the 1st.
+	~%-100%2nd#Incorrect. **Perfect (active)** forms are based on the **4th Principal Part**, not the 2nd.
 	~%100%4th#Correct: **Perfect (active)** forms are based on the **4th Principal Part**.
 	~%-100%5th#Incorrect. **Perfect (active)** forms are based on the **4th Principal Part**, not the 5th.
 }
 
 
-::Q037::[markdown]Pick the 3rd Principal Part of τάττω.:{
-	~%-100%ἔθαψα#Incorrect. **ἔθαψα** is Principal Part 3 of **θάπτω** “I buried” (Chapter 4).
-	~%-100%τέταγμαι#Incorrect. **τέταγμαι** is Principal Part 5 of **τάττω** “I have been drawn up (in battle)” (Chapter 4).
-	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
-	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
-	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
-	~%-100%ἔπαυσα#Incorrect. **ἔπαυσα** is Principal Part 3 of **παύω** “I stopped” (Chapter 3).
-	~%100%ἔταξα#Correct: **ἔταξα** is the 3rd Principal Part of **τάττω** (Chapter 4).
-	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
+::Q025::[markdown]Which Principal Part of ἐθέλω is ‘ἐθέλω’?:{
+	~%-100%5th#Incorrect. **ἐθέλω** is the 1st Principal Part of **ἐθέλω**, not the 5th.
+	~%-100%2nd#Incorrect. **ἐθέλω** is the 1st Principal Part of **ἐθέλω**, not the 2nd.
+	~%100%1st#Correct: **ἐθέλω** is the 1st Principal Part of **ἐθέλω** (Chapter 4).
+	~%-100%4th#Incorrect. **ἐθέλω** is the 1st Principal Part of **ἐθέλω**, not the 4th.
+	~%-100%6th#Incorrect. **ἐθέλω** is the 1st Principal Part of **ἐθέλω**, not the 6th.
+	~%-100%3rd#Incorrect. **ἐθέλω** is the 1st Principal Part of **ἐθέλω**, not the 3rd.
 }
 
 
-::Q038::[markdown]I wish:{
-	~%-100%πολῑτεύω#Incorrect. **πολῑτεύω** is Principal Part 1 of **πολῑτεύω** “I live as a citizen” (Chapter 6).
-	~%100%ἐθέλω#Correct: **ἐθέλω** is Principal Part 1 of **ἐθέλω** “I wish” (Chapter 4).
-	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
-	~%-100%ἐκελεύσθην#Incorrect. **ἐκελεύσθην** is Principal Part 6 of **κελεύω** “I was commanded” (Chapter 2).
-	~%-100%ἦρξα#Incorrect. **ἦρξα** is Principal Part 3 of **ἄρχω** “I ruled” (Chapter 5).
-	~%-100%δηλόω#Incorrect. **δηλόω** is Principal Part 1 of **δηλόω** “I make clear” (Chapter 10).
-	~%-100%σώσω#Incorrect. **σώσω** is Principal Part 2 of **σῴζω** “I will save” (Chapter 7).
-	~%-100%ἐπολίτευσα#Incorrect. **ἐπολίτευσα** is Principal Part 3 of **πολῑτεύω** “I lived as a citizen” (Chapter 6).
-}
-
-
-::Q039::[markdown]Pick the 2nd Principal Part of διδάσκω.:{
-	~%-100%φυλάξω#Incorrect. **φυλάξω** is Principal Part 2 of **φυλάττω** “I will guard” (Chapter 3).
-	~%-100%ἐδίδαξα#Incorrect. **ἐδίδαξα** is Principal Part 3 of **διδάσκω** “I taught” (Chapter 4).
-	~%-100%δεδίδαγμαι#Incorrect. **δεδίδαγμαι** is Principal Part 5 of **διδάσκω** “I have been taught” (Chapter 4).
-	~%-100%διδάσκω#Incorrect. **διδάσκω** is Principal Part 1 of **διδάσκω** “I teach” (Chapter 4).
-	~%-100%ἐδιδάχθην#Incorrect. **ἐδιδάχθην** is Principal Part 6 of **διδάσκω** “I was taught” (Chapter 4).
-	~%100%διδάξω#Correct: **διδάξω** is the 2nd Principal Part of **διδάσκω** (Chapter 4).
-	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
-	~%-100%δεδίδαχα#Incorrect. **δεδίδαχα** is Principal Part 4 of **διδάσκω** “I have taught” (Chapter 4).
-}
-
-
-::Q040::[markdown]Pick the 6th Principal Part of διδάσκω.:{
-	~%-100%διδάσκω#Incorrect. **διδάσκω** is Principal Part 1 of **διδάσκω** “I teach” (Chapter 4).
-	~%-100%δεδίδαγμαι#Incorrect. **δεδίδαγμαι** is Principal Part 5 of **διδάσκω** “I have been taught” (Chapter 4).
-	~%-100%ἐδίδαξα#Incorrect. **ἐδίδαξα** is Principal Part 3 of **διδάσκω** “I taught” (Chapter 4).
-	~%-100%δεδίδαχα#Incorrect. **δεδίδαχα** is Principal Part 4 of **διδάσκω** “I have taught” (Chapter 4).
-	~%-100%ἐφυλάχθην#Incorrect. **ἐφυλάχθην** is Principal Part 6 of **φυλάττω** “I was guarded” (Chapter 3).
-	~%-100%διδάξω#Incorrect. **διδάξω** is Principal Part 2 of **διδάσκω** “I will teach” (Chapter 4).
-	~%100%ἐδιδάχθην#Correct: **ἐδιδάχθην** is the 6th Principal Part of **διδάσκω** (Chapter 4).
-	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
-}
-
-
-::Q041::[markdown]Which of these forms is based on the **6th Principal Part**?:{
-	~%-100%Aorist (active, middle)#Incorrect. **Aorist (active, middle)** forms are based on the 3rd Principal Part, not the 6th.
-	~%-100%Imperfect (active, middle, passive)#Incorrect. **Imperfect (active, middle, passive)** forms are based on the 1st Principal Part, not the 6th.
-	~%-100%Pluperfect (middle/passive)#Incorrect. **Pluperfect (middle/passive)** forms are based on the 5th Principal Part, not the 6th.
-	~%100%Aorist (passive)#Correct: **Aorist (passive)** forms are based on the 6th Principal Part.
-	~%-100%Perfect (middle/passive)#Incorrect. **Perfect (middle/passive)** forms are based on the 5th Principal Part, not the 6th.
-	~%-100%Future (active, middle)#Incorrect. **Future (active, middle)** forms are based on the 2nd Principal Part, not the 6th.
-	~%-100%Pluperfect (active)#Incorrect. **Pluperfect (active)** forms are based on the 4th Principal Part, not the 6th.
-	~%-100%Present (active, middle, passive)#Incorrect. **Present (active, middle, passive)** forms are based on the 1st Principal Part, not the 6th.
-}
-
-
-::Q042::[markdown]I was willing:{
-	~%-100%θύω#Incorrect. **θύω** is Principal Part 1 of **θύω** “I sacrifice” (Chapter 3).
-	~%-100%ἔσωσα#Incorrect. **ἔσωσα** is Principal Part 3 of **σῴζω** “I saved” (Chapter 7).
-	~%-100%κεχόρευκα#Incorrect. **κεχόρευκα** is Principal Part 4 of **χορεύω** “I have danced” (Chapter 6).
-	~%100%ἠθέλησα#Correct: **ἠθέλησα** is Principal Part 3 of **ἐθέλω** “I was willing” (Chapter 4).
-	~%-100%ἐγράφην#Incorrect. **ἐγράφην** is Principal Part 6 of **γράφω** “I was written” (Chapter 3).
-	~%-100%κέκλοφα#Incorrect. **κέκλοφα** is Principal Part 4 of **κλέπτω** “I have stolen” (Chapter 7).
-	~%-100%πολῑτεύω#Incorrect. **πολῑτεύω** is Principal Part 1 of **πολῑτεύω** “I live as a citizen” (Chapter 6).
-	~%-100%τιμάω#Incorrect. **τιμάω** is Principal Part 1 of **τιμάω** “I honor” (Chapter 9).
-}
-
-
-::Q043::[markdown]I have unbound:{
-	~%-100%πεφύλαχα#Incorrect. **πεφύλαχα** is Principal Part 4 of **φυλάττω** “I have guarded” (Chapter 3).
-	~%-100%ἐνίκησα#Incorrect. **ἐνίκησα** is Principal Part 3 of **νικάω** “I won” (Chapter 9).
-	~%-100%ἦγμαι#Incorrect. **ἦγμαι** is Principal Part 5 of **ἄγω** “I have been led” (Chapter 8).
-	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
-	~%100%λέλυκα#Correct: **λέλυκα** is Principal Part 4 of **λύω** “I have unbound” (Chapter 2).
-	~%-100%ἐπαίδευσα#Incorrect. **ἐπαίδευσα** is Principal Part 3 of **παιδεύω** “I educated” (Chapter 2).
-	~%-100%νικήσω#Incorrect. **νικήσω** is Principal Part 2 of **νικάω** “I will win” (Chapter 9).
-}
-
-
-::Q044::[markdown]The **Pluperfect (middle/passive)** forms are based on which Principal Part?:{
-	~%-100%4th#Incorrect. **Pluperfect (middle/passive)** forms are based on the **5th Principal Part**, not the 4th.
-	~%-100%2nd#Incorrect. **Pluperfect (middle/passive)** forms are based on the **5th Principal Part**, not the 2nd.
-	~%-100%3rd#Incorrect. **Pluperfect (middle/passive)** forms are based on the **5th Principal Part**, not the 3rd.
-	~%-100%1st#Incorrect. **Pluperfect (middle/passive)** forms are based on the **5th Principal Part**, not the 1st.
-	~%100%5th#Correct: **Pluperfect (middle/passive)** forms are based on the **5th Principal Part**.
-	~%-100%6th#Incorrect. **Pluperfect (middle/passive)** forms are based on the **5th Principal Part**, not the 6th.
-}
-
-
-::Q045::[markdown]I arrange:{
-	~%100%τάττω#Correct: **τάττω** is Principal Part 1 of **τάττω** “I arrange” (Chapter 4).
-	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
-	~%-100%κέκλοφα#Incorrect. **κέκλοφα** is Principal Part 4 of **κλέπτω** “I have stolen” (Chapter 7).
-	~%-100%λέλυκα#Incorrect. **λέλυκα** is Principal Part 4 of **λύω** “I have unbound” (Chapter 2).
-	~%-100%ἀκήκοα#Incorrect. **ἀκήκοα** is Principal Part 4 of **ἀκούω** “I have heard” (Chapter 11).
-	~%-100%κωλύω#Incorrect. **κωλύω** is Principal Part 1 of **κωλύω** “I hinder” (Chapter 6).
-	~%-100%τετίμηκα#Incorrect. **τετίμηκα** is Principal Part 4 of **τιμάω** “I have honored” (Chapter 9).
-	~%-100%πάσχω#Incorrect. **πάσχω** is Principal Part 1 of **πάσχω** “I suffer” (Chapter 11).
-}
-
-
-::Q046::[markdown]Pick the 1st Principal Part of τάττω.:{
-	~%-100%ἔταξα#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
-	~%100%τάττω#Correct: **τάττω** is the 1st Principal Part of **τάττω** (Chapter 4).
-	~%-100%φυλάττω#Incorrect. **φυλάττω** is Principal Part 1 of **φυλάττω** “I guard” (Chapter 3).
-	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
-	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
-	~%-100%τέταγμαι#Incorrect. **τέταγμαι** is Principal Part 5 of **τάττω** “I have been drawn up (in battle)” (Chapter 4).
-	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
-	~%-100%θάπτω#Incorrect. **θάπτω** is Principal Part 1 of **θάπτω** “I bury” (Chapter 4).
-}
-
-
-::Q047::[markdown]Pick the 3rd Principal Part of θάπτω.:{
-	~%-100%ἔθῡσα#Incorrect. **ἔθῡσα** is Principal Part 3 of **θύω** “I sacrificed” (Chapter 3).
-	~%-100%τέθαμμαι#Incorrect. **τέθαμμαι** is Principal Part 5 of **θάπτω** “I have been buried” (Chapter 4).
-	~%-100%ἔταξα#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
-	~%-100%ἐτάφην#Incorrect. **ἐτάφην** is Principal Part 6 of **θάπτω** “I was buried” (Chapter 4).
-	~%-100%θάπτω#Incorrect. **θάπτω** is Principal Part 1 of **θάπτω** “I bury” (Chapter 4).
-	~%-100%ἔγραψα#Incorrect. **ἔγραψα** is Principal Part 3 of **γράφω** “I wrote” (Chapter 3).
-	~%-100%θάψω#Incorrect. **θάψω** is Principal Part 2 of **θάπτω** “I will bury” (Chapter 4).
-	~%100%ἔθαψα#Correct: **ἔθαψα** is the 3rd Principal Part of **θάπτω** (Chapter 4).
-}
-
-
-::Q048::[markdown]I order:{
-	~%-100%τετίμηκα#Incorrect. **τετίμηκα** is Principal Part 4 of **τιμάω** “I have honored” (Chapter 9).
-	~%-100%καλέω#Incorrect. **καλέω** is Principal Part 1 of **καλέω** “I call” (Chapter 10).
-	~%100%τάττω#Correct: **τάττω** is Principal Part 1 of **τάττω** “I order” (Chapter 4).
-	~%-100%τέταγμαι#Incorrect. **τέταγμαι** is Principal Part 5 of **τάττω** “I have been drawn up (in battle)” (Chapter 4).
-	~%-100%πεπαίδευμαι#Incorrect. **πεπαίδευμαι** is Principal Part 5 of **παιδεύω** “I have been educated” (Chapter 2).
-	~%-100%ἦργμαι#Incorrect. **ἦργμαι** is Principal Part 5 of **ἄρχω** “I have been ruled” (Chapter 5).
-	~%-100%κεκέλευσμαι#Incorrect. **κεκέλευσμαι** is Principal Part 5 of **κελεύω** “I have been commanded” (Chapter 2).
-	~%-100%ἄρχω#Incorrect. **ἄρχω** is Principal Part 1 of **ἄρχω** “I rule” (Chapter 5).
-}
-
-
-::Q049::[markdown]I am willing:{
-	~%-100%ἑδηλώθην#Incorrect. **ἑδηλώθην** is Principal Part 6 of **δηλόω** “I was made clear” (Chapter 10).
-	~%-100%δέχομαι#Incorrect. **δέχομαι** is Principal Part 1 of **δέχομαι** “I receive” (Chapter 11).
-	~%-100%διδάξω#Incorrect. **διδάξω** is Principal Part 2 of **διδάσκω** “I will teach” (Chapter 4).
-	~%100%ἐθέλω#Correct: **ἐθέλω** is Principal Part 1 of **ἐθέλω** “I am willing” (Chapter 4).
-	~%-100%ἤχθην#Incorrect. **ἤχθην** is Principal Part 6 of **ἄγω** “I was led” (Chapter 8).
-	~%-100%γράψω#Incorrect. **γράψω** is Principal Part 2 of **γράφω** “I will write” (Chapter 3).
-	~%-100%παιδεύω#Incorrect. **παιδεύω** is Principal Part 1 of **παιδεύω** “I educate” (Chapter 2).
-	~%-100%ἐθελήσω#Incorrect. **ἐθελήσω** is Principal Part 2 of **ἐθέλω** “I will be willing” (Chapter 4).
-}
-
-
-::Q050::[markdown]I arranged:{
-	~%-100%βεβούλημαι#Incorrect. **βεβούλημαι** is Principal Part 5 of **βούλομαι** “I have wanted” (Chapter 11).
+::Q026::[markdown]I have been arranged:{
 	~%-100%ἐποιήθην#Incorrect. **ἐποιήθην** is Principal Part 6 of **ποιέω** “I was made” (Chapter 9).
-	~%-100%ἠθέληκα#Incorrect. **ἠθέληκα** is Principal Part 4 of **ἐθέλω** “I have been willing” (Chapter 4).
-	~%-100%κεκέλευκα#Incorrect. **κεκέλευκα** is Principal Part 4 of **κελεύω** “I have commanded” (Chapter 2).
-	~%-100%πεπαίδευκα#Incorrect. **πεπαίδευκα** is Principal Part 4 of **παιδεύω** “I have educated” (Chapter 2).
+	~%-100%ἠθέλησα#Incorrect. **ἠθέλησα** is Principal Part 3 of **ἐθέλω** “I was willing” (Chapter 4).
+	~%-100%βέβλημαι#Incorrect. **βέβλημαι** is Principal Part 5 of **βάλλω** “I have been thrown” (Chapter 11).
+	~%100%τέταγμαι#Correct: **τέταγμαι** is Principal Part 5 of **τάττω** “I have been arranged” (Chapter 4).
+	~%-100%ἠγγέλθην#Incorrect. **ἠγγέλθην** is Principal Part 6 of **ἀγγέλλλω** “I was announced” (Chapter 10).
+	~%-100%πέπρᾱγα#Incorrect. **πέπρᾱγα** is Principal Part 4 of **πράττω** “I have done” (Chapter 5).
+	~%-100%λύσω#Incorrect. **λύσω** is Principal Part 2 of **λύω** “I will unbind” (Chapter 2).
+	~%-100%ποιέω#Incorrect. **ποιέω** is Principal Part 1 of **ποιέω** “I make” (Chapter 9).
+}
+
+
+::Q027::[markdown]I was taught:{
+	~%-100%τέταγμαι#Incorrect. **τέταγμαι** is Principal Part 5 of **τάττω** “I have been drawn up (in battle)” (Chapter 4).
+	~%-100%ἔπραξα#Incorrect. **ἔπραξα** is Principal Part 3 of **πράττω** “I did” (Chapter 5).
+	~%-100%ἐχορεύθην#Incorrect. **ἐχορεύθην** is Principal Part 6 of **χορεύω** “I was danced” (Chapter 6).
+	~%-100%ἐβουλήθην#Incorrect. **ἐβουλήθην** is Principal Part 6 of **βούλομαι** “I wanted” (Chapter 11).
+	~%100%ἐπαιδεύθην#Correct: **ἐπαιδεύθην** is Principal Part 6 of **παιδεύω** “I was taught” (Chapter 2).
+	~%-100%ἐπαίδευσα#Incorrect. **ἐπαίδευσα** is Principal Part 3 of **παιδεύω** “I educated” (Chapter 2).
+	~%-100%ἑκλήθην#Incorrect. **ἑκλήθην** is Principal Part 6 of **καλέω** “I was called” (Chapter 10).
+	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
+}
+
+
+::Q028::[markdown]I will draw up (in battle):{
+	~%-100%ἠθέλησα#Incorrect. **ἠθέλησα** is Principal Part 3 of **ἐθέλω** “I was willing” (Chapter 4).
+	~%-100%ἕμεινα#Incorrect. **ἕμεινα** is Principal Part 3 of **μένω** “I remained” (Chapter 10).
+	~%-100%λύω#Incorrect. **λύω** is Principal Part 1 of **λύω** “I unbind” (Chapter 2).
+	~%-100%πέπαυκα#Incorrect. **πέπαυκα** is Principal Part 4 of **παύω** “I have stopped” (Chapter 3).
+	~%100%τάξω#Correct: **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
+	~%-100%πεπολίτευμαι#Incorrect. **πεπολίτευμαι** is Principal Part 5 of **πολῑτεύω** “I have been governed” (Chapter 6).
+	~%-100%ἐποιήθην#Incorrect. **ἐποιήθην** is Principal Part 6 of **ποιέω** “I was made” (Chapter 9).
+	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
+}
+
+
+::Q029::[markdown]I have been taught:{
+	~%-100%ἠδίκημαι#Incorrect. **ἠδίκημαι** is Principal Part 5 of **ἀδικέω** “I have been wronged” (Chapter 9).
+	~%-100%ἔπεισα#Incorrect. **ἔπεισα** is Principal Part 3 of **πείθω** “I persuaded” (Chapter 5).
+	~%-100%ἔλυσα#Incorrect. **ἔλυσα** is Principal Part 3 of **λύω** “I unbound” (Chapter 2).
+	~%-100%κεχόρευκα#Incorrect. **κεχόρευκα** is Principal Part 4 of **χορεύω** “I have danced” (Chapter 6).
+	~%100%πεπαίδευμαι#Correct: **πεπαίδευμαι** is Principal Part 5 of **παιδεύω** “I have been taught” (Chapter 2).
+	~%-100%μενῶ#Incorrect. **μενῶ** is Principal Part 2 of **μένω** “I will remain” (Chapter 10).
+	~%-100%δουλεύω#Incorrect. **δουλεύω** is Principal Part 1 of **δουλεύω** “I am a slave” (Chapter 6).
+	~%-100%κωλύω#Incorrect. **κωλύω** is Principal Part 1 of **κωλύω** “I hinder” (Chapter 6).
+}
+
+
+::Q030::[markdown]I bury:{
+	~%-100%ἤγγελκα#Incorrect. **ἤγγελκα** is Principal Part 4 of **ἀγγέλλλω** “I have announced” (Chapter 10).
+	~%-100%ἐπέμφθην#Incorrect. **ἐπέμφθην** is Principal Part 6 of **πέμπω** “I was sent” (Chapter 2).
+	~%100%θάπτω#Correct: **θάπτω** is Principal Part 1 of **θάπτω** “I bury” (Chapter 4).
+	~%-100%ἤκουσα#Incorrect. **ἤκουσα** is Principal Part 3 of **ἀκούω** “I heard” (Chapter 11).
+	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
+	~%-100%ἀκήκοα#Incorrect. **ἀκήκοα** is Principal Part 4 of **ἀκούω** “I have heard” (Chapter 11).
+	~%-100%δεδίδαγμαι#Incorrect. **δεδίδαγμαι** is Principal Part 5 of **διδάσκω** “I have been taught” (Chapter 4).
+	~%-100%πέπονθα#Incorrect. **πέπονθα** is Principal Part 4 of **πάσχω** “I have suffered” (Chapter 11).
+}
+
+
+::Q031::[markdown]I order:{
+	~%100%τάττω#Correct: **τάττω** is Principal Part 1 of **τάττω** “I order” (Chapter 4).
+	~%-100%πέμπω#Incorrect. **πέμπω** is Principal Part 1 of **πέμπω** “I send” (Chapter 2).
+	~%-100%δηλώσω#Incorrect. **δηλώσω** is Principal Part 2 of **δηλόω** “I will make clear” (Chapter 10).
+	~%-100%ἠξίωκα#Incorrect. **ἠξίωκα** is Principal Part 4 of **ἀξιόω** “I have thought worthy of” (Chapter 10).
+	~%-100%πέπαυκα#Incorrect. **πέπαυκα** is Principal Part 4 of **παύω** “I have stopped” (Chapter 3).
+	~%-100%νικήσω#Incorrect. **νικήσω** is Principal Part 2 of **νικάω** “I will win” (Chapter 9).
+	~%-100%μένω#Incorrect. **μένω** is Principal Part 1 of **μένω** “I remain” (Chapter 10).
+	~%-100%ἔπραξα#Incorrect. **ἔπραξα** is Principal Part 3 of **πράττω** “I did” (Chapter 5).
+}
+
+
+::Q032::[markdown]The **1st Principal Part** is the::{
+	~%-100%Perfect, Middle/Passive, Indicative, 1st person, Singular#Incorrect. The 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**, not “Perfect, Middle/Passive, Indicative, 1st person, Singular”.
+	~%100%Present, Active, Indicative, 1st person, Singular#Correct: the 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**.
+	~%-100%Future, Active, Indicative, 1st person, Singular#Incorrect. The 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**, not “Future, Active, Indicative, 1st person, Singular”.
+	~%-100%Perfect, Active, Indicative, 1st person, Singular#Incorrect. The 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**, not “Perfect, Active, Indicative, 1st person, Singular”.
+	~%-100%Aorist, Passive, Indicative, 1st person, Singular#Incorrect. The 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**, not “Aorist, Passive, Indicative, 1st person, Singular”.
+	~%-100%Aorist, Active, Indicative, 1st person, Singular#Incorrect. The 1st Principal Part is **Present, Active, Indicative, 1st person, Singular**, not “Aorist, Active, Indicative, 1st person, Singular”.
+}
+
+
+::Q033::[markdown]θάψω:{
+	~%-100%I have commanded#Incorrect. **κεκέλευκα** is Principal Part 4 of **κελεύω** “I have commanded” (Chapter 2).
+	~%-100%I will unbind#Incorrect. **λύσω** is Principal Part 2 of **λύω** “I will unbind” (Chapter 2).
+	~%-100%I suffer#Incorrect. **πάσχω** is Principal Part 1 of **πάσχω** “I suffer” (Chapter 11).
+	~%-100%I expected#Incorrect. **ἠξίωσα** is Principal Part 3 of **ἀξιόω** “I expected” (Chapter 10).
+	~%-100%I have conducted the government#Incorrect. **πεπολίτευκα** is Principal Part 4 of **πολῑτεύω** “I have conducted the government” (Chapter 6).
+	~%-100%I was harmed#Incorrect. **ἐβλάβην** is Principal Part 6 of **βλάπτω** “I was harmed” (Chapter 5).
+	~%100%I will bury#Correct: **θάψω** is Principal Part 2 of **θάπτω** “I will bury” (Chapter 4).
+}
+
+
+::Q034::[markdown]τάξω:{
+	~%-100%I will do#Incorrect. **πράξω** is Principal Part 2 of **πράττω** “I will do” (Chapter 5).
+	~%-100%I have been stopped#Incorrect. **πέπαυμαι** is Principal Part 5 of **παύω** “I have been stopped” (Chapter 3).
+	~%-100%I have been drawn#Incorrect. **γέγραμμαι** is Principal Part 5 of **γράφω** “I have been drawn” (Chapter 3).
+	~%-100%I was sent#Incorrect. **ἐπέμφθην** is Principal Part 6 of **πέμπω** “I was sent” (Chapter 2).
+	~%-100%I wrote#Incorrect. **ἔγραψα** is Principal Part 3 of **γράφω** “I wrote” (Chapter 3).
+	~%-100%I was thought worthy of#Incorrect. **ἠξιώθην** is Principal Part 6 of **ἀξιόω** “I was thought worthy of” (Chapter 10).
+	~%-100%I hurt#Incorrect. **βλάπτω** is Principal Part 1 of **βλάπτω** “I hurt” (Chapter 5).
+	~%100%I will arrange#Correct: **τάξω** is Principal Part 2 of **τάττω** “I will arrange” (Chapter 4).
+}
+
+
+::Q035::[markdown]The **3rd Principal Part** is the::{
+	~%-100%Present, Active, Indicative, 1st person, Singular#Incorrect. The 3rd Principal Part is **Aorist, Active, Indicative, 1st person, Singular**, not “Present, Active, Indicative, 1st person, Singular”.
+	~%100%Aorist, Active, Indicative, 1st person, Singular#Correct: the 3rd Principal Part is **Aorist, Active, Indicative, 1st person, Singular**.
+	~%-100%Aorist, Passive, Indicative, 1st person, Singular#Incorrect. The 3rd Principal Part is **Aorist, Active, Indicative, 1st person, Singular**, not “Aorist, Passive, Indicative, 1st person, Singular”.
+	~%-100%Perfect, Middle/Passive, Indicative, 1st person, Singular#Incorrect. The 3rd Principal Part is **Aorist, Active, Indicative, 1st person, Singular**, not “Perfect, Middle/Passive, Indicative, 1st person, Singular”.
+	~%-100%Perfect, Active, Indicative, 1st person, Singular#Incorrect. The 3rd Principal Part is **Aorist, Active, Indicative, 1st person, Singular**, not “Perfect, Active, Indicative, 1st person, Singular”.
+	~%-100%Future, Active, Indicative, 1st person, Singular#Incorrect. The 3rd Principal Part is **Aorist, Active, Indicative, 1st person, Singular**, not “Future, Active, Indicative, 1st person, Singular”.
+}
+
+
+::Q036::[markdown]I was arranged:{
+	~%-100%τετελεύτημαι#Incorrect. **τετελεύτημαι** is Principal Part 5 of **τελευτάω** “I have been finished” (Chapter 10).
+	~%-100%παιδεύσω#Incorrect. **παιδεύσω** is Principal Part 2 of **παιδεύω** “I will educate” (Chapter 2).
+	~%-100%πέπομφα#Incorrect. **πέπομφα** is Principal Part 4 of **πέμπω** “I have sent” (Chapter 2).
+	~%-100%σῴζω#Incorrect. **σῴζω** is Principal Part 1 of **σῴζω** “I save” (Chapter 7).
+	~%100%ἐτάχθην#Correct: **ἐτάχθην** is Principal Part 6 of **τάττω** “I was arranged” (Chapter 4).
+	~%-100%σώσω#Incorrect. **σώσω** is Principal Part 2 of **σῴζω** “I will save” (Chapter 7).
+	~%-100%γέγραμμαι#Incorrect. **γέγραμμαι** is Principal Part 5 of **γράφω** “I have been written” (Chapter 3).
+	~%-100%πέπρᾱγμαι#Incorrect. **πέπρᾱγμαι** is Principal Part 5 of **πράττω** “I have been done” (Chapter 5).
+}
+
+
+::Q037::[markdown]Pick the 5th Principal Part of τάττω.:{
+	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
+	~%-100%τέθαμμαι#Incorrect. **τέθαμμαι** is Principal Part 5 of **θάπτω** “I have been buried” (Chapter 4).
+	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
+	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
+	~%-100%ἔταξα#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
 	~%-100%πέπαυμαι#Incorrect. **πέπαυμαι** is Principal Part 5 of **παύω** “I have been stopped” (Chapter 3).
-	~%-100%βέβλαφα#Incorrect. **βέβλαφα** is Principal Part 4 of **βλάπτω** “I have hurt” (Chapter 5).
-	~%100%ἔταξα#Correct: **ἔταξα** is Principal Part 3 of **τάττω** “I arranged” (Chapter 4).
+	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
+	~%100%τέταγμαι#Correct: **τέταγμαι** is the 5th Principal Part of **τάττω** (Chapter 4).
+}
+
+
+::Q038::[markdown]ἔθαψα:{
+	~%-100%I have harmed#Incorrect. **βέβλαφα** is Principal Part 4 of **βλάπτω** “I have harmed” (Chapter 5).
+	~%100%I buried#Correct: **ἔθαψα** is Principal Part 3 of **θάπτω** “I buried” (Chapter 4).
+	~%-100%I have been hurt#Incorrect. **βέβλαμμαι** is Principal Part 5 of **βλάπτω** “I have been hurt” (Chapter 5).
+	~%-100%I have sent#Incorrect. **πέπομφα** is Principal Part 4 of **πέμπω** “I have sent” (Chapter 2).
+	~%-100%I have received#Incorrect. **δέδεγμαι** is Principal Part 5 of **δέχομαι** “I have received” (Chapter 11).
+	~%-100%I hinder#Incorrect. **κωλύω** is Principal Part 1 of **κωλύω** “I hinder” (Chapter 6).
+	~%-100%I have been taken#Incorrect. **εἴλημμαι** is Principal Part 5 of **λαμβάνω** “I have been taken” (Chapter 11).
+	~%-100%I am willing#Incorrect. **ἐθέλω** is Principal Part 1 of **ἐθέλω** “I am willing” (Chapter 4).
+}
+
+
+::Q039::[markdown]Which Principal Part is the ‘Aorist, Passive, Indicative, 1st person, Singular’?:{
+	~%-100%2nd#Incorrect. ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**, not the 2nd.
+	~%100%6th#Correct: ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**.
+	~%-100%3rd#Incorrect. ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**, not the 3rd.
+	~%-100%1st#Incorrect. ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**, not the 1st.
+	~%-100%4th#Incorrect. ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**, not the 4th.
+	~%-100%5th#Incorrect. ‘Aorist, Passive, Indicative, 1st person, Singular’ is the **6th Principal Part**, not the 5th.
+}
+
+
+::Q040::[markdown]ἔταξα:{
+	~%-100%I have thought worthy of#Incorrect. **ἠξίωκα** is Principal Part 4 of **ἀξιόω** “I have thought worthy of” (Chapter 10).
+	~%-100%I saved#Incorrect. **ἔσωσα** is Principal Part 3 of **σῴζω** “I saved” (Chapter 7).
+	~%-100%I thought it right#Incorrect. **ἠξίωσα** is Principal Part 3 of **ἀξιόω** “I thought it right” (Chapter 10).
+	~%100%I arranged#Correct: **ἔταξα** is Principal Part 3 of **τάττω** “I arranged” (Chapter 4).
+	~%-100%I was stolen#Incorrect. **ἐκλάπην** is Principal Part 6 of **κλέπτω** “I was stolen” (Chapter 7).
+	~%-100%I stopped#Incorrect. **ἔπαυσα** is Principal Part 3 of **παύω** “I stopped” (Chapter 3).
+	~%-100%I will write#Incorrect. **γράψω** is Principal Part 2 of **γράφω** “I will write” (Chapter 3).
+	~%-100%I have come#Incorrect. **ἥκω** is Principal Part 1 of **ἥκω** “I have come” (Chapter 8).
+}
+
+
+::Q041::[markdown]Pick the 5th Principal Part of τάττω.:{
+	~%-100%ἔταξα#Incorrect. **ἔταξα** is Principal Part 3 of **τάττω** “I drew up (in battle)” (Chapter 4).
+	~%-100%πέπαυμαι#Incorrect. **πέπαυμαι** is Principal Part 5 of **παύω** “I have been stopped” (Chapter 3).
+	~%-100%τέταχα#Incorrect. **τέταχα** is Principal Part 4 of **τάττω** “I have drawn up (in battle)” (Chapter 4).
+	~%100%τέταγμαι#Correct: **τέταγμαι** is the 5th Principal Part of **τάττω** (Chapter 4).
+	~%-100%τέθαμμαι#Incorrect. **τέθαμμαι** is Principal Part 5 of **θάπτω** “I have been buried” (Chapter 4).
+	~%-100%ἐτάχθην#Incorrect. **ἐτάχθην** is Principal Part 6 of **τάττω** “I was drawn up (in battle)” (Chapter 4).
+	~%-100%τάττω#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
+	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
+}
+
+
+::Q042::[markdown]I will teach:{
+	~%-100%ἑκλήθην#Incorrect. **ἑκλήθην** is Principal Part 6 of **καλέω** “I was called” (Chapter 10).
+	~%100%παιδεύσω#Correct: **παιδεύσω** is Principal Part 2 of **παιδεύω** “I will teach” (Chapter 2).
+	~%-100%πεποίηκα#Incorrect. **πεποίηκα** is Principal Part 4 of **ποιέω** “I have made” (Chapter 9).
+	~%-100%τιμάω#Incorrect. **τιμάω** is Principal Part 1 of **τιμάω** “I honor” (Chapter 9).
+	~%-100%φυλάξω#Incorrect. **φυλάξω** is Principal Part 2 of **φυλάττω** “I will guard” (Chapter 3).
+	~%-100%ἄγω#Incorrect. **ἄγω** is Principal Part 1 of **ἄγω** “I lead” (Chapter 8).
+	~%-100%βλάψω#Incorrect. **βλάψω** is Principal Part 2 of **βλάπτω** “I will hurt” (Chapter 5).
+}
+
+
+::Q043::[markdown]The **Aorist (active, middle)** forms are based on which Principal Part?:{
+	~%-100%4th#Incorrect. **Aorist (active, middle)** forms are based on the **3rd Principal Part**, not the 4th.
+	~%100%3rd#Correct: **Aorist (active, middle)** forms are based on the **3rd Principal Part**.
+	~%-100%2nd#Incorrect. **Aorist (active, middle)** forms are based on the **3rd Principal Part**, not the 2nd.
+	~%-100%1st#Incorrect. **Aorist (active, middle)** forms are based on the **3rd Principal Part**, not the 1st.
+	~%-100%5th#Incorrect. **Aorist (active, middle)** forms are based on the **3rd Principal Part**, not the 5th.
+	~%-100%6th#Incorrect. **Aorist (active, middle)** forms are based on the **3rd Principal Part**, not the 6th.
+}
+
+
+::Q044::[markdown]Which Principal Part is the ‘Future, Active, Indicative, 1st person, Singular’?:{
+	~%-100%1st#Incorrect. ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**, not the 1st.
+	~%-100%6th#Incorrect. ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**, not the 6th.
+	~%100%2nd#Correct: ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**.
+	~%-100%5th#Incorrect. ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**, not the 5th.
+	~%-100%4th#Incorrect. ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**, not the 4th.
+	~%-100%3rd#Incorrect. ‘Future, Active, Indicative, 1st person, Singular’ is the **2nd Principal Part**, not the 3rd.
+}
+
+
+::Q045::[markdown]I have ordered:{
+	~%-100%κλέψω#Incorrect. **κλέψω** is Principal Part 2 of **κλέπτω** “I will steal” (Chapter 7).
+	~%-100%ἔπαυσα#Incorrect. **ἔπαυσα** is Principal Part 3 of **παύω** “I stopped” (Chapter 3).
+	~%-100%πέπεμμαι#Incorrect. **πέπεμμαι** is Principal Part 5 of **πέμπω** “I have been sent” (Chapter 2).
+	~%-100%δεδήλωκα#Incorrect. **δεδήλωκα** is Principal Part 4 of **δηλόω** “I have made clear” (Chapter 10).
+	~%-100%τετίμηκα#Incorrect. **τετίμηκα** is Principal Part 4 of **τιμάω** “I have honored” (Chapter 9).
+	~%-100%ἔπεισα#Incorrect. **ἔπεισα** is Principal Part 3 of **πείθω** “I persuaded” (Chapter 5).
+	~%-100%ἑκλήθην#Incorrect. **ἑκλήθην** is Principal Part 6 of **καλέω** “I was called” (Chapter 10).
+	~%100%τέταχα#Correct: **τέταχα** is Principal Part 4 of **τάττω** “I have ordered” (Chapter 4).
+}
+
+
+::Q046::[markdown]The **Imperfect (active, middle, passive)** forms are based on which Principal Part?:{
+	~%-100%5th#Incorrect. **Imperfect (active, middle, passive)** forms are based on the **1st Principal Part**, not the 5th.
+	~%100%1st#Correct: **Imperfect (active, middle, passive)** forms are based on the **1st Principal Part**.
+	~%-100%3rd#Incorrect. **Imperfect (active, middle, passive)** forms are based on the **1st Principal Part**, not the 3rd.
+	~%-100%6th#Incorrect. **Imperfect (active, middle, passive)** forms are based on the **1st Principal Part**, not the 6th.
+	~%-100%2nd#Incorrect. **Imperfect (active, middle, passive)** forms are based on the **1st Principal Part**, not the 2nd.
+	~%-100%4th#Incorrect. **Imperfect (active, middle, passive)** forms are based on the **1st Principal Part**, not the 4th.
+}
+
+
+::Q047::[markdown]I will wish:{
+	~%-100%βούλομαι#Incorrect. **βούλομαι** is Principal Part 1 of **βούλομαι** “I want” (Chapter 11).
+	~%100%ἐθελήσω#Correct: **ἐθελήσω** is Principal Part 2 of **ἐθέλω** “I will wish” (Chapter 4).
+	~%-100%ἕμεινα#Incorrect. **ἕμεινα** is Principal Part 3 of **μένω** “I remained” (Chapter 10).
+	~%-100%πεπολίτευμαι#Incorrect. **πεπολίτευμαι** is Principal Part 5 of **πολῑτεύω** “I have been governed” (Chapter 6).
+	~%-100%βεβούλημαι#Incorrect. **βεβούλημαι** is Principal Part 5 of **βούλομαι** “I have wanted” (Chapter 11).
+	~%-100%ἐφυλάχθην#Incorrect. **ἐφυλάχθην** is Principal Part 6 of **φυλάττω** “I was guarded” (Chapter 3).
+	~%-100%κελεύσω#Incorrect. **κελεύσω** is Principal Part 2 of **κελεύω** “I will command” (Chapter 2).
+	~%-100%ἀκούω#Incorrect. **ἀκούω** is Principal Part 1 of **ἀκούω** “I hear” (Chapter 11).
+}
+
+
+::Q048::[markdown]I have wished:{
+	~%-100%πεπαίδευκα#Incorrect. **πεπαίδευκα** is Principal Part 4 of **παιδεύω** “I have educated” (Chapter 2).
+	~%-100%βάλλω#Incorrect. **βάλλω** is Principal Part 1 of **βάλλω** “I throw” (Chapter 11).
+	~%-100%τάξω#Incorrect. **τάξω** is Principal Part 2 of **τάττω** “I will draw up (in battle)” (Chapter 4).
+	~%100%ἠθέληκα#Correct: **ἠθέληκα** is Principal Part 4 of **ἐθέλω** “I have wished” (Chapter 4).
+	~%-100%ἤρχθην#Incorrect. **ἤρχθην** is Principal Part 6 of **ἄρχω** “I was ruled” (Chapter 5).
+	~%-100%ἀξιώσω#Incorrect. **ἀξιώσω** is Principal Part 2 of **ἀξιόω** “I will think worthy of” (Chapter 10).
+	~%-100%ἔπεμψα#Incorrect. **ἔπεμψα** is Principal Part 3 of **πέμπω** “I sent” (Chapter 2).
+	~%-100%ἐθέλω#Incorrect. **ἐθέλω** is Principal Part 1 of **ἐθέλω** “I am willing” (Chapter 4).
+}
+
+
+::Q049::[markdown]ἐτύθην:{
+	~%-100%I was stolen#Incorrect. **ἐκλάπην** is Principal Part 6 of **κλέπτω** “I was stolen” (Chapter 7).
+	~%-100%I draw up (in battle)#Incorrect. **τάττω** is Principal Part 1 of **τάττω** “I draw up (in battle)” (Chapter 4).
+	~%-100%I have been left behind#Incorrect. **λέλειμμαι** is Principal Part 5 of **λείπω** “I have been left behind” (Chapter 7).
+	~%-100%I was expected#Incorrect. **ἠξιώθην** is Principal Part 6 of **ἀξιόω** “I was expected” (Chapter 10).
+	~%-100%I have been saved#Incorrect. **σέσωσμαι** is Principal Part 5 of **σῴζω** “I have been saved” (Chapter 7).
+	~%100%I was sacrificed#Correct: **ἐτύθην** is Principal Part 6 of **θύω** “I was sacrificed” (Chapter 3).
+	~%-100%I have been made clear#Incorrect. **δεδήλωμαι** is Principal Part 5 of **δηλόω** “I have been made clear” (Chapter 10).
+	~%-100%I will stay#Incorrect. **μενῶ** is Principal Part 2 of **μένω** “I will stay” (Chapter 10).
+}
+
+
+::Q050::[markdown]The **4th Principal Part** is the::{
+	~%-100%Aorist, Passive, Indicative, 1st person, Singular#Incorrect. The 4th Principal Part is **Perfect, Active, Indicative, 1st person, Singular**, not “Aorist, Passive, Indicative, 1st person, Singular”.
+	~%-100%Aorist, Active, Indicative, 1st person, Singular#Incorrect. The 4th Principal Part is **Perfect, Active, Indicative, 1st person, Singular**, not “Aorist, Active, Indicative, 1st person, Singular”.
+	~%-100%Present, Active, Indicative, 1st person, Singular#Incorrect. The 4th Principal Part is **Perfect, Active, Indicative, 1st person, Singular**, not “Present, Active, Indicative, 1st person, Singular”.
+	~%-100%Perfect, Middle/Passive, Indicative, 1st person, Singular#Incorrect. The 4th Principal Part is **Perfect, Active, Indicative, 1st person, Singular**, not “Perfect, Middle/Passive, Indicative, 1st person, Singular”.
+	~%-100%Future, Active, Indicative, 1st person, Singular#Incorrect. The 4th Principal Part is **Perfect, Active, Indicative, 1st person, Singular**, not “Future, Active, Indicative, 1st person, Singular”.
+	~%100%Perfect, Active, Indicative, 1st person, Singular#Correct: the 4th Principal Part is **Perfect, Active, Indicative, 1st person, Singular**.
 }
 
 
