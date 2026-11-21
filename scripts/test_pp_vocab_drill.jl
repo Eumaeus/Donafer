@@ -318,6 +318,19 @@ end
             @test startswith(q2.stem, "Which Principal Part")
             gift = to_gift(q1; qid="T1")
             @test occursin("~%100%", gift) || occursin("~%", gift)
+
+            # Unit 12 lines must carry chapter prefixes (previously silent-skipped).
+            u12 = filter(i -> i.chapter == 12, items)
+            @test !isempty(u12)
+            @test any(i -> i.category == "verb" && i.lemma !== nothing &&
+                startswith(i.lemma, "δ") && endswith(i.lemma, "δωμι"), u12)
+            @test any(i -> i.category == "prep" && i.lemma !== nothing &&
+                startswith(i.lemma, "πρ"), u12)
+            apodidomi = filter(i -> i.lemma !== nothing && occursin("ποδ", i.lemma) &&
+                endswith(i.lemma, "δωμι"), u12)
+            @test !isempty(apodidomi)
+            @test sort(unique(i.principal_part_number for i in apodidomi)) == [1, 2, 3, 4, 5, 6]
+            @test any(i -> occursin("give back", i.english), apodidomi)
         else
             @warn "Skipping hq.txt integration checks; file not found at $path"
         end
